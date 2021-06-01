@@ -1,0 +1,698 @@
+{
+    "_approvalIDDisplay": "SXA7YP6EKX",
+    "_name": "VILTOLARSEN",
+    "_self": "http://gsrs.fda.gov/ginas/app/api/v1/substances(af332560-7cbd-4de4-99eb-61a33d32d01f)?view=full",
+    "access": [ ],
+    "approvalID": "SXA7YP6EKX",
+    "approved": 1518219647559,
+    "approvedBy": "CALLAHANL",
+    "changeReason": "Added Code",
+    "codes": [
+        {
+            "uuid": "87c0338e-aad4-4c3f-a834-22adae053bdc",
+            "created": 1534858018611,
+            "createdBy": "Chinasa.Umeozulu",
+            "lastEdited": 1534858018611,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "codeSystem": "INN",
+            "code": "10771",
+            "type": "PRIMARY",
+            "url": "https://mednet-communities.net/inn/db/ViewINN.aspx?i=10771",
+            "references": [ "fe688491-287f-de95-e993-2ebd1c467339" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/codes(87c0338e-aad4-4c3f-a834-22adae053bdc)?view=full"
+        },
+        {
+            "uuid": "c870cde0-8942-043f-d651-c173aa4ab57a",
+            "created": 1528322434870,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1528322434870,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "codeSystem": "FDA ORPHAN DRUG",
+            "code": "565616",
+            "comments": "ORPHAN DRUG| Designated| Treatment of Duchenne Muscular Dystrophy",
+            "type": "PRIMARY",
+            "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=565616",
+            "references": [ ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/codes(c870cde0-8942-043f-d651-c173aa4ab57a)?view=full"
+        },
+        {
+            "uuid": "0df65819-906d-43c3-ae41-9da694089881",
+            "created": 1518203097465,
+            "createdBy": "DAMMIKA.AMUGODA-KANK",
+            "lastEdited": 1518203097465,
+            "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+            "deprecated": false,
+            "codeSystem": "CAS",
+            "code": "2055732-84-6",
+            "type": "PRIMARY",
+            "url": "https://chem.nlm.nih.gov/chemidplus/rn/2055732-84-6",
+            "references": [ "ee320fcc-ca62-4a70-eddc-e6b3383f9727" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/codes(0df65819-906d-43c3-ae41-9da694089881)?view=full"
+        },
+        {
+            "uuid": "6572c265-7d59-47f4-bc40-3804e25487c3",
+            "created": 1517956556809,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556809,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "codeSystem": "BDNUM",
+            "code": "1289390AA",
+            "type": "PRIMARY",
+            "references": [ "e59ffd65-ca45-4784-809d-e7261bf5a064" ],
+            "access": [ "protected" ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/codes(6572c265-7d59-47f4-bc40-3804e25487c3)?view=full"
+        }
+    ],
+    "created": 1517956556791,
+    "createdBy": "CALLAHANL",
+    "definitionLevel": "COMPLETE",
+    "definitionType": "PRIMARY",
+    "deprecated": false,
+    "lastEdited": 1534858018622,
+    "lastEditedBy": "Chinasa.Umeozulu",
+    "modifications": {
+        "uuid": "39269b4f-13d0-4943-98b5-7171d870b158",
+        "created": 1503844041788,
+        "createdBy": "BORODINA",
+        "lastEdited": 1504729650813,
+        "lastEditedBy": "BORODINA",
+        "deprecated": false,
+        "agentModifications": [ ],
+        "physicalModifications": [ ],
+        "structuralModifications": [
+            {
+                "uuid": "7b240d43-c2cf-493d-a32c-3bf6e222c1b9",
+                "created": 1504619321189,
+                "createdBy": "BORODINA",
+                "lastEdited": 1504729650811,
+                "lastEditedBy": "BORODINA",
+                "deprecated": false,
+                "structuralModificationType": "NUCLEOSIDE_SUBSTITUTION",
+                "locationType": "SITE_SPECIFIC",
+                "molecularFragment": {
+                    "uuid": "ffed7dd7-bb81-46ff-894f-e393ab5ba5e7",
+                    "created": 1504729650723,
+                    "lastEdited": 1504729650808,
+                    "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+                    "deprecated": false,
+                    "refPname": "BLAH-BLAH",
+                    "refuuid": "78f564ea-ebfc-42c8-b430-efdce3bf747e",
+                    "substanceClass": "reference",
+                    "approvalID": "FAKEAM0001",
+                    "name": "REVUSIRAN 3'-ADENOSINE PHOSPHATE TRIGLYCAN-END GROUP",
+                    "linkingID": "FAKEAM0001",
+                    "references": [ ],
+                    "access": [ ]
+                },
+                "modificationGroup": "1",
+                "sites": [
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 13
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 14
+                    }
+                ],
+                "references": [ ],
+                "access": [ ]
+            },
+            {
+                "uuid": "7b240d43-c2cf-493d-a32c-3bf6e222c1b9",
+                "created": 1504619321189,
+                "createdBy": "BORODINA",
+                "lastEdited": 1504729650811,
+                "lastEditedBy": "BORODINA",
+                "deprecated": false,
+                "structuralModificationType": "NUCLEOSIDE_SUBSTITUTION",
+                "locationType": "SITE_SPECIFIC",
+                "molecularFragment": {
+                    "uuid": "ffed7dd7-bb81-46ff-894f-e393ab5ba5e7",
+                    "created": 1504729650723,
+                    "lastEdited": 1504729650808,
+                    "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+                    "deprecated": false,
+                    "refPname": "BLAH-BLAH",
+                    "refuuid": "78f564ea-ebfc-42c8-b430-efdce3bf747e",
+                    "substanceClass": "reference",
+                    "approvalID": "FAKECM0001",
+                    "name": "REVUSIRAN 3'-ADENOSINE PHOSPHATE TRIGLYCAN-END GROUP",
+                    "linkingID": "FAKECM0001",
+                    "references": [ ],
+                    "access": [ ]
+                },
+                "modificationGroup": "1",
+                "sites": [
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 1
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 2
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 4
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 5
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 10
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 21
+                    }
+
+                ],
+                "references": [ ],
+                "access": [ ]
+            },
+            {
+                "uuid": "7b240d43-c2cf-493d-a32c-3bf6e222c1b9",
+                "created": 1504619321189,
+                "createdBy": "BORODINA",
+                "lastEdited": 1504729650811,
+                "lastEditedBy": "BORODINA",
+                "deprecated": false,
+                "structuralModificationType": "NUCLEOSIDE_SUBSTITUTION",
+                "locationType": "SITE_SPECIFIC",
+                "molecularFragment": {
+                    "uuid": "ffed7dd7-bb81-46ff-894f-e393ab5ba5e7",
+                    "created": 1504729650723,
+                    "lastEdited": 1504729650808,
+                    "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+                    "deprecated": false,
+                    "refPname": "BLAH-BLAH",
+                    "refuuid": "78f564ea-ebfc-42c8-b430-efdce3bf747e",
+                    "substanceClass": "reference",
+                    "approvalID": "FAKEGM0001",
+                    "name": "REVUSIRAN 3'-ADENOSINE PHOSPHATE TRIGLYCAN-END GROUP",
+                    "linkingID": "FAKEGM0001",
+                    "references": [ ],
+                    "access": [ ]
+                },
+                "modificationGroup": "1",
+                "sites": [
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 6
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 7
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 12
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 15
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 16
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 18
+                    }
+
+                ],
+                "references": [ ],
+                "access": [ ]
+            },
+              {
+                "uuid": "7b240d43-c2cf-493d-a32c-3bf6e222c1b9",
+                "created": 1504619321189,
+                "createdBy": "BORODINA",
+                "lastEdited": 1504729650811,
+                "lastEditedBy": "BORODINA",
+                "deprecated": false,
+                "structuralModificationType": "NUCLEOSIDE_SUBSTITUTION",
+                "locationType": "SITE_SPECIFIC",
+                "molecularFragment": {
+                    "uuid": "ffed7dd7-bb81-46ff-894f-e393ab5ba5e7",
+                    "created": 1504729650723,
+                    "lastEdited": 1504729650808,
+                    "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+                    "deprecated": false,
+                    "refPname": "BLAH-BLAH",
+                    "refuuid": "78f564ea-ebfc-42c8-b430-efdce3bf747e",
+                    "substanceClass": "reference",
+                    "approvalID": "FAKETM0001",
+                    "name": "REVUSIRAN 3'-ADENOSINE PHOSPHATE TRIGLYCAN-END GROUP",
+                    "linkingID": "FAKETM0001",
+                    "references": [ ],
+                    "access": [ ]
+                },
+                "modificationGroup": "1",
+                "sites": [
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 3
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 8
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 9
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 11
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 17
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 19
+                    },
+                    {
+                        "subunitIndex": 1,
+                        "residueIndex": 20
+                    }
+                ],
+                "references": [ ],
+                "access": [ ]
+            }         
+        ],
+        "references": [ ],
+        "access": [ ]
+    },
+      "names": [
+        {
+            "uuid": "b43a1586-e921-4716-870d-81f8b260432d",
+            "created": 1517956556805,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1534858018618,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "name": "NS-065",
+            "type": "cd",
+            "domains": [ ],
+            "languages": [ "en" ],
+            "nameJurisdiction": [ ],
+            "nameOrgs": [ ],
+            "preferred": false,
+            "displayName": false,
+            "references": [ "e59ffd65-ca45-4784-809d-e7261bf5a064", "5e886b69-1e61-471a-828d-396f23d859ae" ],
+            "access": [ "protected" ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/names(b43a1586-e921-4716-870d-81f8b260432d)?view=full"
+        },
+        {
+            "uuid": "9f19f043-9392-2826-846b-9c722a15e596",
+            "created": 1518203097458,
+            "createdBy": "DAMMIKA.AMUGODA-KANK",
+            "lastEdited": 1534858018619,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "name": "VILTOLARSEN [INN]",
+            "type": "of",
+            "domains": [ "drug" ],
+            "languages": [ "en" ],
+            "nameJurisdiction": [ ],
+            "nameOrgs": [
+                {
+                    "uuid": "5ea1531a-fe00-4799-adec-3b5d7a781283",
+                    "created": 1518203097459,
+                    "createdBy": "DAMMIKA.AMUGODA-KANK",
+                    "lastEdited": 1518203097459,
+                    "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+                    "deprecated": false,
+                    "nameOrg": "INN",
+                    "references": [ ],
+                    "access": [ ]
+                }
+            ],
+            "preferred": false,
+            "displayName": false,
+            "references": [ "fe688491-287f-de95-e993-2ebd1c467339" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/names(9f19f043-9392-2826-846b-9c722a15e596)?view=full"
+        },
+        {
+            "uuid": "21d30407-9059-20f2-05e4-48f2f6c33128",
+            "created": 1518203097457,
+            "createdBy": "DAMMIKA.AMUGODA-KANK",
+            "lastEdited": 1534858018620,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "name": "RNA, (P-DEOXY-P-(DIMETHYLAMINO))(2',3'-DIDEOXY-2',3'-IMINO-2',3'-SECO)(2'A->5')(C-C-M5U-C-C-G-G-M5U-M5U-C-M5U-G-A-A-G-G-M5U-G-M5U-M5U-C)",
+            "type": "cn",
+            "domains": [ ],
+            "languages": [ "en" ],
+            "nameJurisdiction": [ ],
+            "nameOrgs": [ ],
+            "preferred": false,
+            "displayName": false,
+            "references": [ "ee320fcc-ca62-4a70-eddc-e6b3383f9727" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/names(21d30407-9059-20f2-05e4-48f2f6c33128)?view=full"
+        },
+        {
+            "uuid": "0eba4a68-7212-b4b8-191a-2e3dadeb990a",
+            "created": 1518203097454,
+            "createdBy": "DAMMIKA.AMUGODA-KANK",
+            "lastEdited": 1534858018621,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "name": "VILTOLARSEN",
+            "type": "cn",
+            "domains": [ ],
+            "languages": [ "en" ],
+            "nameJurisdiction": [ ],
+            "nameOrgs": [ ],
+            "preferred": false,
+            "displayName": true,
+            "references": [ "fe688491-287f-de95-e993-2ebd1c467339" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/names(0eba4a68-7212-b4b8-191a-2e3dadeb990a)?view=full"
+        },
+        {
+            "uuid": "b95cae48-8109-9604-a6ea-82f9ebcf5e34",
+            "created": 1517956680394,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1534858018617,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "name": "NS-065/NCNP-01",
+            "type": "cd",
+            "domains": [ ],
+            "languages": [ "en" ],
+            "nameJurisdiction": [ ],
+            "nameOrgs": [ ],
+            "preferred": false,
+            "displayName": false,
+            "references": [ "5e886b69-1e61-471a-828d-396f23d859ae" ],
+            "access": [ "protected" ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/names(b95cae48-8109-9604-a6ea-82f9ebcf5e34)?view=full"
+        },
+        {
+            "uuid": "3e1fef80-285c-3f80-3bd9-d9cd8eef4dbf",
+            "created": 1517956680390,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1534858018620,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "name": "NDK-65",
+            "type": "cd",
+            "domains": [ ],
+            "languages": [ "en" ],
+            "nameJurisdiction": [ ],
+            "nameOrgs": [ ],
+            "preferred": false,
+            "displayName": false,
+            "references": [ "5e886b69-1e61-471a-828d-396f23d859ae" ],
+            "access": [ "protected" ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/names(3e1fef80-285c-3f80-3bd9-d9cd8eef4dbf)?view=full"
+        },
+        {
+            "uuid": "cfc6c372-6eeb-95bd-0687-29f27a087b7c",
+            "created": 1517974632279,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1534858018615,
+            "lastEditedBy": "Chinasa.Umeozulu",
+            "deprecated": false,
+            "name": "EXON 53 SPECIFIC ANTISENSE MORPHOLINO OLIGONUCLEOTIDE",
+            "type": "cn",
+            "domains": [ ],
+            "languages": [ "en" ],
+            "nameJurisdiction": [ ],
+            "nameOrgs": [ ],
+            "preferred": false,
+            "displayName": false,
+            "references": [ "c21be8f4-f833-c3d5-dfa4-e955e1bdc3e7" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/names(cfc6c372-6eeb-95bd-0687-29f27a087b7c)?view=full"
+        }
+    ],
+    "notes": [
+        {
+            "uuid": "102af327-e900-4238-a952-91f4711e189a",
+            "created": 1517956556828,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556828,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "note": "[Validation]WARNING:Substance class should not typically be changed",
+            "references": [ "09e0f3f4-2960-4415-8f3a-dd8884bf09d8" ],
+            "access": [ "admin" ]
+        },
+        {
+            "uuid": "67c502d0-2663-46ba-a2fd-f56954ecf6e0",
+            "created": 1517956556827,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556827,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "note": "Legacy Info:<SRS_LEGACY_DATA><CREATED_BY>YULIA.BORODINA</CREATED_BY><CREATED_DATE>2016-05-03 16:31:25.0</CREATED_DATE><MODIFIED_BY>DAMMIKA.AMUGODA-KANK</MODIFIED_BY><MODIFIED_DATE>2017-04-24 08:33:15.0</MODIFIED_DATE><APPROVED_BY></APPROVED_BY><APPROVED_DATE></APPROVED_DATE></SRS_LEGACY_DATA>",
+            "references": [ "c5c72104-e8fc-4f10-860b-2ead3203c31e" ],
+            "access": [ "protected" ]
+        },
+        {
+            "uuid": "c0ae9f75-a796-49af-8478-299182aa399e",
+            "created": 1517956556825,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556825,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "note": "LEGACY XML:<SUBSTANCE>\n <SUBSTANCE_ID/>\n<REFERENCE_INFORMATION>\n<SUBSTANCE_RELATIONSHIP_GROUP>\n <RELATIONSHIP/>\n <TYPE_OF_INTERACTION/>\n <SUBSTANCE_ID/>\n <SUBSTANCE_NAME/>\n <RELATIONSHIP/>\n <AMOUNT_TYPE/>\n<AMOUNT>\n <AVERAGE/>\n <LOW_LIMIT/>\n <HIGH_LIMIT/>\n <UNIT/>\n <NON_NUMERIC_VALUE/>\n </AMOUNT>\n<REFERENCE_SOURCE_GROUP>\n <PUBLIC_DOMAIN/>\n <REFERENCE_SOURCE_TYPE/>\n <REFERENCE_SOURCE_IDENTIFIER/>\n <REFERENCE_SOURCE_CITATION/>\n </REFERENCE_SOURCE_GROUP>\n </SUBSTANCE_RELATIONSHIP_GROUP>\n<GENE_GROUP>\n <GENE_SEQUENCE_ORIGIN/>\n <GENE_ID/>\n <GENE_NAME/>\n<REFERENCE_SOURCE_GROUP>\n <PUBLIC_DOMAIN/>\n <REFERENCE_SOURCE_TYPE/>\n <REFERENCE_SOURCE_IDENTIFIER/>\n <REFERENCE_SOURCE_CITATION/>\n </REFERENCE_SOURCE_GROUP>\n </GENE_GROUP>\n<SUBSTANCE_CLASSIFICATION>\n <DOMAIN/>\n <SUBSTANCE_TYPE>OLIGONUCLEOTIDE</SUBSTANCE_TYPE>\n <SUBSTANCE_SUBTYPE/>\n<REFERENCE_SOURCE_GROUP>\n <PUBLIC_DOMAIN/>\n <REFERENCE_SOURCE_TYPE/>\n <REFERENCE_SOURCE_IDENTIFIER/>\n <REFERENCE_SOURCE_CITATION/>\n </REFERENCE_SOURCE_GROUP>\n </SUBSTANCE_CLASSIFICATION>\n<TARGET_GROUP>\n <TARGET_ORGANISM/>\n <TARGET_TYPE/>\n <TARGET_NAME/>\n <TARGET_ID/>\n <TARGET_ID_SOURCE/>\n <INTERACTION_TYPE/>\n<REFERENCE_SOURCE_GROUP>\n <PUBLIC_DOMAIN/>\n <REFERENCE_SOURCE_TYPE/>\n <REFERENCE_SOURCE_IDENTIFIER/>\n <REFERENCE_SOURCE_CITATION/>\n </REFERENCE_SOURCE_GROUP>\n </TARGET_GROUP>\n <COMMENTS/>\n </REFERENCE_INFORMATION>\n<SINGLE_SUBSTANCE>\n<STRUCTURE>\n <STRUCTURAL_REPRESENTATION_TYPE/>\n <STRUCTURAL_REPRESENTATION/>\n <STEREOCHEMISTRY/>\n <OPTICAL_ACTIVITY/>\n <PUBLIC_DOMAIN/>\n<ISOTOPE_GROUP>\n <NUCLIDE_ID/>\n <NUCLIDE_NAME/>\n <SUBSTITUTION_TYPE/>\n </ISOTOPE_GROUP>\n </STRUCTURE>\n<ELEMENT_TYPE>\n<NUCLEIC_ACID>\n <SEQUENCE_TYPE>COMPLETE</SEQUENCE_TYPE>\n <NUMBER_OF_SUBUNITS>1</NUMBER_OF_SUBUNITS>\n<SUBUNIT_GROUP>\n <SUBUNIT>1</SUBUNIT>\n <SUBUNIT_TYPE>LINEAR</SUBUNIT_TYPE>\n <LENGTH>20</LENGTH>\n <BASE_SEQUENCE>CCTCCGGTTCTGAAGGTGTTC</BASE_SEQUENCE>\n <FIVE_PRIME_FRAGMENT_NAME/>\n <FIVE_PRIME_FRAGMENT_ID/>\n <THREE_PRIME_FRAGMENT_NAME/>\n <THREE_PRIME_FRAGMENT_ID/>\n<SUGAR>\n <RESIDUES>1_1-1_21</RESIDUES>\n <SUGAR_NAME>MORPHOLINO SUGAR FRAGMENT</SUGAR_NAME>\n <SUGAR_ID>O23CYZ563G</SUGAR_ID>\n <SUGAR_INCHI>InChI=1S/C5H8He3NO2/c6-5-2-9(7)1-4(11-5)3-10-8/h4-5H,1-3H2/t4-,5+/m0/s1/i6+0,7+1,8-1</SUGAR_INCHI>\n </SUGAR>\n<INTERNUCLEOTIDE_LINKAGE>\n <RESIDUES>1_2-1_21</RESIDUES>\n <LINKAGE>3'-5'</LINKAGE>\n <LINKAGE_NAME>PHOSPHORODIAMIDATE LINKAGE</LINKAGE_NAME>\n <LINKAGE_ID>33UJ19BLWL </LINKAGE_ID>\n <LINKAGE_INCHI>InChI=1S/C2H6He2NOP/c1-5(2)7(3,4)6/h1-2H3/i3-1,4+0</LINKAGE_INCHI>\n </INTERNUCLEOTIDE_LINKAGE>\n </SUBUNIT_GROUP>\n <AREA_OF_HYBRIDISATION/>\n<MODIFICATION_GROUP>\n<PHYSICAL_MODIFICATION_GROUP>\n <ROLE/>\n <NUMBER_OF_PARAMETERS/>\n<PARAMETER_GROUP>\n <PARAMETER/>\n<AMOUNT>\n <AVERAGE/>\n <LOW_LIMIT/>\n <HIGH_LIMIT/>\n <UNIT/>\n <NON_NUMERIC_VALUE/>\n </AMOUNT>\n </PARAMETER_GROUP>\n </PHYSICAL_MODIFICATION_GROUP>\n<AGENT_MODIFICATION_GROUP>\n <AGENT_MODIFICATION_TYPE/>\n <ROLE/>\n <MODIFICATION_AGENT/>\n <MODIFICATION_AGENT_ID/>\n <MODIFICATION_PROCESS/>\n <AMOUNT_TYPE/>\n<AMOUNT>\n <AVERAGE/>\n <LOW_LIMIT/>\n <HIGH_LIMIT/>\n <UNIT/>\n <NON_NUMERIC_VALUE/>\n </AMOUNT>\n </AGENT_MODIFICATION_GROUP>\n<STRUCTURAL_MODIFICATION_GROUP>\n <RESIDUE_MODIFIED>C</RESIDUE_MODIFIED>\n <RESIDUE_SITE>1_1</RESIDUE_SITE>\n <NUMBER_OF_FRAGMENTS_MOIETIES/>\n <AMOUNT_TYPE/>\n<MOLECULAR_FRAGMENT_MOIETY>\n <STRUCTURAL_MODIFICATION_TYPE>NUCLEOSIDE SUBSTITUTION</STRUCTURAL_MODIFICATION_TYPE>\n <ROLE>SUGAR MODIFICATION</ROLE>\n <FRAGMENT_NUMBER/>\n <MOLECULAR_FRAGMENT_NAME>MORPHOLINO THYMIDINE</MOLECULAR_FRAGMENT_NAME>\n <MOLECULAR_FRAGMENT_ID>KFE1UKU3TI</MOLECULAR_FRAGMENT_ID>\n <MOLECULAR_FRAGMENT_INCHI/>\n <FRAGMENT_CONNECTIVTY/>\n<AMOUNT>\n <AVERAGE/>\n <LOW_LIMIT/>\n <HIGH_LIMIT/>\n <UNIT/>\n <NON_NUMERIC_VALUE/>\n </AMOUNT>\n </MOLECULAR_FRAGMENT_MOIETY>\n </STRUCTURAL_MODIFICATION_GROUP>\n </MODIFICATION_GROUP>\n<PROPERTY_GROUP>\n <PROPERTY_TYPE/>\n <PROPERTY/>\n<PROPERTY_DESCRIPTION>\n <SUBSTANCE_NAME/>\n <SUBSTANCE_ID/>\n <SUBSTANCE_ID/>\n <AMOUNT_TYPE/>\n<AMOUNT>\n <AVERAGE/>\n <LOW_LIMIT/>\n <HIGH_LIMIT/>\n <UNIT/>\n <NON_NUMERIC_VALUE/>\n </AMOUNT>\n </PROPERTY_DESCRIPTION>\n </PROPERTY_GROUP>\n<MOLECULAR_WEIGHT>\n <MOLECULAR_WEIGHT_TYPE>SEQUENCE</MOLECULAR_WEIGHT_TYPE>\n <MOLECULAR_WEIGHT_METHOD>CALCULATED</MOLECULAR_WEIGHT_METHOD>\n<AMOUNT>\n <AVERAGE>6924</AVERAGE>\n <LOW_LIMIT/>\n <HIGH_LIMIT/>\n <UNIT>Da</UNIT>\n <NON_NUMERIC_VALUE/>\n </AMOUNT>\n </MOLECULAR_WEIGHT>\n <COMMENTS/>\n <PUBLIC_DOMAIN/>\n </NUCLEIC_ACID>\n </ELEMENT_TYPE>\n<REFERENCE_SOURCE_GROUP>\n <PUBLIC_DOMAIN/>\n <REFERENCE_SOURCE_TYPE/>\n <REFERENCE_SOURCE_IDENTIFIER/>\n <REFERENCE_SOURCE_CITATION/>\n </REFERENCE_SOURCE_GROUP>\n </SINGLE_SUBSTANCE>\n </SUBSTANCE>",
+            "references": [ "c5c72104-e8fc-4f10-860b-2ead3203c31e" ],
+            "access": [ "protected" ]
+        },
+        {
+            "uuid": "7e835a78-982f-4410-a7ad-9427253c6247",
+            "created": 1517956556824,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556824,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "note": "Parsing error for NUCLEIC_ACID: Length:20 is different than actual length 21",
+            "references": [ ],
+            "access": [ ]
+        },
+        {
+            "uuid": "50d0b745-ff09-425c-9951-bedb7f21ebbf",
+            "created": 1517956556812,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556812,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "note": "Legacy Molfile:\n  Symyx   04271720582D 1   1.00000     0.00000     0\n\n465514  0     1  0            999 V2000\n   61.7482  -11.1768    0.0000 N   0  0  3  0  0  0           0  0  0\n   60.7433  -10.3746    0.0000 C   0  0  0  0  0  0           0  0  0\n   61.0057   -9.2142    0.0000 C   0  0  0  0  0  0           0  0  0\n   62.0693   -8.7716    0.0000 C   0  0  0  0  0  0           0  0  0\n   62.3206   -7.5909    0.0000 N   0  0  0  0  0  0           0  0  0\n   63.0691   -9.5412    0.0000 N   0  0  0  0  0  0           0  0  0\n   62.8163  -10.7284    0.0000 C   0  0  0  0  0  0           0  0  0\n   63.7574  -11.4914    0.0000 O   0  0  0  0  0  0           0  0  0\n   59.6787  -13.5086    0.0000 C   0  0  0  0  0  0           0  0  0\n   60.6245  -14.1425    0.0000 N   0  0  0  0  0  0           0  0  0\n   61.6717  -13.5964    0.0000 C   0  0  0  0  0  0           0  0  0\n   61.6717  -12.4164    0.0000 C   0  0  1  0  0  0           0  0  0\n   60.7260  -11.7825    0.0000 O   0  0  0  0  0  0           0  0  0\n   56.9666   -9.3434    0.0000 N   0  0  3  0  0  0           0  0  0\n   56.9666  -11.5201    0.0000 O   0  0  0  0  0  0           0  0  0\n   56.9666  -10.4317    0.0000 P   0  0  3  0  0  0           0  0  0\n   58.3190  -10.9594    0.0000 O   0  0  0  0  0  0           0  0  0\n   58.6478  -12.0042    0.0000 C   0  0  0  0  0  0           0  0  0\n   59.6787  -12.3285    0.0000 C   0  0  2  0  0  0           0  0  0\n   44.9916  -11.1743    0.0000 N   0  0  3  0  0  0           0  0  0\n   44.0148  -10.2949    0.0000 C   0  0  0  0  0  0           0  0  0\n   44.3738   -9.1369    0.0000 C   0  0  0  0  0  0           0  0  0\n   43.5052   -8.2889    0.0000 C   0  0  0  0  0  0           0  0  0\n   45.5291   -8.8107    0.0000 C   0  0  0  0  0  0           0  0  0\n   45.8861   -7.6587    0.0000 O   0  0  0  0  0  0           0  0  0\n   46.4539   -9.6669    0.0000 N   0  0  0  0  0  0           0  0  0\n   46.0949  -10.8251    0.0000 C   0  0  0  0  0  0           0  0  0\n   46.9620  -11.6694    0.0000 O   0  0  0  0  0  0           0  0  0\n   42.8589  -13.4924    0.0000 C   0  0  0  0  0  0           0  0  0\n   43.8048  -14.1262    0.0000 N   0  0  3  0  0  0           0  0  0\n   44.8520  -13.5801    0.0000 C   0  0  0  0  0  0           0  0  0\n   44.8520  -12.4001    0.0000 C   0  0  1  0  0  0           0  0  0\n   43.9061  -11.7662    0.0000 O   0  0  0  0  0  0           0  0  0\n   40.2154   -9.3961    0.0000 N   0  0  3  0  0  0           0  0  0\n   40.2154  -11.5706    0.0000 O   0  0  0  0  0  0           0  0  0\n   40.2154  -10.4833    0.0000 P   0  0  3  0  0  0           0  0  0\n   41.5006  -10.9446    0.0000 O   0  0  0  0  0  0           0  0  0\n   41.8290  -11.9884    0.0000 C   0  0  0  0  0  0           0  0  0\n   42.8589  -12.3123    0.0000 C   0  0  2  0  0  0           0  0  0\n   26.7891  -11.1743    0.0000 N   0  0  3  0  0  0           0  0  0\n   25.8123  -10.2949    0.0000 C   0  0  0  0  0  0           0  0  0\n   26.1713   -9.1369    0.0000 C   0  0  0  0  0  0           0  0  0\n   25.3027   -8.2889    0.0000 C   0  0  0  0  0  0           0  0  0\n   27.3265   -8.8107    0.0000 C   0  0  0  0  0  0           0  0  0\n   27.6835   -7.6587    0.0000 O   0  0  0  0  0  0           0  0  0\n   28.2514   -9.6669    0.0000 N   0  0  0  0  0  0           0  0  0\n   27.8924  -10.8251    0.0000 C   0  0  0  0  0  0           0  0  0\n   28.7594  -11.6694    0.0000 O   0  0  0  0  0  0           0  0  0\n   24.6564  -13.4924    0.0000 C   0  0  0  0  0  0           0  0  0\n   25.6024  -14.1262    0.0000 N   0  0  3  0  0  0           0  0  0\n   26.6243  -13.5362    0.0000 C   0  0  0  0  0  0           0  0  0\n   26.6243  -12.4000    0.0000 C   0  0  1  0  0  0           0  0  0\n   25.6783  -11.7223    0.0000 O   0  0  0  0  0  0           0  0  0\n   12.7364   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n   10.6906   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n    2.4370   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n    0.3912   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n   -6.9698   -8.7298    0.0000 C   0  0  0  0  0  0           0  0  0\n   -9.0156   -8.7298    0.0000 C   0  0  0  0  0  0           0  0  0\n  -16.3766   -8.7298    0.0000 C   0  0  0  0  0  0           0  0  0\n  -18.4224   -8.7298    0.0000 C   0  0  0  0  0  0           0  0  0\n  -26.6760   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n  -28.7218   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n  -34.5792   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n  -36.6250   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n   16.0368  -10.1826    0.0000 C   0  0  0  0  0  0           0  0  0\n   16.7876   -9.2626    0.0000 N   0  0  0  0  0  0           0  0  0\n   19.0233   -7.9786    0.0000 O   0  0  0  0  0  0           0  0  0\n   18.9518   -9.1601    0.0000 C   0  0  0  0  0  0           0  0  0\n   19.9418   -9.8192    0.0000 N   0  0  0  0  0  0           0  0  0\n   20.8563  -11.6607    0.0000 N   0  0  0  0  0  0           0  0  0\n   19.8686  -11.0039    0.0000 C   0  0  0  0  0  0           0  0  0\n   18.8053  -11.5295    0.0000 N   0  0  0  0  0  0           0  0  0\n   17.8946   -9.6926    0.0000 C   0  0  0  0  0  0           0  0  0\n   17.8214  -10.8773    0.0000 C   0  0  0  0  0  0           0  0  0\n   14.4426  -13.4525    0.0000 C   0  0  0  0  0  0           0  0  0\n   15.3886  -14.0863    0.0000 N   0  0  3  0  0  0           0  0  0\n   16.4105  -13.4963    0.0000 C   0  0  0  0  0  0           0  0  0\n   15.4645  -11.6824    0.0000 O   0  0  0  0  0  0           0  0  0\n   11.7135   -9.3324    0.0000 N   0  0  3  0  0  0           0  0  0\n   11.7135  -11.5497    0.0000 O   0  0  0  0  0  0           0  0  0\n   13.0577  -10.8442    0.0000 O   0  0  0  0  0  0           0  0  0\n   13.3924  -11.9422    0.0000 C   0  0  0  0  0  0           0  0  0\n   14.4426  -12.2724    0.0000 C   0  0  2  0  0  0           0  0  0\n   16.6832  -11.1802    0.0000 N   0  0  3  0  0  0           0  0  0\n   16.4864  -12.3600    0.0000 C   0  0  1  0  0  0           0  0  0\n   -3.6420  -10.1693    0.0000 C   0  0  0  0  0  0           0  0  0\n   -2.8922   -9.2506    0.0000 N   0  0  0  0  0  0           0  0  0\n   -0.6597   -7.9684    0.0000 N   0  0  0  0  0  0           0  0  0\n   -0.7311   -9.1482    0.0000 C   0  0  0  0  0  0           0  0  0\n    0.2575   -9.8064    0.0000 N   0  0  0  0  0  0           0  0  0\n    0.1844  -10.9895    0.0000 C   0  0  0  0  0  0           0  0  0\n   -0.8773  -11.5143    0.0000 N   0  0  0  0  0  0           0  0  0\n   -1.7868   -9.6800    0.0000 C   0  0  0  0  0  0           0  0  0\n   -1.8599  -10.8631    0.0000 C   0  0  0  0  0  0           0  0  0\n   -5.2339  -13.4362    0.0000 C   0  0  0  0  0  0           0  0  0\n   -4.2878  -14.0699    0.0000 N   0  0  3  0  0  0           0  0  0\n   -3.2407  -13.5237    0.0000 C   0  0  0  0  0  0           0  0  0\n   -4.1867  -11.7099    0.0000 O   0  0  0  0  0  0           0  0  0\n   -7.9927   -9.3203    0.0000 N   0  0  3  0  0  0           0  0  0\n   -7.9927  -11.5344    0.0000 O   0  0  0  0  0  0           0  0  0\n   -6.6169  -10.8635    0.0000 O   0  0  0  0  0  0           0  0  0\n   -6.2826  -11.9264    0.0000 C   0  0  0  0  0  0           0  0  0\n   -5.2339  -12.2561    0.0000 C   0  0  2  0  0  0           0  0  0\n   -2.9965  -11.1655    0.0000 N   0  0  3  0  0  0           0  0  0\n   -3.2407  -12.3437    0.0000 C   0  0  1  0  0  0           0  0  0\n  -23.3756  -10.1826    0.0000 C   0  0  0  0  0  0           0  0  0\n  -22.6248   -9.2626    0.0000 N   0  0  0  0  0  0           0  0  0\n  -20.3891   -7.9786    0.0000 O   0  0  0  0  0  0           0  0  0\n  -20.4606   -9.1601    0.0000 C   0  0  0  0  0  0           0  0  0\n  -19.4706   -9.8192    0.0000 N   0  0  0  0  0  0           0  0  0\n  -18.5561  -11.6607    0.0000 N   0  0  0  0  0  0           0  0  0\n  -19.5438  -11.0039    0.0000 C   0  0  0  0  0  0           0  0  0\n  -20.6070  -11.5295    0.0000 N   0  0  0  0  0  0           0  0  0\n  -21.5177   -9.6926    0.0000 C   0  0  0  0  0  0           0  0  0\n  -21.5910  -10.8773    0.0000 C   0  0  0  0  0  0           0  0  0\n  -24.9698  -13.4525    0.0000 C   0  0  0  0  0  0           0  0  0\n  -24.0238  -14.0863    0.0000 N   0  0  3  0  0  0           0  0  0\n  -22.9766  -13.5401    0.0000 C   0  0  0  0  0  0           0  0  0\n  -23.9226  -11.7263    0.0000 O   0  0  0  0  0  0           0  0  0\n  -27.6989   -9.3324    0.0000 N   0  0  3  0  0  0           0  0  0\n  -27.6989  -11.5497    0.0000 O   0  0  0  0  0  0           0  0  0\n  -26.3547  -10.8442    0.0000 O   0  0  0  0  0  0           0  0  0\n  -26.0199  -11.9422    0.0000 C   0  0  0  0  0  0           0  0  0\n  -24.9698  -12.2724    0.0000 C   0  0  2  0  0  0           0  0  0\n  -22.7292  -11.1802    0.0000 N   0  0  3  0  0  0           0  0  0\n  -22.9766  -12.3601    0.0000 C   0  0  1  0  0  0           0  0  0\n  -40.7176  -10.3746    0.0000 C   0  0  0  0  0  0           0  0  0\n  -40.4552   -9.2142    0.0000 C   0  0  0  0  0  0           0  0  0\n  -39.1404   -7.5909    0.0000 N   0  0  0  0  0  0           0  0  0\n  -39.3917   -8.7716    0.0000 C   0  0  0  0  0  0           0  0  0\n  -38.3919   -9.5412    0.0000 N   0  0  0  0  0  0           0  0  0\n  -37.7035  -11.4914    0.0000 O   0  0  0  0  0  0           0  0  0\n  -38.6446  -10.7284    0.0000 C   0  0  0  0  0  0           0  0  0\n  -41.7822  -13.5086    0.0000 C   0  0  0  0  0  0           0  0  0\n  -40.8110  -14.0985    0.0000 N   0  0  3  0  0  0           0  0  0\n  -39.7891  -13.5964    0.0000 C   0  0  0  0  0  0           0  0  0\n  -40.7603  -11.8264    0.0000 O   0  0  0  0  0  0           0  0  0\n  -43.4715   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n  -45.5173   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n  -51.3746   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n  -53.4204   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n  -59.2778   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n  -61.3236   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n  -69.5772   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n  -71.6230   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n  -79.8766   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n  -81.9224   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n  -87.8240   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n  -89.8698   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n  -95.7714   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n  -97.8172   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n -103.6750   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n -105.7200   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n -111.6220   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n -113.6680   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n  -45.6509  -11.6694    0.0000 O   0  0  0  0  0  0           0  0  0\n  -46.5180  -10.8251    0.0000 C   0  0  0  0  0  0           0  0  0\n  -46.1590   -9.6669    0.0000 N   0  0  0  0  0  0           0  0  0\n  -46.7268   -7.6587    0.0000 O   0  0  0  0  0  0           0  0  0\n  -47.0839   -8.8107    0.0000 C   0  0  0  0  0  0           0  0  0\n  -49.1077   -8.2889    0.0000 C   0  0  0  0  0  0           0  0  0\n  -48.2391   -9.1369    0.0000 C   0  0  0  0  0  0           0  0  0\n  -48.5981  -10.2949    0.0000 C   0  0  0  0  0  0           0  0  0\n  -47.6213  -11.1743    0.0000 N   0  0  3  0  0  0           0  0  0\n  -49.7540  -13.4923    0.0000 C   0  0  0  0  0  0           0  0  0\n  -53.5541  -11.6694    0.0000 O   0  0  0  0  0  0           0  0  0\n  -54.4211  -10.8251    0.0000 C   0  0  0  0  0  0           0  0  0\n  -54.0621   -9.6669    0.0000 N   0  0  0  0  0  0           0  0  0\n  -54.6300   -7.6587    0.0000 O   0  0  0  0  0  0           0  0  0\n  -54.9870   -8.8107    0.0000 C   0  0  0  0  0  0           0  0  0\n  -57.0109   -8.2889    0.0000 C   0  0  0  0  0  0           0  0  0\n  -56.1423   -9.1369    0.0000 C   0  0  0  0  0  0           0  0  0\n  -56.5013  -10.2949    0.0000 C   0  0  0  0  0  0           0  0  0\n  -55.5244  -11.1743    0.0000 N   0  0  3  0  0  0           0  0  0\n  -57.6572  -13.4923    0.0000 C   0  0  0  0  0  0           0  0  0\n  -64.4921  -10.8773    0.0000 C   0  0  0  0  0  0           0  0  0\n  -63.5082  -11.5295    0.0000 N   0  0  0  0  0  0           0  0  0\n  -61.4572  -11.6607    0.0000 N   0  0  0  0  0  0           0  0  0\n  -62.4449  -11.0039    0.0000 C   0  0  0  0  0  0           0  0  0\n  -62.3717   -9.8192    0.0000 N   0  0  0  0  0  0           0  0  0\n  -63.2902   -7.9786    0.0000 O   0  0  0  0  0  0           0  0  0\n  -63.3617   -9.1601    0.0000 C   0  0  0  0  0  0           0  0  0\n  -64.4189   -9.6926    0.0000 C   0  0  0  0  0  0           0  0  0\n  -65.5259   -9.2626    0.0000 N   0  0  0  0  0  0           0  0  0\n  -66.2767  -10.1826    0.0000 C   0  0  0  0  0  0           0  0  0\n  -65.6303  -11.1802    0.0000 N   0  0  3  0  0  0           0  0  0\n  -67.8709  -13.4524    0.0000 C   0  0  0  0  0  0           0  0  0\n  -74.7915  -10.8773    0.0000 C   0  0  0  0  0  0           0  0  0\n  -73.8076  -11.5295    0.0000 N   0  0  0  0  0  0           0  0  0\n  -71.7566  -11.6607    0.0000 N   0  0  0  0  0  0           0  0  0\n  -72.7443  -11.0039    0.0000 C   0  0  0  0  0  0           0  0  0\n  -72.6711   -9.8192    0.0000 N   0  0  0  0  0  0           0  0  0\n  -73.5896   -7.9786    0.0000 O   0  0  0  0  0  0           0  0  0\n  -73.6611   -9.1601    0.0000 C   0  0  0  0  0  0           0  0  0\n  -74.7183   -9.6926    0.0000 C   0  0  0  0  0  0           0  0  0\n  -75.8253   -9.2626    0.0000 N   0  0  0  0  0  0           0  0  0\n  -76.5761  -10.1826    0.0000 C   0  0  0  0  0  0           0  0  0\n  -75.9297  -11.1802    0.0000 N   0  0  3  0  0  0           0  0  0\n  -78.1703  -13.4524    0.0000 C   0  0  0  0  0  0           0  0  0\n  -82.0560  -11.4914    0.0000 O   0  0  0  0  0  0           0  0  0\n  -82.9971  -10.7284    0.0000 C   0  0  0  0  0  0           0  0  0\n  -82.7444   -9.5412    0.0000 N   0  0  0  0  0  0           0  0  0\n  -83.4929   -7.5909    0.0000 N   0  0  0  0  0  0           0  0  0\n  -83.7442   -8.7716    0.0000 C   0  0  0  0  0  0           0  0  0\n  -84.8077   -9.2142    0.0000 C   0  0  0  0  0  0           0  0  0\n  -85.0701  -10.3746    0.0000 C   0  0  0  0  0  0           0  0  0\n  -84.0653  -11.1768    0.0000 N   0  0  3  0  0  0           0  0  0\n  -86.1347  -13.5085    0.0000 C   0  0  0  0  0  0           0  0  0\n  -90.0034  -11.4914    0.0000 O   0  0  0  0  0  0           0  0  0\n  -90.9445  -10.7284    0.0000 C   0  0  0  0  0  0           0  0  0\n  -90.6918   -9.5412    0.0000 N   0  0  0  0  0  0           0  0  0\n  -91.4403   -7.5909    0.0000 N   0  0  0  0  0  0           0  0  0\n  -91.6916   -8.7716    0.0000 C   0  0  0  0  0  0           0  0  0\n  -92.7552   -9.2142    0.0000 C   0  0  0  0  0  0           0  0  0\n  -93.0175  -10.3746    0.0000 C   0  0  0  0  0  0           0  0  0\n  -92.0127  -11.1768    0.0000 N   0  0  3  0  0  0           0  0  0\n  -94.0821  -13.5085    0.0000 C   0  0  0  0  0  0           0  0  0\n  -97.9508  -11.6694    0.0000 O   0  0  0  0  0  0           0  0  0\n  -98.8179  -10.8251    0.0000 C   0  0  0  0  0  0           0  0  0\n  -98.4589   -9.6669    0.0000 N   0  0  0  0  0  0           0  0  0\n  -99.0268   -7.6587    0.0000 O   0  0  0  0  0  0           0  0  0\n  -99.3838   -8.8107    0.0000 C   0  0  0  0  0  0           0  0  0\n -101.4080   -8.2889    0.0000 C   0  0  0  0  0  0           0  0  0\n -100.5390   -9.1369    0.0000 C   0  0  0  0  0  0           0  0  0\n -100.8980  -10.2949    0.0000 C   0  0  0  0  0  0           0  0  0\n  -99.9212  -11.1743    0.0000 N   0  0  3  0  0  0           0  0  0\n -102.0540  -13.4923    0.0000 C   0  0  0  0  0  0           0  0  0\n -105.8540  -11.4914    0.0000 O   0  0  0  0  0  0           0  0  0\n -106.7950  -10.7284    0.0000 C   0  0  0  0  0  0           0  0  0\n -106.5420   -9.5412    0.0000 N   0  0  0  0  0  0           0  0  0\n -107.2910   -7.5909    0.0000 N   0  0  0  0  0  0           0  0  0\n -107.5420   -8.7716    0.0000 C   0  0  0  0  0  0           0  0  0\n -108.6060   -9.2142    0.0000 C   0  0  0  0  0  0           0  0  0\n -108.8680  -10.3746    0.0000 C   0  0  0  0  0  0           0  0  0\n -107.8630  -11.1768    0.0000 N   0  0  3  0  0  0           0  0  0\n -109.9330  -13.5085    0.0000 C   0  0  0  0  0  0           0  0  0\n -117.8800  -13.5085    0.0000 C   0  0  0  0  0  0           0  0  0\n -119.2400  -10.9594    0.0000 O   0  0  0  0  0  0           0  0  0\n -118.9110  -12.0042    0.0000 C   0  0  0  0  0  0           0  0  0\n -117.8800  -12.3284    0.0000 C   0  0  1  0  0  0           0  0  0\n -116.8580  -11.7384    0.0000 O   0  0  0  0  0  0           0  0  0\n -113.8010  -11.4914    0.0000 O   0  0  0  0  0  0           0  0  0\n -114.7430  -10.7284    0.0000 C   0  0  0  0  0  0           0  0  0\n -114.4900   -9.5412    0.0000 N   0  0  0  0  0  0           0  0  0\n -115.2380   -7.5909    0.0000 N   0  0  0  0  0  0           0  0  0\n -115.4900   -8.7716    0.0000 C   0  0  0  0  0  0           0  0  0\n -116.5530   -9.2142    0.0000 C   0  0  0  0  0  0           0  0  0\n -116.8160  -10.3746    0.0000 C   0  0  0  0  0  0           0  0  0\n -115.8110  -11.1768    0.0000 N   0  0  3  0  0  0           0  0  0\n -115.9120  -12.4162    0.0000 C   0  0  1  0  0  0           0  0  0\n -115.9120  -13.5524    0.0000 C   0  0  0  0  0  0           0  0  0\n -116.9340  -14.1424    0.0000 N   0  0  3  0  0  0           0  0  0\n -112.6450   -9.3434    0.0000 N   0  0  3  0  0  0           0  0  0\n -112.6450  -11.5201    0.0000 O   0  0  0  0  0  0           0  0  0\n -112.6450  -10.4317    0.0000 P   0  0  3  0  0  0           0  0  0\n -111.2920  -10.9594    0.0000 O   0  0  0  0  0  0           0  0  0\n -110.9640  -12.0042    0.0000 C   0  0  0  0  0  0           0  0  0\n -109.9330  -12.3285    0.0000 C   0  0  1  0  0  0           0  0  0\n -108.9110  -11.8263    0.0000 O   0  0  0  0  0  0           0  0  0\n -107.9400  -12.4163    0.0000 C   0  0  2  0  0  0           0  0  0\n -107.9400  -13.5963    0.0000 C   0  0  0  0  0  0           0  0  0\n -108.9620  -14.0985    0.0000 N   0  0  3  0  0  0           0  0  0\n -104.6980   -9.3961    0.0000 N   0  0  3  0  0  0           0  0  0\n -104.6980  -11.5706    0.0000 O   0  0  0  0  0  0           0  0  0\n -104.6980  -10.4833    0.0000 P   0  0  3  0  0  0           0  0  0\n -103.4120  -10.9446    0.0000 O   0  0  0  0  0  0           0  0  0\n -103.0840  -11.9884    0.0000 C   0  0  0  0  0  0           0  0  0\n -102.0540  -12.3123    0.0000 C   0  0  1  0  0  0           0  0  0\n -101.0070  -11.7662    0.0000 O   0  0  0  0  0  0           0  0  0\n -100.0610  -12.4001    0.0000 C   0  0  2  0  0  0           0  0  0\n -100.0610  -13.5801    0.0000 C   0  0  0  0  0  0           0  0  0\n -101.1080  -14.1262    0.0000 N   0  0  3  0  0  0           0  0  0\n  -96.7943   -9.3434    0.0000 N   0  0  3  0  0  0           0  0  0\n  -96.7943  -11.5201    0.0000 O   0  0  0  0  0  0           0  0  0\n  -96.7943  -10.4317    0.0000 P   0  0  3  0  0  0           0  0  0\n  -95.4418  -10.9594    0.0000 O   0  0  0  0  0  0           0  0  0\n  -95.1131  -12.0042    0.0000 C   0  0  0  0  0  0           0  0  0\n  -94.0821  -12.3285    0.0000 C   0  0  1  0  0  0           0  0  0\n  -93.0729  -11.8482    0.0000 O   0  0  0  0  0  0           0  0  0\n  -92.0890  -12.4163    0.0000 C   0  0  2  0  0  0           0  0  0\n  -92.0890  -13.5963    0.0000 C   0  0  0  0  0  0           0  0  0\n  -93.0983  -14.0765    0.0000 N   0  0  3  0  0  0           0  0  0\n  -88.8469   -9.3434    0.0000 N   0  0  3  0  0  0           0  0  0\n  -88.8469  -11.5201    0.0000 O   0  0  0  0  0  0           0  0  0\n  -88.8469  -10.4317    0.0000 P   0  0  3  0  0  0           0  0  0\n  -87.4944  -10.9594    0.0000 O   0  0  0  0  0  0           0  0  0\n  -87.1657  -12.0042    0.0000 C   0  0  0  0  0  0           0  0  0\n  -86.1347  -12.3285    0.0000 C   0  0  1  0  0  0           0  0  0\n  -85.1128  -11.8263    0.0000 O   0  0  0  0  0  0           0  0  0\n  -84.1416  -12.4163    0.0000 C   0  0  2  0  0  0           0  0  0\n  -84.1416  -13.5963    0.0000 C   0  0  0  0  0  0           0  0  0\n  -85.1635  -14.0985    0.0000 N   0  0  3  0  0  0           0  0  0\n  -80.8995   -9.3324    0.0000 N   0  0  3  0  0  0           0  0  0\n  -80.8995  -11.5497    0.0000 O   0  0  0  0  0  0           0  0  0\n  -80.8995  -10.4410    0.0000 P   0  0  3  0  0  0           0  0  0\n  -79.5552  -10.8442    0.0000 O   0  0  0  0  0  0           0  0  0\n  -79.2205  -11.9422    0.0000 C   0  0  0  0  0  0           0  0  0\n  -78.1703  -12.2724    0.0000 C   0  0  1  0  0  0           0  0  0\n  -77.1231  -11.7261    0.0000 O   0  0  0  0  0  0           0  0  0\n  -76.1770  -12.3599    0.0000 C   0  0  2  0  0  0           0  0  0\n  -76.1770  -13.5399    0.0000 C   0  0  0  0  0  0           0  0  0\n  -77.2242  -14.0862    0.0000 N   0  0  3  0  0  0           0  0  0\n  -70.6001   -9.3324    0.0000 N   0  0  3  0  0  0           0  0  0\n  -70.6001  -11.5497    0.0000 O   0  0  0  0  0  0           0  0  0\n  -70.6001  -10.4410    0.0000 P   0  0  3  0  0  0           0  0  0\n  -69.2558  -10.8442    0.0000 O   0  0  0  0  0  0           0  0  0\n  -68.9211  -11.9422    0.0000 C   0  0  0  0  0  0           0  0  0\n  -67.8709  -12.2724    0.0000 C   0  0  1  0  0  0           0  0  0\n  -66.8490  -11.7699    0.0000 O   0  0  0  0  0  0           0  0  0\n  -65.8777  -12.3599    0.0000 C   0  0  2  0  0  0           0  0  0\n  -65.8777  -13.5399    0.0000 C   0  0  0  0  0  0           0  0  0\n  -66.8995  -14.0424    0.0000 N   0  0  3  0  0  0           0  0  0\n  -60.3007   -9.3961    0.0000 N   0  0  3  0  0  0           0  0  0\n  -60.3007  -11.5706    0.0000 O   0  0  0  0  0  0           0  0  0\n  -60.3007  -10.4833    0.0000 P   0  0  3  0  0  0           0  0  0\n  -59.0155  -10.9446    0.0000 O   0  0  0  0  0  0           0  0  0\n  -58.6871  -11.9884    0.0000 C   0  0  0  0  0  0           0  0  0\n  -57.6572  -12.3123    0.0000 C   0  0  1  0  0  0           0  0  0\n  -56.6353  -11.8101    0.0000 O   0  0  0  0  0  0           0  0  0\n  -55.6641  -12.4001    0.0000 C   0  0  2  0  0  0           0  0  0\n  -55.6641  -13.5801    0.0000 C   0  0  0  0  0  0           0  0  0\n  -56.6860  -14.0823    0.0000 N   0  0  3  0  0  0           0  0  0\n  -52.3975   -9.3961    0.0000 N   0  0  3  0  0  0           0  0  0\n  -52.3975  -11.5706    0.0000 O   0  0  0  0  0  0           0  0  0\n  -52.3975  -10.4833    0.0000 P   0  0  3  0  0  0           0  0  0\n  -51.1123  -10.9446    0.0000 O   0  0  0  0  0  0           0  0  0\n  -50.7839  -11.9884    0.0000 C   0  0  0  0  0  0           0  0  0\n  -49.7540  -12.3123    0.0000 C   0  0  1  0  0  0           0  0  0\n  -48.7321  -11.8101    0.0000 O   0  0  0  0  0  0           0  0  0\n  -47.7609  -12.4001    0.0000 C   0  0  2  0  0  0           0  0  0\n  -47.7609  -13.5801    0.0000 C   0  0  0  0  0  0           0  0  0\n  -48.7828  -14.0823    0.0000 N   0  0  3  0  0  0           0  0  0\n  -44.4944   -9.3434    0.0000 N   0  0  3  0  0  0           0  0  0\n  -44.4944  -11.5201    0.0000 O   0  0  0  0  0  0           0  0  0\n  -44.4944  -10.4317    0.0000 P   0  0  3  0  0  0           0  0  0\n  -43.1419  -10.9594    0.0000 O   0  0  0  0  0  0           0  0  0\n  -42.8132  -12.0042    0.0000 C   0  0  0  0  0  0           0  0  0\n  -41.7822  -12.3285    0.0000 C   0  0  2  0  0  0           0  0  0\n  -39.7128  -11.1768    0.0000 N   0  0  3  0  0  0           0  0  0\n  -39.7891  -12.4164    0.0000 C   0  0  1  0  0  0           0  0  0\n  -33.9885  -11.9884    0.0000 C   0  0  0  0  0  0           0  0  0\n  -34.3169  -10.9446    0.0000 O   0  0  0  0  0  0           0  0  0\n  -35.6021  -11.5706    0.0000 O   0  0  0  0  0  0           0  0  0\n  -35.6021   -9.3961    0.0000 N   0  0  3  0  0  0           0  0  0\n  -35.6021  -10.4833    0.0000 P   0  0  3  0  0  0           0  0  0\n  -30.9653  -12.4000    0.0000 C   0  0  1  0  0  0           0  0  0\n  -30.9653  -13.5800    0.0000 C   0  0  0  0  0  0           0  0  0\n  -31.9366  -11.8100    0.0000 O   0  0  0  0  0  0           0  0  0\n  -32.9585  -13.4924    0.0000 C   0  0  0  0  0  0           0  0  0\n  -32.9585  -12.3123    0.0000 C   0  0  1  0  0  0           0  0  0\n  -28.8555  -11.6694    0.0000 O   0  0  0  0  0  0           0  0  0\n  -29.7225  -10.8251    0.0000 C   0  0  0  0  0  0           0  0  0\n  -29.3635   -9.6669    0.0000 N   0  0  0  0  0  0           0  0  0\n  -29.9314   -7.6587    0.0000 O   0  0  0  0  0  0           0  0  0\n  -30.2884   -8.8107    0.0000 C   0  0  0  0  0  0           0  0  0\n  -32.3123   -8.2889    0.0000 C   0  0  0  0  0  0           0  0  0\n  -31.4436   -9.1369    0.0000 C   0  0  0  0  0  0           0  0  0\n  -31.8026  -10.2949    0.0000 C   0  0  0  0  0  0           0  0  0\n  -30.8258  -11.1743    0.0000 N   0  0  3  0  0  0           0  0  0\n  -31.9872  -14.0824    0.0000 N   0  0  3  0  0  0           0  0  0\n  -27.6989  -10.4410    0.0000 P   0  0  3  0  0  0           0  0  0\n  -15.6894  -11.9264    0.0000 C   0  0  0  0  0  0           0  0  0\n  -16.0237  -10.8635    0.0000 O   0  0  0  0  0  0           0  0  0\n  -17.3995  -11.5344    0.0000 O   0  0  0  0  0  0           0  0  0\n  -17.3995   -9.3203    0.0000 N   0  0  3  0  0  0           0  0  0\n  -17.3995  -10.4273    0.0000 P   0  0  3  0  0  0           0  0  0\n  -12.5969  -12.3437    0.0000 C   0  0  1  0  0  0           0  0  0\n  -12.6727  -13.4799    0.0000 C   0  0  0  0  0  0           0  0  0\n  -13.6188  -11.6661    0.0000 O   0  0  0  0  0  0           0  0  0\n  -14.6407  -13.4362    0.0000 C   0  0  0  0  0  0           0  0  0\n  -14.6407  -12.2561    0.0000 C   0  0  1  0  0  0           0  0  0\n  -11.2667  -10.8631    0.0000 C   0  0  0  0  0  0           0  0  0\n  -10.2841  -11.5143    0.0000 N   0  0  0  0  0  0           0  0  0\n   -9.2224  -10.9895    0.0000 C   0  0  0  0  0  0           0  0  0\n   -9.1493   -9.8064    0.0000 N   0  0  0  0  0  0           0  0  0\n  -10.0665   -7.9684    0.0000 N   0  0  0  0  0  0           0  0  0\n  -10.1379   -9.1482    0.0000 C   0  0  0  0  0  0           0  0  0\n  -11.1936   -9.6800    0.0000 C   0  0  0  0  0  0           0  0  0\n  -12.2990   -9.2506    0.0000 N   0  0  0  0  0  0           0  0  0\n  -12.4033  -11.1655    0.0000 N   0  0  3  0  0  0           0  0  0\n  -13.0488  -10.1693    0.0000 C   0  0  0  0  0  0           0  0  0\n  -13.6946  -14.0699    0.0000 N   0  0  3  0  0  0           0  0  0\n   -7.9927  -10.4273    0.0000 P   0  0  3  0  0  0           0  0  0\n    3.0930  -11.9422    0.0000 C   0  0  0  0  0  0           0  0  0\n    2.7583  -10.8442    0.0000 O   0  0  0  0  0  0           0  0  0\n    1.4141  -11.5497    0.0000 O   0  0  0  0  0  0           0  0  0\n    1.4141   -9.3324    0.0000 N   0  0  3  0  0  0           0  0  0\n    1.4141  -10.4410    0.0000 P   0  0  3  0  0  0           0  0  0\n    6.1870  -12.3600    0.0000 C   0  0  1  0  0  0           0  0  0\n    6.1111  -13.4963    0.0000 C   0  0  0  0  0  0           0  0  0\n    5.1651  -11.6824    0.0000 O   0  0  0  0  0  0           0  0  0\n    4.1432  -13.4525    0.0000 C   0  0  0  0  0  0           0  0  0\n    4.1432  -12.2724    0.0000 C   0  0  1  0  0  0           0  0  0\n    7.5220  -10.8773    0.0000 C   0  0  0  0  0  0           0  0  0\n    8.5060  -11.5295    0.0000 N   0  0  0  0  0  0           0  0  0\n   10.5569  -11.6607    0.0000 N   0  0  0  0  0  0           0  0  0\n    9.5692  -11.0039    0.0000 C   0  0  0  0  0  0           0  0  0\n    9.6424   -9.8192    0.0000 N   0  0  0  0  0  0           0  0  0\n    8.7239   -7.9786    0.0000 O   0  0  0  0  0  0           0  0  0\n    8.6524   -9.1601    0.0000 C   0  0  0  0  0  0           0  0  0\n    7.5953   -9.6926    0.0000 C   0  0  0  0  0  0           0  0  0\n    6.4882   -9.2626    0.0000 N   0  0  0  0  0  0           0  0  0\n    6.3838  -11.1802    0.0000 N   0  0  3  0  0  0           0  0  0\n    5.7374  -10.1826    0.0000 C   0  0  0  0  0  0           0  0  0\n    5.0892  -14.0863    0.0000 N   0  0  3  0  0  0           0  0  0\n   11.7135  -10.4410    0.0000 P   0  0  3  0  0  0           0  0  0\n   22.0128   -9.3961    0.0000 N   0  0  3  0  0  0           0  0  0\n   22.0128  -11.5706    0.0000 O   0  0  0  0  0  0           0  0  0\n   22.0128  -10.4833    0.0000 P   0  0  3  0  0  0           0  0  0\n   23.2980  -10.9446    0.0000 O   0  0  0  0  0  0           0  0  0\n   23.6264  -11.9884    0.0000 C   0  0  0  0  0  0           0  0  0\n   24.6564  -12.3123    0.0000 C   0  0  2  0  0  0           0  0  0\n   29.9160  -10.4410    0.0000 P   0  0  3  0  0  0           0  0  0\n   29.9160   -9.3324    0.0000 N   0  0  3  0  0  0           0  0  0\n   29.9160  -11.5497    0.0000 O   0  0  0  0  0  0           0  0  0\n   31.2602  -10.8442    0.0000 O   0  0  0  0  0  0           0  0  0\n   31.5950  -11.9422    0.0000 C   0  0  0  0  0  0           0  0  0\n   32.6452  -12.2724    0.0000 C   0  0  1  0  0  0           0  0  0\n   33.6671  -11.7700    0.0000 O   0  0  0  0  0  0           0  0  0\n   34.6384  -12.3600    0.0000 C   0  0  2  0  0  0           0  0  0\n   34.6384  -13.5400    0.0000 C   0  0  0  0  0  0           0  0  0\n   33.6165  -14.0425    0.0000 N   0  0  3  0  0  0           0  0  0\n   32.6452  -13.4525    0.0000 C   0  0  0  0  0  0           0  0  0\n   34.2393  -10.1826    0.0000 C   0  0  0  0  0  0           0  0  0\n   34.9901   -9.2626    0.0000 N   0  0  0  0  0  0           0  0  0\n   37.2258   -7.9786    0.0000 O   0  0  0  0  0  0           0  0  0\n   37.1544   -9.1601    0.0000 C   0  0  0  0  0  0           0  0  0\n   38.1444   -9.8192    0.0000 N   0  0  0  0  0  0           0  0  0\n   39.0588  -11.6607    0.0000 N   0  0  0  0  0  0           0  0  0\n   38.0711  -11.0039    0.0000 C   0  0  0  0  0  0           0  0  0\n   37.0079  -11.5295    0.0000 N   0  0  0  0  0  0           0  0  0\n   36.0972   -9.6926    0.0000 C   0  0  0  0  0  0           0  0  0\n   36.0239  -10.8773    0.0000 C   0  0  0  0  0  0           0  0  0\n   34.8857  -11.1802    0.0000 N   0  0  3  0  0  0           0  0  0\n   50.7621  -12.3123    0.0000 C   0  0  1  0  0  0           0  0  0\n   49.7321  -11.9884    0.0000 C   0  0  0  0  0  0           0  0  0\n   49.4037  -10.9446    0.0000 O   0  0  0  0  0  0           0  0  0\n   48.1185  -10.4833    0.0000 P   0  0  3  0  0  0           0  0  0\n   48.1185  -11.5706    0.0000 O   0  0  0  0  0  0           0  0  0\n   48.1185   -9.3961    0.0000 N   0  0  3  0  0  0           0  0  0\n   51.8093  -11.7662    0.0000 O   0  0  0  0  0  0           0  0  0\n   52.7553  -12.4000    0.0000 C   0  0  2  0  0  0           0  0  0\n   52.7553  -13.5800    0.0000 C   0  0  0  0  0  0           0  0  0\n   51.7081  -14.1262    0.0000 N   0  0  3  0  0  0           0  0  0\n   50.7621  -13.4924    0.0000 C   0  0  0  0  0  0           0  0  0\n   54.8651  -11.6694    0.0000 O   0  0  0  0  0  0           0  0  0\n   53.9981  -10.8251    0.0000 C   0  0  0  0  0  0           0  0  0\n   54.3571   -9.6669    0.0000 N   0  0  0  0  0  0           0  0  0\n   53.7892   -7.6587    0.0000 O   0  0  0  0  0  0           0  0  0\n   53.4322   -8.8107    0.0000 C   0  0  0  0  0  0           0  0  0\n   51.4083   -8.2889    0.0000 C   0  0  0  0  0  0           0  0  0\n   52.2770   -9.1369    0.0000 C   0  0  0  0  0  0           0  0  0\n   51.9180  -10.2949    0.0000 C   0  0  0  0  0  0           0  0  0\n   52.8948  -11.1743    0.0000 N   0  0  3  0  0  0           0  0  0\n   20.9899   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n   23.0357   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n   28.8931   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n   30.9389   -8.7419    0.0000 C   0  0  0  0  0  0           0  0  0\n   39.1925   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n   41.2383   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n   47.0956   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n   49.1414   -8.8056    0.0000 C   0  0  0  0  0  0           0  0  0\n   55.9437   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n   57.9895   -8.7529    0.0000 C   0  0  0  0  0  0           0  0  0\n  1  2  1  0     0  0\n  2  3  2  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  6  4  2  0     0  0\n  7  6  1  0     0  0\n  1  7  1  0     0  0\n  7  8  2  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12  1  1  1     0  0\n 12 13  1  0     0  0\n 16 15  2  0     0  0\n 16 14  1  0     0  0\n 17 16  1  0     0  0\n 18 17  1  0     0  0\n 19 18  1  1     0  0\n 13 19  1  0     0  0\n 19  9  1  0     0  0\n 20 21  1  0     0  0\n 21 22  2  0     0  0\n 22 23  1  0     0  0\n 22 24  1  0     0  0\n 24 25  2  0     0  0\n 26 24  1  0     0  0\n 27 26  1  0     0  0\n 20 27  1  0     0  0\n 27 28  2  0     0  0\n 29 30  1  0     0  0\n 30 31  1  0     0  0\n 31 32  1  0     0  0\n 32 20  1  1     0  0\n 32 33  1  0     0  0\n 36 35  2  0     0  0\n 36 34  1  0     0  0\n 37 36  1  0     0  0\n 38 37  1  0     0  0\n 39 38  1  1     0  0\n 33 39  1  0     0  0\n 39 29  1  0     0  0\n 40 41  1  0     0  0\n 41 42  2  0     0  0\n 42 43  1  0     0  0\n 42 44  1  0     0  0\n 44 45  2  0     0  0\n 46 44  1  0     0  0\n 47 46  1  0     0  0\n 40 47  1  0     0  0\n 47 48  2  0     0  0\n 49 50  1  0     0  0\n 50 51  1  0     0  0\n 51 52  1  0     0  0\n 52 40  1  1     0  0\n 52 53  1  0     0  0\n 67 66  2  0     0  0\n 69 68  2  0     0  0\n 70 69  1  0     0  0\n 72 71  1  0     0  0\n 72 70  1  0     0  0\n 73 72  2  0     0  0\n 74 69  1  0     0  0\n 74 67  1  0     0  0\n 75 73  1  0     0  0\n 74 75  2  0     0  0\n 76 77  1  0     0  0\n 77 78  1  0     0  0\n 80 55  1  0     0  0\n 80 54  1  0     0  0\n 83 82  1  0     0  0\n 84 83  1  1     0  0\n 79 84  1  0     0  0\n 84 76  1  0     0  0\n 66 85  1  0     0  0\n 85 75  1  0     0  0\n 78 86  1  0     0  0\n 86 79  1  0     0  0\n 86 85  1  1     0  0\n 88 87  2  0     0  0\n 90 89  1  0     0  0\n 91 90  2  0     0  0\n 92 91  1  0     0  0\n 93 92  2  0     0  0\n 94 90  1  0     0  0\n 94 88  1  0     0  0\n 95 93  1  0     0  0\n 94 95  2  0     0  0\n 96 97  1  0     0  0\n 97 98  1  0     0  0\n100 59  1  0     0  0\n100 58  1  0     0  0\n103102  1  0     0  0\n104103  1  1     0  0\n 99104  1  0     0  0\n104 96  1  0     0  0\n 87105  1  0     0  0\n105 95  1  0     0  0\n 98106  1  0     0  0\n106 99  1  0     0  0\n106105  1  1     0  0\n108107  2  0     0  0\n110109  2  0     0  0\n111110  1  0     0  0\n113112  1  0     0  0\n113111  1  0     0  0\n114113  2  0     0  0\n115110  1  0     0  0\n115108  1  0     0  0\n116114  1  0     0  0\n115116  2  0     0  0\n117118  1  0     0  0\n118119  1  0     0  0\n121 63  1  0     0  0\n121 62  1  0     0  0\n124123  1  0     0  0\n125124  1  1     0  0\n120125  1  0     0  0\n125117  1  0     0  0\n107126  1  0     0  0\n126116  1  0     0  0\n119127  1  0     0  0\n127120  1  0     0  0\n127126  1  1     0  0\n128129  2  0     0  0\n129131  1  0     0  0\n131130  1  0     0  0\n132131  2  0     0  0\n134133  2  0     0  0\n134132  1  0     0  0\n135136  1  0     0  0\n136137  1  0     0  0\n158157  2  0     0  0\n158159  1  0     0  0\n161160  2  0     0  0\n159161  1  0     0  0\n163162  1  0     0  0\n163161  1  0     0  0\n164163  2  0     0  0\n165164  1  0     0  0\n165158  1  0     0  0\n168167  2  0     0  0\n168169  1  0     0  0\n171170  2  0     0  0\n169171  1  0     0  0\n173172  1  0     0  0\n173171  1  0     0  0\n174173  2  0     0  0\n175174  1  0     0  0\n175168  1  0     0  0\n177178  1  0     0  0\n180179  1  0     0  0\n178180  2  0     0  0\n180181  1  0     0  0\n183182  2  0     0  0\n181183  1  0     0  0\n184183  1  0     0  0\n184177  2  0     0  0\n184185  1  0     0  0\n185186  2  0     0  0\n186187  1  0     0  0\n187177  1  0     0  0\n189190  1  0     0  0\n192191  1  0     0  0\n190192  2  0     0  0\n192193  1  0     0  0\n195194  2  0     0  0\n193195  1  0     0  0\n196195  1  0     0  0\n196189  2  0     0  0\n196197  1  0     0  0\n197198  2  0     0  0\n198199  1  0     0  0\n199189  1  0     0  0\n202201  2  0     0  0\n202203  1  0     0  0\n205204  1  0     0  0\n203205  2  0     0  0\n206205  1  0     0  0\n207206  2  0     0  0\n208207  1  0     0  0\n208202  1  0     0  0\n211210  2  0     0  0\n211212  1  0     0  0\n214213  1  0     0  0\n212214  2  0     0  0\n215214  1  0     0  0\n216215  2  0     0  0\n217216  1  0     0  0\n217211  1  0     0  0\n220219  2  0     0  0\n220221  1  0     0  0\n223222  2  0     0  0\n221223  1  0     0  0\n225224  1  0     0  0\n225223  1  0     0  0\n226225  2  0     0  0\n227226  1  0     0  0\n227220  1  0     0  0\n230229  2  0     0  0\n230231  1  0     0  0\n233232  1  0     0  0\n231233  2  0     0  0\n234233  1  0     0  0\n235234  2  0     0  0\n236235  1  0     0  0\n236230  1  0     0  0\n240239  1  0     0  0\n241240  1  1     0  0\n241238  1  0     0  0\n242241  1  0     0  0\n244243  2  0     0  0\n244245  1  0     0  0\n247246  1  0     0  0\n245247  2  0     0  0\n248247  1  0     0  0\n249248  2  0     0  0\n250249  1  0     0  0\n250244  1  0     0  0\n251250  1  1     0  0\n251242  1  0     0  0\n252251  1  0     0  0\n253252  1  0     0  0\n238253  1  0     0  0\n254156  1  0     0  0\n254155  1  0     0  0\n256255  2  0     0  0\n256254  1  0     0  0\n256253  1  0     0  0\n257256  1  0     0  0\n258257  1  0     0  0\n259258  1  1     0  0\n259237  1  0     0  0\n260259  1  0     0  0\n261260  1  0     0  0\n261236  1  1     0  0\n262261  1  0     0  0\n263262  1  0     0  0\n237263  1  0     0  0\n264154  1  0     0  0\n264153  1  0     0  0\n266265  2  0     0  0\n266264  1  0     0  0\n266263  1  0     0  0\n267266  1  0     0  0\n268267  1  0     0  0\n269268  1  1     0  0\n269228  1  0     0  0\n270269  1  0     0  0\n271270  1  0     0  0\n271227  1  1     0  0\n272271  1  0     0  0\n273272  1  0     0  0\n228273  1  0     0  0\n274152  1  0     0  0\n274151  1  0     0  0\n276275  2  0     0  0\n276274  1  0     0  0\n276273  1  0     0  0\n277276  1  0     0  0\n278277  1  0     0  0\n279278  1  1     0  0\n279218  1  0     0  0\n280279  1  0     0  0\n281280  1  0     0  0\n281217  1  1     0  0\n282281  1  0     0  0\n283282  1  0     0  0\n218283  1  0     0  0\n284150  1  0     0  0\n284149  1  0     0  0\n286285  2  0     0  0\n286284  1  0     0  0\n286283  1  0     0  0\n287286  1  0     0  0\n288287  1  0     0  0\n289288  1  1     0  0\n289209  1  0     0  0\n290289  1  0     0  0\n291290  1  0     0  0\n291208  1  1     0  0\n292291  1  0     0  0\n293292  1  0     0  0\n209293  1  0     0  0\n294148  1  0     0  0\n294147  1  0     0  0\n296295  2  0     0  0\n296294  1  0     0  0\n296293  1  0     0  0\n297296  1  0     0  0\n298297  1  0     0  0\n299298  1  1     0  0\n299200  1  0     0  0\n300299  1  0     0  0\n301300  1  0     0  0\n301199  1  1     0  0\n302301  1  0     0  0\n303302  1  0     0  0\n200303  1  0     0  0\n304146  1  0     0  0\n304145  1  0     0  0\n306305  2  0     0  0\n306304  1  0     0  0\n306303  1  0     0  0\n307306  1  0     0  0\n308307  1  0     0  0\n309308  1  1     0  0\n309188  1  0     0  0\n310309  1  0     0  0\n311310  1  0     0  0\n311187  1  1     0  0\n312311  1  0     0  0\n313312  1  0     0  0\n188313  1  0     0  0\n314144  1  0     0  0\n314143  1  0     0  0\n316315  2  0     0  0\n316314  1  0     0  0\n316313  1  0     0  0\n317316  1  0     0  0\n318317  1  0     0  0\n319318  1  1     0  0\n319176  1  0     0  0\n320319  1  0     0  0\n321320  1  0     0  0\n321175  1  1     0  0\n322321  1  0     0  0\n323322  1  0     0  0\n176323  1  0     0  0\n324142  1  0     0  0\n324141  1  0     0  0\n326325  2  0     0  0\n326324  1  0     0  0\n326323  1  0     0  0\n327326  1  0     0  0\n328327  1  0     0  0\n329328  1  1     0  0\n329166  1  0     0  0\n330329  1  0     0  0\n331330  1  0     0  0\n331165  1  1     0  0\n332331  1  0     0  0\n333332  1  0     0  0\n166333  1  0     0  0\n334140  1  0     0  0\n334139  1  0     0  0\n336335  2  0     0  0\n336334  1  0     0  0\n336333  1  0     0  0\n337336  1  0     0  0\n338337  1  0     0  0\n339338  1  1     0  0\n138339  1  0     0  0\n339135  1  0     0  0\n340128  1  0     0  0\n340134  1  0     0  0\n137341  1  0     0  0\n341138  1  0     0  0\n341340  1  1     0  0\n342343  1  0     0  0\n345 65  1  0     0  0\n345 64  1  0     0  0\n346344  2  0     0  0\n346345  1  0     0  0\n343346  1  0     0  0\n346136  1  0     0  0\n348347  1  0     0  0\n347349  1  0     0  0\n351342  1  1     0  0\n349351  1  0     0  0\n351350  1  0     0  0\n353352  2  0     0  0\n353354  1  0     0  0\n356355  2  0     0  0\n354356  1  0     0  0\n358357  1  0     0  0\n358356  1  0     0  0\n359358  2  0     0  0\n360359  1  0     0  0\n360353  1  0     0  0\n347360  1  1     0  0\n350361  1  0     0  0\n361348  1  0     0  0\n362122  2  0     0  0\n362121  1  0     0  0\n123362  1  0     0  0\n362361  1  0     0  0\n363364  1  0     0  0\n366 61  1  0     0  0\n366 60  1  0     0  0\n367365  2  0     0  0\n367366  1  0     0  0\n364367  1  0     0  0\n367118  1  0     0  0\n369368  1  0     0  0\n368370  1  0     0  0\n372363  1  1     0  0\n370372  1  0     0  0\n372371  1  0     0  0\n373374  1  0     0  0\n374375  2  0     0  0\n375376  1  0     0  0\n378377  1  0     0  0\n376378  2  0     0  0\n379378  1  0     0  0\n379373  2  0     0  0\n379380  1  0     0  0\n381373  1  0     0  0\n368381  1  1     0  0\n382381  1  0     0  0\n380382  2  0     0  0\n371383  1  0     0  0\n383369  1  0     0  0\n384101  2  0     0  0\n384100  1  0     0  0\n102384  1  0     0  0\n384383  1  0     0  0\n385386  1  0     0  0\n388 57  1  0     0  0\n388 56  1  0     0  0\n389387  2  0     0  0\n389388  1  0     0  0\n386389  1  0     0  0\n389 97  1  0     0  0\n391390  1  0     0  0\n390392  1  0     0  0\n394385  1  1     0  0\n392394  1  0     0  0\n394393  1  0     0  0\n395396  1  0     0  0\n398397  1  0     0  0\n396398  2  0     0  0\n398399  1  0     0  0\n401400  2  0     0  0\n399401  1  0     0  0\n402401  1  0     0  0\n402395  2  0     0  0\n402403  1  0     0  0\n404395  1  0     0  0\n390404  1  1     0  0\n405404  1  0     0  0\n403405  2  0     0  0\n393406  1  0     0  0\n406391  1  0     0  0\n407 81  2  0     0  0\n407 80  1  0     0  0\n 82407  1  0     0  0\n407406  1  0     0  0\n410409  2  0     0  0\n410408  1  0     0  0\n410 77  1  0     0  0\n411410  1  0     0  0\n412411  1  0     0  0\n413412  1  1     0  0\n 53413  1  0     0  0\n413 49  1  0     0  0\n414 50  1  0     0  0\n414415  1  0     0  0\n414416  2  0     0  0\n417414  1  0     0  0\n418417  1  0     0  0\n419418  1  1     0  0\n420419  1  0     0  0\n421420  1  0     0  0\n422421  1  0     0  0\n423422  1  0     0  0\n 36423  1  0     0  0\n424423  1  0     0  0\n419424  1  0     0  0\n426425  2  0     0  0\n428427  2  0     0  0\n429428  1  0     0  0\n431430  1  0     0  0\n431429  1  0     0  0\n432431  2  0     0  0\n433428  1  0     0  0\n433426  1  0     0  0\n434432  1  0     0  0\n433434  2  0     0  0\n425435  1  0     0  0\n435434  1  0     0  0\n421435  1  1     0  0\n436437  1  1     0  0\n437438  1  0     0  0\n438439  1  0     0  0\n439 30  1  0     0  0\n439440  2  0     0  0\n439441  1  0     0  0\n442436  1  0     0  0\n443442  1  0     0  0\n444443  1  0     0  0\n445444  1  0     0  0\n 16445  1  0     0  0\n446445  1  0     0  0\n436446  1  0     0  0\n448447  2  0     0  0\n448449  1  0     0  0\n451450  2  0     0  0\n449451  1  0     0  0\n453452  1  0     0  0\n453451  1  0     0  0\n454453  2  0     0  0\n455454  1  0     0  0\n455448  1  0     0  0\n443455  1  1     0  0\n408456  1  0     0  0\n408457  1  0     0  0\n415458  1  0     0  0\n415459  1  0     0  0\n 34460  1  0     0  0\n 34461  1  0     0  0\n441462  1  0     0  0\n441463  1  0     0  0\n 14464  1  0     0  0\n 14465  1  0     0  0\nM  END\n",
+            "references": [ ],
+            "access": [ ]
+        }
+    ],
+    "nucleicAcid": {
+        "uuid": "4fc4f6e2-71aa-4bcc-9fb6-2c3c9e9074b2",
+        "created": 1517956556754,
+        "createdBy": "CALLAHANL",
+        "lastEdited": 1518240021418,
+        "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+        "deprecated": false,
+        "nucleicAcidType": "OLIGONUCLEOTIDE",
+        "sequenceType": "COMPLETE",
+        "subunits": [
+            {
+                "uuid": "4836952a-9099-452a-a319-969faf49574d",
+                "created": 1517956556773,
+                "createdBy": "CALLAHANL",
+                "lastEdited": 1517956556773,
+                "lastEditedBy": "CALLAHANL",
+                "deprecated": false,
+                "sequence": "XXXXXXXXXXXXXXXXXXXXX",
+                "subunitIndex": 1,
+                "length": 21,
+                "references": [ ],
+                "access": [ ]
+            }
+        ],
+        "references": [ "5e886b69-1e61-471a-828d-396f23d859ae", "ee320fcc-ca62-4a70-eddc-e6b3383f9727", "fe688491-287f-de95-e993-2ebd1c467339" ],
+        "access": [ ]
+    },
+    "properties": [ ],
+    "references": [
+        {
+            "uuid": "fe688491-287f-de95-e993-2ebd1c467339",
+            "created": 1518203097479,
+            "createdBy": "DAMMIKA.AMUGODA-KANK",
+            "lastEdited": 1518203097479,
+            "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+            "deprecated": false,
+            "citation": "INN LIST 118",
+            "docType": "INN_LIST",
+            "publicDomain": true,
+            "tags": [ "PUBLIC_DOMAIN_RELEASE" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(fe688491-287f-de95-e993-2ebd1c467339)?view=full"
+        },
+        {
+            "uuid": "ee320fcc-ca62-4a70-eddc-e6b3383f9727",
+            "created": 1518203097475,
+            "createdBy": "DAMMIKA.AMUGODA-KANK",
+            "lastEdited": 1518203097475,
+            "lastEditedBy": "DAMMIKA.AMUGODA-KANK",
+            "deprecated": false,
+            "citation": "STN",
+            "docType": "STN (SCIFINDER)",
+            "publicDomain": true,
+            "tags": [ "PUBLIC_DOMAIN_RELEASE" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(ee320fcc-ca62-4a70-eddc-e6b3383f9727)?view=full"
+        },
+        {
+            "uuid": "c21be8f4-f833-c3d5-dfa4-e955e1bdc3e7",
+            "created": 1517974632285,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517974632285,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "citation": "orphan drug",
+            "docType": "ORPHAN DRUG",
+            "publicDomain": true,
+            "tags": [ ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(c21be8f4-f833-c3d5-dfa4-e955e1bdc3e7)?view=full"
+        },
+        {
+            "uuid": "09e0f3f4-2960-4415-8f3a-dd8884bf09d8",
+            "created": 1517956556842,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556842,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "citation": "GSRS System-generated Validation messages",
+            "docType": "VALIDATION_MESSAGE",
+            "documentDate": 1517956556566,
+            "publicDomain": false,
+            "tags": [ ],
+            "access": [ "admin" ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(09e0f3f4-2960-4415-8f3a-dd8884bf09d8)?view=full"
+        },
+        {
+            "uuid": "e59ffd65-ca45-4784-809d-e7261bf5a064",
+            "created": 1517956556841,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556841,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "citation": "1289390AA",
+            "docType": "BDNUM",
+            "publicDomain": false,
+            "tags": [ "NOMEN" ],
+            "access": [ "protected" ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(e59ffd65-ca45-4784-809d-e7261bf5a064)?view=full"
+        },
+        {
+            "uuid": "5e886b69-1e61-471a-828d-396f23d859ae",
+            "created": 1517956556840,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556840,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "citation": "IND 127474",
+            "docType": "IND",
+            "publicDomain": false,
+            "tags": [ "NOMEN" ],
+            "access": [ "protected" ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(5e886b69-1e61-471a-828d-396f23d859ae)?view=full"
+        },
+        {
+            "uuid": "c5c72104-e8fc-4f10-860b-2ead3203c31e",
+            "created": 1517956556839,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556839,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "citation": "SRS import [NO_UNII:225133]",
+            "docType": "SRS",
+            "documentDate": 1493393620000,
+            "publicDomain": true,
+            "tags": [ "NOMEN" ],
+            "url": "http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=NO_UNII:225133",
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(c5c72104-e8fc-4f10-860b-2ead3203c31e)?view=full"
+        },
+        {
+            "uuid": "676b1024-701b-49ff-98c1-74cdf4407915",
+            "created": 1517956556838,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556838,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "citation": "SRS",
+            "docType": "SRS",
+            "publicDomain": true,
+            "tags": [ "NOMEN" ],
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(676b1024-701b-49ff-98c1-74cdf4407915)?view=full"
+        },
+        {
+            "uuid": "e44b4a2c-9194-4a10-92fb-d96a9ded9395",
+            "created": 1517956556831,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517956556831,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "citation": "jsonDump-2017-04-28--all-but-first-500-records.txt.zip",
+            "docType": "BATCH_IMPORT",
+            "documentDate": 1493478084969,
+            "publicDomain": false,
+            "tags": [ ],
+            "id": "773bab31c7fb3258757b",
+            "access": [ ],
+            "_self": "http://gsrs.fda.gov/ginas/app/api/v1/references(e44b4a2c-9194-4a10-92fb-d96a9ded9395)?view=full"
+        }
+    ],
+    "relationships": [
+        {
+            "uuid": "d9efa8a1-d0b2-4126-9725-b896645ec39f",
+            "created": 1517957222867,
+            "createdBy": "CALLAHANL",
+            "lastEdited": 1517957222867,
+            "lastEditedBy": "CALLAHANL",
+            "deprecated": false,
+            "relatedSubstance": {
+                "uuid": "6973baf2-553a-4d72-a3ce-6209262f5acb",
+                "created": 1517957222863,
+                "createdBy": "CALLAHANL",
+                "lastEdited": 1517957222863,
+                "lastEditedBy": "CALLAHANL",
+                "deprecated": false,
+                "refPname": "NS-065/NCNP-01",
+                "refuuid": "af332560-7cbd-4de4-99eb-61a33d32d01f",
+                "substanceClass": "reference",
+                "name": "NS-065/NCNP-01",
+                "linkingID": "af332560",
+                "references": [ ],
+                "access": [ ]
+            },
+            "originatorUuid": "d9efa8a1-d0b2-4126-9725-b896645ec39f",
+            "type": "ACTIVE MOIETY",
+            "references": [ "5e886b69-1e61-471a-828d-396f23d859ae" ],
+            "access": [ ]
+        }
+    ],
+    "status": "approved",
+    "substanceClass": "nucleicAcid",
+    "tags": [ ],
+    "uuid": "af332560-7cbd-4de4-99eb-61a33d32d01f",
+    "version": "12"
+}

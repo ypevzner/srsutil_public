@@ -1,0 +1,165 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 37 37  0     1  0            999 V2000
+    4.8455    2.5897    0.0000 N   0  0  0  0  0  0           0  0  0
+    3.9881    1.6700    0.0000 C   0  0  1  0  0  0           0  0  0
+    3.8405    0.1448    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.0846   -0.7498    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.9387   -2.2787    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.1828   -3.1733    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.0352   -4.6984    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.6558    2.3086    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.7466    3.6522    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.2469    1.6233    0.0000 *   0  0  0  0  0  0           0  0  0
+    6.5625    1.4670    0.0000 *   0  0  0  0  0  0           0  0  0
+    4.5500   -5.0917    0.0000 *   0  0  0  0  0  0           0  0  0
+    3.8719  -12.7753    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.4345  -12.8309    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.6618  -13.3478    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.7572  -12.3775    0.0000 C   0  0  2  0  0  0           0  0  0
+    5.3255  -12.3775    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.5009  -11.8424    0.0000 C   0  0  2  0  0  0           0  0  0
+    5.8384  -12.5853    0.0000 H   0  0  0  0  0  0           0  0  0
+    5.0434  -11.5161    0.0000 S   0  0  0  0  0  0           0  0  0
+    4.5882  -11.8424    0.0000 C   0  0  3  0  0  0           0  0  0
+    4.3049  -11.3573    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.0759  -12.0712    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.0350  -11.6710    0.0000 C   0  0  1  0  0  0           0  0  0
+    6.0283  -10.7084    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.0584  -10.1800    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.9050  -12.0868    0.0000 N   0  0  0  0  0  0           0  0  0
+    7.2682  -11.8736    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.6882  -12.2520    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.2224  -12.0763    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.6376  -12.4579    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.1761  -12.2786    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.2949  -11.7253    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.8754  -11.3514    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.3372  -11.5274    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.3865  -11.3238    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.6208   -9.6167    0.0000 *   0  0  0  0  0  0           0  0  0
+  4  3  1  0     0  0
+  4  5  1  0     0  0
+  5  6  1  0     0  0
+  7 12  1  0     0  0
+  6  7  1  0     0  0
+  2  8  1  0     0  0
+  8  9  2  0     0  0
+  8 10  1  0     0  0
+  1 11  1  0     0  0
+  2  1  1  0     0  0
+ 14 13  1  0     0  0
+ 14 15  2  0     0  0
+ 16 14  1  1     0  0
+ 17 16  1  0     0  0
+ 18 17  1  0     0  0
+ 18 19  1  1     0  0
+ 20 18  1  0     0  0
+ 20 21  1  0     0  0
+ 16 21  1  0     0  0
+ 22 21  1  0     0  0
+ 23 21  1  0     0  0
+ 24 18  1  0     0  0
+ 24 25  1  0     0  0
+ 26 25  2  0     0  0
+ 24 27  1  1     0  0
+ 28 27  1  0     0  0
+ 28 29  1  0     0  0
+ 30 29  1  0     0  0
+ 30 31  1  0     0  0
+ 32 31  2  0     0  0
+ 33 32  1  0     0  0
+ 34 33  2  0     0  0
+ 35 34  1  0     0  0
+ 30 35  2  0     0  0
+ 28 36  2  0     0  0
+  2  3  1  1     0  0
+ 25 37  1  0     0  0
+M  STY  3   1 GEN   2 SRU   3 DAT
+M  SLB  3   1   1   2   2   3   3
+M  SCN  1   2 HT
+M  SAL   1 15  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27
+M  SAL   1 10  28  29  30  31  32  33  34  35  36  37
+M  SDI   1  4    2.9300  -14.0900    2.9300   -7.4900
+M  SDI   1  4    9.7900   -7.4900    9.7900  -14.0900
+M  SAL   2 10   1   2   3   4   5   6   7   8   9  12
+M  SBL   2  2   8   9
+M  SMT   2 A
+M  SDI   2  4    2.0200    1.5600    2.0200    2.3900
+M  SDI   2  4    5.6500    2.4500    5.6500    1.6300
+M  SAL   3 15  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27
+M  SAL   3  9  28  29  30  31  32  33  34  35  36
+M  SDT   3 fdareg_sgroup
+M  SDD   3    11.0800  -14.7500    DA    ALL  1       5
+M  SED   3 R1
+M  END
+> <SUBSTANCE_ID>
+12754
+
+> <UNII>
+76479814OY
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_TYPE> HOMOPOLYMER, SUBSTITUTED </POLYMER_TYPE>
+ <COMPONENT_NUMBER>1</COMPONENT_NUMBER>
+ <COMPONENT_AMOUNT_TYPE>WEIGHT</COMPONENT_AMOUNT_TYPE>
+<COMPONENT>
+ <COMPONENT_NAME>LYSINE</COMPONENT_NAME>
+ <COMPONENT_ID>K3Z4F929H6</COMPONENT_ID>
+ <AVERAGE>100</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </COMPONENT>
+ <SRU_NUMBER>1</SRU_NUMBER>
+ <SRU_AMOUNT_TYPE>WEIGHT PERCENT</SRU_AMOUNT_TYPE>
+<SRU_GROUP>
+ <SRU_ID>A</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+<SRU_AMOUNT>
+ <AVERAGE>100</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS>1</NUMBER_OF_RGROUPS>
+ <SUBSTITUTION_AMOUNT_TYPE>PERCENT</SUBSTITUTION_AMOUNT_TYPE>
+<R_GROUP>
+ <R_ID>R1</R_ID>
+ <AVERAGE/>
+ <LOW_LIMIT>50</LOW_LIMIT>
+ <HIGH_LIMIT>70</HIGH_LIMIT>
+ </R_GROUP>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<MW_GROUP>
+ <TYPE_MW>WEIGHT AVERAGE</TYPE_MW>
+ <MW_AVERAGE>18000</MW_AVERAGE>
+ <LOW_LIMIT_MW>10000</LOW_LIMIT_MW>
+ <HIGH_LIMIT_MW>26000</HIGH_LIMIT_MW>
+ </MW_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY/>
+ <NON_NUMERIC_VALUE/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS/>
+ </PROPERTIES_GROUP>
+ </POLYMER>
+
+> <COMMENTS>
+FDA_ID: F012784   PRODUCT; PROTEIN_; MARTIN<A POLYPEPTIDE COMPOUND FORMED BY THE INTERACTION OF A PENICILLANIC ACID AND POLYLYSINE OF AN AVERAGE DEGREE OF POLYMERISATION OF 20 LYSINE RESIDUES PER MOLECULE.>
+USP<BENZYLPENICILLOYL POLYLYSINE CONCENTRATE>; OLD MIXTURE: F00369; D01277
+
+> <CDBREGNO>
+55730
+
+> <STRUCTURE_ID>
+22923
+
+$$$$

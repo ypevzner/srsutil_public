@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+  <id root="2f146158-aff1-4610-b32a-2f127d98953d" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20160526" />
+  <setId root="2c5d208c-ccbc-40af-89d1-df024e4cc203" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id root="1.3.6.1.4.1.519.1" extension="927645523" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="97bac6a6-36ea-4bac-8c7e-ca22c19d6d0c" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <title />
+          <text />
+          <effectiveTime value="20160526" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="N71N0J89ZH" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="N71N0J89ZH" displayName="" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="f32f9100-8eb1-580b-6994-5e809c5b964d" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator value="1" unit="1" />
+                    <denominator value="1" unit="1" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-mdl-molfile" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[C25H20N4Na2O9S3
+  -FDASRS-05261619202D
+
+ 45 46  0  0  0  0  0  0  0  0999 V2000
+   10.3948  -13.3244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8042  -14.3472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6489  -14.1017    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5255  -12.9270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6045  -12.4466    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5026  -12.3365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5026  -11.1554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797  -10.5648    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4569  -11.1554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4569  -12.3365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797  -12.9270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4340  -10.5648    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4340   -9.3837    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -8.7932    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    3.4111   -7.6121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883   -7.0215    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883   -5.8405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3654   -5.2499    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3654   -4.0688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3882   -3.4782    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -4.0688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -5.2499    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3425   -5.8405    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3425   -7.0216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4340   -7.0215    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883   -9.3838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3654   -8.7932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883  -10.5649    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797   -9.3837    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2986   -9.3837    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797   -8.2026    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6608   -9.3837    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3948  -15.3701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5759  -15.3701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1664  -14.3472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5759  -13.3244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1664  -12.3015    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1435  -11.7110    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7570  -11.2786    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.1893  -12.8920    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3475  -14.3472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8921  -13.4838    0.0000 Na  0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8921  -13.4838    0.0000 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -9.5255    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7541   -7.3876    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  4  5  1  0  0  0  0
+  1  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+  6 11  1  0  0  0  0
+  9 12  1  0  0  0  0
+ 12 13  2  0  0  0  0
+ 14 13  1  6  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 18 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+ 21 22  1  0  0  0  0
+ 17 22  2  0  0  0  0
+ 18 23  1  0  0  0  0
+ 23 24  1  0  0  0  0
+ 15 25  2  0  0  0  0
+ 14 26  1  0  0  0  0
+ 26 27  1  0  0  0  0
+ 26 28  2  0  0  0  0
+  8 29  1  0  0  0  0
+ 29 30  2  0  0  0  0
+ 29 31  2  0  0  0  0
+ 29 32  1  0  0  0  0
+  2 33  1  0  0  0  0
+ 33 34  2  0  0  0  0
+ 34 35  1  0  0  0  0
+ 35 36  2  0  0  0  0
+  1 36  1  0  0  0  0
+ 36 37  1  0  0  0  0
+ 37 38  2  0  0  0  0
+ 37 39  2  0  0  0  0
+ 37 40  1  0  0  0  0
+ 35 41  1  0  0  0  0
+  1  2  2  0  0  0  0
+ 14 44  1  0  0  0  0
+ 16 45  1  0  0  0  0
+M  CHG  4  32  -1  40  -1  42   1  43   1
+M  STY  1   1 MUL
+M  SLB  1   1   1
+M  SAL   1  2  42  43
+M  SPA   1  1  42
+M  SMT   1 2
+M  SDI   1  4    0.3600  -12.5500    0.3600  -14.2400
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-inchi" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/C25H22N4O9S3.2Na/c1-13-8-10-18-22(23(13)41(35,36)37)39-25(27-18)15-9-11-17(20(12-15)40(32,33)34)28-29-21(14(2)30)24(31)26-16-6-4-5-7-19(16)38-3;;/h4-12,21H,1-3H3,(H,26,31)(H,32,33,34)(H,35,36,37);;/q;2*+1/p-2/b29-28+;;/t21-;;/m1../s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-inchi-key" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">WLDNGJFRVWQASY-KYIXXHBLSA-L</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator value="1" unit="1" />
+                    <denominator value="1" unit="1" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-mdl-molfile" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[C25H20N4Na2O9S3
+  -FDASRS-05261619202D
+
+ 45 46  0  0  0  0  0  0  0  0999 V2000
+   10.3948  -13.3244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8042  -14.3472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6489  -14.1017    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5255  -12.9270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6045  -12.4466    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5026  -12.3365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5026  -11.1554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797  -10.5648    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4569  -11.1554    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4569  -12.3365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797  -12.9270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4340  -10.5648    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4340   -9.3837    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -8.7932    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    3.4111   -7.6121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883   -7.0215    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883   -5.8405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3654   -5.2499    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3654   -4.0688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3882   -3.4782    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -4.0688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -5.2499    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3425   -5.8405    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3425   -7.0216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4340   -7.0215    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883   -9.3838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3654   -8.7932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3883  -10.5649    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797   -9.3837    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2986   -9.3837    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4797   -8.2026    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6608   -9.3837    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3948  -15.3701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5759  -15.3701    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1664  -14.3472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5759  -13.3244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1664  -12.3015    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1435  -11.7110    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7570  -11.2786    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.1893  -12.8920    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3475  -14.3472    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8921  -13.4838    0.0000 Na  0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8921  -13.4838    0.0000 Na  0  0  0  0  0  0  0  0  0  0  0  0
+    3.4111   -9.5255    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7541   -7.3876    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  4  5  1  0  0  0  0
+  1  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+  6 11  1  0  0  0  0
+  9 12  1  0  0  0  0
+ 12 13  2  0  0  0  0
+ 14 13  1  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 18 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+ 21 22  1  0  0  0  0
+ 17 22  2  0  0  0  0
+ 18 23  1  0  0  0  0
+ 23 24  1  0  0  0  0
+ 15 25  2  0  0  0  0
+ 14 26  1  0  0  0  0
+ 26 27  1  0  0  0  0
+ 26 28  2  0  0  0  0
+  8 29  1  0  0  0  0
+ 29 30  2  0  0  0  0
+ 29 31  2  0  0  0  0
+ 29 32  1  0  0  0  0
+  2 33  1  0  0  0  0
+ 33 34  2  0  0  0  0
+ 34 35  1  0  0  0  0
+ 35 36  2  0  0  0  0
+  1 36  1  0  0  0  0
+ 36 37  1  0  0  0  0
+ 37 38  2  0  0  0  0
+ 37 39  2  0  0  0  0
+ 37 40  1  0  0  0  0
+ 35 41  1  0  0  0  0
+  1  2  2  0  0  0  0
+ 14 44  1  6  0  0  0
+ 16 45  1  0  0  0  0
+M  CHG  4  32  -1  40  -1  42   1  43   1
+M  STY  1   1 MUL
+M  SLB  1   1   1
+M  SAL   1  2  42  43
+M  SPA   1  1  42
+M  SMT   1 2
+M  SDI   1  4    0.3600  -12.5500    0.3600  -14.2400
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-inchi" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/C25H22N4O9S3.2Na/c1-13-8-10-18-22(23(13)41(35,36)37)39-25(27-18)15-9-11-17(20(12-15)40(32,33)34)28-29-21(14(2)30)24(31)26-16-6-4-5-7-19(16)38-3;;/h4-12,21H,1-3H3,(H,26,31)(H,32,33,34)(H,35,36,37);;/q;2*+1/p-2/b29-28+;;/t21-;;/m0../s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-inchi-key" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">WLDNGJFRVWQASY-FPOIPBKOSA-L</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

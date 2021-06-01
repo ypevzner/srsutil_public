@@ -1,0 +1,33 @@
+H
+  -INDIGO-06251712352D
+
+  1  0  0  0  0  0  0  0  0  0999 V2000
+   16.2204   -6.7983    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+M  CHG  1   1   1
+M  END
+> <SUBSTANCE_ID>
+87531
+
+> <UNII>
+5046UKT60S
+
+> <DESC_PART1>
+
+> <DESC_PART2>
+
+> <COMMENTS>
+
+> <CDBREGNO>
+104613
+
+> <STRUCTURE_ID>
+65413
+
+> <SUBSTANCE_NAME>
+
+> <Exception>
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ChemSpider.Molecules.MoleculeExtensions.ReorderCanonically(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 84
+   at UnitTestProject.CompoundsTests.<>c__DisplayClass1_0.<CanonicalNumbers_OnAllOfMixtures>b__0(SdfRecord sdf) in D:\PROJECTS\SDE\FDA\srs\Source\SRSTests\CompoundsTests.cs:line 74
+
+$$$$

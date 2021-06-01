@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rules>
+  <!-- serious warnings that will prevent a Molecule being generated-->
+  <genericrules>
+    <!-- do not uncomment - this check issues incorrect error for atoms with aromatic bonds. Molecule needs to be dearomoatized before this check.
+    it is being handled
+    <error id="G0" title="incorrect valence" message="an atom has a wrong valence">
+      <test name="HasIncorrectValence" param=""/>
+    </error>
+    -->
+    <error id="5000" title="invalid atoms" message="structure contains invalid atom(s)">
+      <test name="ContainsNonInChIfiableAtoms" param=""/>
+    </error>
+    <error id="5100" title="query bonds" message="structure contains non aromatic query bond(s)">
+      <test name="HasNonAromaticQueryBonds" param=""/>
+    </error>
+    <warning id="5200" title="argon" message="may contain aromatic Markush label">
+      <test name="HasArgonAtom" param=""/>
+    </warning>
+
+
+  </genericrules>
+  <!-- warnings based on a Molecule-->
+  <moleculerules>
+    <!-- hold off from implementing this quite yet-->
+    <!-- need to modify Validation.cs to handle this -->
+    <!-- 2012-09-25 -->
+    <!--
+    <warning id="Dep1-0" title="Non-matching name" message="Depositor specified name(s) {0} do not match the structure">
+      <test name="nametest" param="Dep1-1:Depositor-specified name(s) {0} could not be validated"/>
+    </warning>
+    <warning id="Dep2-0" title="Non-matching InChI" message="Depositor-specified InChIs {0} do not match the structure">
+      <test name="inchimatchtest" param="Dep2-1:Depositor-specified INCHIs {0} could not be validated"/>
+    </warning>
+    <warning id="Dep3-0" title="Non-matching SMILES" message="Depositor-specified SMILES {0} do not match the structure">
+      <test name="smilesmatchtest" param="Dep3-1:Depositor-specified SMILES {0} could not be validated"/>
+    </warning>
+    
+    -->
+    <!-- SMARTS tests -->
+    
+    <warning id="D1" title="Cyclobutane" message="contains cyclobutane molecules">
+      <test name="SMARTStest" param="[CX4;H2;r4]1[CX4;H2;r4][CX4;H2;r4][CX4;H2;r4]1"/>
+    </warning>
+    
+    <warning id="D2" title="Ethane" message="contains ethane molecule(s)">
+      <test name="SMARTStest" param="[H][CX4]([H])([H])[CX4]([H])([H])[H]"/>
+    </warning>
+    <warning id="D3" title="Sulfur atom" message="S with no explicit bonds">
+      <test name="SMARTStest" param="[S;D0]"/>
+    </warning>
+    <warning id="D4" title="borane" message="B with no explicit bonds">
+      <test name="SMARTStest" param="[B;D0]"/>
+    </warning>
+    <warning id="D5" title="C#C" message="ethyne molecules sometimes appear as 'defined as' symbols">
+      <test name="SMARTStest" param="[CH]#[CH]"/>
+    </warning>
+    
+    <warning id="D6" title="methane" message="methane molecule is found">
+      <test name="SMARTStest" param="[CX4;H4]"/>
+    </warning>
+    
+        <warning id="G12" title="catenasilicon" message="too long a silicon chain">
+      <test name="SMARTStest" param="[Si]~[Si]~[Si]~[Si]~[Si]~[Si]~[Si]"/>
+    </warning>
+    <warning id="G13" title="catenanitrogen" message="too long a nitrogen chain">
+      <test name="SMARTStest" param="[#7]~[#7]~[#7]~[#7]~[#7]"/>
+    </warning>
+    <warning id="G14" title="catenaoxygen" message="too long an oxygen chain">
+      <test name="SMARTStest" param="[#8]~[#8]~[#8]~[#8]"/>
+    </warning>
+
+    <warning id="G8" title="adjacentcharges" message="structure has adjacent atoms with like charges">
+      <or>
+        <test name="SMARTStest" param="[-,--]~[-,--]"/>
+        <test name="SMARTStest" param="[+,++]~[+,++]"/>
+      </or>
+    </warning>
+
+
+    <warning id="G3" title="multiple radical" message="contains more than one radical centre">
+      <test name="multipleRadicalTest" param=""/>
+    </warning>
+    
+    <warning id="G4" title="duplicate" message="consists of duplicate molecules">
+      <test name="duplicateMoleculesTest" param=""/>
+    </warning>
+    
+    <warning id="G7" title="fixed valence" message="structure has a fixed (peculiar) valence specified">
+      <test name="fixedValenceTest" param=""/>
+    </warning>
+
+    <!-- information -->
+
+    <information id="T1" title="1,3-keto--enol" message="contains enol function">
+      <test name="SMARTStest" param="[O,S,Se,Te;H]-[#6X3]=[#6]"/>
+    </information>
+
+    
+    <information id="T2" title="1,3-keto--aza enol" message="contains N=C-OH tautomer of a carbonyl compound">
+      <test name="SMARTStest" param="[O,S,Se,Te;H]-C=N"/>
+    </information>
+    <information id="T3" title="nitroso oxime" message="contains nitroso form of oxime">
+      <test name="SMARTStest" param="[CH2]-[N;X2;v3]=[O]"/>
+    </information>
+    <information id="T4" title="2H-tetrazole" message="contains non-1H tetrazole">
+      <test name="SMARTStest" param="C1=[N,n]-[N,n;H]-[N,n]=[N,n]-C1"/>
+    </information>
+    <information id="T5" title="pyrithione" message="contains thione-hydroxylamine form of pyrithione">
+      <test name="SMARTStest" param="S=C1-N(O)-C=C-C=C-C1"/>
+    </information>
+    <information id="T6" title="thiosulfate" message="wrong form of thiosulfate">
+      <test name="SMARTStest" param="S(=O)(=S)(-[O-])(-[O-])"/>
+    </information>
+    <information id="5ab" title="pentavalent nitro" message="contains pentavalent nitro nitrogen">
+      <test name="SMARTStest" param="[#7&#x26;v5]=O"/>
+    </information>
+
+    <information id="5d" title="pentavalent azido" message="contains pentavalent azido nitrogen">
+      <test name="SMARTStest" param="N#N=N"/>
+    </information>
+    <information id="5e" title="pentavalent diazo" message="contains pentavalent diazo nitrogen">
+      <test name="SMARTStest" param="[N&#x26;v5]#N"/>
+    </information>
+
+    <information id="7MN" title="MN" message="contains covalent metal--nitrogen bond">
+      <test name="SMARTStest" param="[{M}][#7]"/>
+    </information>
+    <information id="7MO" title="MO" message="contains covalent metal--oxygen bond">
+      <test name="SMARTStest" param="[{M}][#8]"/>
+    </information>
+    <information id="7MF" title="MF" message="contains covalent metal--fluorine bond">
+      <test name="SMARTStest" param="[{M}][F]"/>
+    </information>
+    <information id="19B1" title="TM-NM" message="contains non-metal–transition metal bond">
+      <test name="SMARTStest" param="[{TM^Hg}][{NM}]"/>
+    </information>
+    <information id="19B2" title="Al-NM" message="contains aluminium–non-metal bond">
+      <test name="SMARTStest" param="[Al][{NM}]"/>
+    </information>
+
+    <information id="G10" title="N+" message="ionic pnictogen halide bond">
+      <and>
+        <test name="SMARTStest" param="[{Hal};-]"/>
+        <test name="SMARTStest" param="[{Pn};+,++,+++]"/>
+      </and>
+    </information>
+
+    <information id="8" title="ammoniaAmmonium" message="ammonia where ammonium expected">
+      <and>
+        <test name="SMARTStest" param="[N;H3&#x26;X3]"/>
+        <test name="SMARTStest" param="[O,F,Cl,Br;H]"/>
+      </and>
+    </information>
+    <information id="9i" title="N+" message="nitrogenous base in acid form">
+      <and>
+        <test name="SMARTStest" param="[N+;H]"/>
+        <test name="SMARTStest" param="[-,--,---]"/>
+      </and>
+    </information>
+
+    <information id="14i" title="partIonized" message="strongest acid not ionized first in partially-ionized system">
+      <test name="partialIonizationTest" param=""/>
+    </information>
+    
+    <information id="19i" title="CM" message="carbon metal sigma bond drawn ionically">
+      <and>
+        <test name="SMARTStest" param="[C;-,--,---]"/>
+        <test name="SMARTStest" param="[{M};+,++,+++,++++]"/>
+      </and>
+    </information>
+    <information id="19C" title="Hg(i)" message="mercury to carbon or sulfur bond drawn ionically">
+      <and>
+        <test name="SMARTStest" param="[C,S;-,--,---]"/>
+        <test name="SMARTStest" param="[Hg;+,++]"/>
+      </and>
+    </information>
+
+    <information id="G1" title="neutrality" message="not an overall neutral system">
+      <test name="neutralityTest" param=""/>
+    </information>
+
+    <information id="G2" title="unknown stereo bond" message="contains unknown stereo bond">
+      <test name="unknownStereoBondTest" param=""/>
+    </information>
+
+    <information id="G2-4" title="completely undefined stereo – enantiomers" message="completely undefined stereo – enantiomers">
+      <test name="completelyUndefinedStereo_enantiomers" param=""/>
+    </information>
+    <information id="G2-42" title="completely undefined stereo - mixtures" message="completely undefined stereo – mixtures">
+      <test name="completelyUndefinedStereo_mixtures" param=""/>
+    </information>
+    <information id="G2-44" title="epimers" message="partially undefined stereo – epimers">
+      <test name="partiallyUndefinedStereo_epimers" param=""/>
+    </information>
+    <information id="G2-46" title="partially undefined stereo - mixtures" message="partially undefined stereo – mixtures">
+      <test name="partiallyUndefinedStereo_mixtures" param=""/>
+    </information>
+    <information id="G15" title="allneutral" message="consists of more than one neutral molecule">
+      <test name="allNeutralMoleculesTest" param=""/>
+    </information>
+    
+    <information id="S1" title="perspective chair" message="contains perspective chair">
+      <test name="chairTest" param=""/>
+    </information>
+    <information id="S2" title="perspective boat" message="contains perspective boat">
+      <test name="boatTest" param=""/>
+    </information>
+    <information id="S3" title="perspective Haworth" message="contains perspective Haworth">
+      <test name="haworthTest" param=""/>
+    </information>
+    <information id="S4" title="ring stereobonds" message="contains stereobond in six-membered ring">
+      <test name="ringstereoTest" param=""/>      
+    </information>
+    <information id="S5" title="L-pyranose" message="contains L-pyranose: intentional?">
+      <test name="L-pyranoseTest" param=""/>
+    </information>
+
+    
+    <information id="5fi" title="bent cyano" message="has non-linear triply-bonded cyano carbon">
+      <test name="nonLinearTripleTest" param="C"/>
+    </information>
+    <information id="5fii" title="bent isocyano" message="has non-linear triply-bonded isocyano nitrogen">
+      <test name="nonLinearTripleTest" param="N"/>
+    </information>
+    <information id="G50" title="0D" message="0d structure, will need to be redrawn">
+      <test name="Is0d" param=""/>
+    </information>
+    <information id="G5" title="3D" message="contains 3d coordinates, may need to be tidied">
+      <test name="Is3d" param=""/>
+    </information>
+    <information id="G6" title="congested" message="layout is congested; may need to be tidied">
+      <test name="IsCongested" param=""/>
+    </information>
+    <information id="G9" title="uneven" message="layout has uneven length bonds; will need to be tidied">
+      <test name="HasUnevenLengthBonds" param=""/>
+    </information>
+  
+
+
+</moleculerules>
+</rules>

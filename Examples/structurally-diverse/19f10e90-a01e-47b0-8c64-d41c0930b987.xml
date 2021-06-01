@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+  <id root="19f10e90-a01e-47b0-8c64-d41c0930b987"/>
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance"/>
+  <effectiveTime value="20140207"/>
+  <setId root="8d9e31e6-f852-45f0-8154-cfe567097308"/>
+  <versionNumber value="1"/>
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id root="1.3.6.1.4.1.519.1" extension="927645523"/>
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="fef444ac-b82d-47b0-8c64-d41c0930b990"/>
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section"/>
+          <effectiveTime value="20140207"/>
+          <subject>
+            <identifiedSubstance>
+              <id extension="93O6C9VO2C" root="2.16.840.1.113883.4.9"/>
+              <identifiedSubstance>
+                <code code="93O6C9VO2C" codeSystem="2.16.840.1.113883.4.9"/>
+                <name>influenza A virus H1N1 whole</name>
+              </identifiedSubstance>
+              <subjectOf>
+                <document>
+                  <bibliographicDesignationText>
+                    <!-- ALERT: No author/citation in SRS! -->
+                  </bibliographicDesignationText>
+                </document>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

@@ -1,0 +1,230 @@
+
+  Symyx   05061311542D 1   1.00000     0.00000     0
+
+  5  0  0     0  0            999 V2000
+    3.2349   -5.1355    0.0000 Al  0  1  0  0  0  0           0  0  0
+    4.6515   -5.1355    0.0000 O   0  5  0  0  0  0           0  0  0
+   10.8849   -5.0146    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.6515   -5.1355    0.0000 O   0  5  0  0  0  0           0  0  0
+    4.6515   -5.1355    0.0000 O   0  5  0  0  0  0           0  0  0
+M  CHG  4   1   3   2  -1   4  -1   5  -1
+M  STY  5   1 MUL   2 GEN   3 GEN   4 DAT   5 DAT
+M  SLB  5   1   1   2   3   3   4   4   6   5   7
+M  SCN  1   1 HT
+M  SAL   1  3   2   4   5
+M  SPA   1  1   2
+M  SMT   1 3
+M  SDI   1  4    4.1200   -5.6500    4.1200   -4.4000
+M  SDI   1  4    5.6700   -4.4000    5.6700   -5.6500
+M  SAL   2  1   3
+M  SDI   2  4   10.0200   -5.9200   10.0200   -4.1900
+M  SDI   2  4   12.3600   -4.1900   12.3600   -5.9200
+M  SAL   3  4   1   2   4   5
+M  SDI   3  4    2.4000   -6.3400    2.4000   -3.8200
+M  SDI   3  4    6.6600   -3.8200    6.6600   -6.3400
+M  SDT   4 FDAREG_SGROUP
+M  SDD   4     7.1000   -6.3000    DA    ALL  1       5
+M  SED   4 A
+M  SDT   5 FDAREG_SGROUP
+M  SDD   5    12.7300   -6.0800    DA    ALL  1       5
+M  SED   5 B
+M  SPL  2   4   3   5   2
+M  END
+>  <SUBSTANCE_ID>
+12489
+
+>  <UNII>
+03J11K103C
+
+>  <DESC_PART1>
+<CHEMICAL>
+ <NUMBER_OF_MOIETIES>2</NUMBER_OF_MOIETIES>
+ <MOIETY_AMOUNT_TYPE>MOLE RATIO</MOIETY_AMOUNT_TYPE>
+<MOIETY_GROUP>
+ <MOIETY_ID>A</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE>1</AVERAGE>
+ <LOW_LIMIT>1</LOW_LIMIT>
+ <HIGH_LIMIT>1</HIGH_LIMIT>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<MOIETY_GROUP>
+ <MOIETY_ID>B</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS/>
+ </PROPERTIES_GROUP>
+ </CHEMICAL>
+
+>  <COMMENTS>
+FDA_ID: F012517   MOD BRACKETS INDICATE UNKNOWN STOICHIOMETRY
+
+>  <CDBREGNO>
+85576
+
+>  <STRUCTURE_ID>
+50474
+
+>  <SUBSTANCE_NAME>
+#1#C52469#2#synonym#3#W 4600#4##5#
+#1#C52469#2#synonym#3#W-4600#4##5#
+#1#C43707#2#primary name#3#algeldrate#4##6#INN#7#WHO International Nonproprietary Name#8##6#USAN#7#United States Adopted Names#8##6#WHO-DD#7#WHO Drug dictionary#8##5#
+#1#C52469#2#synonym#3#ALUMINUM HYDROXIDE GEL#4##6#II#7#FDA Inactive Ingredient Database#8##6#VANDF#7#VA National Drug File#8##5#
+#1#C52469#2#synonym#3#ALUMINIUM HYDROXIDE GEL#4##6#WHO-DD#7#WHO Drug dictionary#8##5#
+#1#C52469#2#synonym#3#aluminium oxide, hydrated#4##6#EP#7#European Pharmacopoeia#8##5#
+#1#C52469#2#synonym#3#ALUMINUM HYDROXIDE HYDRATE#4##5#
+#1#C52469#2#synonym#3#ALUMINIUM HYDROXIDE HYDRATE#4##5#
+#1#C52469#2#synonym#3#ALUMINUM HYDROXIDE, HYDRATE#4##5#
+#1#C52469#2#synonym#3#ALUMINIUM HYDROXIDE, HYDRATE#4##5#
+#1#C52469#2#synonym#3#aluminium hydroxide, hydrated, for adsorption#4##6#EP#7#European Pharmacopoeia#8##5#
+
+$$$$
+
+  Symyx   05061311542D 1   1.00000     0.00000     0
+
+ 12  0  0     0  0            999 V2000
+   -0.1125   -2.9792    0.0000 Al  0  1  0  0  0  0           0  0  0
+    1.8250   -3.0708    0.0000 O   0  6  0  0  0  0           0  0  0
+    5.2917   -2.8542    0.0000 Si  0  0  0  0  0  0           0  0  0
+    6.5083   -2.9792    0.0000 O   0  6  0  0  0  0           0  0  0
+   10.8208   -3.0417    0.0000 Na  0  3  0  0  0  0           0  0  0
+   12.4417   -3.1333    0.0000 O   0  6  0  0  0  0           0  0  0
+    1.3708   -5.9000    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.1125   -2.9792    0.0000 Al  0  1  0  0  0  0           0  0  0
+    1.8250   -3.0708    0.0000 O   0  6  0  0  0  0           0  0  0
+    1.8250   -3.0708    0.0000 O   0  6  0  0  0  0           0  0  0
+    6.5083   -2.9792    0.0000 O   0  6  0  0  0  0           0  0  0
+   10.8208   -3.0417    0.0000 Na  0  3  0  0  0  0           0  0  0
+M  CHG  8   1   3   2  -2   3   4   4  -2   5   1   6  -2   8   3   9  -2
+M  CHG  3  10  -2  11  -2  12   1
+M  STY  8   1 MUL   2 GEN   3 MUL   4 GEN   5 GEN   6 MUL   7 MUL   8 GEN
+M  STY  4   9 DAT  10 DAT  11 DAT  12 DAT
+M  SLB  8   1   1   2   2   3   3   4   4   5   5   6   6   7   7   8   8
+M  SLB  4   9   9  10  10  11  11  12  12
+M  SCN  4   1 HT    3 HT    6 HT    7 HT
+M  SAL   1  2   4  11
+M  SPA   1  1   4
+M  SMT   1 2
+M  SDI   1  4    5.9600   -3.4400    5.9600   -2.1900
+M  SDI   1  4    7.5200   -2.0400    7.5200   -3.5400
+M  SAL   2  3   5   6  12
+M  SDI   2  4    9.8100   -4.1500    9.8100   -1.7800
+M  SDI   2  4   13.1600   -1.7800   13.1600   -4.1500
+M  SAL   3  2   5  12
+M  SPA   3  1   5
+M  SMT   3 2
+M  SDI   3  4   10.3600   -3.5800   10.3600   -2.3400
+M  SDI   3  4   11.7100   -2.3400   11.7100   -3.5800
+M  SAL   4  5   1   2   8   9  10
+M  SDI   4  4   -1.1900   -4.0900   -1.1900   -1.6400
+M  SDI   4  4    3.0200   -1.6400    3.0200   -4.0900
+M  SAL   5  1   7
+M  SDI   5  4    0.9200   -6.5800    0.9200   -5.4500
+M  SDI   5  4    2.3600   -5.4500    2.3600   -6.5800
+M  SAL   6  2   1   8
+M  SPA   6  1   1
+M  SMT   6 2
+M  SDI   6  4   -0.6400   -3.4400   -0.6400   -2.1900
+M  SDI   6  4    0.6700   -2.1900    0.6700   -3.4400
+M  SAL   7  3   2   9  10
+M  SPA   7  1   2
+M  SMT   7 3
+M  SDI   7  4    1.2700   -3.5400    1.2700   -2.2900
+M  SDI   7  4    2.4600   -2.2900    2.4600   -3.5400
+M  SAL   8  3   3   4  11
+M  SDI   8  4    4.7700   -3.9900    4.7700   -1.6400
+M  SDI   8  4    8.3100   -1.4900    8.3100   -4.0400
+M  SDT   9 FDAREG_SGROUP                 F
+M  SDD   9    13.4600   -3.8600    DA    ALL  1       5
+M  SED   9 C
+M  SDT  10 FDAREG_SGROUP
+M  SDD  10     2.5500   -6.4800    DA    ALL  1       5
+M  SED  10 D
+M  SDT  11 FDAREG_SGROUP                 F
+M  SDD  11     3.3600   -4.2300    DA    ALL  1       5
+M  SED  11 A
+M  SDT  12 FDAREG_SGROUP                 F
+M  SDD  12     8.8200   -4.2300    DA    ALL  1       5
+M  SED  12 B
+M  SPL  4   9   2  10   5  11   4  12   8
+M  END
+>  <SUBSTANCE_ID>
+31168
+
+>  <UNII>
+058TS43PSM
+
+>  <DESC_PART1>
+<CHEMICAL>
+ <NUMBER_OF_MOIETIES>4</NUMBER_OF_MOIETIES>
+ <MOIETY_AMOUNT_TYPE>WEIGHT PERCENT</MOIETY_AMOUNT_TYPE>
+<MOIETY_GROUP>
+ <MOIETY_ID>A</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT>5</LOW_LIMIT>
+ <HIGH_LIMIT>15</HIGH_LIMIT>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<MOIETY_GROUP>
+ <MOIETY_ID>B</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT>66</LOW_LIMIT>
+ <HIGH_LIMIT>88</HIGH_LIMIT>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<MOIETY_GROUP>
+ <MOIETY_ID>C</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT>5</LOW_LIMIT>
+ <HIGH_LIMIT>8.5</HIGH_LIMIT>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<MOIETY_GROUP>
+ <MOIETY_ID>D</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT>8</HIGH_LIMIT>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY>PH</PROPERTY>
+ <AVERAGE/>
+ <LOW_LIMIT>6.5</LOW_LIMIT>
+ <HIGH_LIMIT>11.5</HIGH_LIMIT>
+ <UNITS>5% SLURRY IN WATER</UNITS>
+ </PROPERTIES_GROUP>
+ </CHEMICAL>
+
+>  <CDBREGNO>
+55900
+
+>  <STRUCTURE_ID>
+23069
+
+>  <SUBSTANCE_NAME>
+#1#C52469#2#synonym#3#E554#4##5#
+#1#C52469#2#synonym#3#ZEOLEX#4##6#II#7#FDA Inactive Ingredient Database#8##5#
+#1#C52469#2#synonym#3#ALUSIL ET#4##5#
+#1#C52469#2#synonym#3#ZEOLEX 330#4##5#
+#1#C52469#2#synonym#3#ALUSIL SD533#4##5#
+#1#C52469#2#synonym#3#EINECS 215-684-8#4##5#
+#1#C52469#2#synonym#3#VALFOR ZEOLITE NA-A#4##5#
+#1#C52469#2#synonym#3#SODIUM ALUMINOSILICATE#4##6#FCC#7#Food Chemicals Codex#8##6#HSDB#7#Hazardous Substances Data Bank (HSDB)#8##5#
+#1#C52469#2#synonym#3#SODIUM SILICOALUMINATE#4##6#INCI#7#International Nomenclature of Cosmetic Ingredients#8##5#
+#1#C52469#2#synonym#3#ALUMINIUM SODIUM SILICATE#4##6#MARTINDALE#7#Martindale: The Complete Drug Reference#8##5#
+#1#C43707#2#primary name#3#SODIUM ALUMINIUM SILICATE#4##5#
+
+$$$$

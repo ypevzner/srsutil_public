@@ -1,0 +1,361 @@
+
+  Symyx   06031522322D 1   1.00000     0.00000     0
+
+ 56 52  0     1  0            999 V2000
+    5.7912   -8.2200    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.7079   -7.8492    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.3454   -8.2201    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.9870   -7.8534    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.9037   -7.3367    0.0000 C   0  0  1  0  0  0           0  0  0
+    9.1537   -8.0326    0.0000 H   0  0  0  0  0  0           0  0  0
+    8.6704   -6.6325    0.0000 C   0  0  1  0  0  0           0  0  0
+    9.2708   -6.2088    0.0000 C   0  0  2  0  0  0           0  0  0
+    9.8633   -6.6354    0.0000 O   0  0  0  0  0  0           0  0  0
+    9.6375   -7.3367    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.2708   -5.4659    0.0000 C   0  0  1  0  0  0           0  0  0
+    9.8995   -5.0950    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.8079   -5.4659    0.0000 O   0  0  0  0  0  0           0  0  0
+   11.4453   -5.0950    0.0000 C   0  0  0  0  0  0           0  0  0
+   12.0829   -5.4618    0.0000 C   0  0  0  0  0  0           0  0  0
+   13.0162   -5.0908    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.3329   -5.0992    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.6996   -5.4659    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.0621   -5.0950    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.1413   -5.4618    0.0000 O   0  0  0  0  0  0           0  0  0
+    9.9037   -5.8325    0.0000 H   0  0  0  0  0  0           0  0  0
+    7.7370   -7.0076    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.1037   -6.6367    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.4704   -7.0118    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.5578   -6.6409    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.4412   -5.9325    0.0000 H   0  0  0  0  0  0           0  0  0
+    6.2705  -12.8951    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.2705  -13.6325    0.0000 O   0  0  0  0  0  0           0  0  0
+   17.4957  -12.5074    0.0000 C   0  0  0  0  0  0           0  0  0
+   16.7796  -12.9208    0.0000 C   0  0  0  0  0  0           0  0  0
+   16.0636  -12.5074    0.0000 C   0  0  0  0  0  0           0  0  0
+   15.3601  -12.9125    0.0000 C   0  0  0  0  0  0           0  0  0
+   14.6566  -12.5074    0.0000 C   0  0  0  0  0  0           0  0  0
+   13.9573  -12.9125    0.0000 C   0  0  0  0  0  0           0  0  0
+   13.2538  -12.5074    0.0000 C   0  0  0  0  0  0           0  0  0
+   12.6204  -12.8742    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.9829  -12.5116    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.3538  -12.8784    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.7163  -12.5158    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.0829  -12.8826    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.4496  -12.5199    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.8163  -12.8867    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.1788  -12.5241    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.5413  -12.8909    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.9080  -12.5283    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.5914  -12.5546    0.0000 *   0  0  0  0  0  0           0  0  0
+   13.9429   -5.8232    0.0000 *   0  0  0  0  0  0           0  0  0
+    5.2142   -4.7301    0.0000 *   0  0  0  0  0  0           0  0  0
+    4.6256   -7.3662    0.0000 *   0  0  0  0  0  0           0  0  0
+    4.9561   -9.0552    0.0000 *   0  0  0  0  0  0           0  0  0
+    6.7500  -17.0625    0.0000 H   0  0  0  0  0  0           0  0  0
+    5.6091  -16.7568    0.0000 *   0  0  0  0  0  0           0  0  0
+    6.7500  -17.0625    0.0000 H   0  0  0  0  0  0           0  0  0
+    5.6091  -16.7568    0.0000 *   0  0  0  0  0  0           0  0  0
+    6.7500  -17.0625    0.0000 H   0  0  0  0  0  0           0  0  0
+    5.6091  -16.7568    0.0000 *   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  2  1  0     0  0
+  4  3  1  0     0  0
+  5  4  1  0     0  0
+  5  6  1  6     0  0
+  7  5  1  0     0  0
+  8  7  1  0     0  0
+  9  8  1  0     0  0
+ 10  9  1  0     0  0
+  5 10  1  0     0  0
+  8 11  1  0     0  0
+ 11 12  1  6     0  0
+ 12 13  1  0     0  0
+ 13 14  1  0     0  0
+ 14 15  1  0     0  0
+ 15 16  1  0     0  0
+ 11 17  1  0     0  0
+ 17 18  1  0     0  0
+ 18 19  1  0     0  0
+ 19 20  1  0     0  0
+  8 21  1  6     0  0
+ 22  7  1  0     0  0
+ 23 22  1  0     0  0
+ 24 23  1  0     0  0
+ 25 24  1  0     0  0
+  7 26  1  1     0  0
+ 27 28  2  0     0  0
+ 30 29  1  0     0  0
+ 31 30  1  0     0  0
+ 32 31  1  0     0  0
+ 33 32  1  0     0  0
+ 34 33  1  0     0  0
+ 35 34  1  0     0  0
+ 36 35  1  0     0  0
+ 37 36  1  0     0  0
+ 38 37  1  0     0  0
+ 39 38  1  0     0  0
+ 40 39  1  0     0  0
+ 41 40  1  0     0  0
+ 42 41  1  0     0  0
+ 43 42  1  0     0  0
+ 44 43  1  0     0  0
+ 45 44  1  0     0  0
+ 27 45  1  0     0  0
+ 27 46  1  0     0  0
+ 16 47  1  0     0  0
+ 20 48  1  0     0  0
+ 25 49  1  0     0  0
+  1 50  1  0     0  0
+ 51 52  1  0     0  0
+ 53 54  1  0     0  0
+ 55 56  1  0     0  0
+M  STY  5   1 SRU   2 SRU   3 SRU   4 SRU   5 MUL
+M  SLB  5   1   1   2   2   3   3   4   4   5   5
+M  SCN  5   1 HT    2 HT    3 HT    4 HT    5 HT
+M  SAL   1  3  13  14  15
+M  SBL   1  2  13  16
+M  SMT   1 A
+M  SDI   1  4   10.1341   -5.5432   10.1341   -4.7932
+M  SDI   1  4   12.2841   -4.7532   12.2841   -5.4932
+M  SAL   2  3  22  23  24
+M  SBL   2  2  22  25
+M  SMT   2 C
+M  SDI   2  4    6.0041   -7.1032    6.0041   -6.3432
+M  SDI   2  4    8.1741   -6.3432    8.1741   -7.1032
+M  SAL   3  3   2   3   4
+M  SBL   3  2   1   4
+M  SMT   3 D
+M  SDI   3  4    6.2741   -8.3032    6.2741   -7.5432
+M  SDI   3  4    8.5541   -7.1032    8.5541   -7.8632
+M  SAL   4  3  17  18  19
+M  SBL   4  2  17  20
+M  SMT   4 B
+M  SDI   4  4    6.5941   -5.5432    6.5941   -4.7932
+M  SDI   4  4    8.8041   -4.8232    8.8041   -5.5632
+M  SAL   5  6  51  52  53  54  55  56
+M  SPA   5  2  51  52
+M  SMT   5 3
+M  SDI   5  4    4.8269  -17.8107    4.8269  -15.7148
+M  SDI   5  4    7.4348  -15.7148    7.4348  -17.8107
+M  END
+> <SUBSTANCE_ID>
+11942
+
+> <UNII>
+HD40WR33LC
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_CLASS>HOMOPOLYMER</POLYMER_CLASS>
+ <POLYMER_GEOMETRY>BRANCHED</POLYMER_GEOMETRY>
+<MONOMER_DESCRIPTION>
+ <NUMBER_OF_MONOMERS>1</NUMBER_OF_MONOMERS>
+ <MONOMER_AMOUNT_TYPE>MOLE RATIO</MONOMER_AMOUNT_TYPE>
+<MONOMER_GROUP>
+ <MONOMER_ID>JJH7GNN18P</MONOMER_ID>
+ <MONOMER_NAME>ETHYLENE OXIDE</MONOMER_NAME>
+<AMOUNT>
+ <AVERAGE>20</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MONOMER_GROUP>
+ </MONOMER_DESCRIPTION>
+<STRUCTURAL_REPEAT_UNIT>
+ <NUMBER_OF_STRUCTURAL_REPEAT_UNITS>4</NUMBER_OF_STRUCTURAL_REPEAT_UNITS>
+ <STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>MOLE PERCENT</STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>A</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>20-B-C-D</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>B</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>20-A-C-D</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>C</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>20-A-B-D</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>D</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>20-A-B-C</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+ </STRUCTURAL_REPEAT_UNIT>
+<MOLECULAR_WEIGHT>
+ <MOLECULAR_WEIGHT_TYPE>CALCULATED</MOLECULAR_WEIGHT_TYPE>
+ <MOLECULAR_WEIGHT_METHOD/>
+<AMOUNT>
+ <AVERAGE>1312</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_WEIGHT>
+<PROPERTY_GROUP>
+ <PROPERTY_TYPE/>
+ <PROPERTY/>
+ <PROPERTY_MEASUREMENT_PARAMETERS/>
+ <SUBSTANCE_NAME/>
+ <SUBSTANCE_ID/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PROPERTY_GROUP>
+<MODIFICATION_GROUP>
+ <MODIFICATION_TYPE/>
+<PHYSICAL_MODIFICATION>
+ <ROLE/>
+ <NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+ <PARAMETER/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PARAMETER_GROUP>
+ </PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+ <REPEATING_UNIT_MODIFIED/>
+ <NUMBER_OF_FRAGMENTS_MOIETIES/>
+ <AMOUNT_TYPE/>
+<MOLECULAR_FRAGMENT_MOIETY>
+ <STRUCTURAL_MODIFICATION_TYPE/>
+ <ROLE/>
+ <FRAGMENT_NUMBER/>
+ <FRAGMENT_CONNECTIVTY/>
+ <MOLECULAR_FRAGMENT_NAME/>
+ <MOLECULAR_FRAGMENT_ID/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_FRAGMENT_MOIETY>
+ </STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+ <AGENT_MODIFICATION_TYPE/>
+ <ROLE/>
+ <MODIFICATION_AGENT/>
+ <MODIFICATION_AGENT_ID/>
+ <MODIFICATION_PROCESS/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <N
+
+> <DESC_PART2>
+ON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </AGENT_MODIFICATION>
+ </MODIFICATION_GROUP>
+<SOURCE_MATERIAL>
+ <SOURCE_MATERIAL_CLASS/>
+ <SOURCE_MATERIAL_TYPE/>
+ <SOURCE_MATERIAL_STATE/>
+ <PARENT_SUBSTANCE_ID/>
+ <PARENT_SUBSTANCE_NAME/>
+ <DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+ <PART/>
+ <PART_LOCATION/>
+ </PART_GROUP>
+<FRACTION>
+ <MATERIAL_TYPE/>
+ <FRACTION/>
+ </FRACTION>
+ </SOURCE_MATERIAL>
+ <PUBLIC_DOMAIN/>
+ <COMMENTS/>
+ </POLYMER>
+
+> <COMMENTS>
+FDA_ID: F011963; EP CLAIMS 40
+
+> <CDBREGNO>
+92764
+
+> <STRUCTURE_ID>
+55560
+
+$$$$

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20151026" />
+  <setId root="5ac71a9e-6af2-4152-973d-79e81947cade" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="a9a2641d-75f9-4426-b57f-98c9a1b37a93" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20151026" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="93O6C9VO2C" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="93O6C9VO2C" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="9329f3ea-9502-8dca-40a5-3968417fe3d9" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <subjectOf>
+                <document>
+                  <bibliographicDesignationText>Influenza a virus</bibliographicDesignationText>
+                </document>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code code="C987654" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="serotype" />
+                  <value xsi:type="ST">H1N1</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

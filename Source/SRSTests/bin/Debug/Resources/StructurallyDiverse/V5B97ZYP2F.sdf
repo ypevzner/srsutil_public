@@ -1,0 +1,282 @@
+
+  Symyx   02181515492D 1   1.00000     0.00000     0
+
+ 73 72  0     0  0            999 V2000
+   13.2360   -6.1033    0.0000 C   0  0  0  0  0  0           0  0  0
+   13.2401   -5.2783    0.0000 O   0  0  0  0  0  0           0  0  0
+   13.8485   -6.4116    0.0000 O   0  0  0  0  0  0           0  0  0
+   14.6735   -6.4158    0.0000 C   0  0  3  0  0  0           0  0  0
+   15.0901   -5.7033    0.0000 C   0  0  0  0  0  0           0  0  0
+   15.9151   -5.7033    0.0000 O   0  0  0  0  0  0           0  0  0
+   16.7818   -5.2574    0.0000 C   0  0  0  0  0  0           0  0  0
+   17.4943   -5.6699    0.0000 C   0  0  0  0  0  0           0  0  0
+   18.2068   -5.2574    0.0000 C   0  0  0  0  0  0           0  0  0
+   18.9193   -5.6699    0.0000 C   0  0  0  0  0  0           0  0  0
+   19.6318   -5.2574    0.0000 C   0  0  0  0  0  0           0  0  0
+   20.3443   -5.6699    0.0000 C   0  0  0  0  0  0           0  0  0
+   21.0568   -5.2574    0.0000 C   0  0  0  0  0  0           0  0  0
+   21.7693   -5.6699    0.0000 C   0  0  0  0  0  0           0  0  0
+   22.4818   -5.2574    0.0000 C   0  0  0  0  0  0           0  0  0
+   23.2401   -5.2449    0.0000 C   0  0  0  0  0  0           0  0  0
+   23.7443   -5.6408    0.0000 C   0  0  0  0  0  0           0  0  0
+   24.4437   -5.2065    0.0000 C   0  0  3  0  0  0           0  0  0
+   25.1686   -5.5968    0.0000 C   0  0  0  0  0  0           0  0  0
+   25.8680   -5.1624    0.0000 C   0  0  0  0  0  0           0  0  0
+   26.5929   -5.5527    0.0000 C   0  0  0  0  0  0           0  0  0
+   27.2924   -5.1184    0.0000 C   0  0  0  0  0  0           0  0  0
+   28.0173   -5.5087    0.0000 C   0  0  0  0  0  0           0  0  0
+   28.7167   -5.0744    0.0000 C   0  0  0  0  0  0           0  0  0
+   24.4360   -4.3783    0.0000 O   0  0  0  0  0  0           0  0  0
+   16.7776   -4.4324    0.0000 O   0  0  0  0  0  0           0  0  0
+   14.8860   -7.2116    0.0000 C   0  0  0  0  0  0           0  0  0
+   15.6818   -7.2116    0.0000 O   0  0  0  0  0  0           0  0  0
+   16.3047   -7.4983    0.0000 C   0  0  0  0  0  0           0  0  0
+   16.3586   -8.3219    0.0000 O   0  0  0  0  0  0           0  0  0
+   17.0315   -7.0600    0.0000 C   0  0  0  0  0  0           0  0  0
+   17.7580   -7.4473    0.0000 C   0  0  0  0  0  0           0  0  0
+   18.4556   -7.0100    0.0000 C   0  0  0  0  0  0           0  0  0
+   19.1821   -7.3973    0.0000 C   0  0  0  0  0  0           0  0  0
+   19.8797   -6.9601    0.0000 C   0  0  0  0  0  0           0  0  0
+   20.6063   -7.3473    0.0000 C   0  0  0  0  0  0           0  0  0
+   21.3039   -6.9101    0.0000 C   0  0  0  0  0  0           0  0  0
+   22.0304   -7.2974    0.0000 C   0  0  0  0  0  0           0  0  0
+   22.7887   -7.2833    0.0000 C   0  0  0  0  0  0           0  0  0
+   23.2787   -6.8700    0.0000 C   0  0  0  0  0  0           0  0  0
+   23.9897   -7.2781    0.0000 C   0  0  3  0  0  0           0  0  0
+   24.6995   -6.8621    0.0000 C   0  0  0  0  0  0           0  0  0
+   25.4138   -7.2717    0.0000 C   0  0  0  0  0  0           0  0  0
+   26.1271   -6.8574    0.0000 C   0  0  0  0  0  0           0  0  0
+   26.8414   -7.2670    0.0000 C   0  0  0  0  0  0           0  0  0
+   27.5512   -6.8510    0.0000 C   0  0  0  0  0  0           0  0  0
+   28.2656   -7.2606    0.0000 C   0  0  0  0  0  0           0  0  0
+   24.0142   -8.1075    0.0000 O   0  0  0  0  0  0           0  0  0
+   12.5235   -6.5158    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.8110   -6.1033    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.0985   -6.5158    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.3860   -6.1033    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.6735   -6.5158    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.9610   -6.1033    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.2485   -6.5158    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.5360   -6.1033    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.7776   -6.0908    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.2735   -6.4866    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.5729   -6.0523    0.0000 C   0  0  3  0  0  0           0  0  0
+    5.5818   -5.2241    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.8478   -6.4426    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.1472   -6.0083    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.4221   -6.3986    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.7215   -5.9643    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.9964   -6.3546    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.2958   -5.9203    0.0000 C   0  0  0  0  0  0           0  0  0
+   24.1375   -2.4932    0.0000 O   0  0  0  0  0  0           0  0  0
+   24.3854   -1.7662    0.0000 O   0  0  0  0  0  0           0  0  0
+   23.4479   -0.1745    0.0000 O   0  0  0  0  0  0           0  0  0
+   23.4562   -1.2162    0.0000 C   0  0  0  0  0  0           0  0  0
+   22.4979   -1.7579    0.0000 C   0  0  0  0  0  0           0  0  0
+   22.5229   -2.7995    0.0000 C   0  0  0  0  0  0           0  0  0
+   23.4270   -3.3204    0.0000 C   0  0  0  0  0  0           0  0  0
+  1  2  2  0     0  0
+  3  1  1  0     0  0
+  4  3  1  0     0  0
+  5  4  1  0     0  0
+  5  6  1  0     0  0
+  6  7  1  0     0  0
+  7  8  1  0     0  0
+  8  9  1  0     0  0
+  9 10  1  0     0  0
+ 10 11  1  0     0  0
+ 11 12  1  0     0  0
+ 12 13  1  0     0  0
+ 13 14  1  0     0  0
+ 14 15  1  0     0  0
+ 15 16  2  0     0  0
+ 16 17  1  0     0  0
+ 17 18  1  0     0  0
+ 18 19  1  0     0  0
+ 19 20  1  0     0  0
+ 20 21  1  0     0  0
+ 21 22  1  0     0  0
+ 22 23  1  0     0  0
+ 23 24  1  0     0  0
+ 18 25  1  0     0  0
+  7 26  2  0     0  0
+  4 27  1  0     0  0
+ 27 28  1  0     0  0
+ 28 29  1  0     0  0
+ 29 30  2  0     0  0
+ 29 31  1  0     0  0
+ 31 32  1  0     0  0
+ 32 33  1  0     0  0
+ 33 34  1  0     0  0
+ 34 35  1  0     0  0
+ 35 36  1  0     0  0
+ 36 37  1  0     0  0
+ 37 38  1  0     0  0
+ 38 39  2  0     0  0
+ 39 40  1  0     0  0
+ 40 41  1  0     0  0
+ 41 42  1  0     0  0
+ 42 43  1  0     0  0
+ 43 44  1  0     0  0
+ 44 45  1  0     0  0
+ 45 46  1  0     0  0
+ 46 47  1  0     0  0
+ 41 48  1  0     0  0
+  1 49  1  0     0  0
+ 49 50  1  0     0  0
+ 50 51  1  0     0  0
+ 51 52  1  0     0  0
+ 52 53  1  0     0  0
+ 53 54  1  0     0  0
+ 54 55  1  0     0  0
+ 55 56  1  0     0  0
+ 56 57  2  0     0  0
+ 57 58  1  0     0  0
+ 58 59  1  0     0  0
+ 59 60  1  0     0  0
+ 59 61  1  0     0  0
+ 61 62  1  0     0  0
+ 62 63  1  0     0  0
+ 63 64  1  0     0  0
+ 64 65  1  0     0  0
+ 65 66  1  0     0  0
+ 69 70  2  0     0  0
+ 68 70  1  0     0  0
+ 70 71  1  0     0  0
+ 71 72  2  0     0  0
+ 72 73  1  0     0  0
+ 67 73  2  0     0  0
+ 73 25  1  0     0  0
+M  END
+>  <GSRS_JSON>
+{"uuid":"9abf22a3-b0f6-4873-aa40-85545901ddd6","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"REPRESENTATIVE","substanceClass":"structurallyDiverse","status":"approved","version":"1","approvedBy":"FDA_SRS","names":[{"uuid":"0bbba6a3-95c8-4a54-a9ab-09197efcc42e","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"name":"CERAPHYL RMT","type":"bn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["d7bc74dc-a802-4baa-b069-4d05377f980a"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(0bbba6a3-95c8-4a54-a9ab-09197efcc42e)?view=full"},{"uuid":"325bfc27-0c7c-4185-ba0b-21af6ba58c7e","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"name":"CASTOR OIL, MONOMALEATE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["a86ce7c9-ca92-43a1-90a8-f6e30435bce0"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(325bfc27-0c7c-4185-ba0b-21af6ba58c7e)?view=full"},{"uuid":"e9329046-9a01-4c5c-9d40-46c88750041e","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"name":"CASTORYL MALEATE","type":"of","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[{"uuid":"90d4d140-c141-4e76-895d-7b90e4c90904","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"nameOrg":"INCI","references":[],"access":[]}],"preferred":false,"displayName":true,"references":["d7bc74dc-a802-4baa-b069-4d05377f980a","da236358-9170-4e82-a7da-ea0c5ec130c9","af978409-212c-4d29-9275-610eef80a192"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(e9329046-9a01-4c5c-9d40-46c88750041e)?view=full"},{"uuid":"f70ef537-66e9-42f5-98a3-ba1771be7051","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"name":"CASTORYL MALEATE [INCI]","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["d7bc74dc-a802-4baa-b069-4d05377f980a"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(f70ef537-66e9-42f5-98a3-ba1771be7051)?view=full"}],"codes":[{"uuid":"5b48de98-32c5-46e9-8b70-74dcb675446f","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"CAS","code":"241153-84-4","type":"PRIMARY","url":"http://chem.sis.nlm.nih.gov/chemidplus/direct.jsp?regno=241153-84-4&result=advanced","references":["a8bd1c24-218a-44d5-9295-ae5c4e03948c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(5b48de98-32c5-46e9-8b70-74dcb675446f)?view=full"},{"uuid":"6fc19497-0a85-4cbe-bf84-e3ed26bb7539","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"PUBCHEM","code":"72941776","comments":"SWITZERF","type":"PRIMARY","url":"https://pubchem.ncbi.nlm.nih.gov/compound/72941776","references":["a8bd1c24-218a-44d5-9295-ae5c4e03948c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(6fc19497-0a85-4cbe-bf84-e3ed26bb7539)?view=full"},{"uuid":"87f9ea66-4e9d-428b-988f-48551ef131f0","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"RXCUI","code":"1490683","comments":"RxNorm","type":"PRIMARY","url":"https://rxnav.nlm.nih.gov/REST/rxcui/1490683/allProperties.xml?prop=all","references":["a8bd1c24-218a-44d5-9295-ae5c4e03948c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(87f9ea66-4e9d-428b-988f-48551ef131f0)?view=full"}],"modifications":{"uuid":"8f14563b-4669-4a88-aaeb-18ca43059e59","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[{"uuid":"154a7862-2735-4a4a-9f36-023590e24e6d","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"agentModificationRole":"ESTERIFICATION","agentModificationType":"CHEMICAL","agentSubstance":{"uuid":"fc8ab692-3f4c-45c1-b258-ed0b1e644613","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"refPname":"MALEIC ACID","refuuid":"4aa390de-a188-4b3f-8696-f1b0dc19e896","substanceClass":"reference","approvalID":"91XW058U2C","linkingID":"91XW058U2C","name":"MALEIC ACID","references":[],"access":[]},"amount":{"uuid":"2ca24f55-971d-47b2-9999-317aff2d68c2","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"references":[],"access":[]},"modificationGroup":"1","references":[],"access":[]}],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[],"references":[{"uuid":"14d9c5a7-20ce-4283-969b-8c6aa98e81e1","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520365733000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(14d9c5a7-20ce-4283-969b-8c6aa98e81e1)?view=full"},{"uuid":"2c66551d-3129-4be3-b215-b6b5e666422b","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"MANUFACTURER PRODUCT DESCRITION","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(2c66551d-3129-4be3-b215-b6b5e666422b)?view=full"},{"uuid":"9660f2c1-37b4-466b-a658-e07833496c1b","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [V5B97ZYP2F]","docType":"SRS","documentDate":1493391876000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=V5B97ZYP2F","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(9660f2c1-37b4-466b-a658-e07833496c1b)?view=full"},{"uuid":"a86ce7c9-ca92-43a1-90a8-f6e30435bce0","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"STN","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(a86ce7c9-ca92-43a1-90a8-f6e30435bce0)?view=full"},{"uuid":"a8bd1c24-218a-44d5-9295-ae5c4e03948c","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391876000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(a8bd1c24-218a-44d5-9295-ae5c4e03948c)?view=full"},{"uuid":"af978409-212c-4d29-9275-610eef80a192","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"pcpc-db","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(af978409-212c-4d29-9275-610eef80a192)?view=full"},{"uuid":"d7bc74dc-a802-4baa-b069-4d05377f980a","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"PCPC-DB","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(d7bc74dc-a802-4baa-b069-4d05377f980a)?view=full"},{"uuid":"da236358-9170-4e82-a7da-ea0c5ec130c9","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"citation":"CASTORYL MALEATE [INCI]","docType":"SRS_LOCATOR","publicDomain":true,"tags":[],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(da236358-9170-4e82-a7da-ea0c5ec130c9)?view=full"}],"approvalID":"V5B97ZYP2F","tags":["INCI"],"structurallyDiverse":{"uuid":"af11a2d7-5b16-44bc-adb9-13f6bbfba070","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"PLANT","part":["SEED"],"fractionMaterialType":"SEED LIPIDS","parentSubstance":{"uuid":"7731317d-b3f6-430b-b3dc-fcb89f873ef6","created":1520365734000,"createdBy":"admin","lastEdited":1520365734000,"lastEditedBy":"admin","deprecated":false,"refPname":"RICINUS COMMUNIS WHOLE","refuuid":"e93a4edd-ef60-4bb9-bbe1-4e51c2ecc713","substanceClass":"reference","approvalID":"Q94QWM85RF","linkingID":"Q94QWM85RF","name":"RICINUS COMMUNIS WHOLE","references":[],"access":[]},"references":["2c66551d-3129-4be3-b215-b6b5e666422b","9660f2c1-37b4-466b-a658-e07833496c1b"],"access":[]},"_approvalIDDisplay":"V5B97ZYP2F","_name":"CASTORYL MALEATE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(9abf22a3-b0f6-4873-aa40-85545901ddd6)?view=full"}
+
+> <SUBSTANCE_ID>
+122521
+
+> <UNII>
+V5B97ZYP2F
+
+> <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+ <SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+ <SOURCE_MATERIAL_TYPE>PLANT</SOURCE_MATERIAL_TYPE>
+ <SOURCE_MATERIAL_STATE/>
+ <PARENT_SUBSTANCE_ID>Q94QWM85RF</PARENT_SUBSTANCE_ID>
+ <PARENT_SUBSTANCE_NAME>RICINUS COMMUNIS</PARENT_SUBSTANCE_NAME>
+ <DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+ <PART>SEED</PART>
+ <PART_LOCATION/>
+ </PART_GROUP>
+<FRACTION>
+ <MATERIAL_TYPE>SEED LIPIDS</MATERIAL_TYPE>
+ <FRACTION/>
+ </FRACTION>
+<ORGANISM>
+ <KINGDOM/>
+ <PHYLUM/>
+ <CLASS/>
+ <ORDER/>
+ <FAMILY/>
+ <GENUS/>
+ <SPECIES/>
+ <HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+ <HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+ <HYBRID_TYPE/>
+ <INFRASPECIFIC_TYPE/>
+ <INFRASPECIFIC_DESCRIPTION/>
+ </ORGANISM>
+ </SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+ <MODIFICATION_TYPE/>
+ <RESIDUE_MODIFIED/>
+ <RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+ <ROLE/>
+ <NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+ <PARAMETER/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PARAMETER_GROUP>
+ </PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+ <STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+ <ROLE/>
+ <MOIETY_ID/>
+ <MOIETY_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOIETY>
+<MOLECULAR_FRAGMENT>
+ <ROLE/>
+ <MOLECULAR_FRAGMENT_ID/>
+ <MOLECULAR_FRAGMENT_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_FRAGMENT>
+ </STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+ <AGENT_MODIFICATION_TYPE>CHEMICAL</AGENT_MODIFICATION_TYPE>
+ <ROLE>ESTERIFICATION</ROLE>
+ <MODIFICATION_AGENT_ID>91XW058U2C</MODIFICATION_AGENT_ID>
+ <MODIFICATION_AGENT>MALEIC ACID</MODIFICATION_AGENT>
+ <MODIFICATION_PROCESS/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </AGENT_MODIFICATION>
+ </MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+ <PROPERTY_TYPE/>
+ <PROPERTY_NAME/>
+ <SUBSTANCE_ID/>
+ <SUBSTANCE_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PROPERTY_GROUP>
+ <COMMENT>REPRESENTATIVE STRUCTURE</COMMENT>
+ </STRUCTURALLY_DIVERSE>
+
+> <COMMENTS>
+Castoryl Maleate is a modified castor oil. In PCPC-DB part has been converted to a cyclic dicarboxylic acid. But the manufacture product description has a different structure.
+
+> <CDBREGNO>
+89622
+
+> <STRUCTURE_ID>
+53322
+
+$$$$

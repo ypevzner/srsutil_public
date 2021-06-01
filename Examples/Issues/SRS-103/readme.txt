@@ -1,0 +1,1 @@
+Treponema denticola (ex Fl�gge) Chan et al.

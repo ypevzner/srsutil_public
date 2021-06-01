@@ -1,0 +1,246 @@
+>  <GSRS_JSON>
+{"uuid":"28927b6a-6b0d-4733-a1a4-b2b38a569daa","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"33","approvedBy":"FDA_SRS","names":[{"uuid":"acadc9b9-af08-40a3-bc69-ab49b2384ddb","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"name":"INFLUENZA A VIRUS H1N1 WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["d440a998-d7a7-4d85-b1bc-0b018f0a5f25"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(acadc9b9-af08-40a3-bc69-ab49b2384ddb)?view=full"}],"codes":[{"uuid":"82e5424e-3c6b-4ef2-8202-9a33df3f8c98","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"114727","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=114727","references":["af00c935-2ab2-4f02-9bd5-31ab08d25076"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(82e5424e-3c6b-4ef2-8202-9a33df3f8c98)?view=full"}],"modifications":{"uuid":"c46c81e7-7673-4139-85b1-0cef941e71e1","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[{"uuid":"037053a1-9d52-4692-beb7-60426f9d4dcb","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"6c912a2f-2411-48eb-86ee-90dbd5ddcffa","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/CHRISTCHURCH/16/2010 NIB-74 (H1N1) WHOLE","refuuid":"cfa6f68c-4250-49bd-974b-3623ffdfc1c4","approvalID":"COBZR89EEA","linkingID":"COBZR89EEA","name":"INFLUENZA A VIRUS A/CHRISTCHURCH/16/2010 NIB-74 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"6c3eba01-ee5a-406c-8f7d-ed63b5b4c01c","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"10e7b2de-22bd-42b3-8195-53748bebd847","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"fad9ca11-d3ef-4d04-9ebc-5a896c28e1b2","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/SOUTH DAKOTA/6/2007 (H1N1) WHOLE","refuuid":"b8d1143a-609e-4223-8a8a-c231571e9e13","approvalID":"Z45SLZ2U9P","linkingID":"Z45SLZ2U9P","name":"INFLUENZA A VIRUS A/SOUTH DAKOTA/6/2007 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"e4a8ce49-33b8-4b19-b70f-235753165e4f","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"568ea803-6e87-44f1-bf3e-768660e4a978","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"ae68de83-5164-4941-8610-a0bcfd08060d","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/MICHIGAN/45/2015 X-275 (H1N1) WHOLE","refuuid":"2b0dfa1c-95e6-47a3-a0e7-edb99c17ac8c","approvalID":"TM9MM4H00H","linkingID":"TM9MM4H00H","name":"INFLUENZA A VIRUS A/MICHIGAN/45/2015 X-275 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"5de96fd9-cb5d-4f34-b982-631ba283569a","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"5b4c79eb-a8b5-4ff2-8cca-b01133cb450b","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"14df999e-cca8-48bc-9a89-60d5c37b0a79","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/CALIFORNIA/7/2009 X-179A (H1N1) WHOLE","refuuid":"a63ed488-0a9a-4434-8a18-5a31dbc125f0","approvalID":"1BUKVQZXQX","linkingID":"1BUKVQZXQX","name":"INFLUENZA A VIRUS A/CALIFORNIA/7/2009 X-179A (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"d1092205-f898-429d-90c3-f74ad8ca86ce","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"6b4e7ae2-12c7-47e1-9aac-ea3cb18b6bc5","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"60903e58-0b59-441e-b2aa-01963a214417","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/SINGAPORE/GP1908/2015 IVR-180A (H1N1) WHOLE","refuuid":"8b714dd8-ca89-48ae-a3a1-3726e76df2cf","approvalID":"K7U6I2ML4M","linkingID":"K7U6I2ML4M","name":"INFLUENZA A VIRUS A/SINGAPORE/GP1908/2015 IVR-180A (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"3dfdafdb-7077-4062-9bc3-6c7f3ed8f300","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"9c30920d-9fd3-4731-ae8b-9a8d370052b7","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"05604591-e0d4-4dad-a08e-8b1fd93a434f","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/CALIFORNIA/7/2009 X-181 (H1N1) WHOLE","refuuid":"576c7083-c971-4db6-bf25-a7e1684fe32c","approvalID":"7D1XOIX72U","linkingID":"7D1XOIX72U","name":"INFLUENZA A VIRUS A/CALIFORNIA/7/2009 X-181 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"5aa3199a-6330-4a4c-88ab-3468cd9421c9","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"9e8b1557-e4ff-42e9-9530-bd7e1216466e","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"b7989bb8-fd99-4946-af30-a9e069948e14","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/CALIFORNIA/7/2009 (H1N1) WHOLE","refuuid":"70844d1a-f9ee-4956-9e34-6f703ec58fe2","approvalID":"GWZKB9O0WZ","linkingID":"GWZKB9O0WZ","name":"INFLUENZA A VIRUS A/CALIFORNIA/7/2009 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"423be1ab-3f82-424d-8d8d-c1d77063c1af","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"a8f99e63-1ddb-4e8f-b8a5-5a58e52a626d","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"335f577d-f683-4837-866f-22ea4a22e979","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) WHOLE","refuuid":"b0e9b61d-c9ea-45cb-bea1-6ba348fb2d9a","approvalID":"EW6O8EPVAK","linkingID":"EW6O8EPVAK","name":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"5d6a30e1-d831-4139-b1a3-e31afab54945","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"af105750-8a10-4c17-8383-704446fb8e99","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"968f7832-b46e-41ea-ad2f-d066f41c2a39","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/MICHIGAN/45/2015 (H1N1) WHOLE","refuuid":"8c80424a-3ad3-4e69-a127-e44fa84028fd","approvalID":"NCAH8H8L4C","linkingID":"NCAH8H8L4C","name":"INFLUENZA A VIRUS A/MICHIGAN/45/2015 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"67420dac-e1e8-4e53-83aa-2d299d547986","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"b95b9cf1-03ce-4203-a843-a5a3273729a4","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"65ea10ba-8a77-479b-a28d-1597e2427a78","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/SINGAPORE/GP1908/2015 IVR-180 (H1N1) WHOLE","refuuid":"b1ee0c79-5a06-4300-a1c7-e91a3dfedb40","approvalID":"FACIFOJ3Z7","linkingID":"FACIFOJ3Z7","name":"INFLUENZA A VIRUS A/SINGAPORE/GP1908/2015 IVR-180 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"50a87ecc-0344-4059-aec6-e29b7d7f2272","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"bf5e1e93-10e6-484c-92af-ee391dae9163","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"904ba45f-42f6-4edd-a4ca-cfe2627ae602","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/CHRISTCHURCH/16/2010 NIB-74XP (H1N1) WHOLE","refuuid":"9e687563-b759-4da4-8068-8ff1149c2a7a","approvalID":"2NC9W4D9EA","linkingID":"2NC9W4D9EA","name":"INFLUENZA A VIRUS A/CHRISTCHURCH/16/2010 NIB-74XP (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"c82d0f63-c08d-4d68-ac22-a32baeebb825","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"c14fcbff-fe3d-4abd-b57d-7d2e47b1b09c","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"e41f3435-a7fa-44aa-ba67-4e6697f829f9","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/BRISBANE/10/2010 (H1N1) WHOLE","refuuid":"c15d4a48-d63f-489c-9a3f-6a388f5734a7","approvalID":"P5CHAO4ZF3","linkingID":"P5CHAO4ZF3","name":"INFLUENZA A VIRUS A/BRISBANE/10/2010 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"757e98d5-1141-4b93-a782-d06135f2e5a5","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"cc7e8ba4-661e-4d2d-bfa0-36c3ae05e97c","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"1aa9a7c1-4172-4d06-a769-46c5788d442a","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/NEW CALEDONIA/20/99 (H1N1) WHOLE","refuuid":"cb989e24-bf52-434a-ad80-8c59393c062d","approvalID":"E3FHSJNIXQ","linkingID":"E3FHSJNIXQ","name":"INFLUENZA A VIRUS A/NEW CALEDONIA/20/99 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"8d90c30d-7ecb-4af8-9933-973ea13aaaa8","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"d92feea9-04b3-4805-8e87-2f0dcb57c63e","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"93049ce1-c98a-4e6f-87c5-da07fff49605","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/SINGAPORE/6/86 (H1N1) WHOLE","refuuid":"8e02db99-eeae-4c1a-9fff-779284a5c250","approvalID":"04FC30EQDF","linkingID":"04FC30EQDF","name":"INFLUENZA A VIRUS A/SINGAPORE/6/86 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"0e82b2c8-95de-4247-bd9e-c8b4b522356d","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]},{"uuid":"e1291f83-41ca-4749-8fb9-2de74912c795","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"1de9d5d9-7202-4bb4-8ba0-34800b0f08c1","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/BOLIVIA/559/2013 (H1N1) WHOLE","refuuid":"d1252b79-f37d-45ea-a896-ab565628e986","approvalID":"J36XGXAJD8","linkingID":"J36XGXAJD8","name":"INFLUENZA A VIRUS A/BOLIVIA/559/2013 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"52d4805c-ffd0-4265-88fe-4715c7b49665","type":"INFRASPECIFIC->PARENT ORGANISM","references":[],"access":[]}],"references":[{"uuid":"af00c935-2ab2-4f02-9bd5-31ab08d25076","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391406000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(af00c935-2ab2-4f02-9bd5-31ab08d25076)?view=full"},{"uuid":"bc9eb18c-3e7f-49d9-be91-7f299b28a686","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520358779000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(bc9eb18c-3e7f-49d9-be91-7f299b28a686)?view=full"},{"uuid":"d440a998-d7a7-4d85-b1bc-0b018f0a5f25","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"citation":"FDA_SRS","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(d440a998-d7a7-4d85-b1bc-0b018f0a5f25)?view=full"},{"uuid":"f64ba9a7-29b7-4dbd-b3fc-8a53ad1c327e","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"citation":"Catalog of Life 2011","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(f64ba9a7-29b7-4dbd-b3fc-8a53ad1c327e)?view=full"},{"uuid":"fb22d30a-7532-413a-a9bf-93d1afcdb167","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [93O6C9VO2C]","docType":"SRS","documentDate":1493391406000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=93O6C9VO2C","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(fb22d30a-7532-413a-a9bf-93d1afcdb167)?view=full"}],"approvalID":"93O6C9VO2C","tags":[],"structurallyDiverse":{"uuid":"cd931bb5-ce25-43ad-8fcb-3c343a727f6d","created":1520358779000,"createdBy":"admin","lastEdited":1520358779000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"VIRUS","organismFamily":"ORTHOMYXOVIRIDAE","organismGenus":"INFLUENZAVIRUS A","organismSpecies":"INFLUENZA A VIRUS","organismAuthor":"NONE","part":["WHOLE"],"infraSpecificType":"SEROGROUP","infraSpecificName":"H1N1","references":["f64ba9a7-29b7-4dbd-b3fc-8a53ad1c327e","fb22d30a-7532-413a-a9bf-93d1afcdb167"],"access":[]},"_approvalIDDisplay":"93O6C9VO2C","_name":"INFLUENZA A VIRUS H1N1 WHOLE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(28927b6a-6b0d-4733-a1a4-b2b38a569daa)?view=full"}
+
+>  <SUBSTANCE_ID>
+91258
+
+>  <UNII>
+93O6C9VO2C
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+<SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+<SOURCE_MATERIAL_TYPE>VIRUS</SOURCE_MATERIAL_TYPE>
+<SOURCE_MATERIAL_STATE/>
+<PARENT_SUBSTANCE_ID/>
+<PARENT_SUBSTANCE_NAME/>
+<DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+<PART>WHOLE</PART>
+<PART_LOCATION/>
+</PART_GROUP>
+<FRACTION>
+<MATERIAL_TYPE/>
+<FRACTION/>
+</FRACTION>
+<ORGANISM>
+<KINGDOM>VIRUSES</KINGDOM>
+<PHYLUM>NOT ASSIGNED</PHYLUM>
+<CLASS>NOT ASSIGNED</CLASS>
+<ORDER>NOT ASSIGNED</ORDER>
+<FAMILY>ORTHOMYXOVIRIDAE</FAMILY>
+<GENUS>INFLUENZAVIRUS A</GENUS>
+<SPECIES>INFLUENZA A VIRUS</SPECIES>
+<HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+<HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+<HYBRID_TYPE/>
+<INFRASPECIFIC_TYPE>SEROGROUP</INFRASPECIFIC_TYPE>
+<INFRASPECIFIC_DESCRIPTION>H1N1</INFRASPECIFIC_DESCRIPTION>
+</ORGANISM>
+</SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+<MODIFICATION_TYPE/>
+<RESIDUE_MODIFIED/>
+<RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+<ROLE/>
+<NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+<PARAMETER/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PARAMETER_GROUP>
+</PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+<ROLE/>
+<MOIETY_ID/>
+<MOIETY_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOIETY>
+<MOLECULAR_FRAGMENT>
+<ROLE/>
+<MOLECULAR_FRAGMENT_ID/>
+<MOLECULAR_FRAGMENT_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOLECULAR_FRAGMENT>
+</STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+<AGENT_MODIFICATION_TYPE/>
+<ROLE/>
+<MODIFICATION_AGENT_ID/>
+<MODIFICATION_AGENT/>
+<MODIFICATION_PROCESS/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</AGENT_MODIFICATION>
+</MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+<PROPERTY_TYPE/>
+<PROPERTY_NAME/>
+<SUBSTANCE_ID/>
+<SUBSTANCE_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PROPERTY_GROUP>
+<COMMENT/>
+</STRUCTURALLY_DIVERSE>
+
+$$$$
+>  <GSRS_JSON>
+{"uuid":"902e5bd8-0702-449c-90f0-95da8baa07b0","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"4","approvedBy":"FDA_SRS","names":[{"uuid":"38e664d3-3c00-48d7-a868-de557793eee6","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"name":"INFLUENZA A VIRUS A/BRISBANE/59/2007(H1N1) HEMAGGLUTININ ANTIGEN (FORMALDEHYDE INACTIVATED)","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["8d466bc7-3218-44b9-8762-e218b5469f88"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(38e664d3-3c00-48d7-a868-de557793eee6)?view=full"},{"uuid":"685eedaf-23aa-4ebf-bd5a-7d8d8ccd8d46","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"name":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) HEMAGGLUTININ ANTIGEN (FORMALDEHYDE INACTIVATED)","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["c775723c-d1dc-4fa5-9398-3a0fc5441ae9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(685eedaf-23aa-4ebf-bd5a-7d8d8ccd8d46)?view=full"}],"codes":[],"modifications":{"uuid":"4a4dfcb9-a693-4abc-8c19-2cd554d9f61d","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[{"uuid":"fcf2ab59-27e0-4d76-8e78-6048f1334de0","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"agentModificationRole":"INACTIVATION","agentModificationType":"CHEMICAL","agentSubstance":{"uuid":"61f1dc51-2344-4b4e-9b15-ead27cea8ea7","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"refPname":"FORMALDEHYDE","refuuid":"b6578fd1-444f-4ea4-81ec-7f6f13fdf84f","substanceClass":"reference","approvalID":"1HG84L3525","linkingID":"1HG84L3525","name":"FORMALDEHYDE","references":[],"access":[]},"amount":{"uuid":"bacc852f-f8f2-4846-bc34-b59ad1e5cf1d","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"references":[],"access":[]},"modificationGroup":"1","references":[],"access":[]}],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[{"uuid":"0d1420e7-4f65-47bc-b4bf-8032b379dbed","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"cb65ffde-fc67-4ffa-a9a6-29483f216afc","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) WHOLE","refuuid":"b0e9b61d-c9ea-45cb-bea1-6ba348fb2d9a","substanceClass":"reference","approvalID":"EW6O8EPVAK","linkingID":"EW6O8EPVAK","name":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) WHOLE","references":[],"access":[]},"originatorUuid":"0d1420e7-4f65-47bc-b4bf-8032b379dbed","type":"PARENT ORGANISM->PART/FRACTION","references":["0de9b78a-38d4-5593-0cc3-f6baa5bb1f10"],"access":[]},{"uuid":"202b68dc-745d-421d-bb72-cef0bc7f80f0","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"acb5f338-7a91-42dd-a737-3cb7b820f351","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) HEMAGGLUTININ ANTIGEN (FORMALDEHYDE INACTIVATED)","refuuid":"902e5bd8-0702-449c-90f0-95da8baa07b0","substanceClass":"reference","approvalID":"08MVT1AQQ9","linkingID":"08MVT1AQQ9","name":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) HEMAGGLUTININ ANTIGEN (FORMALDEHYDE INACTIVATED)","references":[],"access":[]},"originatorUuid":"202b68dc-745d-421d-bb72-cef0bc7f80f0","type":"ACTIVE MOIETY","references":[],"access":[]}],"references":[{"uuid":"0de9b78a-38d4-5593-0cc3-f6baa5bb1f10","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"citation":"Labeling","docType":"PRODUCT PACKAGE INSERT","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(0de9b78a-38d4-5593-0cc3-f6baa5bb1f10)?view=full"},{"uuid":"14ed24ba-e919-461a-8e49-8436a819088f","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"citation":"Catalog of life 2009","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(14ed24ba-e919-461a-8e49-8436a819088f)?view=full"},{"uuid":"8d466bc7-3218-44b9-8762-e218b5469f88","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"citation":"LABELING","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(8d466bc7-3218-44b9-8762-e218b5469f88)?view=full"},{"uuid":"c775723c-d1dc-4fa5-9398-3a0fc5441ae9","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"citation":"FDA_SRS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(c775723c-d1dc-4fa5-9398-3a0fc5441ae9)?view=full"},{"uuid":"d7d5b441-09de-4fe6-b844-59644ab3b568","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [08MVT1AQQ9]","docType":"SRS","documentDate":1493391456000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=08MVT1AQQ9","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(d7d5b441-09de-4fe6-b844-59644ab3b568)?view=full"},{"uuid":"fd45021b-b670-4880-9ae1-f9227ec2b7c7","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520358940000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(fd45021b-b670-4880-9ae1-f9227ec2b7c7)?view=full"}],"approvalID":"08MVT1AQQ9","tags":[],"structurallyDiverse":{"uuid":"ed42eca3-f0aa-4a39-8783-f59fbb26ff12","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"VIRUS","part":["ENVELOPE"],"fractionName":"AVIAN TYPE GLYCOPROTEIN ANTIGENS; HEMAGGLUTININ","parentSubstance":{"uuid":"4b5b01fc-9b01-4b72-88f4-986eaa9839d6","created":1520358940000,"createdBy":"admin","lastEdited":1520358940000,"lastEditedBy":"admin","deprecated":false,"refPname":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) WHOLE","refuuid":"b0e9b61d-c9ea-45cb-bea1-6ba348fb2d9a","substanceClass":"reference","approvalID":"EW6O8EPVAK","linkingID":"EW6O8EPVAK","name":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) WHOLE","references":[],"access":[]},"references":["14ed24ba-e919-461a-8e49-8436a819088f","d7d5b441-09de-4fe6-b844-59644ab3b568"],"access":[]},"_approvalIDDisplay":"08MVT1AQQ9","_name":"INFLUENZA A VIRUS A/BRISBANE/59/2007 (H1N1) HEMAGGLUTININ ANTIGEN (FORMALDEHYDE INACTIVATED)","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(902e5bd8-0702-449c-90f0-95da8baa07b0)?view=full"}
+
+>  <SUBSTANCE_ID>
+29470
+
+>  <UNII>
+08MVT1AQQ9
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+ <SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+ <SOURCE_MATERIAL_TYPE>VIRUS</SOURCE_MATERIAL_TYPE>
+ <SOURCE_MATERIAL_STATE/>
+ <PARENT_SUBSTANCE_ID>93O6C9VO2C</PARENT_SUBSTANCE_ID>
+ <PARENT_SUBSTANCE_NAME>INFLUENZA A VIRUS H1N1</PARENT_SUBSTANCE_NAME>
+ <DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+ <PART>ENVELOPE</PART>
+ <PART_LOCATION/>
+ </PART_GROUP>
+<FRACTION>
+ <MATERIAL_TYPE>GLYCOPROTEIN</MATERIAL_TYPE>
+ <FRACTION>HEMAGGLUTININ</FRACTION>
+ </FRACTION>
+<ORGANISM>
+ <KINGDOM/>
+ <PHYLUM/>
+ <CLASS/>
+ <ORDER/>
+ <FAMILY/>
+ <GENUS/>
+ <SPECIES/>
+ <HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+ <HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+ <HYBRID_TYPE/>
+ <INFRASPECIFIC_TYPE>STRAIN</INFRASPECIFIC_TYPE>
+ <INFRASPECIFIC_DESCRIPTION>A/BRISBANE/59/2007(H1N1)</INFRASPECIFIC_DESCRIPTION>
+ </ORGANISM>
+ </SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+ <MODIFICATION_TYPE/>
+ <RESIDUE_MODIFIED/>
+ <RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+ <ROLE/>
+ <NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+ <PARAMETER/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PARAMETER_GROUP>
+ </PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+ <STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+ <ROLE/>
+ <MOIETY_ID/>
+ <MOIETY_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOIETY>
+<MOLECULAR_FRAGMENT>
+ <ROLE/>
+ <MOLECULAR_FRAGMENT_ID/>
+ <MOLECULAR_FRAGMENT_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_FRAGMENT>
+ </STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+ <AGENT_MODIFICATION_TYPE>CHEMICAL</AGENT_MODIFICATION_TYPE>
+ <ROLE>INACTIVATION</ROLE>
+ <MODIFICATION_AGENT_ID>1HG84L3525</MODIFICATION_AGENT_ID>
+ <MODIFICATION_AGENT>FORMALDEHYDE</MODIFICATION_AGENT>
+ <MODIFICATION_PROCESS/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </AGENT_MODIFICATION>
+ </MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+ <PROPERTY_TYPE/>
+ <PROPERTY_NAME/>
+ <SUBSTANCE_ID/>
+ <SUBSTANCE_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PROPERTY_GROUP>
+ <COMMENT/>
+ </STRUCTURALLY_DIVERSE>
+
+$$$$

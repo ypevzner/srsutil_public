@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="93abd154-cceb-4725-82e4-d0b015634987" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20201008" />
+  <setId root="5e2cf086-c61d-482d-8f77-494368893b91" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="ab733549-e0de-484c-81c1-7980a79e24b6" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20201008" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="5F25FW4LG7" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="5F25FW4LG7" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="cac84891-1101-54e7-03cc-1413c4f0598f" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <subjectOf>
+                <document>
+                  <bibliographicDesignationText>Lilium speciosum var. speciosum Thunb.</bibliographicDesignationText>
+                </document>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+  <subjectOf>
+    <action>
+      <code code="not_enough_information" codeSystem="1.2.3" />
+      <text>Unknown IntraspecificType - VARIETY</text>
+    </action>
+  </subjectOf>
+</document>

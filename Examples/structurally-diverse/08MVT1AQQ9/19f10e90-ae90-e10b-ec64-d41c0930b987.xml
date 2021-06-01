@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+	<id root="19f10e90-ae90-e10b-ec64-d41c0930b987"/>
+	<code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance"/>
+	<effectiveTime value="20140207"/>
+	<setId root="c0e3e845-0d38-41fc-9646-d44c8a0d5ace"/>
+	<versionNumber value="1"/>
+	<author>
+		<assignedEntity>
+			<representedOrganization>
+				<id root="1.3.6.1.4.1.519.1" extension="927645523"/>
+				<name>Food and Drug Administration</name>
+			</representedOrganization>
+		</assignedEntity>
+	</author>
+	<component>
+		<structuredBody>
+			<component>
+				<section>
+					<id root="fef444ac-b82d-47b0-8c64-d41c0930b987"/>
+					<code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section"/>
+					<effectiveTime value="20140207"/>
+					<subject>
+						<identifiedSubstance>
+							<id extension="08MVT1AQQ9" root="2.16.840.1.113883.4.9"/>
+							<identifiedSubstance>
+								<code code="08MVT1AQQ9" codeSystem="2.16.840.1.113883.4.9"/>
+								<name>influenza A virus A/brisbane/59/2007 (H1N1) hemagglutinin antigen (formaldehyde inactivated)</name>
+							</identifiedSubstance>
+							<subjectOf>
+								<characteristic>
+									<code code="C987654" displayName="strain"  codeSystem="2.16.840.1.113883.3.26.1.1"/>
+									<value xsi:type="ST">A/BRISBANE/59/2007(H1N1)</value>
+									<!-- NOTE: SRS says that the "parent" is 93O6C9VO2C but then refines the organism to 
+											 STRAIN:	A/BRISBANE/59/2007(H1N1)
+											 We might then make every virus strain its own UNII code instead of refining it here.
+											 So this characteristic might have to move all the way into the UNII code.
+									-->
+								</characteristic>
+							</subjectOf>
+							<productOf>
+								<derivationProcess>
+									<interactor typeCode="CSM">
+										<identifiedSubstance>
+											<id extension="93O6C9VO2C" root="2.16.840.1.113883.4.9"/>
+											<identifiedSubstance>
+												<code code="93O6C9VO2C" codeSystem="2.16.840.1.113883.4.9"/>
+												<name>influenza A virus H1N1 whole</name>
+											</identifiedSubstance>
+										</identifiedSubstance>
+									</interactor>
+									<component>
+										<sequenceNumber value="1"/>
+										<derivationProcess>
+											<code code="C0924" displayName="acquire virus envelope glycoprotein" codeSystem="1.2.3.99.999.1"/>
+											<!-- in SRS the "fraction" speaks about "hemagglutinin", not sure if that isn't a method or a testing method -->
+										</derivationProcess>
+									</component>
+									<!-- Note: I am not sure if the sequencing isn't exactly the opposite: 
+														 first formalin inactivate and 
+														 then extracting only the envelope antigen? -->
+									<component>
+										<sequenceNumber value="2"/>
+										<derivationProcess>
+											<code code="C0738" displayName="inactivate chemically" codeSystem="1.2.3.99.999.1"/>
+											<interactor typeCode="CSM">
+												<identifiedSubstance>
+													<id extension="1HG84L3525" root="2.16.840.1.113883.4.9"/>
+													<identifiedSubstance>
+														<code code="1HG84L3525" codeSystem="2.16.840.1.113883.4.9"/>
+														<name>formaldehyde</name>
+													</identifiedSubstance>
+												</identifiedSubstance>
+											</interactor>
+										</derivationProcess>
+									</component>
+								</derivationProcess>
+							</productOf>
+						</identifiedSubstance>
+					</subject>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</document>

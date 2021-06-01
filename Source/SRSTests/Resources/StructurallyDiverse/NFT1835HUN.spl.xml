@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="0eb1344f-f4d8-4960-bf04-d6a42042790b" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20200228" />
+  <setId root="92ba2066-aadb-41bc-bfa5-de3bf99d8519" />
+  <versionNumber value="3" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="910509aa-7ef4-40a2-84ed-077834f14fb2" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20200228" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="NFT1835HUN" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="NFT1835HUN" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="9ea3faaf-3bfa-5347-d44f-3b91bf885d7a" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <subjectOf>
+                <document>
+                  <bibliographicDesignationText>Karwinskia humboldtiana (Willd. ex Roem. &amp; Schult.) Zucc.</bibliographicDesignationText>
+                </document>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

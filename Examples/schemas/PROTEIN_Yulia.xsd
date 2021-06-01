@@ -1,0 +1,145 @@
+<?xml version="1.0"?> 
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="Dr.Borodina.Schema">
+  <xs:element name="PROTEIN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="SEQUENCE_TYPE"/>
+        <xs:element type="xs:byte" name="NUMBER_OF_SUBUNITS"/>
+        <xs:element name="SUBUNIT_GROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="SUBUNIT"/>
+              <xs:element type="xs:short" name="LENGTH"/>
+              <xs:element type="xs:string" name="SEQUENCE"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="DISULFIDE_LINKAGE"/>
+        <xs:element name="OTHER_LINKAGE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="SITE"/>
+              <xs:element type="xs:string" name="LINKAGE_TYPE"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GLYCOSYLATION">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="GLYCOSYLATION_TYPE"/>
+              <xs:element type="xs:string" name="N_GLYCOSYLATION"/>
+              <xs:element type="xs:string" name="O_GLYCOSYLATION"/>
+              <xs:element type="xs:string" name="C_GLYCOSYLATION"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MODIFICATION_GROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STRUCTURAL_MODIFICATION_GROUP" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="RESIDUE_MODIFIED"/>
+                    <xs:element type="xs:string" name="RESIDUE_SITE"/>
+                    <xs:element type="xs:string" name="NUMBER_OF_FRAGMENTS_MOIETIES"/>
+                    <xs:element type="xs:string" name="AMOUNT_TYPE"/>
+                    <xs:element name="MOLECULAR_FRAGMENT_MOIETY">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="STRUCTURAL_MODIFICATION_TYPE"/>
+                          <xs:element type="xs:string" name="ROLE"/>
+                          <xs:element type="xs:string" name="FRAGMENT_NUMBER"/>
+                          <xs:element type="xs:string" name="MOLECULAR_FRAGMENT_NAME"/>
+                          <xs:element type="xs:string" name="MOLECULAR_FRAGMENT_ID"/>
+                          <xs:element type="xs:string" name="MOLECULAR_FRAGMENT_INCHI"/>
+                          <xs:element type="xs:string" name="MOLFILE"/>
+                          <xs:element type="xs:string" name="FRAGMENT_CONNECTIVTY"/>
+                          <xs:element name="POLYMER">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="POLYMER_CLASS"/>
+                                <xs:element type="xs:string" name="POLYMER_GEOMETRY"/>
+                                <xs:element name="MONOMER_DESCRIPTION">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:byte" name="NUMBER_OF_MONOMERS"/>
+                                      <xs:element type="xs:string" name="MONOMER_AMOUNT_TYPE"/>
+                                      <xs:element name="MONOMER_GROUP">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="MONOMER_ID"/>
+                                            <xs:element type="xs:string" name="MONOMER_NAME"/>
+                                            <xs:element name="AMOUNT">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:short" name="AVERAGE"/>
+                                                  <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                                  <xs:element type="xs:string" name="UNIT"/>
+                                                  <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="STRUCTURAL_REPEAT_UNIT">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="NUMBER_OF_STRUCTURAL_REPEAT_UNITS"/>
+                                      <xs:element type="xs:string" name="STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE"/>
+                                      <xs:element name="STRUCTURAL_REPEAT_UNIT_GROUP">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="ORIENTATION_OF_POLYMERIZATION"/>
+                                            <xs:element type="xs:string" name="STRUCTURAL_REPEAT_UNIT"/>
+                                            <xs:element name="AMOUNT">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:short" name="AVERAGE"/>
+                                                  <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                                  <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                                                  <xs:element type="xs:string" name="UNIT"/>
+                                                  <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="COMMENTS"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="AMOUNT">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="AVERAGE"/>
+                                <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                                <xs:element type="xs:string" name="UNIT"/>
+                                <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="COMMENTS"/>
+        <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

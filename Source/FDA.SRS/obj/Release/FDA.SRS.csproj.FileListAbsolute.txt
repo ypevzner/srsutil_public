@@ -1,0 +1,9 @@
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\bin\Release\FDA.SRS.dll
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\bin\Release\FDA.SRS.pdb
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\bin\Release\Newtonsoft.Json.dll
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\bin\Release\Newtonsoft.Json.xml
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\obj\Release\FDA.SRS.csprojAssemblyReference.cache
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\obj\Release\FDA.SRS.csproj.CoreCompileInputs.cache
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\obj\Release\FDA.SRS.csproj.CopyComplete
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\obj\Release\FDA.SRS.dll
+C:\Users\YP\source\repos\srsutil\Source\FDA.SRS\obj\Release\FDA.SRS.pdb

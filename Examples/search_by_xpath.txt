@@ -1,0 +1,2 @@
+srsutil.exe /command=sdf-extract-xml /if=public_diverse_01_27_16.sdf /of=all-whole-organisms.xml /xpath=/STRUCTURALLY_DIVERSE/SOURCE_MATERIAL/ORGANISM[../PART_GROUP/PART/text()='WHOLE']
+srsutil.exe /command=sdf-extract-xml /if=public_diverse_01_27_16.sdf /of=all-whole-organisms_author.xml /xpath=/TAXON_AUTHOR

@@ -1,0 +1,34 @@
+
+  -INDIGO-06251712252D
+
+  1  0  0  0  0  0  0  0  0  0999 V2000
+    4.5923   -2.8492    0.0000 Na  0  0  0  0  0  0  0  0  0  0  0  0
+M  END
+> <SUBSTANCE_ID>
+139782
+
+> <UNII>
+23J3BHR95O
+
+> <DESC_PART1>
+
+> <DESC_PART2>
+
+> <COMMENTS>
+hydride
+
+> <CDBREGNO>
+102494
+
+> <STRUCTURE_ID>
+63672
+
+> <SUBSTANCE_NAME>
+
+> <Exception>
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ChemSpider.Molecules.MoleculeExtensions.CanonicalNumbers(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 25
+   at ChemSpider.Molecules.MoleculeExtensions.ReorderCanonically(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 81
+   at UnitTestProject.CompoundsTests.<>c__DisplayClass1_0.<CanonicalNumbers_OnAllOfMixtures>b__0(SdfRecord sdf) in D:\PROJECTS\SDE\FDA\srs\Source\SRSTests\CompoundsTests.cs:line 74
+
+$$$$

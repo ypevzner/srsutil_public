@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20170213" />
+  <setId root="dbf2a6aa-0d79-44f5-bed1-10c43c181406" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="92cc26ca-7d61-4c91-bbd8-d715756f5699" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20170213" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="08AN7WA2G0" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="08AN7WA2G0" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="dcc53717-2abc-5dd4-ffbc-1208100c7339" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code code="C118424" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PROTEIN SUBUNIT" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU1" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-aa-seq">QHWSYXLRPG</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="M1" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                    <code code="F1" codeSystem="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="1" />
+                      <positionNumber value="1" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="M2" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                    <code code="F2" codeSystem="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="1" />
+                      <positionNumber value="6" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="M3" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                    <code code="F3" codeSystem="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="1" />
+                      <positionNumber value="10" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F1" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+              <identifiedSubstance>
+                <code code="F1" codeSystem="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="e309e619-a332-7bcd-7aca-edc3e5289470" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="1" />
+                    <denominator value="1" unit="1" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C5H7NO3
+  -FDASRS-02131718302D
+
+  9  9  0  0  1  0  0  0  0  0999 V2000
+    7.7770   -5.1860    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0228   -5.1860    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9978   -4.4693    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    6.7937   -4.4860    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7103   -4.2277    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3936   -4.0485    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0853   -4.2694    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2686   -4.7235    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8645   -3.4985    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  6  4  1  0  0  0  0
+  4  7  2  0  0  0  0
+  4  2  1  0  0  0  0
+  2  1  1  0  0  0  0
+  1  3  1  0  0  0  0
+  6  3  1  0  0  0  0
+  3  5  1  6  0  0  0
+  5  8  2  0  0  0  0
+  5  9  1  0  0  0  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C5H7NO3/c7-4-2-1-3(6-4)5(8)9/h3H,1-2H2,(H,6,7)(H,8,9)/t3-/m0/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">ODHCTXKNWHHXJC-VKHMYHEASA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS" />
+                  <positionNumber nullFlavor="NA" />
+                  <positionNumber value="5" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F2" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+              <identifiedSubstance>
+                <code code="F2" codeSystem="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="9c602ade-7b5f-327e-a58d-b285f5191ec7" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="1" />
+                    <denominator value="1" unit="1" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C11H12N2O2
+  -FDASRS-02131718302D
+
+ 15 16  0  0  1  0  0  0  0  0999 V2000
+   10.4022   -9.8882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4022   -9.1423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1231  -10.2549    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.0564   -8.7257    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.1231  -10.4215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.9064   -9.4257    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5106  -10.0715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7647   -9.8882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7356  -10.0673    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.7647   -9.0924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3481  -10.4132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7356   -9.3590    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   12.4647   -8.8465    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3481  -11.1257    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9606  -10.0590    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+ 13  6  1  0  0  0  0
+  7  6  2  0  0  0  0
+  7  8  1  0  0  0  0
+  7  5  1  0  0  0  0
+  8 10  2  0  0  0  0
+ 13 10  1  0  0  0  0
+ 11  9  1  0  0  0  0
+  5  9  1  0  0  0  0
+ 11 14  2  0  0  0  0
+  9 12  1  1  0  0  0
+ 11 15  1  0  0  0  0
+  8  3  1  0  0  0  0
+ 10  4  1  0  0  0  0
+  3  1  2  0  0  0  0
+  1  2  1  0  0  0  0
+  4  2  2  0  0  0  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C11H12N2O2/c12-9(11(14)15)5-7-6-13-10-4-2-1-3-8(7)10/h1-4,6,9,13H,5,12H2,(H,14,15)/t9-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">QIVBCDIJIAJPQS-SECBINFHSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS" />
+                  <positionNumber value="12" />
+                  <positionNumber value="11" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F3" root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+              <identifiedSubstance>
+                <code code="F3" codeSystem="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="94423a46-a814-aade-f50c-23a78c74e660" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="1" />
+                    <denominator value="1" unit="1" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C2H6N2O
+  -FDASRS-02131718302D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    6.9223   -5.6639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2168   -5.2519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6389   -5.2519    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2168   -4.4326    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5003   -5.6639    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  5  2  2  0  0  0  0
+  2  4  1  0  0  0  0
+  2  1  1  0  0  0  0
+  1  3  1  0  0  0  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C2H6N2O/c3-1-2(4)5/h1,3H2,(H2,4,5)</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">BEBCJVAWIBVWNZ-UHFFFAOYSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS" />
+                  <positionNumber value="3" />
+                  <positionNumber nullFlavor="NA" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

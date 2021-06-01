@@ -1,0 +1,330 @@
+<SUBSTANCE>
+  <SUBSTANCE_ID />
+  <SINGLE_SUBSTANCE>
+    <ELEMENT_TYPE>
+      <POLYMER>
+        <POLYMER_TYPE>COPOLYMER</POLYMER_TYPE>
+        <AMOUNT_TYPE>MOLE</AMOUNT_TYPE>
+        <MONOMER_GROUP>
+          <MONOMER_LABEL>A</MONOMER_LABEL>
+          <INCHI>InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1</INCHI>
+          <UNII>5J5I9EB41E</UNII>
+          <NAME>.ALPHA.-D-GLUCOPYRANOSE</NAME>
+          <AMOUNT>
+            <AVERAGE>62</AVERAGE>
+            <LOW_LIMIT />
+            <HIGH_LIMIT />
+            <UNIT>MOL</UNIT>
+            <NON_NUMERIC_VALUE />
+          </AMOUNT>
+          <MONOMER_RESIDUE_GROUP>
+            <RESIDUE_LABEL>A1</RESIDUE_LABEL>
+            <RESIDUE_INCHI>InChI=1S/C6H9He3O6/c7-12-1-2-3(10)5(14-8)4(11)6(13-2)15-9/h2-6,10-11H,1H2/t2-,3-,4-,5+,6-/m1/s1/i7+1,8+0,9-1</RESIDUE_INCHI>
+          </MONOMER_RESIDUE_GROUP>
+          <MONOMER_RESIDUE_GROUP>
+            <RESIDUE_LABEL>A2</RESIDUE_LABEL>
+            <RESIDUE_INCHI>InChI=1S/C6H10He2O6/c7-12-1-2-3(9)4(10)5(11)6(13-2)14-8/h2-6,9-11H,1H2/t2-,3-,4+,5-,6-/m1/s1/i7+0,8-1</RESIDUE_INCHI>
+          </MONOMER_RESIDUE_GROUP>
+        </MONOMER_GROUP>
+        <MOIETY_FRAGMENT_GROUP>
+          <MOIETY>
+            <MOIETY_LABEL>B</MOIETY_LABEL>
+            <MOIETY_INCHI />
+            <MOIETY_UNII />
+            <MOIETY_NAME />
+          </MOIETY>
+          <FRAGMENT>
+            <FRAGMENT_LABEL>B1</FRAGMENT_LABEL>
+            <FRAGMENT_INCHI>InChI=1S/C5H11He2NS/c6-2-1-4-9-5-3-8-7/h8H,1-5H2/i6-1,7+0</FRAGMENT_INCHI>
+            <FRAGMENT_UNII />
+            <FRAGMENT_NAME>AMINE LEASH</FRAGMENT_NAME>
+          </FRAGMENT>
+          <AMOUNT>
+            <AVERAGE />
+            <LOW_LIMIT>15</LOW_LIMIT>
+            <HIGH_LIMIT>42</HIGH_LIMIT>
+            <UNIT>MOL</UNIT>
+            <NON_NUMERIC_VALUE />
+          </AMOUNT>
+        </MOIETY_FRAGMENT_GROUP>
+        <MOIETY_FRAGMENT_GROUP>
+          <MOIETY>
+            <MOIETY_LABEL>C</MOIETY_LABEL>
+            <MOIETY_INCHI>InChI=1S/C14H23N3O10/c18-10(19)5-15(1-3-16(6-11(20)21)7-12(22)23)2-4-17(8-13(24)25)9-14(26)27/h1-9H2,(H,18,19)(H,20,21)(H,22,23)(H,24,25)(H,26,27)</MOIETY_INCHI>
+            <MOIETY_UNII>7A314HQM0I</MOIETY_UNII>
+            <MOIETY_NAME>PENTETIC ACID</MOIETY_NAME>
+          </MOIETY>
+          <FRAGMENT>
+            <FRAGMENT_LABEL>C1</FRAGMENT_LABEL>
+            <FRAGMENT_INCHI>InChI=1S/C14H22HeN3O9/c15-10(19)5-17(7-12(22)23)3-1-16(6-11(20)21)2-4-18(8-13(24)25)9-14(26)27/h1-9H2,(H,20,21)(H,22,23)(H,24,25)(H,26,27)/i15-1</FRAGMENT_INCHI>
+            <FRAGMENT_UNII />
+            <FRAGMENT_NAME />
+          </FRAGMENT>
+          <AMOUNT>
+            <AVERAGE />
+            <LOW_LIMIT>3</LOW_LIMIT>
+            <HIGH_LIMIT>8</HIGH_LIMIT>
+            <UNIT>MOL</UNIT>
+            <NON_NUMERIC_VALUE />
+          </AMOUNT>
+        </MOIETY_FRAGMENT_GROUP>
+        <MOIETY_FRAGMENT_GROUP>
+          <MOIETY>
+            <MOIETY_LABEL>D</MOIETY_LABEL>
+            <MOIETY_INCHI />
+            <MOIETY_UNII />
+            <MOIETY_NAME />
+          </MOIETY>
+          <FRAGMENT>
+            <FRAGMENT_LABEL>D1</FRAGMENT_LABEL>
+            <FRAGMENT_INCHI>InChI=1S/C8H14HeNO5S/c9-4(10)2-16-8-7(14)6(13)5(12)3(1-11)15-8/h3,5-8,10-14H,1-2H2/t3-,5-,6+,7+,8?/m0/s1/i9-1</FRAGMENT_INCHI>
+            <FRAGMENT_UNII />
+            <FRAGMENT_NAME />
+          </FRAGMENT>
+          <AMOUNT>
+            <AVERAGE />
+            <LOW_LIMIT>12</LOW_LIMIT>
+            <HIGH_LIMIT>20</HIGH_LIMIT>
+            <UNIT>MOL</UNIT>
+            <NON_NUMERIC_VALUE />
+          </AMOUNT>
+        </MOIETY_FRAGMENT_GROUP>
+        <POLYMERIZATION_AREA_GROUP>
+          <POLYMERIZATION_AREA_NUMBER>1</POLYMERIZATION_AREA_NUMBER>
+          <POLYMERIZATION_TYPE>STATISTICAL</POLYMERIZATION_TYPE>
+          <POLYMERIZATION_GEOMETRY>NON-LINEAR</POLYMERIZATION_GEOMETRY>
+          <RESIDUES>
+            <RESIDUE_GROUP>
+              <RESIDUE_LABEL>A1</RESIDUE_LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </RESIDUE_GROUP>
+            <RESIDUE_GROUP>
+              <RESIDUE_LABEL>A2</RESIDUE_LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </RESIDUE_GROUP>
+          </RESIDUES>
+          <ALLOWED_RESIDUE_CONNECTIVITIES>
+            <CONNECTIVITY>A1_3-5_A1</CONNECTIVITY>
+            <CONNECTIVITY>A1_3-4_A1</CONNECTIVITY>
+            <CONNECTIVITY>A1_3-4_A2</CONNECTIVITY>
+            <CONNECTIVITY>A1_4-3_A2</CONNECTIVITY>
+            <CONNECTIVITY>A1_5-3_A2</CONNECTIVITY>
+          </ALLOWED_RESIDUE_CONNECTIVITIES>
+          <MOLECULAR_WEIGHT>
+            <MOLECULAR_WEIGHT_TYPE />
+            <MOLECULAR_WEIGHT_METHOD />
+            <AMOUNT>
+              <AVERAGE>10000</AVERAGE>
+              <LOW_LIMIT />
+              <HIGH_LIMIT />
+              <UNIT>DA</UNIT>
+              <NON_NUMERIC_VALUE />
+            </AMOUNT>
+          </MOLECULAR_WEIGHT>
+        </POLYMERIZATION_AREA_GROUP>
+        <MODIFICATION_GROUP>
+          <STRUCTURAL_MODIFICATION>
+            <RESIDUE_LABEL>A1</RESIDUE_LABEL>
+            <MODIFIED_RESIDUE_INCHI>InChI=1S/C6H8He4O6/c7-12-1-2-3(11)4(14-8)5(15-9)6(13-2)16-10/h2-6,11H,1H2/t2-,3-,4+,5-,6-/m1/s1/i7+1,8+0,9+2,10-1</MODIFIED_RESIDUE_INCHI>
+            <AMOUNT_TYPE />
+            <NUMBER_OF_FRAGMENTS_MOIETIES>1</NUMBER_OF_FRAGMENTS_MOIETIES>
+            <FRAGMENT_MOIETY>
+              <LABEL>B1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENTS_CONNECTIVTY>
+              <CONNECTIVITY>A1_6-3_B1</CONNECTIVITY>
+            </FRAGMENTS_CONNECTIVTY>
+            <AMOUNT>
+              <AVERAGE />
+              <LOW_LIMIT />
+              <HIGH_LIMIT />
+              <UNIT />
+              <NON_NUMERIC_VALUE />
+            </AMOUNT>
+          </STRUCTURAL_MODIFICATION>
+        </MODIFICATION_GROUP>
+        <MODIFICATION_GROUP>
+          <STRUCTURAL_MODIFICATION>
+            <RESIDUE_LABEL>A2</RESIDUE_LABEL>
+            <MODIFIED_RESIDUE_INCHI>InChI=1S/C6H9He3O6/c7-12-1-2-3(10)4(11)5(14-8)6(13-2)15-9/h2-6,10-11H,1H2/t2-,3-,4+,5-,6-/m1/s1/i7+0,8+1,9-1</MODIFIED_RESIDUE_INCHI>
+            <AMOUNT_TYPE />
+            <NUMBER_OF_FRAGMENTS_MOIETIES>1</NUMBER_OF_FRAGMENTS_MOIETIES>
+            <FRAGMENT_MOIETY>
+              <LABEL>B1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENTS_CONNECTIVTY>
+              <CONNECTIVITY>A2_5-3_B1</CONNECTIVITY>
+            </FRAGMENTS_CONNECTIVTY>
+          </STRUCTURAL_MODIFICATION>
+        </MODIFICATION_GROUP>
+        <MODIFICATION_GROUP>
+          <STRUCTURAL_MODIFICATION>
+            <RESIDUE_LABEL>A1</RESIDUE_LABEL>
+            <MODIFIED_RESIDUE_INCHI>InChI=1S/C6H8He4O6/c7-12-1-2-3(11)4(14-8)5(15-9)6(13-2)16-10/h2-6,11H,1H2/t2-,3-,4+,5-,6-/m1/s1/i7+1,8+0,9+2,10-1</MODIFIED_RESIDUE_INCHI>
+            <AMOUNT_TYPE />
+            <NUMBER_OF_FRAGMENTS_MOIETIES>2</NUMBER_OF_FRAGMENTS_MOIETIES>
+            <FRAGMENT_MOIETY>
+              <LABEL>B1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENT_MOIETY>
+              <LABEL>C1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENTS_CONNECTIVTY>
+              <CONNECTIVITY>A1_6-3_B1</CONNECTIVITY>
+              <CONNECTIVITY>B1_4-3_C1</CONNECTIVITY>
+            </FRAGMENTS_CONNECTIVTY>
+          </STRUCTURAL_MODIFICATION>
+        </MODIFICATION_GROUP>
+        <MODIFICATION_GROUP>
+          <STRUCTURAL_MODIFICATION>
+            <RESIDUE_LABEL>A2</RESIDUE_LABEL>
+            <MODIFIED_RESIDUE_INCHI>InChI=1S/C6H9He3O6/c7-12-1-2-3(10)4(11)5(14-8)6(13-2)15-9/h2-6,10-11H,1H2/t2-,3-,4+,5-,6-/m1/s1/i7+0,8+1,9-1</MODIFIED_RESIDUE_INCHI>
+            <AMOUNT_TYPE />
+            <NUMBER_OF_FRAGMENTS_MOIETIES>2</NUMBER_OF_FRAGMENTS_MOIETIES>
+            <FRAGMENT_MOIETY>
+              <LABEL>B1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENT_MOIETY>
+              <LABEL>C1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENTS_CONNECTIVTY>
+              <CONNECTIVITY>A2_5-3_B1</CONNECTIVITY>
+              <CONNECTIVITY>B1_4-3_C1</CONNECTIVITY>
+            </FRAGMENTS_CONNECTIVTY>
+          </STRUCTURAL_MODIFICATION>
+        </MODIFICATION_GROUP>
+        <MODIFICATION_GROUP>
+          <STRUCTURAL_MODIFICATION>
+            <RESIDUE_LABEL>A1</RESIDUE_LABEL>
+            <MODIFIED_RESIDUE_INCHI>InChI=1S/C6H8He4O6/c7-12-1-2-3(11)4(14-8)5(15-9)6(13-2)16-10/h2-6,11H,1H2/t2-,3-,4+,5-,6-/m1/s1/i7+1,8+0,9+2,10-1</MODIFIED_RESIDUE_INCHI>
+            <AMOUNT_TYPE />
+            <NUMBER_OF_FRAGMENTS_MOIETIES>2</NUMBER_OF_FRAGMENTS_MOIETIES>
+            <FRAGMENT_MOIETY>
+              <LABEL>B1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENT_MOIETY>
+              <LABEL>D1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENTS_CONNECTIVTY>
+              <CONNECTIVITY>A1_6-3_B1</CONNECTIVITY>
+              <CONNECTIVITY>B1_4-3_D1</CONNECTIVITY>
+            </FRAGMENTS_CONNECTIVTY>
+          </STRUCTURAL_MODIFICATION>
+        </MODIFICATION_GROUP>
+        <MODIFICATION_GROUP>
+          <STRUCTURAL_MODIFICATION>
+            <RESIDUE_LABEL>A2</RESIDUE_LABEL>
+            <MODIFIED_RESIDUE_INCHI>InChI=1S/C6H9He3O6/c7-12-1-2-3(10)4(11)5(14-8)6(13-2)15-9/h2-6,10-11H,1H2/t2-,3-,4+,5-,6-/m1/s1/i7+0,8+1,9-1</MODIFIED_RESIDUE_INCHI>
+            <AMOUNT_TYPE />
+            <NUMBER_OF_FRAGMENTS_MOIETIES>2</NUMBER_OF_FRAGMENTS_MOIETIES>
+            <FRAGMENT_MOIETY>
+              <LABEL>B1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENT_MOIETY>
+              <LABEL>D1</LABEL>
+              <AMOUNT>
+                <AVERAGE />
+                <LOW_LIMIT />
+                <HIGH_LIMIT />
+                <UNIT />
+                <NON_NUMERIC_VALUE />
+              </AMOUNT>
+            </FRAGMENT_MOIETY>
+            <FRAGMENTS_CONNECTIVTY>
+              <CONNECTIVITY>A2_5-3_B1</CONNECTIVITY>
+              <CONNECTIVITY>B1_4-3_D1</CONNECTIVITY>
+            </FRAGMENTS_CONNECTIVTY>
+          </STRUCTURAL_MODIFICATION>
+        </MODIFICATION_GROUP>
+        <MOLECULAR_WEIGHT>
+          <MOLECULAR_WEIGHT_TYPE />
+          <MOLECULAR_WEIGHT_METHOD />
+          <AMOUNT>
+            <AVERAGE />
+            <LOW_LIMIT>15281</LOW_LIMIT>
+            <HIGH_LIMIT>23454</HIGH_LIMIT>
+            <UNIT>DA</UNIT>
+            <NON_NUMERIC_VALUE />
+          </AMOUNT>
+        </MOLECULAR_WEIGHT>
+        <PUBLIC_DOMAIN />
+        <COMMENTS />
+      </POLYMER>
+    </ELEMENT_TYPE>
+  </SINGLE_SUBSTANCE>
+</SUBSTANCE>

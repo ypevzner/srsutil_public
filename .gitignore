@@ -1,0 +1,50 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+!Source/.nuget/NuGet.exe
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Backup & report files from converting an old project file to a newer
+# Visual Studio version. Backup files are not needed, because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# SQL Server files
+App_Data/*.mdf
+App_Data/*.ldf
+
+
+Raw_Data/
+
+*.psess
+*.vspx
+*.lock.*
+tmp/
+/Source/bin.zip
+/Data.zip
+/Source/bin.zip
+/Data/Agent_Modification/agent_modification_terms.txt
+/Docs/Rounding of average degree of polymerization per site.docx
+/Docs/Estimating probability of a site.docx

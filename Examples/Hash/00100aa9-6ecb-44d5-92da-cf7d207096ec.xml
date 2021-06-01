@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="00100aa9-6ecb-44d5-92da-cf7d207096ec" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20180813" />
+  <setId root="eddc601e-614c-4fd2-9ca1-10cd407e4fa1" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="597d1c0b-53a4-4f48-b053-f58ed5122da3" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20180813" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="YWG1RHJ002" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="YWG1RHJ002" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="c12caba6-d69b-d392-b3d0-3e7e5262c824" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <code code="YWG1RHJ002" codeSystem="2.16.840.1.113883.4.9" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+  -FDASRS-08131815582D
+
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+    3.4680    1.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6025    0.4992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7325    0.9992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8725    0.4992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8725   -0.5008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7325   -1.0008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7300   -2.0008    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5900   -2.5008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4600   -2.0008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8600   -2.5008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -2.0008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6025   -0.5008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4670    2.0035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3286    2.5008    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  2  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  7 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  6 12  1  0  0  0  0
+ 12  2  2  0  0  0  0
+  1 13  1  0  0  0  0
+ 13 14  1  0  0  0  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C12H19NO/c1-4-13(5-2)11-8-7-9-12(10-11)14-6-3/h7-10H,4-6H2,1-3H3</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">ODQSBWZDOSNPAH-UHFFFAOYSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

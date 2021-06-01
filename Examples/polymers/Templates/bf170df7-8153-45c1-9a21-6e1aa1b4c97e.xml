@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+  <id root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20110831" />
+  <setId root="b2315501-dc0c-56d0-e044-001185133a64" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id root="1.3.6.1.4.1.519.1" extension="927645523" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="be6341f5-9f15-4711-957c-8e0600d0f7fa" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <title />
+          <text />
+          <effectiveTime value="20110831" />
+          <subject>
+            <identifiedSubstance>
+              <!--Hypromellose is a substituted polymer of Glucose. Each glucose SRU has three potential substitution sites with metoxy or hydroxypropoxy R-groups substituting hydrogen atom. I also added a hypothetical case when there is a cross link with uncertain position on glucose molecule. Though hypromellose doesn't have such cross-links other polymers do.-->
+              <id extension="3NXW29V3WO" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"></code>
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="f432c22c-5e0d-56e7-6c41-0a3519583c8d" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code displayName="Polymer" codeSystem="2.16.840.1.113883.3.26.1.1" code="C48803" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code code="C164243" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Repeat Unit" />
+                      <quantity>
+                        <!--number of linear glucose units-->
+                        <numerator xsi:type="URG_PQ">
+                          <low value="50" unit="mol" />
+                        </numerator>
+                        <denominator value="1" unit="mol" />
+                      </quantity>
+                      <partMoiety>
+                        <id extension="SRU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e"></id>
+                        <code code="glucose" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </partMoiety>
+                    </moiety>
+                    <moiety>
+                      <code code="C164243" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Repeat Unit" />
+                      <quantity>
+                        <!--number of cross-linked glucose units-->
+                        <numerator xsi:type="URG_PQ">
+                          <low value="5" unit="mol" />
+                        </numerator>
+                        <denominator value="1" unit="mol" />
+                      </quantity>
+                      <partMoiety>
+                        <id extension="SRU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e"></id>
+                        <code code="double-glucose" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </partMoiety>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <!--Substituted glucose SRU-->
+              <id extension="glucose" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e"></id>
+              <identifiedSubstance>
+                <code code="glucose" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e"></code>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+     RDKit          2D
+
+ 17 17  0  0  1  0  0  0  0  0999 V2000
+   12.1550  -11.5229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5648  -12.2405    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1503  -12.9538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5585  -13.6720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3864  -13.6720    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8009  -12.9587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5612  -10.8057    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3875  -12.2405    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.3261  -12.9538    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1441  -14.3790    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7946  -14.3839    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7711  -12.9587    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   11.9622   -9.7877    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1520  -12.9538    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7279  -15.4057    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9756  -14.3874    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2062  -12.2513    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  3  9  1  6
+  6 17  1  1
+  6  5  1  0
+  8  6  1  0
+  2  8  1  0
+  1  7  1  0
+  2  1  1  1
+  3  2  1  0
+  4  3  1  0
+  4 10  1  1
+  5  4  1  0
+  5 11  1  6
+  7 13  1  0
+ 10 15  1  0
+ 11 16  1  0
+  9 14  1  0
+  6 12  1  0
+V   12 *
+V   13 *
+V   14 *
+V   15 *
+V   16 *
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/C6H7O5Zz5/c12-6-5(11-16)4(10-15)3(9-14)2(8-6)1-7-13/h2-6H,1H2/t2-,3-,4+,5-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">FPAYPEVEHQILDQ-SQOUGZDYBA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C132921" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Linear SRU Connection Points" />
+                  <positionNumber value="12">
+                    <!--head-->
+                  </positionNumber>
+                  <positionNumber value="14">
+                    <!--tail-->
+                  </positionNumber>
+                  <partMoiety></partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="R1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="hydroxypropyl-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="1">
+                        <!--atom position in R-group-->
+                      </positionNumber>
+                      <positionNumber value="13">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="15">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="16">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <quantity>
+                    <numerator value="0.5" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="R2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="methyl-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="1">
+                        <!--atom position in R-group-->
+                      </positionNumber>
+                      <positionNumber value="13">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="15">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="16">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <quantity>
+                    <numerator value="1.5" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="R3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="hydrogen-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="1">
+                        <!--atom position in R-group-->
+                      </positionNumber>
+                      <positionNumber value="13">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="15">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="16">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <!--Hypothetical cross-linked uncertain position glucose SRU-->
+              <id extension="double-glucose" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e"></id>
+              <identifiedSubstance>
+                <code code="double-glucose" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e"></code>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="double-glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+  ACCLDraw02032113032D
+
+ 34 34  0  0  1  0  0  0  0  0999 V2000
+   10.1520  -12.9538    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   11.3261  -12.9538    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7711  -12.9587    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2062  -12.2513    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8009  -12.9587    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   13.3875  -12.2405    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5612  -10.8057    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1550  -11.5229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5648  -12.2405    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   12.1503  -12.9538    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   12.1441  -14.3790    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5585  -13.6720    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   13.3864  -13.6720    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   13.7946  -14.3839    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.9622   -9.7877    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7279  -15.4057    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9756  -14.3874    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   11.9769   -2.5306    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5759   -3.5486    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1697   -4.2658    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9904   -7.1303    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8093   -7.1268    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7427   -8.1486    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1588   -7.1219    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5732   -6.4149    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   13.4011   -6.4149    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   14.2209   -4.9942    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7858   -5.7016    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8156   -5.7016    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   13.4022   -4.9834    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5795   -4.9834    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   12.1650   -5.6967    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.3408   -5.6967    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1667   -5.6967    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+ 10  2  1  6  0  0  0
+  5  3  1  0  0  0  0
+  5  4  1  6  0  0  0
+  5 13  1  0  0  0  0
+  6  5  1  0  0  0  0
+  9  6  1  0  0  0  0
+  8  7  1  0  0  0  0
+  9  8  1  1  0  0  0
+ 10  9  1  0  0  0  0
+ 12 10  1  0  0  0  0
+ 12 11  1  1  0  0  0
+ 13 12  1  0  0  0  0
+ 13 14  1  6  0  0  0
+  7 15  1  0  0  0  0
+ 11 16  1  0  0  0  0
+ 14 17  1  0  0  0  0
+ 19 18  1  0  0  0  0
+ 20 19  1  0  0  0  0
+ 31 20  1  1  0  0  0
+ 22 21  1  0  0  0  0
+ 26 22  1  6  0  0  0
+ 24 23  1  0  0  0  0
+ 25 24  1  1  0  0  0
+ 25 32  1  0  0  0  0
+ 26 25  1  0  0  0  0
+ 29 26  1  0  0  0  0
+ 29 27  1  6  0  0  0
+ 29 28  1  0  0  0  0
+ 30 29  1  0  0  0  0
+ 31 30  1  0  0  0  0
+ 32 31  1  0  0  0  0
+ 32 33  1  6  0  0  0
+ 33 34  1  0  0  0  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/2C6H7O5Zz5/c2*12-6-5(11-16)4(10-15)3(9-14)2(8-6)1-7-13/h2*2-6H,1H2/t2*2-,3-,4+,5-/m11/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">UUODREDFBUZLPV-YFRKJXKXBA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C164241" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Cross-Linked SRU Connection Points "></code>
+                  <positionNumber value="2">
+                    <!--number of heads-->
+                  </positionNumber>
+                  <positionNumber value="12">
+                    <!--head1-->
+                  </positionNumber>
+                  <positionNumber value="28">
+                    <!--head2-->
+                  </positionNumber>
+                  <positionNumber value="14">
+                    <!--tail1-->
+                  </positionNumber>
+                  <positionNumber value="30">
+                    <!--tail2-->
+                  </positionNumber>
+                  <partMoiety></partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="R4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="hydroxypropyl-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="1">
+                        <!--atom position in R-group-->
+                      </positionNumber>
+                      <positionNumber value="13">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="15">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="16">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="29">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="31">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="32">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="double-glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="R5" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="methyl-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="1">
+                        <!--atom position in R-group-->
+                      </positionNumber>
+                      <positionNumber value="13">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="15">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="16">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="29">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="31">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="32">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="double-glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <quantity>
+                    <numerator value="2" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="R6" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="hydrogen-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="1">
+                        <!--atom position in R-group-->
+                      </positionNumber>
+                      <positionNumber value="13">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="15">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="16">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="29">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="31">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="32">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="double-glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="R7" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="peptide-linker" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="1">
+                        <!-- R-group connection point -->
+                      </positionNumber>
+                      <positionNumber value="13">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="15">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="16">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="double-glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                    <bond>
+                      <code code="C177524" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-group" />
+                      <positionNumber value="2">
+                        <!-- R-group connection point -->
+                      </positionNumber>
+                      <positionNumber value="29">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="31">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <positionNumber value="32">
+                        <!--possible atom position in SRU-->
+                      </positionNumber>
+                      <distalMoiety>
+                        <id extension="double-glucose-su" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <!--R-group which is a chemical fragment-->
+              <id extension="hydroxypropyl-group" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+              <identifiedSubstance>
+                <code code="hydroxypropyl-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety></partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+     RDKit          2D
+
+  6  5  0  0  1  0  0  0  0  0999 V2000
+   13.2171   -7.2289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.6377   -7.2248    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9274   -6.8136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9274   -5.9912    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3481   -6.8093    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9274   -5.6612    0.9334 H   0  0  0  0  0  0  0  0  0  0  0  0
+  2  5  1  0
+  3  2  1  0
+  3  1  1  0
+  3  4  1  0
+  4  6  1  0
+V    5 *
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/C3H7OZz/c1-3(4)2-5/h3-4H,2H2,1H3</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">QGDLOBIXVFMFNO-UHFFFAOYBA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C177645" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-Group Connection Points" />
+                  <positionNumber value="5">
+                    <!--atom position in R-group-->
+                  </positionNumber>
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <!--R-group which is a chemical fragment-->
+              <id extension="methyl-group" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+              <identifiedSubstance>
+                <code code="methyl-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety></partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+     RDKit          2D
+
+  2  1  0  0  1  0  0  0  0  0999 V2000
+   13.9013   -6.0313    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7238   -6.0313    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0
+V    2 *
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/CH3Zz/c1-2/h1H3</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">GJGCVENXSZWENI-UHFFFAOYBA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C177645" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-Group Connection Points" />
+                  <positionNumber value="2">
+                    <!--atom position in R-group-->
+                  </positionNumber>
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <!--R-froup which is a chemical fragment-->
+              <id extension="hydrogen-group" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+              <identifiedSubstance>
+                <code code="hydrogen-group" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety></partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+     RDKit          2D
+
+  2  1  0  0  1  0  0  0  0  0999 V2000
+   14.6300   -7.0625    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8075   -7.0625    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0
+V    1 *
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/HZz/h1H</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">VBYJJBQXDLNHHW-UHFFFAOYBA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C177645" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-Group Connection Points" />
+                  <positionNumber value="1">
+                    <!--atom position in R-group-->
+                  </positionNumber>
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <!--R-froup which is a chemical link-->
+              <id extension="peptide-linker" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+              <identifiedSubstance>
+                <code code="peptide-linker" codeSystem="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+     RDKit          2D
+
+  7  6  0  0  0  0  0  0  0  0999 V2000
+   10.2781   -7.7873    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6875   -6.7645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2781   -5.7416    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5064   -6.7645    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6875   -8.8102    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6875   -4.7188    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   10.8728   -5.7416   -0.8410 H   0  0  0  0  0  0  0  0  0  0  0  0
+  6  3  1  0
+  3  2  1  0
+  2  1  1  0
+  1  5  1  0
+  2  4  2  0
+  3  7  1  0
+V    5 *
+V    6 *
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/C2H3NOZz2/c4-2(1-5)3-6/h1H2,(H,3,4)</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">DTTBMZVUGAZJJH-UHFFFAOYBA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C177645" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-Group Connection Points" />
+                  <positionNumber value="5">
+                    <!--atom position in R-group-->
+                  </positionNumber>
+                  <partMoiety />
+                </moiety>
+                <moiety>
+                  <code code="C177645" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="R-Group Connection Points" />
+                  <positionNumber value="6">
+                    <!--atom position in R-group-->
+                  </positionNumber>
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

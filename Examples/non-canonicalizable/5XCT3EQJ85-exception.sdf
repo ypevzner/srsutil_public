@@ -1,0 +1,45 @@
+
+  -INDIGO-06251712282D
+
+  7  6  0  0  0  0  0  0  0  0999 V2000
+    6.5380   -5.1230    0.0000 Sn  0  0  0  0  0  0  0  0  0  0  0  0
+    7.2721   -4.7136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9889   -5.1230    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5380   -5.9641    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8273   -6.3874    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8197   -4.7136    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8197   -3.8678    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+M  END
+> <SUBSTANCE_ID>
+56339
+
+> <UNII>
+5XCT3EQJ85
+
+> <DESC_PART1>
+
+> <DESC_PART2>
+
+> <COMMENTS>
+
+> <CDBREGNO>
+65057
+
+> <STRUCTURE_ID>
+31974
+
+> <SUBSTANCE_NAME>
+
+> <Exception>
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ChemSpider.Molecules.MoleculeExtensions.CanonicalNumbers(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 25
+   at ChemSpider.Molecules.MoleculeExtensions.ReorderCanonically(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 81
+   at UnitTestProject.CompoundsTests.<>c__DisplayClass1_0.<CanonicalNumbers_OnAllOfMixtures>b__0(SdfRecord sdf) in D:\PROJECTS\SDE\FDA\srs\Source\SRSTests\CompoundsTests.cs:line 74
+
+$$$$

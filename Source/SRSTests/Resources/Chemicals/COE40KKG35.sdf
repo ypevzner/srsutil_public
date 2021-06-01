@@ -1,0 +1,115 @@
+
+  Symyx   04271720072D 1   1.00000     0.00000     0
+
+ 43 43  0     1  0            999 V2000
+    4.8172   -3.5355    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.8400   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.8629   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.8858   -2.9450    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.9086   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.9315   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.9544   -3.5355    0.0000 O   0  0  0  0  0  0           0  0  0
+   11.9772   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0
+   13.0001   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0
+   14.0229   -2.9450    0.0000 N   0  0  0  0  0  0           0  0  0
+   15.0458   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0
+   16.0687   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0
+   17.0915   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0
+   18.1144   -2.9450    0.0000 N   0  0  3  0  0  0           0  0  0
+    5.8400   -1.7639    0.0000 O   0  0  0  0  0  0           0  0  0
+   15.0458   -4.7166    0.0000 O   0  0  0  0  0  0           0  0  0
+   18.1144   -1.7639    0.0000 C   0  0  0  0  0  0           0  0  0
+   19.2654   -1.4058    0.0000 C   0  0  0  0  0  0           0  0  0
+   19.9392   -2.3414    0.0000 C   0  0  3  0  0  0           0  0  0
+   19.2350   -3.2969    0.0000 C   0  0  0  0  0  0           0  0  0
+   17.0915   -1.1734    0.0000 O   0  0  0  0  0  0           0  0  0
+   19.5407   -4.4378    0.0000 O   0  0  0  0  0  0           0  0  0
+   20.7744   -3.1766    0.0000 S   0  0  0  0  0  0           0  0  0
+   21.9153   -2.8709    0.0000 C   0  0  0  0  0  0           0  0  0
+   22.7504   -3.7061    0.0000 C   0  0  1  0  0  0           0  0  0
+   23.8913   -3.4004    0.0000 C   0  0  0  0  0  0           0  0  0
+   22.4447   -4.8469    0.0000 N   0  0  0  0  0  0           0  0  0
+   24.1970   -2.2595    0.0000 O   0  0  0  0  0  0           0  0  0
+   24.7264   -4.2355    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.8172   -4.7166    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.4077   -5.7395    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.5888   -5.7395    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.1794   -6.7624    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.3605   -6.7624    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.9510   -7.7852    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.1321   -7.7852    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.7227   -8.8081    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.9038   -8.8081    0.0000 C   0  0  0  0  0  0           0  0  0
+   12.4943   -9.8310    0.0000 C   0  0  1  0  0  0           0  0  0
+   13.6754   -9.8310    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.9038  -10.8538    0.0000 N   0  0  0  0  0  0           0  0  0
+   14.2660   -8.8081    0.0000 N   0  0  0  0  0  0           0  0  0
+   14.2660  -10.8538    0.0000 O   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  2  3  1  0     0  0
+  3  4  1  0     0  0
+  4  5  1  0     0  0
+  5  6  1  0     0  0
+  6  7  1  0     0  0
+  7  8  1  0     0  0
+  8  9  1  0     0  0
+  9 10  1  0     0  0
+ 10 11  1  0     0  0
+ 11 12  1  0     0  0
+ 12 13  1  0     0  0
+ 13 14  1  0     0  0
+  2 15  2  0     0  0
+ 11 16  2  0     0  0
+ 17 14  1  0     0  0
+ 17 18  1  0     0  0
+ 18 19  1  0     0  0
+ 20 19  1  0     0  0
+ 14 20  1  0     0  0
+ 17 21  2  0     0  0
+ 20 22  2  0     0  0
+ 19 23  1  0     0  0
+ 23 24  1  0     0  0
+ 25 24  1  1     0  0
+ 25 26  1  0     0  0
+ 25 27  1  0     0  0
+ 26 28  2  0     0  0
+ 26 29  1  0     0  0
+  1 30  1  0     0  0
+ 30 31  1  0     0  0
+ 31 32  1  0     0  0
+ 32 33  1  0     0  0
+ 33 34  1  0     0  0
+ 34 35  1  0     0  0
+ 35 36  1  0     0  0
+ 36 37  1  0     0  0
+ 37 38  1  0     0  0
+ 39 38  1  1     0  0
+ 39 40  1  0     0  0
+ 39 41  1  0     0  0
+ 40 42  1  0     0  0
+ 40 43  2  0     0  0
+M  END
+>  <GSRS_JSON>
+{"uuid":"3b824df0-9675-4558-8ab8-2fc73659d8a4","created":1423756689000,"createdBy":"DAMMIKA.AMUGODA-KANK","lastEdited":1423759670000,"lastEditedBy":"SWITZERF","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"chemical","status":"approved","version":"1","approvedBy":"SWITZERF","approved":1423759670000,"names":[{"uuid":"014599cf-babe-4298-ac14-98e630e1cccc","created":1423759225001,"createdBy":"DAMMIKA.AMUGODA-KANK","lastEdited":1423759225001,"lastEditedBy":"DAMMIKA.AMUGODA-KANK","deprecated":false,"name":"LYSINAMIDE-LINKED TO CYSTEINE VIA N6-(N-(2-(2-(2-(BUTYLAMINO)-2-OXO-ETHOXY)ETHOXY)ETHYL)-3-(2,5-DIOXOPYRROLIDIN-1-YL)PROPANAMIDE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["bd15238e-5310-474a-9725-a02e251faf35","23be16e0-76a0-4d97-bec7-f06871d86272"],"access":["protected"],"_self":"/ginas/app/api/v1/names(014599cf-babe-4298-ac14-98e630e1cccc)?view\u003dfull"},{"uuid":"5da03c71-c729-4dee-9c38-57e424587dac","created":1423756689001,"createdBy":"DAMMIKA.AMUGODA-KANK","lastEdited":1423759688001,"lastEditedBy":"SWITZERF","deprecated":false,"name":"S-(1-((S)-23,24-DIAMINO-3,12,24-TRIOXO-7,10-DIOXA-4,13,18-TRIAZATETRACOSYL)-2,5-DIOXOPYRROLIDIN-3-YL)-L-CYSTEINE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":true,"displayName":true,"references":["bd15238e-5310-474a-9725-a02e251faf35","07608aae-66ae-43c4-aa4f-cb643bcd1973","23be16e0-76a0-4d97-bec7-f06871d86272"],"access":[],"_self":"/ginas/app/api/v1/names(5da03c71-c729-4dee-9c38-57e424587dac)?view\u003dfull"}],"codes":[{"uuid":"e8ea038b-c587-40f1-b4ff-4e690ee0b9f3","created":1493463473370,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473370,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"codeSystem":"BDNUM","code":"1121206AA","type":"PRIMARY","references":["bd15238e-5310-474a-9725-a02e251faf35"],"access":["protected"],"_self":"/ginas/app/api/v1/codes(e8ea038b-c587-40f1-b4ff-4e690ee0b9f3)?view\u003dfull"}],"notes":[{"uuid":"be3d0ea8-2740-4f66-9e79-dc5d0e806418","created":1493463473399,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473399,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"note":"[Validation]WARNING:Incorrect number of moeities","references":["ebf52e5f-5c6c-4907-8610-7d2c1ba601e4"],"access":["admin"]},{"uuid":"46f5cb27-e7c0-4659-ab70-528b99fd4cad","created":1493463473398,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473398,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"note":"LEGACY XML:\u003cSTEREOCHEMISTRY\u003e\u003cOPT_ACT\u003e\u003c/OPT_ACT\u003e\u003cTYPE\u003eEPIMERIC\u003c/TYPE\u003e\u003cCOMMENTS\u003e\u003c/COMMENTS\u003e\u003c/STEREOCHEMISTRY\u003e","references":["3e3c6069-4d71-416e-83fe-6180c9652c31"],"access":["protected"]},{"uuid":"83af6f52-643f-485a-bf58-ef023f3aa288","created":1493463473397,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473397,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"note":"Legacy Info:\u003cSRS_LEGACY_DATA\u003e\u003cCREATED_BY\u003eDAMMIKA.AMUGODA-KANK\u003c/CREATED_BY\u003e\u003cCREATED_DATE\u003e2015-02-12 10:58:09.0\u003c/CREATED_DATE\u003e\u003cMODIFIED_BY\u003eSWITZERF\u003c/MODIFIED_BY\u003e\u003cMODIFIED_DATE\u003e2015-02-12 11:47:50.0\u003c/MODIFIED_DATE\u003e\u003cAPPROVED_BY\u003eSWITZERF\u003c/APPROVED_BY\u003e\u003cAPPROVED_DATE\u003e2015-02-12 11:47:50.0\u003c/APPROVED_DATE\u003e\u003c/SRS_LEGACY_DATA\u003e","references":["3e3c6069-4d71-416e-83fe-6180c9652c31"],"access":["protected"]}],"properties":[],"relationships":[],"references":[{"uuid":"ebf52e5f-5c6c-4907-8610-7d2c1ba601e4","created":1493463473402,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473402,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"GSRS System-generated Validation messages","docType":"VALIDATION_MESSAGE","documentDate":1493463473360,"publicDomain":false,"tags":[],"access":["admin"],"_self":"/ginas/app/api/v1/references(ebf52e5f-5c6c-4907-8610-7d2c1ba601e4)?view\u003dfull"},{"uuid":"fb57ace4-b862-4e2a-aab3-2bc6092a5188","created":1493463473401,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473401,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"jsonDump-2017-04-28--all-but-first-500-records.txt.zip","docType":"BATCH_IMPORT","documentDate":1493463473324,"publicDomain":false,"tags":[],"id":"773bab31c7fb3258757b","access":[],"_self":"/ginas/app/api/v1/references(fb57ace4-b862-4e2a-aab3-2bc6092a5188)?view\u003dfull"},{"uuid":"3e3c6069-4d71-416e-83fe-6180c9652c31","created":1493463473401,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473401,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"SRS import [COE40KKG35]","docType":"SRS","documentDate":1493391931000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno\u003dCOE40KKG35","access":[],"_self":"/ginas/app/api/v1/references(3e3c6069-4d71-416e-83fe-6180c9652c31)?view\u003dfull"},{"uuid":"23be16e0-76a0-4d97-bec7-f06871d86272","created":1493463473400,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473400,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"FDA_SRS","docType":"FDA_SRS","publicDomain":false,"tags":["NOMEN"],"access":["protected"],"_self":"/ginas/app/api/v1/references(23be16e0-76a0-4d97-bec7-f06871d86272)?view\u003dfull"},{"uuid":"bd15238e-5310-474a-9725-a02e251faf35","created":1493463473400,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473400,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"1121206AA","docType":"BDNUM","publicDomain":false,"tags":["NOMEN"],"access":["protected"],"_self":"/ginas/app/api/v1/references(bd15238e-5310-474a-9725-a02e251faf35)?view\u003dfull"},{"uuid":"07608aae-66ae-43c4-aa4f-cb643bcd1973","created":1493463473399,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473399,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"FDA_SRS","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"/ginas/app/api/v1/references(07608aae-66ae-43c4-aa4f-cb643bcd1973)?view\u003dfull"}],"approvalID":"COE40KKG35","tags":[],"structure":{"id":"63ddac6f-dd71-4314-9d38-0ac71605dc1a","created":1493463473360,"lastEdited":1493463473360,"deprecated":false,"digest":"191d429ec379755f0499d37b6c963a9a98074b1e","molfile":"\n  Symyx   04271720072D 1   1.00000     0.00000     0\n\n 43 43  0     1  0            999 V2000\n    4.8172   -3.5355    0.0000 N   0  0  0  0  0  0           0  0  0\n    5.8400   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0\n    6.8629   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0\n    7.8858   -2.9450    0.0000 O   0  0  0  0  0  0           0  0  0\n    8.9086   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0\n    9.9315   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0\n   10.9544   -3.5355    0.0000 O   0  0  0  0  0  0           0  0  0\n   11.9772   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0\n   13.0001   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0\n   14.0229   -2.9450    0.0000 N   0  0  0  0  0  0           0  0  0\n   15.0458   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0\n   16.0687   -2.9450    0.0000 C   0  0  0  0  0  0           0  0  0\n   17.0915   -3.5355    0.0000 C   0  0  0  0  0  0           0  0  0\n   18.1144   -2.9450    0.0000 N   0  0  3  0  0  0           0  0  0\n    5.8400   -1.7639    0.0000 O   0  0  0  0  0  0           0  0  0\n   15.0458   -4.7166    0.0000 O   0  0  0  0  0  0           0  0  0\n   18.1144   -1.7639    0.0000 C   0  0  0  0  0  0           0  0  0\n   19.2654   -1.4058    0.0000 C   0  0  0  0  0  0           0  0  0\n   19.9392   -2.3414    0.0000 C   0  0  3  0  0  0           0  0  0\n   19.2350   -3.2969    0.0000 C   0  0  0  0  0  0           0  0  0\n   17.0915   -1.1734    0.0000 O   0  0  0  0  0  0           0  0  0\n   19.5407   -4.4378    0.0000 O   0  0  0  0  0  0           0  0  0\n   20.7744   -3.1766    0.0000 S   0  0  0  0  0  0           0  0  0\n   21.9153   -2.8709    0.0000 C   0  0  0  0  0  0           0  0  0\n   22.7504   -3.7061    0.0000 C   0  0  1  0  0  0           0  0  0\n   23.8913   -3.4004    0.0000 C   0  0  0  0  0  0           0  0  0\n   22.4447   -4.8469    0.0000 N   0  0  0  0  0  0           0  0  0\n   24.1970   -2.2595    0.0000 O   0  0  0  0  0  0           0  0  0\n   24.7264   -4.2355    0.0000 O   0  0  0  0  0  0           0  0  0\n    4.8172   -4.7166    0.0000 C   0  0  0  0  0  0           0  0  0\n    5.4077   -5.7395    0.0000 C   0  0  0  0  0  0           0  0  0\n    6.5888   -5.7395    0.0000 C   0  0  0  0  0  0           0  0  0\n    7.1794   -6.7624    0.0000 C   0  0  0  0  0  0           0  0  0\n    8.3605   -6.7624    0.0000 N   0  0  0  0  0  0           0  0  0\n    8.9510   -7.7852    0.0000 C   0  0  0  0  0  0           0  0  0\n   10.1321   -7.7852    0.0000 C   0  0  0  0  0  0           0  0  0\n   10.7227   -8.8081    0.0000 C   0  0  0  0  0  0           0  0  0\n   11.9038   -8.8081    0.0000 C   0  0  0  0  0  0           0  0  0\n   12.4943   -9.8310    0.0000 C   0  0  1  0  0  0           0  0  0\n   13.6754   -9.8310    0.0000 C   0  0  0  0  0  0           0  0  0\n   11.9038  -10.8538    0.0000 N   0  0  0  0  0  0           0  0  0\n   14.2660   -8.8081    0.0000 N   0  0  0  0  0  0           0  0  0\n   14.2660  -10.8538    0.0000 O   0  0  0  0  0  0           0  0  0\n  1  2  1  0     0  0\n  2  3  1  0     0  0\n  3  4  1  0     0  0\n  4  5  1  0     0  0\n  5  6  1  0     0  0\n  6  7  1  0     0  0\n  7  8  1  0     0  0\n  8  9  1  0     0  0\n  9 10  1  0     0  0\n 10 11  1  0     0  0\n 11 12  1  0     0  0\n 12 13  1  0     0  0\n 13 14  1  0     0  0\n  2 15  2  0     0  0\n 11 16  2  0     0  0\n 17 14  1  0     0  0\n 17 18  1  0     0  0\n 18 19  1  0     0  0\n 20 19  1  0     0  0\n 14 20  1  0     0  0\n 17 21  2  0     0  0\n 20 22  2  0     0  0\n 19 23  1  0     0  0\n 23 24  1  0     0  0\n 25 24  1  1     0  0\n 25 26  1  0     0  0\n 25 27  1  0     0  0\n 26 28  2  0     0  0\n 26 29  1  0     0  0\n  1 30  1  0     0  0\n 30 31  1  0     0  0\n 31 32  1  0     0  0\n 32 33  1  0     0  0\n 33 34  1  0     0  0\n 34 35  1  0     0  0\n 35 36  1  0     0  0\n 36 37  1  0     0  0\n 37 38  1  0     0  0\n 39 38  1  1     0  0\n 39 40  1  0     0  0\n 39 41  1  0     0  0\n 40 42  1  0     0  0\n 40 43  2  0     0  0\nM  END\n","smiles":"N[C@@H](CCCCNCCCCNC(\u003dO)COCCOCCNC(\u003dO)CCN1C(\u003dO)CC(SC[C@H](N)C(O)\u003dO)C1\u003dO)C(N)\u003dO","formula":"C26H47N7O9S","opticalActivity":"UNSPECIFIED","atropisomerism":"No","stereoCenters":3,"definedStereo":2,"ezCenters":0,"charge":0,"mwt":"633.758","count":1.0,"createdBy":"RAMEZ.GHAZZAOUI","lastEditedBy":"RAMEZ.GHAZZAOUI","self":"/ginas/app/api/v1/structures(63ddac6f-dd71-4314-9d38-0ac71605dc1a)?view\u003dfull","hash":"7ZMD3TMH68A2","stereochemistry":"EPIMERIC","references":["3e3c6069-4d71-416e-83fe-6180c9652c31","07608aae-66ae-43c4-aa4f-cb643bcd1973"],"access":[]},"moieties":[{"uuid":"38a427a6-05da-4f60-962d-7b40efc24aff","created":1493463473403,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493463473403,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"id":"38a427a6-05da-4f60-962d-7b40efc24aff","digest":"9e73d52938b97ce07071b409039c35cd5ecbfe6e","molfile":"\n  Marvin  04291706572D          \n\n 43 43  0  0  1  0            999 V2000\n    8.7272   -6.8669    0.0000 C   0  0  1  0  0  0  0  0  0  2  0  0\n    8.3148   -7.5813    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    8.3148   -6.1524    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4898   -6.1524    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.0772   -5.4379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2522   -5.4379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8398   -4.7235    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0148   -4.7235    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6023   -4.0090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7773   -4.0090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3648   -3.2945    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3648   -2.4695    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0792   -2.0571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0792   -1.2321    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.7937   -2.4695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5082   -2.0571    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2226   -2.4695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9371   -2.0571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.6516   -2.4695    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.3660   -2.0571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.0805   -2.4695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.7950   -2.0571    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   10.5094   -2.4695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.5094   -3.2945    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2239   -2.0571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9384   -2.4695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.6529   -2.0571    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   12.6529   -1.2321    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9384   -0.8196    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4568   -0.9819    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.9275   -1.6355    0.0000 C   0  0  0  0  0  0  0  0  0  3  0  0\n   14.5109   -2.2188    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   15.3078   -2.0053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8911   -2.5887    0.0000 C   0  0  2  0  0  0  0  0  0  1  0  0\n   15.6776   -3.3855    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   16.6880   -2.3752    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.9015   -1.5783    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.2713   -2.9585    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.4356   -2.3029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.6491   -3.0998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    9.5522   -6.8669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9648   -6.1524    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    9.9648   -7.5813    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  1  0  0  0\n  1  3  1  0  0  0  0\n  1 41  1  0  0  0  0\n  4  3  1  0  0  0  0\n  5  4  1  0  0  0  0\n  6  5  1  0  0  0  0\n  7  6  1  0  0  0  0\n  8  7  1  0  0  0  0\n  9  8  1  0  0  0  0\n 10  9  1  0  0  0  0\n 11 10  1  0  0  0  0\n 12 11  1  0  0  0  0\n 12 13  1  0  0  0  0\n 13 14  2  0  0  0  0\n 13 15  1  0  0  0  0\n 15 16  1  0  0  0  0\n 16 17  1  0  0  0  0\n 17 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  2  0  0  0  0\n 23 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 28 27  1  0  0  0  0\n 27 39  1  0  0  0  0\n 28 29  2  0  0  0  0\n 28 30  1  0  0  0  0\n 30 31  1  0  0  0  0\n 31 32  1  0  0  0  0\n 39 31  1  0  0  0  0\n 32 33  1  0  0  0  0\n 34 33  1  0  0  0  0\n 34 35  1  1  0  0  0\n 34 36  1  0  0  0  0\n 36 37  1  0  0  0  0\n 36 38  2  0  0  0  0\n 39 40  2  0  0  0  0\n 41 42  1  0  0  0  0\n 41 43  2  0  0  0  0\nM  END\n","smiles":"N[C@@H](CCCCNCCCCNC(\u003dO)COCCOCCNC(\u003dO)CCN1C(\u003dO)CC(SC[C@H](N)C(O)\u003dO)C1\u003dO)C(N)\u003dO","formula":"C26H47N7O9S","opticalActivity":"UNSPECIFIED","stereoCenters":3,"definedStereo":2,"ezCenters":0,"charge":0,"mwt":"633.758","count":1,"self":"/ginas/app/api/v1/structures(38a427a6-05da-4f60-962d-7b40efc24aff)?view\u003dfull","hash":"7ZMB6VABXXCM","stereochemistry":"EPIMERIC","references":[],"access":[],"countAmount":{"uuid":"83174590-63ae-4a32-8fef-db441f604f3b","created":1.493463473409E12,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1.493463473409E12,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"MOL RATIO","average":1.0,"units":"MOL RATIO","references":[],"access":[]}}],"_name":"S-(1-((S)-23,24-DIAMINO-3,12,24-TRIOXO-7,10-DIOXA-4,13,18-TRIAZATETRACOSYL)-2,5-DIOXOPYRROLIDIN-3-YL)-L-CYSTEINE","_approvalIDDisplay":"COE40KKG35","access":[],"_self":"/ginas/app/api/v1/substances(3b824df0-9675-4558-8ab8-2fc73659d8a4)?view\u003dfull"}
+
+>  <DESC_PART1>
+<STEREOCHEMISTRY><TYPE>EPIMERIC</TYPE>
+<OPT_ACT></OPT_ACT>
+<COMMENTS/></STEREOCHEMISTRY>
+
+>  <STRUCTURE_ID>
+63ddac6f-dd71-4314-9d38-0ac71605dc1a
+
+>  <UNII>
+COE40KKG35
+
+>  <SUBSTANCE_ID>
+3b824df0-9675-4558-8ab8-2fc73659d8a4
+
+>  <COMMENTS>
+
+
+>  <REF_INFO_PART1>
+
+
+$$$$

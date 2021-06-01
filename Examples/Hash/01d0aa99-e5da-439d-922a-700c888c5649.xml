@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="01d0aa99-e5da-439d-922a-700c888c5649" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20180827" />
+  <setId root="b12689c7-6719-4c2d-92d9-c857a68cb931" />
+  <versionNumber value="2" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="b58644d5-d722-40aa-976d-93a36bac910a" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20180827" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="2C839WQ03N" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="2C839WQ03N" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="f65897f6-208c-d682-2555-938e71a3a6d0" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <subjectOf>
+                <document>
+                  <bibliographicDesignationText>Parietaria officinalis L.</bibliographicDesignationText>
+                </document>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

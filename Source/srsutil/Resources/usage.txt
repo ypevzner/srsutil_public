@@ -1,0 +1,157 @@
+﻿srsutil.exe /command=<command> [options]
+
+Commands:
+
+Analysis and extraction:
+	sdf-to-dirs
+	sdf-extract-xml
+	sdf-extract-sdf
+	sdf-sort-xml
+
+SRS to SPL conversion:
+	sdf2spl
+	mixsdf2spl
+	sd2spl
+	prot2spl
+
+SPL to SPL conversion:
+	sdspl2spl
+	mixspl2spl
+
+Taxonomy:
+    update-terms
+	ncbi2terms
+	itis2terms
+	usda2terms
+	kew2terms
+	merge-terms
+
+eList report transformation:
+	report-add-inchi-key
+
+Legacy and unsupported:
+	convert
+	import-xml
+	import-sdf
+	test-sdf
+	export-sdf
+	export-xml
+	export-images
+	moietize
+	ncbi2txt
+	itis2txt
+	grin2txt
+
+Options:
+	/if=<input file>
+	/odir=<output directory>
+	/mapping=<SDF fileds mapping> - in the following format: "field1 => field2; field3 => field4;" >
+	/UNIIFile - generate UNII-named SPL file
+	/NoDocIdFile - don't generate DocId SPL file
+	/NoErrFile - don't generate *.err.xml file
+	/NoSplErr - don't include error in SPL file
+	/UNII=<list of UNIIs> - comma- or semicolon-delimited set of UNIIs of the records to selectively to work on
+	/SDFFile - generate SDF file for each record
+	/SRSFile - generate SRS XML file for each record
+	/DocId=<GUID> - override DocId
+	/SetId=<GUID> - override SetId
+	/strict - apply strict validation rules
+	/Validate - validate
+	/SeparateSequenceDefinition - create separate sections in SPL for sequences
+	/clean - clean output directry first
+	/TermsFiles=<comma- or semicolon-separated terms files>
+
+Encoding:
+	All input and output files can be prefixed with encoding if different from a standard one (in most cases UTF-8)
+
+Examples:
+	###### Proteins ######
+	# Run protein conversion on each record of a file (7XL5ISS668.sdf), don't generate DocId-named files, but generate UNII-named files. Use specified DocId and SetId instead of randomly generating ones.
+	srsutil.exe /command=prot2spl /if=7XL5ISS668.sdf /NoDocIdFile /UNIIFile /DocId=bf170df7-8153-45c1-9a21-6e1aa1b4c97e /SetId=b2315501-dc0c-56d0-e044-001185133a64
+
+	# Use non-standard encoding
+	srsutil.exe /command=prot2spl /if=ANSI:7XL5ISS668.sdf
+
+	# Run proteins conversion, don't generate DocId file, produce UNII-named SPL, respective SRS XML and SRS SDF record as is.
+	srsutil.exe /command=prot2spl /if=public_proteins_6_3_15_corr.sdf /NoDocIdFile /UNIIFile /SDFFile /SRSFile
+
+	# Same, but only work on a particular record identified by UNII.
+	srsutil.exe /command=prot2spl /if=public_proteins_6_3_15_corr.sdf /NoDocIdFile /UNIIFile /SDFFile /SRSFile /UNII=N6UAH27EUV
+
+	# Convert only Basic (non-modified, non-glycosilated, non-linked) proteins with respective "features""
+	srsutil.exe /command=prot2spl /if=public_proteins_6_3_15_corr.sdf /NoDocIdFile /UNIIFile /SDFFile /SRSFile /protein-filter=Basic /imp-features="clear-srs-xml-ns,ignore-empty-polymer"
+
+	###### Structurally diverse ######
+	# Run structurally diverse conversion.
+	srsutil.exe /command=sd2spl /if=public_diverse_2_18_15.sdf /NoDocIdFile /UNIIFile /SRSFile /SDFFile
+
+	# Same, but don't include error in SPL. Also validate against a set of "authority" files.
+	srsutil.exe /command=sd2spl /if=public_diverse_2_18_15.sdf /NoDocIdFile /UNIIFile /SDFFile /SRSFile /NoSplErr /TermsFiles="names1.txt,names2.txt,names3.txt"
+
+	srsutil.exe /command=grin2txt /if=species.csv /of=grin.txt
+
+	###### Analysis ##################
+	# Collate records by specified XPath in XML description field
+	srsutil.exe /command=sdf-sort-by-xml /if=public_polymers_6_3_15.sdf /of=sorted.csv
+
+	# Extract records with specified UNIIs as separate SDF files, also extract SRS XML, MOL and generate images where possible
+	srsutil.exe /command=sdf-extract-sdf /if=public_diverse_12_06_15.sdf /image /mol /unii="B45L63608S,C09QFI69OB,3770A07PTG,I3O8870310,93PT1588N3,LAQ85JD21X,0LLV8XF8QJ,79B44V6459,06I5AZU9V0,62GC15R0EB,N5L85P1DVO,O4GK150F3G,39X58I1I8V,O176VC3N54"
+	srsutil.exe /command=sdf-extract-sdf /if=public_chemicals_V3000_4_27_16.sdf /image /mol /sgroup-type="GEN,DAT"
+
+	# Extract records with specified values in respective fields
+	srsutil.exe /command=sdf-extract-sdf /if=public_diverse_12_06_15.sdf /filters="STRUCTURE_ID =~ 666; CDBREGNO != 1767"
+
+	# Extract records with specified values in respective fields
+	srsutil.exe /command=sdf-extract-sdf /if=public_diverse_12_06_15.sdf /filters="STRUCTURE_ID =~ 0$; COMMENTS; !REF_INFO_PART1"
+
+	# Extract records with specified values in respective fields
+	srsutil.exe /command=sdf-sort-by-xml /if=public_polymers_6_3_15.sdf /of=sorted.sdf /xpath=/POLYMER /xsort=POLYMER_CLASS;POLYMER_GEOMETRY
+
+	# Extract records and generate images - with parameters
+	srsutil.exe /command=sdf-extract-sdf /clean /if=registry.sdf /image="render-atom-ids-visible=true"
+
+	# Canonicalize the ordering of atoms in an sdf file and update CONNECTORS property accordingly
+	srsutil.exe /command=sdf-process-sdf /canonicalize /if=registry.sdf /odir=canonicalized_registry
+	
+	# Download all taxonomy sources, extract the taxonomic terms and put them into
+	# one large text file for use in validation (here specified to be outputall.txt)
+	# By default, this will fail if there is a missing taxonomy resource, but can be forced
+	# to pass with "/fail-on-missing=false"
+	srsutil.exe /command=update-terms /of=outputall.txt
+
+Generate NA_Fragments.sdf molfile:
+	Command:
+	create-na-components
+
+	Example:
+	srsutil.exe /command=create-na-components /components-output-file=components.sdf /dictionary-output-file=dictionary.txt 
+
+	This will attempt to use JSON controlled vocabulary from 
+	https://gsrs.fda.gov/ginas/app/api/v1/vocabularies/search?q=root_domain:NUCLEIC_ACID_SUGAR%20OR%20root_domain:NUCLEIC_ACID_LINKAGE%20OR%20root_domain:NUCLEIC_ACID_BASE
+	
+	If the above URL is not accessible then it will use local file nucleic_acids.json 
+	that is located in srsutil/Resources directory and automatically copied to the current directory upon build.
+	
+	The result of the create-na-components command are two output files specified by the arguments /components-output-file and /dictionary-output-file
+
+	To update current set of NA Fragments that srsutil uses overwrite the contents of NA_Fragments.sdf and NA_Fragments_dictionary.txt
+	in srsutil/Resources directory with the contents of the two respective output files (make backups prior to doing so)
+
+	both the URL and local nucleic_acids.json file name are specified in App.config as:
+	<add key="NucleicAcidComponentsURI" value="https://gsrs.fda.gov/ginas/app/api/v1/vocabularies/search?q=root_domain:NUCLEIC_ACID_SUGAR%20OR%20root_domain:NUCLEIC_ACID_LINKAGE%20OR%20root_domain:NUCLEIC_ACID_BASE" />
+    <add key="NucleicAcidComponentsLocal" value="nucleic_acids.json" />
+
+	Update above values if URL or local file name changes.
+
+
+Required Resource Files:
+These files are located in the srsutil/Resources directory and are copied to bin/Release(or bin/Debug if build in Debug mode).
+These files should be located in the directory from which the srsutil.exe is called (the current directory, not the location of the srsutil.exe).
+
+registry.sdf - required for proteins and nucleic acids
+Fragments.sdf - required for proteins and nucleic acids
+NA_Fragments.sdf - required for proteins and nucleic acids
+NA_Fragments_dictionary.txt - required for proteins and nucleic acids
+nucleic_acids.json - required for "srsutil.exe /command=create-na-components", used as a fallback when the link to download this file from GSRS is not working or not accessible
+polymer.exe - required for polymers
+KewGardens.csv - legacy file, not sure what its purpose is

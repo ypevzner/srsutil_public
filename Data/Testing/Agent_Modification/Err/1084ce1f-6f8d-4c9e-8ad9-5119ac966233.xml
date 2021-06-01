@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="1084ce1f-6f8d-4c9e-8ad9-5119ac966233" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20180910" />
+  <setId root="9fd6c4d3-f619-4736-9622-5a97afc06186" />
+  <versionNumber value="3" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="918478ce-4688-4937-b2ec-0c704fad603d" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20180910" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="L0378Q1565" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="L0378Q1565" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="123ccb7e-faca-48e2-3b5a-e5df6dcba5b4" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <productOf>
+                  <derivationProcess>
+                    <interactor typeCode="CSM">
+                      <identifiedSubstance>
+                        <id extension="OXK3V8KJ7L" root="2.16.840.1.113883.4.9" />
+                        <identifiedSubstance>
+                          <code code="OXK3V8KJ7L" codeSystem="2.16.840.1.113883.4.9" />
+                          <asEquivalentSubstance>
+                            <definingSubstance>
+                              <code code="45482247-af35-9a3f-2b7d-32f38249181a" codeSystem="2.16.840.1.113883.3.2705" />
+                            </definingSubstance>
+                          </asEquivalentSubstance>
+                        </identifiedSubstance>
+                      </identifiedSubstance>
+                    </interactor>
+                    <component>
+                      <sequenceNumber value="2" />
+                      <derivationProcess>
+                        <code code="adsorption" codeSystem="1.3.6.1.4.1.32366.1.3.1.7" displayName="ADSORPTION" />
+                        <interactor typeCode="CSM">
+                          <identifiedSubstance>
+                            <id extension="OXK3V8KJ7L" root="2.16.840.1.113883.4.9" />
+                            <identifiedSubstance>
+                              <code code="OXK3V8KJ7L" codeSystem="2.16.840.1.113883.4.9" />
+                              <asEquivalentSubstance>
+                                <definingSubstance>
+                                  <code code="45482247-af35-9a3f-2b7d-32f38249181a" codeSystem="2.16.840.1.113883.3.2705" />
+                                </definingSubstance>
+                              </asEquivalentSubstance>
+                            </identifiedSubstance>
+                          </identifiedSubstance>
+                        </interactor>
+                      </derivationProcess>
+                    </component>
+                  </derivationProcess>
+                </productOf>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

@@ -1,0 +1,682 @@
+>  <GSRS_JSON>
+{"uuid":"f856c527-bcde-4581-9a41-b282c5facb54","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"2","approvedBy":"FDA_SRS","names":[{"uuid":"047cfc82-9f2e-4a6d-96c7-febe7e0088fe","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"LITHRAEA CHICHITA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(047cfc82-9f2e-4a6d-96c7-febe7e0088fe)?view=full"},{"uuid":"04d654f1-e3e2-4507-b5fe-d1133b7c8ac7","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"BRAZILIAN PEPPER-TREE WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["a180d448-a5d6-4ae3-a373-4c7a0e2c41f3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(04d654f1-e3e2-4507-b5fe-d1133b7c8ac7)?view=full"},{"uuid":"0b61ab92-df3a-489c-ae34-dd6f3c3e05c3","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"WARUI WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["a180d448-a5d6-4ae3-a373-4c7a0e2c41f3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(0b61ab92-df3a-489c-ae34-dd6f3c3e05c3)?view=full"},{"uuid":"0fe12af7-9615-4db8-a1cd-ef354cf7831b","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"CHRISTMASBERRY WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["a180d448-a5d6-4ae3-a373-4c7a0e2c41f3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(0fe12af7-9615-4db8-a1cd-ef354cf7831b)?view=full"},{"uuid":"12c0e9f1-f4a8-485b-8ee6-39092d0385e1","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"SCHINUS TEREBINTHIFOLIA [WHO-DD]","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["16eb340f-7788-4c5e-a5f2-119ceb4ad645"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(12c0e9f1-f4a8-485b-8ee6-39092d0385e1)?view=full"},{"uuid":"31266be9-1727-45f2-baff-0fb7ab30de46","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"RHUS TRIJUGA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(31266be9-1727-45f2-baff-0fb7ab30de46)?view=full"},{"uuid":"4aa84e95-3a12-4a06-bc40-b9c5ad6088fc","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"SCHINUS MELLISII WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(4aa84e95-3a12-4a06-bc40-b9c5ad6088fc)?view=full"},{"uuid":"6114ede2-b91c-4448-a4ca-26c4cc763485","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"RHUS SCHINOIDES WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(6114ede2-b91c-4448-a4ca-26c4cc763485)?view=full"},{"uuid":"6d41c7e3-8863-4b2f-9ddb-24b3c3829ea4","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"FLORIDA HOLLY WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["a180d448-a5d6-4ae3-a373-4c7a0e2c41f3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(6d41c7e3-8863-4b2f-9ddb-24b3c3829ea4)?view=full"},{"uuid":"7248cc32-bf8f-4b9a-8276-d55e8d7c1261","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"SCHINUS TEREBINTHIFOLIA RADDI","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(7248cc32-bf8f-4b9a-8276-d55e8d7c1261)?view=full"},{"uuid":"b3ffd138-2762-4706-b1d4-76c58322a4f1","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"BRAZILIAN PEPPERTREE WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["a180d448-a5d6-4ae3-a373-4c7a0e2c41f3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(b3ffd138-2762-4706-b1d4-76c58322a4f1)?view=full"},{"uuid":"b5b9eac4-fb6e-4eb6-9028-cc909e7f9045","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"CHRISTMAS BERRY WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["a180d448-a5d6-4ae3-a373-4c7a0e2c41f3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(b5b9eac4-fb6e-4eb6-9028-cc909e7f9045)?view=full"},{"uuid":"cd7d81de-0d94-46cc-9a96-b860b38ca1df","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"BRAZILIAN PEPPER TREE [HOC]","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["2733239b-7b0b-4499-b129-601dd221a302"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(cd7d81de-0d94-46cc-9a96-b860b38ca1df)?view=full"},{"uuid":"d8557562-5c43-4c36-a674-9917d39a27b5","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"SCHINUS TEREBINTHIFOLIA WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(d8557562-5c43-4c36-a674-9917d39a27b5)?view=full"},{"uuid":"da84ecb9-4821-418c-93d7-d9f2bbb8e30e","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"SCHINUS RHOIFOLIA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(da84ecb9-4821-418c-93d7-d9f2bbb8e30e)?view=full"},{"uuid":"fe3c180a-dd2d-4d08-9940-1a7df9eadbb4","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"SARCOTHECA BAHIENSIS WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(fe3c180a-dd2d-4d08-9940-1a7df9eadbb4)?view=full"},{"uuid":"ff1dee4f-ef41-4042-bf28-32852cd63bed","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"name":"SCHINUS TEREBINTHIFOLIUS WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":true,"displayName":false,"references":["a180d448-a5d6-4ae3-a373-4c7a0e2c41f3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(ff1dee4f-ef41-4042-bf28-32852cd63bed)?view=full"}],"codes":[{"uuid":"3c608765-367b-4acb-808a-bc52630ca7a8","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"MPNS","code":"WCSCMP-480191","type":"PRIMARY","url":"http://mpns.kew.org/mpns-portal/plantDetail?&filter=&fuzzy=false&nameType=all&dbs=wcsCmp&plantId=480191","references":["d35efaa0-99e0-495e-8694-b0a7516e512b"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(3c608765-367b-4acb-808a-bc52630ca7a8)?view=full"},{"uuid":"867fb23d-dc68-4db9-8f44-f75d06bbd8dd","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"WIKIPEDIA","code":"SCHINUS TEREBINTHIFOLIUS","type":"PRIMARY","url":"https://en.wikipedia.org/wiki/Schinus_terebinthifolius","references":["d35efaa0-99e0-495e-8694-b0a7516e512b"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(867fb23d-dc68-4db9-8f44-f75d06bbd8dd)?view=full"},{"uuid":"a69ded17-b7c7-445c-bb65-9e4b2108c4db","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"169191","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=169191","references":["d35efaa0-99e0-495e-8694-b0a7516e512b"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(a69ded17-b7c7-445c-bb65-9e4b2108c4db)?view=full"},{"uuid":"ad76707a-c232-4358-9cd9-7ac7f198c3f5","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"USDA PLANTS","code":"SCTE","type":"PRIMARY","url":"http://plants.usda.gov/java/profile?symbol=SCTE","references":["d35efaa0-99e0-495e-8694-b0a7516e512b"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(ad76707a-c232-4358-9cd9-7ac7f198c3f5)?view=full"},{"uuid":"d314d36b-fd72-4286-a765-cba3bda02a05","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"GRIN","code":"70672","type":"PRIMARY","url":"https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=70672","references":["d35efaa0-99e0-495e-8694-b0a7516e512b"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(d314d36b-fd72-4286-a765-cba3bda02a05)?view=full"}],"modifications":{"uuid":"558224fe-71e2-42fe-ba29-2e4ec0f9320d","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[],"references":[{"uuid":"16eb340f-7788-4c5e-a5f2-119ceb4ad645","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"WHO-DD","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(16eb340f-7788-4c5e-a5f2-119ceb4ad645)?view=full"},{"uuid":"1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"MPNS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(1fa48ec6-36ab-4bae-9d6d-4fae011ff6f9)?view=full"},{"uuid":"2733239b-7b0b-4499-b129-601dd221a302","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"HOC 2","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(2733239b-7b0b-4499-b129-601dd221a302)?view=full"},{"uuid":"42ea7397-fafe-4d24-9775-f6521a0c9517","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"Catalog of Life 2010","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(42ea7397-fafe-4d24-9775-f6521a0c9517)?view=full"},{"uuid":"8949f7d5-f747-4407-abfd-3e1a69c43d72","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [X6763LQ3TQ]","docType":"SRS","documentDate":1493391271000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=X6763LQ3TQ","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(8949f7d5-f747-4407-abfd-3e1a69c43d72)?view=full"},{"uuid":"a180d448-a5d6-4ae3-a373-4c7a0e2c41f3","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"ITIS","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(a180d448-a5d6-4ae3-a373-4c7a0e2c41f3)?view=full"},{"uuid":"d35efaa0-99e0-495e-8694-b0a7516e512b","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391271000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(d35efaa0-99e0-495e-8694-b0a7516e512b)?view=full"},{"uuid":"f7a1f302-d3e9-42b8-afaa-2b949296f3e1","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520359365000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(f7a1f302-d3e9-42b8-afaa-2b949296f3e1)?view=full"}],"approvalID":"X6763LQ3TQ","tags":["HOC","WHO-DD","KEW"],"structurallyDiverse":{"uuid":"5259a6c3-33d8-401d-be56-94253f804cbd","created":1520359365000,"createdBy":"admin","lastEdited":1520359365000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"PLANT","organismFamily":"ANACARDIACEAE","organismGenus":"SCHINUS","organismSpecies":"TEREBINTHIFOLIA","organismAuthor":"RADDI","part":["WHOLE"],"references":["42ea7397-fafe-4d24-9775-f6521a0c9517","8949f7d5-f747-4407-abfd-3e1a69c43d72"],"access":[]},"_approvalIDDisplay":"X6763LQ3TQ","_name":"SCHINUS TEREBINTHIFOLIA WHOLE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(f856c527-bcde-4581-9a41-b282c5facb54)?view=full"}
+
+>  <SUBSTANCE_ID>
+83935
+
+>  <UNII>
+X6763LQ3TQ
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+<SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+<SOURCE_MATERIAL_TYPE>PLANT</SOURCE_MATERIAL_TYPE>
+<SOURCE_MATERIAL_STATE/>
+<PARENT_SUBSTANCE_ID/>
+<PARENT_SUBSTANCE_NAME/>
+<DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+<PART>WHOLE</PART>
+<PART_LOCATION/>
+</PART_GROUP>
+<FRACTION>
+<MATERIAL_TYPE/>
+<FRACTION/>
+</FRACTION>
+<ORGANISM>
+<KINGDOM>PLANTAE</KINGDOM>
+<PHYLUM>MAGNOLIOPHYTA</PHYLUM>
+<CLASS>MAGNOLIOPSIDA</CLASS>
+<ORDER>MYRTALES</ORDER>
+<FAMILY>MYRTACEAE</FAMILY>
+<GENUS>Schinus</GENUS>
+<SPECIES>terebinthifolia</SPECIES>
+<HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+<HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+<HYBRID_TYPE/>
+<INFRASPECIFIC_TYPE/>
+<INFRASPECIFIC_DESCRIPTION/>
+</ORGANISM>
+</SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+<MODIFICATION_TYPE/>
+<RESIDUE_MODIFIED/>
+<RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+<ROLE/>
+<NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+<PARAMETER/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PARAMETER_GROUP>
+</PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+<ROLE/>
+<MOIETY_ID/>
+<MOIETY_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOIETY>
+<MOLECULAR_FRAGMENT>
+<ROLE/>
+<MOLECULAR_FRAGMENT_ID/>
+<MOLECULAR_FRAGMENT_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOLECULAR_FRAGMENT>
+</STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+<AGENT_MODIFICATION_TYPE/>
+<ROLE/>
+<MODIFICATION_AGENT_ID/>
+<MODIFICATION_AGENT/>
+<MODIFICATION_PROCESS/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</AGENT_MODIFICATION>
+</MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+<PROPERTY_TYPE/>
+<PROPERTY_NAME/>
+<SUBSTANCE_ID/>
+<SUBSTANCE_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PROPERTY_GROUP>
+<COMMENT/>
+</STRUCTURALLY_DIVERSE>
+
+>  <DESC_PART2>
+
+>  <DESC_PART3>
+
+>  <REF_INFO_PART1>
+<TAXON_AUTHOR>Raddi</TAXON_AUTHOR>
+
+>  <COMMENTS>
+
+>  <CDBREGNO>
+
+>  <STRUCTURE_ID>
+
+$$$$
+>  <GSRS_JSON>
+{"uuid":"50edc410-910e-4bfd-8388-aa3d102e590c","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"2","approvedBy":"FDA_SRS","names":[{"uuid":"00744c64-8544-44de-b799-3edab26dde26","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROXYLON PEREIRAE WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(00744c64-8544-44de-b799-3edab26dde26)?view=full"},{"uuid":"06f66ebf-991d-401f-9502-5e229c4679eb","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"TOLUIFERA PEREIRAE WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(06f66ebf-991d-401f-9502-5e229c4679eb)?view=full"},{"uuid":"2a4bef2a-68d7-4d16-8f83-534b9792a5eb","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"TOLUIFERA BALSAMUM WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(2a4bef2a-68d7-4d16-8f83-534b9792a5eb)?view=full"},{"uuid":"36cd0a6b-86d3-4a89-bdaf-d7626fdf3b69","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROSPERMUM PEREIRAE WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(36cd0a6b-86d3-4a89-bdaf-d7626fdf3b69)?view=full"},{"uuid":"555f44ce-ac96-42f1-9a90-0b5539c0b0cb","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROSPERMUM PUNCTATUM WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(555f44ce-ac96-42f1-9a90-0b5539c0b0cb)?view=full"},{"uuid":"58a31dc6-b207-4707-8d7b-5a1b6118eb72","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROSPERMUM BALSAMIFERUM WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(58a31dc6-b207-4707-8d7b-5a1b6118eb72)?view=full"},{"uuid":"5948e5f0-87ec-4bac-b552-b3b4a74edc7a","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROXYLON HANBURYANUM WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5948e5f0-87ec-4bac-b552-b3b4a74edc7a)?view=full"},{"uuid":"5995a458-2dc3-449a-bf28-994d367ef582","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROXYLON BALSAMUM WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5995a458-2dc3-449a-bf28-994d367ef582)?view=full"},{"uuid":"5ba2c969-6b49-4260-ac7e-f8088e5c97e5","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROXYLON PUNCTATUM WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5ba2c969-6b49-4260-ac7e-f8088e5c97e5)?view=full"},{"uuid":"5efac799-aee9-4299-94b6-7dc3ffd3bb88","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"TOLUIFERA PUNCTATE WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5efac799-aee9-4299-94b6-7dc3ffd3bb88)?view=full"},{"uuid":"6284522c-410e-4e69-bc88-4a9cf57b65fa","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"TOLU BALSAM WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["3c734109-4fbd-474b-a450-78c73e927cc3"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(6284522c-410e-4e69-bc88-4a9cf57b65fa)?view=full"},{"uuid":"69403120-d95a-4995-bc33-26b27b6171a7","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"BALSAM OF TOLU WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["2ae50d44-f3b9-49a2-8b15-84e1da7df5ad"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(69403120-d95a-4995-bc33-26b27b6171a7)?view=full"},{"uuid":"6e5980b9-5c76-4b15-9bd3-ae2963beaa9b","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROSPERMUM SONSONATENSE WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(6e5980b9-5c76-4b15-9bd3-ae2963beaa9b)?view=full"},{"uuid":"87784c35-4915-4329-aebf-c8ddcd1e23e1","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"TOLUIFERA PUNCTATA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(87784c35-4915-4329-aebf-c8ddcd1e23e1)?view=full"},{"uuid":"923540ce-0ad3-43db-a815-eb8041dfee3f","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROXYLON SONSOUATENSE WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(923540ce-0ad3-43db-a815-eb8041dfee3f)?view=full"},{"uuid":"94f3a98f-676f-49dc-979a-49edf0496d84","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROXYLON TOLUIFERUM WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["1a3ea40d-2981-43db-a88a-d1a392221313"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(94f3a98f-676f-49dc-979a-49edf0496d84)?view=full"},{"uuid":"f6652ee2-d110-4d01-934d-66d51094a9a6","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"name":"MYROXYLON BALSAMUM (L.) HARMS","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["95eb1ef2-f497-4579-9887-8568dff5e877"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(f6652ee2-d110-4d01-934d-66d51094a9a6)?view=full"}],"codes":[{"uuid":"2b843ff7-dad4-45bb-84d5-1b8a556d61ac","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"53906","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=53906","references":["c82abf70-4c46-41be-96a4-0e1d33610c8d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(2b843ff7-dad4-45bb-84d5-1b8a556d61ac)?view=full"},{"uuid":"34e1b994-7199-4137-b171-ac516def86e5","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"GRIN","code":"24873","type":"PRIMARY","url":"https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=24873","references":["c82abf70-4c46-41be-96a4-0e1d33610c8d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(34e1b994-7199-4137-b171-ac516def86e5)?view=full"},{"uuid":"9a417b98-d59b-4a23-9560-d710d4bae645","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"ITIS","code":"506803","type":"PRIMARY","url":"http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=506803","references":["c82abf70-4c46-41be-96a4-0e1d33610c8d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(9a417b98-d59b-4a23-9560-d710d4bae645)?view=full"},{"uuid":"aaa39f65-75ab-494f-97ba-4584b11021b0","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"WIKIPEDIA","code":"MYROXYLON","type":"PRIMARY","url":"https://en.wikipedia.org/wiki/Myroxylon","references":["c82abf70-4c46-41be-96a4-0e1d33610c8d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(aaa39f65-75ab-494f-97ba-4584b11021b0)?view=full"},{"uuid":"cfb0c4c1-824d-4b78-9a23-132ea01b70d1","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"USDA PLANTS","code":"MYBA3","type":"PRIMARY","url":"http://plants.usda.gov/java/profile?symbol=MYBA3","references":["c82abf70-4c46-41be-96a4-0e1d33610c8d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(cfb0c4c1-824d-4b78-9a23-132ea01b70d1)?view=full"},{"uuid":"d44bc426-cdaf-4632-9519-0dbbd9a8f334","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"MPNS","code":"WCSCMP-375220","type":"PRIMARY","url":"http://mpns.kew.org/mpns-portal/plantDetail?&filter=&fuzzy=false&nameType=all&dbs=wcsCmp&plantId=375220","references":["c82abf70-4c46-41be-96a4-0e1d33610c8d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(d44bc426-cdaf-4632-9519-0dbbd9a8f334)?view=full"}],"modifications":{"uuid":"0bbd7888-e7b0-4f6c-919a-16a07c448c5b","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[],"references":[{"uuid":"1a3ea40d-2981-43db-a88a-d1a392221313","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"citation":"ILDIS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(1a3ea40d-2981-43db-a88a-d1a392221313)?view=full"},{"uuid":"2ae50d44-f3b9-49a2-8b15-84e1da7df5ad","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"citation":"ITIS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(2ae50d44-f3b9-49a2-8b15-84e1da7df5ad)?view=full"},{"uuid":"3c734109-4fbd-474b-a450-78c73e927cc3","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"citation":"WIKIPEDIA","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(3c734109-4fbd-474b-a450-78c73e927cc3)?view=full"},{"uuid":"5a7c0bd7-58c1-45fb-a63c-b562b011f335","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [5OU0811D9J]","docType":"SRS","documentDate":1493391284000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=5OU0811D9J","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(5a7c0bd7-58c1-45fb-a63c-b562b011f335)?view=full"},{"uuid":"95eb1ef2-f497-4579-9887-8568dff5e877","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"citation":"MPNS","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(95eb1ef2-f497-4579-9887-8568dff5e877)?view=full"},{"uuid":"c4cd8adb-2395-4a5d-9e45-1742684e486c","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520359723000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(c4cd8adb-2395-4a5d-9e45-1742684e486c)?view=full"},{"uuid":"c82abf70-4c46-41be-96a4-0e1d33610c8d","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391284000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(c82abf70-4c46-41be-96a4-0e1d33610c8d)?view=full"}],"approvalID":"5OU0811D9J","tags":[],"structurallyDiverse":{"uuid":"92ec1bde-27b2-4b6d-8769-a92b53553d59","created":1520359723000,"createdBy":"admin","lastEdited":1520359723000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"PLANT","organismFamily":"FABACEAE","organismGenus":"MYROXYLON","organismSpecies":"BALSAMUM","organismAuthor":"(L.) HARMS","part":["WHOLE"],"infraSpecificType":"VARIETY","infraSpecificName":"VAR. BALSAMUM","references":["2ae50d44-f3b9-49a2-8b15-84e1da7df5ad","5a7c0bd7-58c1-45fb-a63c-b562b011f335"],"access":[]},"_approvalIDDisplay":"5OU0811D9J","_name":"MYROXYLON BALSAMUM WHOLE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(50edc410-910e-4bfd-8388-aa3d102e590c)?view=full"}
+
+>  <SUBSTANCE_ID>
+83199
+
+>  <UNII>
+5OU0811D9J
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+ <SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+ <SOURCE_MATERIAL_TYPE>PLANT</SOURCE_MATERIAL_TYPE>
+ <SOURCE_MATERIAL_STATE/>
+ <PARENT_SUBSTANCE_ID/>
+ <PARENT_SUBSTANCE_NAME/>
+ <DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+ <PART>WHOLE</PART>
+ <PART_LOCATION/>
+ </PART_GROUP>
+<FRACTION>
+ <MATERIAL_TYPE/>
+ <FRACTION/>
+ </FRACTION>
+<ORGANISM>
+ <KINGDOM>PLANTAE</KINGDOM>
+ <PHYLUM>MAGNOLIOPHYTA</PHYLUM>
+ <CLASS>MAGNOLIOPSIDA</CLASS>
+ <ORDER>FABALES</ORDER>
+ <FAMILY>FABACEAE</FAMILY>
+ <GENUS>MYROXYLON</GENUS>
+ <SPECIES>BALSAMUM</SPECIES>
+ <HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+ <HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+ <HYBRID_TYPE/>
+ <INFRASPECIFIC_TYPE>VARIETY</INFRASPECIFIC_TYPE>
+ <INFRASPECIFIC_DESCRIPTION>VAR. BALSAMUM</INFRASPECIFIC_DESCRIPTION>
+ </ORGANISM>
+ </SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+ <MODIFICATION_TYPE/>
+ <RESIDUE_MODIFIED/>
+ <RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+ <ROLE/>
+ <NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+ <PARAMETER/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PARAMETER_GROUP>
+ </PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+ <STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+ <ROLE/>
+ <MOIETY_ID/>
+ <MOIETY_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOIETY>
+<MOLECULAR_FRAGMENT>
+ <ROLE/>
+ <MOLECULAR_FRAGMENT_ID/>
+ <MOLECULAR_FRAGMENT_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_FRAGMENT>
+ </STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+ <AGENT_MODIFICATION_TYPE/>
+ <ROLE/>
+ <MODIFICATION_AGENT_ID/>
+ <MODIFICATION_AGENT/>
+ <MODIFICATION_PROCESS/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </AGENT_MODIFICATION>
+ </MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+ <PROPERTY_TYPE/>
+ <PROPERTY_NAME/>
+ <SUBSTANCE_ID/>
+ <SUBSTANCE_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PROPERTY_GROUP>
+ <COMMENT/>
+ </STRUCTURALLY_DIVERSE>
+
+>  <DESC_PART2>
+
+>  <DESC_PART3>
+
+>  <REF_INFO_PART1>
+<TAXON_AUTHOR>(L.) HARMS</TAXON_AUTHOR>
+
+>  <COMMENTS>
+
+>  <CDBREGNO>
+
+>  <STRUCTURE_ID>
+
+$$$$
+>  <GSRS_JSON>
+{"uuid":"963cebac-f481-4966-8dd5-5c95144787b9","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"1","approvedBy":"FDA_SRS","names":[{"uuid":"99305420-ae9b-4a63-9eb1-ee99b774477b","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"SEPIOLA RONDELETII LEACH, 1834 IN FERUSSAC AND D'ORBIGNY, 1834-1848","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["b92aab50-f126-4dfd-ad2e-69d93a7b887f"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(99305420-ae9b-4a63-9eb1-ee99b774477b)?view=full"},{"uuid":"b4ac8e3f-ed57-4437-88d9-154ca3778c4a","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"DWARF BOBTAIL SQUID WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["74de2353-d67d-4b21-b0ef-74527c9f2df8"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(b4ac8e3f-ed57-4437-88d9-154ca3778c4a)?view=full"},{"uuid":"cf9b8fbf-cbd2-44d1-bc90-15b4449a3252","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"SEPIA SEPIOLA WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["74de2353-d67d-4b21-b0ef-74527c9f2df8"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(cf9b8fbf-cbd2-44d1-bc90-15b4449a3252)?view=full"},{"uuid":"e8526674-12bc-40da-a3a9-208f509c0cc4","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"SEPIOLA RONDELETII WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["b8562e7f-6f3d-48bb-8e9c-77a89658a805"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(e8526674-12bc-40da-a3a9-208f509c0cc4)?view=full"},{"uuid":"f42f64b6-1451-4d6a-88c1-227c808a7b20","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"SEPIOLA GRANTIANA WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["74de2353-d67d-4b21-b0ef-74527c9f2df8"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(f42f64b6-1451-4d6a-88c1-227c808a7b20)?view=full"}],"codes":[{"uuid":"e4d363a4-86be-420f-ac6d-c2aa065164ac","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"ITIS","code":"205711","type":"PRIMARY","url":"http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=205711","references":["b949b157-6c9a-40c9-bd8f-73d51b88cf5e"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(e4d363a4-86be-420f-ac6d-c2aa065164ac)?view=full"}],"modifications":{"uuid":"73bc6086-2d19-4cf7-aa59-d6eadd1b2c86","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[],"references":[{"uuid":"6dbdaf08-ccf1-40ca-9860-db140654bab2","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"Catalog of Life 2009","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(6dbdaf08-ccf1-40ca-9860-db140654bab2)?view=full"},{"uuid":"74de2353-d67d-4b21-b0ef-74527c9f2df8","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"FDA_SRS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(74de2353-d67d-4b21-b0ef-74527c9f2df8)?view=full"},{"uuid":"8460fe5d-d3d4-4ce6-a409-76b659424b6d","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [18NW95V6KR]","docType":"SRS","documentDate":1493391261000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=18NW95V6KR","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(8460fe5d-d3d4-4ce6-a409-76b659424b6d)?view=full"},{"uuid":"b8562e7f-6f3d-48bb-8e9c-77a89658a805","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"FDA_SRS 2011","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b8562e7f-6f3d-48bb-8e9c-77a89658a805)?view=full"},{"uuid":"b92aab50-f126-4dfd-ad2e-69d93a7b887f","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"ITIS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b92aab50-f126-4dfd-ad2e-69d93a7b887f)?view=full"},{"uuid":"b949b157-6c9a-40c9-bd8f-73d51b88cf5e","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391261000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b949b157-6c9a-40c9-bd8f-73d51b88cf5e)?view=full"},{"uuid":"ff92a2a6-e1a8-40af-8962-09f8aa8569aa","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520365956000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(ff92a2a6-e1a8-40af-8962-09f8aa8569aa)?view=full"}],"approvalID":"18NW95V6KR","tags":[],"structurallyDiverse":{"uuid":"ca52f129-84e9-4039-99a5-452b7f167449","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"MOLLUSC","organismFamily":"SEPIOLIDAE","organismGenus":"SEPIOLA","organismSpecies":"RONDELETII","organismAuthor":"LEACH, 1834","part":["WHOLE"],"references":["6dbdaf08-ccf1-40ca-9860-db140654bab2","8460fe5d-d3d4-4ce6-a409-76b659424b6d"],"access":[]},"_approvalIDDisplay":"18NW95V6KR","_name":"DWARF BOBTAIL SQUID WHOLE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(963cebac-f481-4966-8dd5-5c95144787b9)?view=full"}
+
+>  <SUBSTANCE_ID>
+81405
+
+>  <UNII>
+18NW95V6KR
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+<SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+<SOURCE_MATERIAL_TYPE>MOLLUSC</SOURCE_MATERIAL_TYPE>
+<SOURCE_MATERIAL_STATE/>
+<PARENT_SUBSTANCE_ID/>
+<PARENT_SUBSTANCE_NAME/>
+<DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+<PART>WHOLE</PART>
+<PART_LOCATION/>
+</PART_GROUP>
+<FRACTION>
+<MATERIAL_TYPE/>
+<FRACTION/>
+</FRACTION>
+<ORGANISM>
+<KINGDOM>ANIMALIA</KINGDOM>
+<PHYLUM>MOLLUSCA</PHYLUM>
+<CLASS>CEPHALOPODA</CLASS>
+<ORDER>SEPIOLIDA</ORDER>
+<FAMILY>SEPIOLIDAE</FAMILY>
+<GENUS>SEPIOLA</GENUS>
+<SPECIES>RONDELETII</SPECIES>
+<HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+<HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+<HYBRID_TYPE/>
+<INFRASPECIFIC_TYPE/>
+<INFRASPECIFIC_DESCRIPTION/>
+</ORGANISM>
+</SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+<MODIFICATION_TYPE/>
+<RESIDUE_MODIFIED/>
+<RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+<ROLE/>
+<NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+<PARAMETER/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PARAMETER_GROUP>
+</PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+<ROLE/>
+<MOIETY_ID/>
+<MOIETY_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOIETY>
+<MOLECULAR_FRAGMENT>
+<ROLE/>
+<MOLECULAR_FRAGMENT_ID/>
+<MOLECULAR_FRAGMENT_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOLECULAR_FRAGMENT>
+</STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+<AGENT_MODIFICATION_TYPE/>
+<ROLE/>
+<MODIFICATION_AGENT_ID/>
+<MODIFICATION_AGENT/>
+<MODIFICATION_PROCESS/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</AGENT_MODIFICATION>
+</MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+<PROPERTY_TYPE/>
+<PROPERTY_NAME/>
+<SUBSTANCE_ID/>
+<SUBSTANCE_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PROPERTY_GROUP>
+<COMMENT/>
+</STRUCTURALLY_DIVERSE>
+
+>  <DESC_PART2>
+
+>  <DESC_PART3>
+
+>  <REF_INFO_PART1>
+<TAXON_AUTHOR>LEACH, 1834</TAXON_AUTHOR>
+
+>  <COMMENTS>
+
+>  <CDBREGNO>
+
+>  <STRUCTURE_ID>
+
+$$$$
+>  <GSRS_JSON>
+{"uuid":"7a086e2d-76ec-4afa-84d3-33fe930afe1c","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"1","approvedBy":"FDA_SRS","names":[{"uuid":"4036b032-b193-4098-b8f4-66f23a3150e1","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"SOUTHERN EAGLE FISH WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["b274926a-d54f-4c94-9198-5d1c3d6c0a7e"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(4036b032-b193-4098-b8f4-66f23a3150e1)?view=full"},{"uuid":"6e87c706-99ba-493b-b450-7a1f3415b237","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"SOUTHERN EAGLE RAY WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["b274926a-d54f-4c94-9198-5d1c3d6c0a7e"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(6e87c706-99ba-493b-b450-7a1f3415b237)?view=full"},{"uuid":"79e0b859-b821-4288-9658-c187f1b675da","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"MYLIOBATIS GOODEI GARMAN, 1885","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["ee37b6a8-670c-4774-9e1a-f38da5a5ae57"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(79e0b859-b821-4288-9658-c187f1b675da)?view=full"},{"uuid":"7c3c14c0-7ed9-48e8-9f73-0d9d4b26cc9b","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"name":"MYLIOBATIS GOODEI WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["ec693276-a4ae-41ce-ac13-5f424e96ff88"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(7c3c14c0-7ed9-48e8-9f73-0d9d4b26cc9b)?view=full"}],"codes":[{"uuid":"d33101d3-78cb-4ec2-a78b-55411b604bba","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"ITIS","code":"160982","type":"PRIMARY","url":"http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=160982","references":["45bdb193-1fa2-4c7d-a229-6e4c4f1c52ed"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(d33101d3-78cb-4ec2-a78b-55411b604bba)?view=full"},{"uuid":"d793520a-4a3a-4d03-b897-b259af2e0c4a","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"458585","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=458585","references":["45bdb193-1fa2-4c7d-a229-6e4c4f1c52ed"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(d793520a-4a3a-4d03-b897-b259af2e0c4a)?view=full"}],"modifications":{"uuid":"0fe506c0-8965-4d01-8bb9-88bf7107137f","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[],"references":[{"uuid":"45bdb193-1fa2-4c7d-a229-6e4c4f1c52ed","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391253000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(45bdb193-1fa2-4c7d-a229-6e4c4f1c52ed)?view=full"},{"uuid":"8b0745c2-3a16-443b-b209-53e9360f76a8","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [2QK8OA8Z2R]","docType":"SRS","documentDate":1493391253000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=2QK8OA8Z2R","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(8b0745c2-3a16-443b-b209-53e9360f76a8)?view=full"},{"uuid":"b274926a-d54f-4c94-9198-5d1c3d6c0a7e","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"FDA_SRS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b274926a-d54f-4c94-9198-5d1c3d6c0a7e)?view=full"},{"uuid":"b6225abf-69bf-4170-a1e1-c24c1c6c0074","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"Catalog of Life 2009","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b6225abf-69bf-4170-a1e1-c24c1c6c0074)?view=full"},{"uuid":"c5b8fdc7-d558-4f0c-b77d-70b163700189","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520365956000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(c5b8fdc7-d558-4f0c-b77d-70b163700189)?view=full"},{"uuid":"ec693276-a4ae-41ce-ac13-5f424e96ff88","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"FDA_SRS 2011","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(ec693276-a4ae-41ce-ac13-5f424e96ff88)?view=full"},{"uuid":"ee37b6a8-670c-4774-9e1a-f38da5a5ae57","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"citation":"ITIS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(ee37b6a8-670c-4774-9e1a-f38da5a5ae57)?view=full"}],"approvalID":"2QK8OA8Z2R","tags":[],"structurallyDiverse":{"uuid":"2e50d50c-74f9-4155-9854-a7074cf70ffe","created":1520365956000,"createdBy":"admin","lastEdited":1520365956000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"CARTILAGINOUS FISH","organismFamily":"MYLIOBATIDAE","organismGenus":"MYLIOBATIS","organismSpecies":"GOODEI","organismAuthor":"GARMAN, 1885","part":["WHOLE"],"references":["b6225abf-69bf-4170-a1e1-c24c1c6c0074","8b0745c2-3a16-443b-b209-53e9360f76a8"],"access":[]},"_approvalIDDisplay":"2QK8OA8Z2R","_name":"SOUTHERN EAGLE RAY WHOLE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(7a086e2d-76ec-4afa-84d3-33fe930afe1c)?view=full"}
+
+>  <SUBSTANCE_ID>
+80361
+
+>  <UNII>
+2QK8OA8Z2R
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+<SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+<SOURCE_MATERIAL_TYPE>CARTILAGINOUS FISH</SOURCE_MATERIAL_TYPE>
+<SOURCE_MATERIAL_STATE/>
+<PARENT_SUBSTANCE_ID/>
+<PARENT_SUBSTANCE_NAME/>
+<DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+<PART>WHOLE</PART>
+<PART_LOCATION/>
+</PART_GROUP>
+<FRACTION>
+<MATERIAL_TYPE/>
+<FRACTION/>
+</FRACTION>
+<ORGANISM>
+<KINGDOM>ANIMALIA</KINGDOM>
+<PHYLUM>CHORDATA</PHYLUM>
+<CLASS>ELASMOBRANCHII</CLASS>
+<ORDER>RAJIFORMES</ORDER>
+<FAMILY>MYLIOBATIDAE</FAMILY>
+<GENUS>MYLIOBATIS</GENUS>
+<SPECIES>GOODEI</SPECIES>
+<HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+<HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+<HYBRID_TYPE/>
+<INFRASPECIFIC_TYPE/>
+<INFRASPECIFIC_DESCRIPTION/>
+</ORGANISM>
+</SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+<MODIFICATION_TYPE/>
+<RESIDUE_MODIFIED/>
+<RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+<ROLE/>
+<NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+<PARAMETER/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PARAMETER_GROUP>
+</PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+<ROLE/>
+<MOIETY_ID/>
+<MOIETY_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOIETY>
+<MOLECULAR_FRAGMENT>
+<ROLE/>
+<MOLECULAR_FRAGMENT_ID/>
+<MOLECULAR_FRAGMENT_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOLECULAR_FRAGMENT>
+</STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+<AGENT_MODIFICATION_TYPE/>
+<ROLE/>
+<MODIFICATION_AGENT_ID/>
+<MODIFICATION_AGENT/>
+<MODIFICATION_PROCESS/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</AGENT_MODIFICATION>
+</MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+<PROPERTY_TYPE/>
+<PROPERTY_NAME/>
+<SUBSTANCE_ID/>
+<SUBSTANCE_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PROPERTY_GROUP>
+<COMMENT/>
+</STRUCTURALLY_DIVERSE>
+
+>  <DESC_PART2>
+
+>  <DESC_PART3>
+
+>  <REF_INFO_PART1>
+<TAXON_AUTHOR>GARMAN, 1885</TAXON_AUTHOR>
+
+>  <COMMENTS>
+
+>  <CDBREGNO>
+
+>  <STRUCTURE_ID>
+
+$$$$
+>  <GSRS_JSON>
+{"uuid":"57c52728-3c08-46ac-aa69-57bcecd78c1b","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"2","approvedBy":"FDA_SRS","names":[{"uuid":"0396a7fc-2c9d-41aa-89a2-24e5818d5cf3","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"MICROBE DE LA COQUELUCHE WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["c4cf8e6b-d31c-43f6-8d52-69dd15d5474a"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(0396a7fc-2c9d-41aa-89a2-24e5818d5cf3)?view=full"},{"uuid":"3b800e2d-249d-443e-b148-66eb3d71e5f9","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"BACTERIUM TUSSIS-CONVULSIVAE WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["c4cf8e6b-d31c-43f6-8d52-69dd15d5474a"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(3b800e2d-249d-443e-b148-66eb3d71e5f9)?view=full"},{"uuid":"434a02fc-074a-4d64-a457-853bb751644e","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"BORDETELLA PERTUSSIS","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["b90c0604-34e5-4d12-baa5-486b97c21268"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(434a02fc-074a-4d64-a457-853bb751644e)?view=full"},{"uuid":"4879483c-7b02-43e8-a8c6-3e022dddfc9c","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"BORDETELLA PERTUSSIS (BERGEY ET AL., 1923) MORENO-LOPEZ, 1952","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["83da55a7-03e5-4108-a531-f691ecd69c4b"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(4879483c-7b02-43e8-a8c6-3e022dddfc9c)?view=full"},{"uuid":"9e8b22fc-81a8-4561-89d8-84fa87500bc6","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"BORDETELLA PERTUSSIS WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["c4cf8e6b-d31c-43f6-8d52-69dd15d5474a"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(9e8b22fc-81a8-4561-89d8-84fa87500bc6)?view=full"},{"uuid":"d905b31d-151b-4eb5-904a-d558755e0dc7","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"HEMOPHILUS PERTUSSIS WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["c4cf8e6b-d31c-43f6-8d52-69dd15d5474a"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(d905b31d-151b-4eb5-904a-d558755e0dc7)?view=full"},{"uuid":"dcde1c93-2d8a-3789-e873-f99736cb052c","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"BORDETELLA PERTUSSIS [WHO-DD]","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["584f7d38-32af-42f8-1249-55c65a2be6bc"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(dcde1c93-2d8a-3789-e873-f99736cb052c)?view=full"},{"uuid":"df2a49b5-34a4-4f34-924d-02ced13e7597","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"name":"HAEMOPHILUS PERTUSSIS WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["c4cf8e6b-d31c-43f6-8d52-69dd15d5474a"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(df2a49b5-34a4-4f34-924d-02ced13e7597)?view=full"}],"codes":[{"uuid":"249114b9-6d77-406f-af55-c935deddf245","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"RXCUI","code":"402543","type":"ALTERNATIVE","url":"https://rxnav.nlm.nih.gov/REST/rxcui/402543/allProperties.xml?prop=all","references":["a39b3c14-b340-43bc-96de-b69bfe73069d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(249114b9-6d77-406f-af55-c935deddf245)?view=full"},{"uuid":"73a312f5-9c2d-4817-a1f6-3805096b073f","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"520","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=520","references":["a39b3c14-b340-43bc-96de-b69bfe73069d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(73a312f5-9c2d-4817-a1f6-3805096b073f)?view=full"},{"uuid":"8cada08e-b260-4b14-8be7-529700cbd805","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"EVMPD","code":"SUB25260","type":"PRIMARY","references":["a39b3c14-b340-43bc-96de-b69bfe73069d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(8cada08e-b260-4b14-8be7-529700cbd805)?view=full"},{"uuid":"98d7b44b-54a4-44d3-a085-00a4f280ad04","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"RXCUI","code":"8080","type":"ALTERNATIVE","url":"https://rxnav.nlm.nih.gov/REST/rxcui/8080/allProperties.xml?prop=all","references":["a39b3c14-b340-43bc-96de-b69bfe73069d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(98d7b44b-54a4-44d3-a085-00a4f280ad04)?view=full"},{"uuid":"b0b587d3-d8e3-41bc-a023-19765ac09e1d","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"RXCUI","code":"1608803","type":"PRIMARY","url":"https://rxnav.nlm.nih.gov/REST/rxcui/1608803/allProperties.xml?prop=all","references":["a39b3c14-b340-43bc-96de-b69bfe73069d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(b0b587d3-d8e3-41bc-a023-19765ac09e1d)?view=full"},{"uuid":"d4bd66c3-29d4-42b1-aebc-51f49da55350","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCI_THESAURUS","code":"C76205","type":"PRIMARY","url":"https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=15.09d&ns=NCI_Thesaurus&code=C76205","references":["a39b3c14-b340-43bc-96de-b69bfe73069d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(d4bd66c3-29d4-42b1-aebc-51f49da55350)?view=full"},{"uuid":"de89a26f-cfb6-4c7d-9281-0f09114efd20","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"ITIS","code":"960002","type":"PRIMARY","url":"http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=960002","references":["a39b3c14-b340-43bc-96de-b69bfe73069d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(de89a26f-cfb6-4c7d-9281-0f09114efd20)?view=full"}],"modifications":{"uuid":"d4d379ed-f28e-4a10-93a0-b7880223f5d9","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[{"uuid":"17089a56-c589-4af8-ac7d-5b0c01c79aa9","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"4e149734-7e0b-4a8a-874e-c75905885c1d","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"refPname":"BORDETELLA PERTUSSIS","refuuid":"57c52728-3c08-46ac-aa69-57bcecd78c1b","substanceClass":"reference","approvalID":"2QNL82089R","linkingID":"2QNL82089R","name":"BORDETELLA PERTUSSIS","references":[],"access":[]},"originatorUuid":"17089a56-c589-4af8-ac7d-5b0c01c79aa9","type":"ACTIVE MOIETY","references":[],"access":[]},{"uuid":"6dade6a9-b881-4761-a948-1b634b099aa2","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"9de7fa08-3c4b-4599-8590-edb2344b9f0b","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"refPname":"PERTUSSIS VACCINE","refuuid":"6772d114-0858-4c7e-a351-84e3b954141d","substanceClass":"reference","linkingID":"6772d114","name":"PERTUSSIS VACCINE","references":[],"access":[]},"originatorUuid":"6dade6a9-b881-4761-a948-1b634b099aa2","type":"SUB_CONCEPT->SUBSTANCE","references":[],"access":[]}],"references":[{"uuid":"584f7d38-32af-42f8-1249-55c65a2be6bc","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"WHO-DD","docType":"WHO DRUG DICTIONARY","publicDomain":true,"tags":[],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(584f7d38-32af-42f8-1249-55c65a2be6bc)?view=full"},{"uuid":"83da55a7-03e5-4108-a531-f691ecd69c4b","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"itis","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(83da55a7-03e5-4108-a531-f691ecd69c4b)?view=full"},{"uuid":"a39b3c14-b340-43bc-96de-b69bfe73069d","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391239000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(a39b3c14-b340-43bc-96de-b69bfe73069d)?view=full"},{"uuid":"b85bb4de-8665-457b-9d59-8ceb3888cf78","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"CATALOG OF LIFE 2009","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b85bb4de-8665-457b-9d59-8ceb3888cf78)?view=full"},{"uuid":"b90c0604-34e5-4d12-baa5-486b97c21268","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"BIOS","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b90c0604-34e5-4d12-baa5-486b97c21268)?view=full"},{"uuid":"c4cf8e6b-d31c-43f6-8d52-69dd15d5474a","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"NCBI","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(c4cf8e6b-d31c-43f6-8d52-69dd15d5474a)?view=full"},{"uuid":"e1b3ffe4-9fb8-4889-94d0-01b84df1075e","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [2QNL82089R]","docType":"SRS","documentDate":1493391239000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=2QNL82089R","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(e1b3ffe4-9fb8-4889-94d0-01b84df1075e)?view=full"},{"uuid":"f8205704-b241-4206-af3b-114951d1757d","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520352499000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(f8205704-b241-4206-af3b-114951d1757d)?view=full"}],"approvalID":"2QNL82089R","tags":[],"structurallyDiverse":{"uuid":"ca9c7c04-4c8a-476a-afe9-27ed7858768c","created":1520352499000,"createdBy":"admin","lastEdited":1520352499000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"BACTERIUM","organismFamily":"ALCALIGENACEAE","organismGenus":"BORDETELLA","organismSpecies":"PERTUSSIS","organismAuthor":"(BERGEY ET AL., 1923) MORENO-LOPEZ, 1952","part":["WHOLE"],"references":["b85bb4de-8665-457b-9d59-8ceb3888cf78","e1b3ffe4-9fb8-4889-94d0-01b84df1075e"],"access":[]},"_approvalIDDisplay":"2QNL82089R","_name":"BORDETELLA PERTUSSIS","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(57c52728-3c08-46ac-aa69-57bcecd78c1b)?view=full"}
+
+>  <SUBSTANCE_ID>
+24720
+
+>  <UNII>
+2QNL82089R
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+<SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+<SOURCE_MATERIAL_TYPE>BACTERIUM</SOURCE_MATERIAL_TYPE>
+<SOURCE_MATERIAL_STATE/>
+<PARENT_SUBSTANCE_ID/>
+<PARENT_SUBSTANCE_NAME/>
+<DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+<PART>WHOLE</PART>
+<PART_LOCATION/>
+</PART_GROUP>
+<FRACTION>
+<MATERIAL_TYPE/>
+<FRACTION/>
+</FRACTION>
+<ORGANISM>
+<KINGDOM>BACTERIA</KINGDOM>
+<PHYLUM>PROTEOBACTERIA</PHYLUM>
+<CLASS>BETAPROTEOBACTERIA</CLASS>
+<ORDER>BURKHOLDERIALES</ORDER>
+<FAMILY>ALCALIGENACEAE</FAMILY>
+<GENUS>BORDETELLA</GENUS>
+<SPECIES>PERTUSSIS</SPECIES>
+<HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+<HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+<HYBRID_TYPE/>
+<INFRASPECIFIC_TYPE/>
+<INFRASPECIFIC_DESCRIPTION/>
+</ORGANISM>
+</SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+<MODIFICATION_TYPE/>
+<RESIDUE_MODIFIED/>
+<RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+<ROLE/>
+<NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+<PARAMETER/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PARAMETER_GROUP>
+</PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+<ROLE/>
+<MOIETY_ID/>
+<MOIETY_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOIETY>
+<MOLECULAR_FRAGMENT>
+<ROLE/>
+<MOLECULAR_FRAGMENT_ID/>
+<MOLECULAR_FRAGMENT_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOLECULAR_FRAGMENT>
+</STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+<AGENT_MODIFICATION_TYPE/>
+<ROLE/>
+<MODIFICATION_AGENT_ID/>
+<MODIFICATION_AGENT/>
+<MODIFICATION_PROCESS/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</AGENT_MODIFICATION>
+</MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+<PROPERTY_TYPE/>
+<PROPERTY_NAME/>
+<SUBSTANCE_ID/>
+<SUBSTANCE_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PROPERTY_GROUP>
+<COMMENT/>
+</STRUCTURALLY_DIVERSE>
+
+>  <DESC_PART2>
+
+>  <DESC_PART3>
+
+>  <REF_INFO_PART1>
+<TAXON_AUTHOR>(BERGEY ET AL., 1923) MORENO-LOPEZ, 1952</TAXON_AUTHOR>
+
+>  <COMMENTS>
+
+>  <CDBREGNO>
+
+>  <STRUCTURE_ID>
+
+$$$$
+
+

@@ -1,0 +1,80 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+  7  6  0     1  0            999 V2000
+    5.1372   -5.3771    0.0000 *   0  0  0  0  0  0           0  0  0
+    6.2080   -5.7521    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.8580   -5.3771    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.5038   -5.7521    0.0000 C   0  0  1  0  0  0           0  0  0
+    8.3788   -5.3771    0.0000 *   0  0  0  0  0  0           0  0  0
+    7.5038   -6.5021    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.8580   -4.6230    0.0000 O   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  2  3  1  0     0  0
+  3  4  1  0     0  0
+  4  5  1  0     0  0
+  4  6  1  1     0  0
+  3  7  2  0     0  0
+M  STY  1   1 SRU
+M  SLB  1   1   1
+M  SCN  1   1 HT
+M  SAL   1  5   2   3   4   6   7
+M  SBL   1  2   1   4
+M  SMT   1 A
+M  SDI   1  4    5.5900   -5.9100    5.5900   -5.1500
+M  SDI   1  4    7.8200   -5.1500    7.8200   -5.9100
+M  END
+> <SUBSTANCE_ID>
+40681
+
+> <UNII>
+W92NDP347A
+
+> <DESC_PART1>
+<POLYMER>
+<POLYMER_TYPE>HOMOPOLYMER ATACTIC</POLYMER_TYPE>
+<NUMBER_OF_SRU>1</NUMBER_OF_SRU>
+<SRU_GROUP>
+<SRU_ID>A</SRU_ID>
+<ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+<SRU_PERCENT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+</SRU_PERCENT>
+<R_GROUP>
+<R_ID/>
+<LIMIT_TYPE/>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+</R_GROUP>
+<DEGREE_POLYMERIZATION>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+</DEGREE_POLYMERIZATION>
+</SRU_GROUP>
+<MW_GROUP>
+<TYPE_MW/>
+<MW_AVERAGE/>
+<LOW_LIMIT_MW/>
+<HIGH_LIMIT_MW/>
+</MW_GROUP>
+<PHYSICAL_PROPERTIES_GROUP>
+<PHYSICAL_PROPERTY_TYPE/>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNITS/>
+</PHYSICAL_PROPERTIES_GROUP>
+<COMMENTS/>
+</POLYMER>
+
+> <CDBREGNO>
+58016
+
+> <STRUCTURE_ID>
+25049
+
+$$$$

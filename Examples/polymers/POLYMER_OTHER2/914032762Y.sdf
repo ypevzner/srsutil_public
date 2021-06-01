@@ -1,0 +1,124 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 22 20  0     0  0            999 V2000
+   10.6015   -5.5665    0.0000 *   0  0  0  0  0  0           0  0  0
+    9.4251   -5.5356    0.0000 C   0  0  1  0  0  0           0  0  0
+    8.9924   -6.2360    0.0000 C   0  0  1  0  0  0           0  0  0
+    8.1731   -6.2138    0.0000 C   0  0  1  0  0  0           0  0  0
+    7.7403   -6.9144    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.3211   -7.6262    0.0000 S   0  0  3  0  0  0           0  0  0
+    6.6044   -7.2137    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.0336   -8.0387    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.9044   -8.3387    0.0000 O   0  5  0  0  0  0           0  0  0
+    7.7795   -5.4867    0.0000 C   0  0  2  0  0  0           0  0  0
+    6.9567   -5.4624    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.7794   -5.4596    0.0000 *   0  0  0  0  0  0           0  0  0
+    8.2121   -4.7863    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.0385   -4.8129    0.0000 O   0  0  0  0  0  0           0  0  0
+    9.3861   -6.9632    0.0000 O   0  0  0  0  0  0           0  0  0
+    9.7919   -7.6721    0.0000 S   0  0  3  0  0  0           0  0  0
+    9.0752   -8.0804    0.0000 O   0  0  0  0  0  0           0  0  0
+   10.2002   -8.3846    0.0000 O   0  5  0  0  0  0           0  0  0
+   10.5044   -7.2554    0.0000 O   0  0  0  0  0  0           0  0  0
+    9.8294   -6.2471    0.0000 H   0  0  0  0  0  0           0  0  0
+    7.6211   -8.9221    0.0000 Na  0  3  0  0  0  0           0  0  0
+   11.0919   -7.9721    0.0000 Na  0  3  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  2  1  0     0  0
+  4  3  1  0     0  0
+  4  5  1  1     0  0
+  5  6  1  0     0  0
+  6  7  2  0     0  0
+  6  8  2  0     0  0
+  6  9  1  0     0  0
+ 10  4  1  0     0  0
+ 10 11  1  6     0  0
+ 11 12  1  0     0  0
+ 13 10  1  0     0  0
+  2 14  1  0     0  0
+ 14 13  1  0     0  0
+  3 15  1  6     0  0
+ 15 16  1  0     0  0
+ 16 17  2  0     0  0
+ 16 18  1  0     0  0
+ 16 19  2  0     0  0
+  2 20  1  6     0  0
+M  CHG  4   9  -1  18  -1  21   1  22   1
+M  STY  1   1 SRU
+M  SLB  1   1   1
+M  SCN  1   1 HT
+M  SAL   1 15   2   3   4   5   6   7   8   9  10  11  13  14  15  16  17
+M  SAL   1  5  18  19  20  21  22
+M  SBL   1  2   1  11
+M  SMT   1 A
+M  SDI   1  4    6.3169   -5.8304    6.3169   -5.0304
+M  SDI   1  4    9.9669   -5.1304    9.9669   -5.9304
+M  END
+> <SUBSTANCE_ID>
+11993
+
+> <UNII>
+914032762Y
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_TYPE> HOMOPOLYMER </POLYMER_TYPE>
+ <COMPONENT_NUMBER>1</COMPONENT_NUMBER>
+ <COMPONENT_AMOUNT_TYPE>MOLE RATIO</COMPONENT_AMOUNT_TYPE>
+<COMPONENT>
+ <COMPONENT_NAME/>
+ <COMPONENT_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </COMPONENT>
+ <SRU_NUMBER>1</SRU_NUMBER>
+ <SRU_AMOUNT_TYPE>MOLE RATIO</SRU_AMOUNT_TYPE>
+<SRU_GROUP>
+ <SRU_ID>A</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+<SRU_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT>6</LOW_LIMIT>
+ <HIGH_LIMIT>12</HIGH_LIMIT>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS/>
+ <SUBSTITUTION_AMOUNT_TYPE/>
+<R_GROUP>
+ <R_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </R_GROUP>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE>10</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<MW_GROUP>
+ <TYPE_MW>WEIGHT AVERAGE</TYPE_MW>
+ <MW_AVERAGE>5700</MW_AVERAGE>
+ <LOW_LIMIT_MW>4000</LOW_LIMIT_MW>
+ <HIGH_LIMIT_MW>6000</HIGH_LIMIT_MW>
+ </MW_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS/>
+ </PROPERTIES_GROUP>
+ </POLYMER>
+
+> <COMMENTS>
+FDA_ID: F012015   POLYMER
+
+> <CDBREGNO>
+12011
+
+> <STRUCTURE_ID>
+12011
+
+$$$$

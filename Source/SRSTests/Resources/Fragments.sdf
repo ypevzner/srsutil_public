@@ -1,0 +1,2797 @@
+
+  -ISIS-  06101519152D
+
+ 14 13  0  0  1  0  0  0  0  0999 V2000
+    9.0500   -3.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2875   -3.9917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1417   -3.5042    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    8.2500   -3.9292    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    9.0500   -2.6167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2875   -4.8875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4000   -3.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9667   -3.9625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1417   -2.5625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500   -4.8875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5917   -3.9625    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7917   -3.4875    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8750   -3.9292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5042   -3.5042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  1  1  0  0  0  0
+  5  1  2  0  0  0  0
+  6  2  2  0  0  0  0
+  7  4  1  0  0  0  0
+  8 12  1  0  0  0  0
+  3  9  1  1  0  0  0
+  4 10  1  1  0  0  0
+ 11  7  1  0  0  0  0
+ 12 11  1  0  0  0  0
+ 13  1  1  0  0  0  0
+ 14  2  1  0  0  0  0
+M  END
+>  <NAMES>
+cysteine disulfide
+CYSTINE
+cys-cys
+CSSC
+
+>  <CONNECTORS>
+9;2
+10;1
+
+>  <UNII>
+48TCX9A1VT
+
+$$$$
+
+  Symyx   04271720052D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    5.6042   -3.1750    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.9042   -3.1750    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.4792   -2.4792    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.7500   -2.5250    0.0000 C   0  0  1  0  0  0           0  0  0
+    7.9042   -4.5292    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.4667   -1.1750    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.3292   -3.1417    0.0000 N   0  0  0  0  0  0           0  0  0
+    6.7917   -1.1750    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.0875   -2.5542    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  4  1  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  3  2  0     0  0
+  7  3  1  0     0  0
+  4  8  1  6     0  0
+  9  2  1  0     0  0
+M  END
+>  <UNII>
+5Z33R5TKO7
+
+>  <NAMES>
+L-ASPARAGINE
+ASPARAGINE
+(S)-2,4-DIAMINO-4-OXOBUTANOIC ACID
+7NG0A2TUHQ
+NSC-82391
+ASPARAGINE [HSDB]
+ASPARAGINE [INCI]
+ASPARAGINE ANHYDROUS [USP-RS]
+ASPARAGINE [MI]
+L-ASPARAGINE [FCC]
+L-ASPARAGINE ANHYDROUS
+ASPARAGINE ANHYDROUS
+ASPARAGINE [WHO-DD]
+ASPARAGINE, L-
+
+>  <AA>
+N
+
+>  <AA_NAME>
+ASPARAGINE
+
+>  <CONNECTORS>
+8;2
+
+>  <SMARTS>
+[#7]C(=O)C[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+ 15 16  0     1  0            999 V2000
+    4.5417   -6.5167    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.4917   -5.0917    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.0042   -5.7667    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.6750   -6.3042    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.6792   -6.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.2542   -6.9250    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.6750   -5.3792    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.9667   -6.5125    0.0000 C   0  0  2  0  0  0           0  0  0
+    6.6750   -7.7417    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.9625   -5.6875    0.0000 N   0  0  0  0  0  0           0  0  0
+    7.3917   -6.5042    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.9292   -6.7292    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8500   -4.9542    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.1292   -6.3042    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.0917   -5.4375    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  3  1  0     0  0
+  3  1  2  0     0  0
+  4  1  1  0     0  0
+  5  8  1  0     0  0
+  6  1  1  0     0  0
+  7  4  2  0     0  0
+  8  6  1  0     0  0
+  9  5  2  0     0  0
+  8 10  1  6     0  0
+ 11  5  1  0     0  0
+ 12  4  1  0     0  0
+ 13  7  1  0     0  0
+ 14 12  2  0     0  0
+ 15 14  1  0     0  0
+  7  2  1  0     0  0
+ 15 13  2  0     0  0
+M  END
+>  <UNII>
+8DUH1N11BX
+
+>  <NAMES>
+TRYPTOPHAN [VANDF]
+TRYPTOPHAN, L- [WHO-DD]
+L-TRYPTOPHAN [USP-RS]
+TRYPTOPHAN [HSDB]
+TRYPTOPHAN [II]
+L-TRYPTOPHAN [FCC]
+TRYPTOPHAN [INCI]
+TRYPTOPHAN [MI]
+TRYPTOPHAN [MART.]
+TRYPTOPHAN [USP]
+TRYPTOPHAN [EP]
+TRYPTOPHAN [USAN]
+TRYPTOPHAN [INN]
+L-.ALPHA.-AMINO-3-INDOLEPROPIONIC ACID
+L-TRYPTOPHAN
+TRYPTOPHAN
+TRYPTOPHAN, L-
+TRYTOPHAN-
+1H-INDOLE-3-PROPANOIC ACID, .ALPHA.-AMINO-, (S)-
+NSC-13119
+TRYPTOPHAN ((-),L,S)
+L-TRYPTOPHAN [VANDF]
+
+>  <AA>
+W
+
+>  <AA_NAME>
+TRYPTOPHAN
+
+>  <CONNECTORS>
+10;5
+
+>  <SMARTS>
+[*:1]N[C@@H](CC1=CNC2=C1C=CC=C2)C([*:2])=O |c:7,10,12,t:4|
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    8.1230   -9.7653    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.1230   -9.0229    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.4811  -10.1433    0.0000 C   0  0  1  0  0  0           0  0  0
+    7.4811  -10.8814    0.0000 N   0  0  0  0  0  0           0  0  0
+    6.8363   -9.7653    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.1917  -10.1433    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.5496   -9.7653    0.0000 S   0  0  0  0  0  0           0  0  0
+    4.9008  -10.1433    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.7678  -10.1433    0.0000 O   0  0  0  0  0  0           0  0  0
+  1  2  2  0     0  0
+  1  3  1  0     0  0
+  3  4  1  1     0  0
+  3  5  1  0     0  0
+  5  6  1  0     0  0
+  7  6  1  0     0  0
+  7  8  1  0     0  0
+  1  9  1  0     0  0
+M  END
+>  <UNII>
+AE28F7PNPL
+
+>  <NAMES>
+NSC-22946
+METHIONINE [VANDF]
+METHIONINE [WHO-DD]
+L-METHIONINE [USP-RS]
+METHIONINE [HSDB]
+METHIONINE [II]
+L-METHIONINE [FCC]
+METHIONINE [INCI]
+METHIONINE [MI]
+METHIONINE [MART.]
+METHIONINE [USP]
+METHIONINE [EP]
+METHIONINE [USAN]
+METHIONINE [INN]
+METHIONINE
+L-METHIONINE
+METHIONINE, L-
+
+>  <AA>
+M
+
+>  <AA_NAME>
+METHIONINE
+
+>  <CONNECTORS>
+4;1
+
+>  <SMARTS>
+[#6]SCC[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+  7  6  0     1  0            999 V2000
+    3.3125   -1.1292    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.9875   -1.1292    0.0000 C   0  0  1  0  0  0           0  0  0
+    4.0042   -2.2917    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.3250   -2.2917    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.0042    0.0000    0.0000 O   0  0  0  0  0  0           0  0  0
+    0.0000    0.0000    0.0000 S   0  0  0  0  0  0           0  0  0
+    1.3250    0.0000    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  1     0  0
+  5  1  1  0     0  0
+  6  7  1  0     0  0
+  7  2  1  0     0  0
+M  END
+>  <UNII>
+K848JZ4886
+
+>  <NAMES>
+NSC-8746
+E 920
+(R)-2-AMINO-3-MERCAPTOPROPANOIC ACID
+R-2-AMINO-3-MERCAPTOPROPIONIC ACID
+L-2-AMINO-3-MERCAPTOPROPIONIC ACID
+CYSTEINE [VANDF]
+L-CYSTEINE [VANDF]
+CYSTEINE [WHO-DD]
+CYSTEINE [HSDB]
+CYSTEINE [II]
+CYSTEINE, L-
+CYSTEINE [INCI]
+CYSTEINE [MI]
+CYSTEINE [MART.]
+L-CYSTEINE [FHFI]
+L-CYSTEINE [JAN]
+CYSTEINUM [HPUS]
+CYSTEINE [INN]
+FEMA NO. 3263
+CYSTEINUM
+L-CYSTEINE
+CYSTEINE
+
+>  <AA>
+C
+
+>  <AA_NAME>
+CYSTEINE
+
+>  <CONNECTORS>
+4;1
+
+>  <SMARTS>
+SC[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+   12.6750   -0.4417    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.9542   -0.0292    0.0000 C   0  0  2  0  0  0           0  0  0
+   12.6750   -1.2667    0.0000 O   0  0  0  0  0  0           0  0  0
+   11.9542    0.7958    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.2500   -0.4417    0.0000 N   0  0  0  0  0  0           0  0  0
+   13.3875   -0.0250    0.0000 O   0  0  0  0  0  0           0  0  0
+   12.6750    1.2083    0.0000 C   0  0  3  0  0  0           0  0  0
+   13.3875    0.7958    0.0000 C   0  0  0  0  0  0           0  0  0
+   12.6750    2.0375    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  4  2  1  0     0  0
+  2  5  1  1     0  0
+  6  1  1  0     0  0
+  7  4  1  0     0  0
+  8  7  1  0     0  0
+  9  7  1  0     0  0
+M  END
+>  <UNII>
+GMW67QNF9C
+
+>  <NAMES>
+NSC-46709
+LEUCINE, L
+LEUCINE [VANDF]
+LEUCINE [WHO-DD]
+L-LEUCINE [USP-RS]
+LEUCINE [HSDB]
+LEUCINE [II]
+L-LEUCINE [FCC]
+LEUCINE [INCI]
+L-LEUCINE [FHFI]
+LEUCINE [MI]
+LEUCINE [MART.]
+LEUCINE [USP]
+LEUCINE [EP]
+LEUCINE [USAN]
+LEUCINE [INN]
+FEMA NO. 3297
+LEU
+(S)-2-AMINO-4-METHYLPENTANOIC ACID
+L-LEUCINE
+LEUCINE, L-
+LEUCINE
+
+>  <AA>
+L
+
+>  <AA_NAME>
+LEUCINE
+
+>  <CONNECTORS>
+5;1
+
+>  <SMARTS>
+[#6]C([#6])C[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271719102D 1   1.00000     0.00000     0
+
+ 10  9  0     1  0            999 V2000
+    8.5708   -6.0208    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.9708   -6.0666    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.5708   -4.7041    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.4208   -6.6791    0.0000 C   0  0  2  0  0  0           0  0  0
+    4.0083   -4.9125    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2791   -6.0250    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.1083   -6.7250    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.7000   -6.7875    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.7125   -6.6833    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.4291   -8.0208    0.0000 N   0  0  0  0  0  0           0  0  0
+  2  7  1  0     0  0
+  3  1  2  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  4  1  0     0  0
+  7  6  1  0     0  0
+  8  2  1  0     0  0
+  9  1  1  0     0  0
+  4 10  1  1     0  0
+M  END
+>  <UNII>
+0RH81L854J
+
+>  <NAMES>
+NSC-27421
+L-GLUTAMINE [VANDF]
+GLUTAMINE [VANDF]
+LEVOGLUTAMIDE [WHO-DD]
+GLUTAMINE [USP-RS]
+GLUTAMINE [ORANGE BOOK]
+L-GLUTAMINE [FCC]
+GLUTAMINE [INCI]
+L-GLUTAMINE [FHFI]
+GLUTAMINE [MI]
+GLUTAMINE [MART.]
+L-GLUTAMINE [JAN]
+GLUTAMINE [USP]
+GLUTAMINE [USAN]
+GLUTAMINE [INN]
+FEMA NO. 3684
+NUTRESTORE
+LEVOGLUTAMIDE
+2-AMINOGLUTARAMIC ACID
+L-GLUTAMINE
+GLUTAMINE, L-
+GLUTAMINE
+
+>  <AA>
+Q
+
+>  <AA_NAME>
+GLUTAMINE
+
+>  <CONNECTORS>
+10;1
+
+>  <SMARTS>
+[#7]C(=O)CC[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718552D 1   1.00000     0.00000     0
+
+  7  6  0     1  0            999 V2000
+    4.4417    0.5750    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.2834   -0.1167    0.0000 C   0  0  1  0  0  0           0  0  0
+    4.4125    1.8916    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.2709   -1.4375    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.5667   -0.1042    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.1209    0.5458    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.9542   -0.1000    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  1     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  6  1  0     0  0
+M  END
+>  <UNII>
+452VLY9402
+
+>  <NAMES>
+NSC-118365
+SERINE [VANDF]
+SERINE [WHO-DD]
+L-SERINE [USP-RS]
+SERINE [HSDB]
+SERINE [II]
+L-SERINE [FCC]
+SERINE [INCI]
+L-SERINE
+SERINE [MI]
+SERINE [MART.]
+SERINE [USP]
+SERINE [EP]
+SERINE [USAN]
+SERINE [INN]
+SERINE, L-
+SERINE
+
+>  <AA>
+S
+
+>  <AA_NAME>
+SERINE
+
+>  <CONNECTORS>
+4;1
+
+>  <SMARTS>
+OC[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718552D 1   1.00000     0.00000     0
+
+  6  5  0     1  0            999 V2000
+    3.9250    0.5750    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.9334    1.8833    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.7500   -0.0917    0.0000 C   0  0  1  0  0  0           0  0  0
+    5.0709   -0.1208    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.7625   -1.4292    0.0000 N   0  0  0  0  0  0           0  0  0
+    1.6250    0.5750    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  2  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  3  5  1  1     0  0
+  6  3  1  0     0  0
+M  END
+>  <UNII>
+OF5P57N2ZX
+
+>  <NAMES>
+L-ALANINE [FCC]
+NSC-206315
+ALANINE [VANDF]
+ALANINE [WHO-DD]
+L-ALANINE [USP-RS]
+ALANINE [HSDB]
+ALANINE [II]
+L-ALANINE
+ALANINE [INCI]
+ALANINE [MI]
+L-ALANINE [JAN]
+ALANINE [USP]
+ALANINE [EP]
+ALANINE [USAN]
+ALANINE [INN]
+L-2-AMINOPROPANOIC ACID
+ALANINE
+ALANINE, L-
+
+>  <AA>
+A
+
+>  <AA_NAME>
+ALANINE
+
+>  <CONNECTORS>
+5;1
+
+>  <SMARTS>
+[#6][C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718552D 1   1.00000     0.00000     0
+
+  5  4  0     0  0            999 V2000
+    1.1125   -0.6750    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.1125   -2.0000    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.4375   -0.6750    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.2792    0.0000    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  2  0     0  0
+  3  1  1  0     0  0
+  4  5  1  0     0  0
+  5  1  1  0     0  0
+M  END
+>  <UNII>
+TE7660XO1C
+
+>  <NAMES>
+NSC-25936
+GLYCINE [VANDF]
+GLYCINE [WHO-DD]
+GLYCINE [USP-RS]
+GLYCINE [HSDB]
+GLYCINE [II]
+GLYCINE [ORANGE BOOK]
+GLYCINE [FCC]
+GLYCINE [INCI]
+GLYCINE [GREEN BOOK]
+GLYCINE [FHFI]
+GLYCINE [MI]
+GLYCINE [MART.]
+GLYCINE [USP]
+GLYCINE [EP]
+GLYCINE [INN]
+FEMA NO. 3287
+GLYCOLIXIR
+GLYCOCOLL
+AMINOETHANOIC ACID
+GLYCINE
+AMINOACETIC ACID
+
+>  <AA>
+G
+
+>  <AA_NAME>
+GLYCINE
+
+>  <CONNECTORS>
+4;1
+
+>  <SMARTS>
+[*:1]NCC([*:2])=O
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 13 13  0     1  0            999 V2000
+    7.4667   -5.1167    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.5417   -4.5917    0.0000 C   0  0  2  0  0  0           0  0  0
+    7.4625   -6.1667    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.6167   -5.1042    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.6875   -4.5625    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.5417   -3.5167    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.3667   -4.5875    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.8500   -3.5000    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.7792   -5.1125    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.6792   -3.5250    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.7667   -2.9917    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8375   -4.5667    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.9250   -2.9917    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  4  2  1  0     0  0
+  5  4  1  0     0  0
+  2  6  1  6     0  0
+  7  1  1  0     0  0
+  8 11  1  0     0  0
+  9  5  2  0     0  0
+ 10  5  1  0     0  0
+ 11 10  2  0     0  0
+ 12  9  1  0     0  0
+ 13  8  1  0     0  0
+ 12  8  2  0     0  0
+M  END
+>  <UNII>
+42HK56048U
+
+>  <NAMES>
+NSC-82624
+LEVODOPA IMPURITY, L-TYROSINE- [USP]
+LEVODOPA SPECIFIED IMPURITY B [EP]
+TYROSINE [VANDF]
+TYROSINE [WHO-DD]
+L-TYROSINE [USP-RS]
+TYROSINE [HSDB]
+TYROSINE [II]
+TYROSINE [ORANGE BOOK]
+L-TYROSINE [FHFI]
+L-TYROSINE [FCC]
+TYROSINE [INCI]
+TYROSINE [MI]
+TYROSINE [MART.]
+L-TYROSINE [JAN]
+TYROSINE [USP]
+TYROSINE [EP]
+TYROSINE [USAN]
+TYROSINE [INN]
+L-TYROSINE
+FEMA NO. 3736
+(-)-.ALPHA.-AMINO-P-HYDROXYHYDROCINNAMIC ACID
+2-AMINO-3-(4-HYDROXYPHENYL)PROPANOIC ACID, (S)-
+TYROSINE
+TYROSINE, L-
+
+>  <AA>
+Y
+
+>  <AA_NAME>
+TYROSINE
+
+>  <CONNECTORS>
+6;1
+
+>  <SMARTS>
+OC1=CC=C(C[C@H](N[*:1])C([*:2])=O)C=C1 |c:12,t:1,3|
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    5.1667   -3.8667    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.4542   -3.8375    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.0292   -4.5542    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.3167   -4.5083    0.0000 C   0  0  1  0  0  0           0  0  0
+    7.4542   -2.5292    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.0417   -5.9000    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.3250   -5.8417    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.6042   -4.4917    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.8500   -3.8917    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  4  1  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  3  2  0     0  0
+  4  7  1  1     0  0
+  8  2  1  0     0  0
+  9  3  1  0     0  0
+M  END
+>  <UNII>
+30KYC7MIAI
+
+>  <NAMES>
+ASPARTIC ACID [VANDF]
+ASPARTIC ACID [WHO-DD]
+ASPARTIC ACID [HSDB]
+ASPARTIC ACID [II]
+ASPARTATE
+FEMA NO. 3656
+L-ASPARTIC ACID [FCC]
+ASPARTIC ACID [INCI]
+L-ASPARTIC ACID
+ASPARTIC ACID [MI]
+ASPARTIC ACID [MART.]
+L-ASPARTIC ACID [FHFI]
+ASPARTIC ACID [EP]
+ASPARTIC ACID [USP]
+ASPARTIC ACID [USAN]
+ASPARTIC ACID [INN]
+ASPARTIC ACID
+ASPARTIC ACID, L-
+DEAMIDATED ASPARAGINE
+NSC-3973
+ASPARTIC ACID,L
+
+>  <AA>
+D
+
+>  <AA_NAME>
+ASPARTIC ACID
+
+>  <CONNECTORS>
+7;2
+
+>  <SMARTS>
+OC(=O)C[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 10  9  0     1  0            999 V2000
+    6.8417   -5.8417    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.1625   -5.7875    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.8417   -6.8875    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.9500   -5.2917    0.0000 C   0  0  2  0  0  0           0  0  0
+    3.1542   -6.8667    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.0250   -5.8000    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.1167   -5.2542    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.7792   -5.3000    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.9500   -4.2417    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.2542   -5.2750    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  7  1  0     0  0
+  3  1  2  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  4  1  0     0  0
+  7  6  1  0     0  0
+  8  1  1  0     0  0
+  4  9  1  6     0  0
+ 10  2  1  0     0  0
+M  END
+>  <UNII>
+3KX376GY7L
+
+>  <NAMES>
+GLUTAMIDEX
+2-AMINOPENTANEDIOIC ACID
+(S)-2-AMINO-1,5-PENTANEDIOIC ACID
+E 620
+L-(+)-GLUTAMIC ACID
+L-2-AMINO-PENTANEDIOIC ACID
+L-ALPHA-AMINOGLUTARIC ACID
+INS NO.620
+INS-620
+E-620
+NSC-143503
+(S)-(+)-GLUTAMIC ACID
+GLUTAMIC ACID [VANDF]
+GLUTAMIC ACID [WHO-DD]
+GLUTAMIC ACID [USP-RS]
+L-GLUTAMIC ACID [FCC]
+GLUTAMIC ACID [INCI]
+L-GLUTAMIC ACID [FHFI]
+GLUTAMIC ACID [MI]
+L-GLUTAMIC ACID [JAN]
+GLUTAMIC ACID [EP]
+GLUTAMIC ACID [USAN]
+GLUTAMIC ACID [INN]
+FEMA NO. 3285
+L-GLUTAMIC ACID
+(S)-2-AMINOPENTANEDIOIC ACID
+GLUTAMIC ACID
+GLUTAMIC ACID, L-
+
+>  <AA>
+E
+
+>  <AA_NAME>
+GLUTAMIC ACID
+
+>  <CONNECTORS>
+9;1
+
+>  <SMARTS>
+OC(=O)CC[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 10  9  0     1  0            999 V2000
+    7.2125   -5.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.2125   -4.8500    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2750   -6.4292    0.0000 C   0  0  1  0  0  0           0  0  0
+    8.1167   -6.4625    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2750   -7.5250    0.0000 N   0  0  0  0  0  0           0  0  0
+    1.6542   -5.8875    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.5667   -6.4292    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.3625   -5.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.5042   -5.8875    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.4292   -6.4292    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  2  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  3  5  1  1     0  0
+  6  7  1  0     0  0
+  7  9  1  0     0  0
+  8  3  1  0     0  0
+  9 10  1  0     0  0
+ 10  8  1  0     0  0
+M  END
+>  <UNII>
+K3Z4F929H6
+
+>  <NAMES>
+(+)-S-LYSINE
+L-LYSINE
+LYSINE [VANDF]
+LYSINE [WHO-DD]
+LYSINE [HSDB]
+LYSINE [II]
+LYSINE [INCI]
+L-LYSINE [FHFI]
+LYSINE [MI]
+LYSINE [MART.]
+LYSINE [USAN]
+LYSINE [INN]
+LYSINE
+LYSINE, L-
+
+>  <AA>
+K
+
+>  <AA_NAME>
+LYSINE
+
+>  <CONNECTORS>
+5;1
+
+>  <SMARTS>
+[#7]CCCC[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 11 11  0     1  0            999 V2000
+    3.2917   -2.8917    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.3792   -3.6625    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.9625   -3.2125    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.6292   -3.2000    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.6750   -4.9417    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.2375   -3.7042    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.7917   -3.8792    0.0000 C   0  0  2  0  0  0           0  0  0
+    4.0250   -4.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.9625   -1.8792    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.7917   -5.2042    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.1042   -3.8542    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  7  1  0     0  0
+  4  2  1  0     0  0
+  5  6  1  0     0  0
+  6  1  2  0     0  0
+  7  4  1  0     0  0
+  8  2  2  0     0  0
+  9  3  2  0     0  0
+  7 10  1  1     0  0
+ 11  3  1  0     0  0
+  8  5  1  0     0  0
+M  END
+>  <UNII>
+4QD397987E
+
+>  <NAMES>
+NSC-137773
+HISTIDINE [VANDF]
+HISTIDINE [WHO-DD]
+L-HISTIDINE [USP-RS]
+HISTIDINE [HSDB]
+HISTIDINE [II]
+L-HISTIDINE [FCC]
+HISTIDINE [INCI]
+L-HISTIDINE [FHFI]
+HISTIDINE [MI]
+HISTIDINE [MART.]
+L-HISTIDINE [JAN]
+HISTIDINE [USP]
+HISTIDINE [EP]
+HISTIDINE [USAN]
+HISTIDINE [INN]
+L-HISTIDINE
+HISTIDINE
+FEMA NO. 3694
+HISTIDINE, L-
+
+>  <AA>
+H
+
+>  <AA_NAME>
+HISTIDINE
+
+>  <CONNECTORS>
+10;3
+
+>  <SMARTS>
+[*:1]N[C@@H](CC1=CNC=N1)C([*:2])=O |c:7,t:4|
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+ 12 12  0     1  0            999 V2000
+    0.0042   -0.8542    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.0042   -0.0292    0.0000 C   0  0  2  0  0  0           0  0  0
+   -0.7125   -1.2667    0.0000 O   0  0  0  0  0  0           0  0  0
+    0.7167    0.3833    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.7083    0.3833    0.0000 N   0  0  0  0  0  0           0  0  0
+    0.7167   -1.2667    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.4292   -0.0292    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.1500    0.3833    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.4292   -0.8542    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.1417   -1.2667    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8625   -0.0292    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8625   -0.8542    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  4  2  1  0     0  0
+  2  5  1  1     0  0
+  6  1  1  0     0  0
+  7  4  1  0     0  0
+  8  7  1  0     0  0
+  9  7  2  0     0  0
+ 10  9  1  0     0  0
+ 11  8  2  0     0  0
+ 12 10  2  0     0  0
+ 11 12  1  0     0  0
+M  END
+>  <UNII>
+47E5O17Y3R
+
+>  <NAMES>
+NSC-79477
+PHENYLALANINE [VANDF]
+PHENYLALANINE [WHO-DD]
+L-PHENYLALANINE [USP-RS]
+PHENYLALANINE [HSDB]
+PHENYLALANINE [II]
+L-PHENYLALANINE [FCC]
+LAEVO-PHENYL ALANINE
+L-PHENYLALANINE [FHFI]
+PHENYLALANINE [INCI]
+PHENYLALANINE [MI]
+PHENYLALANINE [MART.]
+PHENYLALANINE [USP]
+PHENYLALANINE [EP]
+PHENYLALANINE [USAN]
+PHENYLALANINE [INN]
+FEMA NO. 3585
+3-PHENYL-L-ALANINE
+L-.ALPHA.-AMINO-.BETA.-PHENYLPROPIONIC ACID
+L-PHENYLALANINE
+PHENYLALANINE
+PHENYLALANINE, L-
+
+>  <AA>
+F
+
+>  <AA_NAME>
+PHENYLALANINE
+
+>  <CONNECTORS>
+5;1
+
+>  <SMARTS>
+[*:1]N[C@@H](CC1=CC=CC=C1)C([*:2])=O |c:6,8,t:4|
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    4.1042   -2.0375    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.1750   -2.6042    0.0000 C   0  0  1  0  0  0           0  0  0
+    4.0792   -0.9417    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.2000   -3.6750    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.0542   -2.5500    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.2417   -2.0875    0.0000 C   0  0  2  0  0  0           0  0  0
+    1.3167   -2.6417    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.2125   -1.0042    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.3542   -2.1417    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  1     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  6  1  0     0  0
+  6  8  1  6     0  0
+  9  7  1  0     0  0
+M  END
+>  <UNII>
+04Y7590D77
+
+>  <NAMES>
+NSC-46708
+ISOLEUCINE [VANDF]
+ISOLEUCINE [WHO-DD]
+L-ISOLEUCINE [USP-RS]
+ISOLEUCINE [II]
+ISOLEUCINE [HSDB]
+L-ISOLEUCINE [FCC]
+ISOLEUCINE [INCI]
+ISOLEUCINE [MI]
+ISOLEUCINE [MART.]
+ISOLEUCINE [USP]
+ISOLEUCINE [EP]
+ISOLEUCINE [USAN]
+ISOLEUCINE [INN]
+ILE
+L-ISOLEUCINE
+(2S,3S)-2-AMINO-3-METHYLPENTANOIC ACID
+ISOLEUCINE
+ISOLEUCINE, L-
+
+>  <AA>
+I
+
+>  <AA_NAME>
+ISOLEUCINE
+
+>  <CONNECTORS>
+4;1
+
+>  <SMARTS>
+[#6]C[C@H]([#6])[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+ 12 11  0     1  0            999 V2000
+    2.3000   -3.8792    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.2167   -3.8917    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.2792   -2.5500    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.2167   -2.5750    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.4292   -4.5667    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.0625   -4.5667    0.0000 C   0  0  1  0  0  0           0  0  0
+    1.1375   -4.5500    0.0000 N   0  0  0  0  0  0           0  0  0
+   10.3542   -4.5417    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.0625   -5.8875    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.5917   -3.8917    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.8917   -3.8792    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.7125   -4.5500    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  6  1  0     0  0
+  3  1  2  0     0  0
+  4  2  2  0     0  0
+  5  1  1  0     0  0
+  6 11  1  0     0  0
+  7  1  1  0     0  0
+  8  2  1  0     0  0
+  6  9  1  1     0  0
+ 10  5  1  0     0  0
+ 11 12  1  0     0  0
+ 12 10  1  0     0  0
+M  END
+>  <UNII>
+94ZLA3W45F
+
+>  <NAMES>
+NSC-206269
+(S)-2-AMINO-5-GUANIDINOPENTANOIC ACID
+ARGININE [VANDF]
+ARGININE [WHO-DD]
+L-ARGININE [USP-RS]
+ARGININE [HSDB]
+ARGININE [II]
+L-ARGININE [FCC]
+ARGININE [INCI]
+ARGININE [MI]
+ARGININE [MART.]
+L-ARGININE [FHFI]
+ARGININE [EP]
+ARGININE [USP]
+ARGININE [INN]
+ARG
+L-ARGININE
+(S)-2-AMINO-5-((AMINOIMINOMETHYL)AMINO)PENTANOIC ACID
+ARGININE
+ARGININE, L-
+
+>  <AA>
+R
+
+>  <AA_NAME>
+ARGININE
+
+>  <CONNECTORS>
+9;2
+
+>  <SMARTS>
+[#7]C(=N)NCCC[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  8  8  0     1  0            999 V2000
+    5.5791   -0.3125    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.4458   -1.3959    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.2291   -0.3042    0.0000 C   0  0  1  0  0  0           0  0  0
+    6.2208   -1.4875    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2333    0.8291    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.2000   -0.9792    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.4583    0.7625    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.2041    0.3541    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  3  1  0     0  0
+  3  1  1  1     0  0
+  4  1  2  0     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  3  1  0     0  0
+  8  7  1  0     0  0
+  6  8  1  0     0  0
+M  END
+>  <UNII>
+9DLQ4CIU6V
+
+>  <NAMES>
+NSC-46703
+PROLINE [VANDF]
+PROLINE [WHO-DD]
+L-PROLINE [USP-RS]
+PROLINE [HSDB]
+PROLINE [II]
+L-PROLINE [FHFI]
+L-PROLINE [FCC]
+PROLINE [INCI]
+PROLINE [MI]
+PROLINE [MART.]
+L-PROLINE [JAN]
+PROLINE [EP]
+PROLINE [USP]
+PROLINE [USAN]
+L-PROLINE
+(S)-PYRROLIDONE-2-CARBOXYLIC ACID
+PROLINE, L-
+PROLINE [INN]
+FEMA NO. 3319
+L-2-PYRROLIDINECARBOXYLIC ACID
+PROLINE
+
+>  <AA>
+P
+
+>  <AA_NAME>
+PROLINE
+
+>  <CONNECTORS>
+2;1
+
+>  <SMARTS>
+[*:1]N1CCC[C@H]1C([*:2])=O
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  8  7  0     1  0            999 V2000
+    6.9167   -3.2167    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.7542   -3.8917    0.0000 C   0  0  1  0  0  0           0  0  0
+    6.9167   -1.9042    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.7542   -5.2250    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.0417   -3.8917    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.6042   -3.2167    0.0000 C   0  0  3  0  0  0           0  0  0
+    3.4292   -3.8917    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.6042   -1.9042    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  1     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  6  1  0     0  0
+  8  6  1  0     0  0
+M  END
+>  <UNII>
+HG18B9YRS7
+
+>  <NAMES>
+NSC-76038
+VALINE [VANDF]
+VALINE [WHO-DD]
+L-VALINE [USP-RS]
+VALINE [HSDB]
+VALINE [II]
+L-VALINE [FCC]
+VALINE [INCI]
+VALINE [MI]
+VALINE [MART.]
+VALINE [USP]
+VALINE [EP]
+VALINE [USAN]
+VALINE [INN]
+L-VALINE
+VALINE
+(S)-2-AMINO-3-METHYLBUTANOIC ACID
+VAL
+VALINE, L-
+
+>  <AA>
+V
+
+>  <AA_NAME>
+VALINE
+
+>  <CONNECTORS>
+4;1
+
+>  <SMARTS>
+[#6]C([#6])[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  8  7  0     1  0            999 V2000
+   -0.0958   -0.0667    0.0000 C   0  0  2  0  0  0           0  0  0
+    0.6250   -0.4792    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.6250   -1.3042    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.0958    0.7583    0.0000 C   0  0  2  0  0  0           0  0  0
+   -0.8000   -0.4792    0.0000 N   0  0  0  0  0  0           0  0  0
+    1.3417   -0.0667    0.0000 O   0  0  0  0  0  0           0  0  0
+    0.6250    1.1708    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.8000    1.1708    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  2  2  0     0  0
+  4  1  1  0     0  0
+  1  5  1  1     0  0
+  6  2  1  0     0  0
+  4  7  1  1     0  0
+  8  4  1  0     0  0
+M  END
+>  <UNII>
+2ZD004190S
+
+>  <NAMES>
+NSC-16589
+NSC-46701
+THREONINE [VANDF]
+THREONINE [WHO-DD]
+L-THREONINE [USP-RS]
+THREONINE [HSDB]
+THREONINE [II]
+L-THREONINE [FCC]
+THREONINE [INCI]
+THREONINE [MI]
+THREONINE [MART.]
+THREONINE [USP]
+THREONINE [EP]
+THREONINE [USAN]
+THREONINE [INN]
+THR
+THREONINE
+(2S,3R)-2-AMINO-3-HYDROXYBUTYRIC ACID
+L-THREONINE
+THREONINE, L-
+
+>  <AA>
+T
+
+>  <AA_NAME>
+THREONINE
+
+>  <CONNECTORS>
+5;2
+
+>  <SMARTS>
+[#6][C@@H](O)[C@H](N[*:1])C([*:2])=O
+
+$$$$
+
+  -ISIS-  06101519152D
+
+ 14 13  0  0  1  0  0  0  0  0999 V2000
+    9.0500   -3.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2875   -3.9917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1417   -3.5042    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    8.2500   -3.9292    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    9.0500   -2.6167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2875   -4.8875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4000   -3.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9667   -3.9625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1417   -2.5625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500   -4.8875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5917   -3.9625    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7917   -3.4875    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8750   -3.9292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5042   -3.5042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  1  1  0  0  0  0
+  5  1  2  0  0  0  0
+  6  2  2  0  0  0  0
+  7  4  1  0  0  0  0
+  8 12  1  0  0  0  0
+  3  9  1  6  0  0  0
+  4 10  1  6  0  0  0
+ 11  7  1  0  0  0  0
+ 12 11  1  0  0  0  0
+ 13  1  1  0  0  0  0
+ 14  2  1  0  0  0  0
+M  END
+>  <NAMES>
+cysteine disulfide D-D
+CYSTINE D
+cysD-cysD
+CDSSCD
+
+>  <CONNECTORS>
+9;2
+10;1
+
+>  <UNII>
+
+
+$$$$
+
+  Symyx   04271720052D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    5.6042   -3.1750    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.9042   -3.1750    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.4792   -2.4792    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.7500   -2.5250    0.0000 C   0  0  2  0  0  0           0  0  0
+    7.9042   -4.5292    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.4667   -1.1750    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.3292   -3.1417    0.0000 N   0  0  0  0  0  0           0  0  0
+    6.7917   -1.1750    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.0875   -2.5542    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  4  1  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  3  2  0     0  0
+  7  3  1  0     0  0
+  4  8  1  1     0  0
+  9  2  1  0     0  0
+M  END
+>  <UNII>
+T6QV1010K6
+
+>  <NAMES>
+D-ASPARAGINE
+ASPARAGINE, D-
+
+>  <AA>
+n
+
+>  <AA_NAME>
+ASPARAGINE D
+
+>  <CONNECTORS>
+8;2
+
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+ 15 16  0     1  0            999 V2000
+    4.5417   -6.5167    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.4917   -5.0917    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.0042   -5.7667    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.6750   -6.3042    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.6792   -6.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.2542   -6.9250    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.6750   -5.3792    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.9667   -6.5125    0.0000 C   0  0  1  0  0  0           0  0  0
+    6.6750   -7.7417    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.9625   -5.6875    0.0000 N   0  0  0  0  0  0           0  0  0
+    7.3917   -6.5042    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.9292   -6.7292    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8500   -4.9542    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.1292   -6.3042    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.0917   -5.4375    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  3  1  0     0  0
+  3  1  2  0     0  0
+  4  1  1  0     0  0
+  5  8  1  0     0  0
+  6  1  1  0     0  0
+  7  4  2  0     0  0
+  8  6  1  0     0  0
+  9  5  2  0     0  0
+  8 10  1  1     0  0
+ 11  5  1  0     0  0
+ 12  4  1  0     0  0
+ 13  7  1  0     0  0
+ 14 12  2  0     0  0
+ 15 14  1  0     0  0
+  7  2  1  0     0  0
+ 15 13  2  0     0  0
+M  END
+>  <UNII>
+7NS97N9H1G
+
+>  <NAMES>
+TRYPTOPHAN, D-
+D-TRYPTOPHAN
+
+>  <AA>
+w
+
+>  <AA_NAME>
+TRYPTOPHAN D
+
+>  <CONNECTORS>
+10;5
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    8.1230   -9.7653    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.1230   -9.0229    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.4811  -10.1433    0.0000 C   0  0  2  0  0  0           0  0  0
+    7.4811  -10.8814    0.0000 N   0  0  0  0  0  0           0  0  0
+    6.8363   -9.7653    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.1917  -10.1433    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.5496   -9.7653    0.0000 S   0  0  0  0  0  0           0  0  0
+    4.9008  -10.1433    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.7678  -10.1433    0.0000 O   0  0  0  0  0  0           0  0  0
+  1  2  2  0     0  0
+  1  3  1  0     0  0
+  3  4  1  6     0  0
+  3  5  1  0     0  0
+  5  6  1  0     0  0
+  7  6  1  0     0  0
+  7  8  1  0     0  0
+  1  9  1  0     0  0
+M  END
+>  <UNII>
+868496F25R
+
+>  <NAMES>
+D-METHIONINE
+METHIONINE, D-
+
+>  <AA>
+m
+
+>  <AA_NAME>
+METHIONINE D
+
+>  <CONNECTORS>
+4;1
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+  7  6  0     1  0            999 V2000
+    3.3125   -1.1292    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.9875   -1.1292    0.0000 C   0  0  2  0  0  0           0  0  0
+    4.0042   -2.2917    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.3250   -2.2917    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.0042    0.0000    0.0000 O   0  0  0  0  0  0           0  0  0
+    0.0000    0.0000    0.0000 S   0  0  0  0  0  0           0  0  0
+    1.3250    0.0000    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  6     0  0
+  5  1  1  0     0  0
+  6  7  1  0     0  0
+  7  2  1  0     0  0
+M  END
+>  <UNII>
+IU8WN3PPI2
+
+>  <NAMES>
+CYSTEINE, D-
+D-CYSTEINE
+
+>  <AA>
+c
+
+>  <AA_NAME>
+CYSTEINE D
+
+>  <CONNECTORS>
+4;1
+
+$$$$
+
+  Symyx   04271719112D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+   12.6750   -0.4417    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.9542   -0.0292    0.0000 C   0  0  1  0  0  0           0  0  0
+   12.6750   -1.2667    0.0000 O   0  0  0  0  0  0           0  0  0
+   11.9542    0.7958    0.0000 C   0  0  0  0  0  0           0  0  0
+   11.2500   -0.4417    0.0000 N   0  0  0  0  0  0           0  0  0
+   13.3875   -0.0250    0.0000 O   0  0  0  0  0  0           0  0  0
+   12.6750    1.2083    0.0000 C   0  0  3  0  0  0           0  0  0
+   13.3875    0.7958    0.0000 C   0  0  0  0  0  0           0  0  0
+   12.6750    2.0375    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  4  2  1  0     0  0
+  2  5  1  6     0  0
+  6  1  1  0     0  0
+  7  4  1  0     0  0
+  8  7  1  0     0  0
+  9  7  1  0     0  0
+M  END
+>  <UNII>
+965COD96YA
+
+>  <NAMES>
+LEUCINE, D
+D-LEUCINE
+
+>  <AA>
+l
+
+>  <AA_NAME>
+LEUCINE D
+
+>  <CONNECTORS>
+5;1
+
+$$$$
+
+  Symyx   04271719102D 1   1.00000     0.00000     0
+
+ 10  9  0     1  0            999 V2000
+    8.5708   -6.0208    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.9708   -6.0666    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.5708   -4.7041    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.4208   -6.6791    0.0000 C   0  0  1  0  0  0           0  0  0
+    4.0083   -4.9125    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2791   -6.0250    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.1083   -6.7250    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.7000   -6.7875    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.7125   -6.6833    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.4291   -8.0208    0.0000 N   0  0  0  0  0  0           0  0  0
+  2  7  1  0     0  0
+  3  1  2  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  4  1  0     0  0
+  7  6  1  0     0  0
+  8  2  1  0     0  0
+  9  1  1  0     0  0
+  4 10  1  6     0  0
+M  END
+>  <UNII>
+63HB36CA2Y
+
+>  <NAMES>
+D-GLUTAMINE
+GLUTAMINE, D-
+
+>  <AA>
+q
+
+>  <AA_NAME>
+GLUTAMINE D
+
+>  <CONNECTORS>
+10;1
+
+$$$$
+
+  Symyx   04271718552D 1   1.00000     0.00000     0
+
+  7  6  0     1  0            999 V2000
+    4.4417    0.5750    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.2834   -0.1167    0.0000 C   0  0  2  0  0  0           0  0  0
+    4.4125    1.8916    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.2709   -1.4375    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.5667   -0.1042    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.1209    0.5458    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.9542   -0.1000    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  6     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  6  1  0     0  0
+M  END
+>  <UNII>
+1K77H2Z9B1
+
+>  <NAMES>
+D-SERINE
+SERINE, D-
+
+>  <AA>
+s
+
+>  <AA_NAME>
+SERINE D
+
+>  <CONNECTORS>
+4;1
+
+$$$$
+
+  Symyx   04271718552D 1   1.00000     0.00000     0
+
+  6  5  0     1  0            999 V2000
+    3.9250    0.5750    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.9334    1.8833    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.7500   -0.0917    0.0000 C   0  0  2  0  0  0           0  0  0
+    5.0709   -0.1208    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.7625   -1.4292    0.0000 N   0  0  0  0  0  0           0  0  0
+    1.6250    0.5750    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  2  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  3  5  1  6     0  0
+  6  3  1  0     0  0
+M  END
+>  <UNII>
+E3UDS4613U
+
+>  <NAMES>
+D-ALANINE
+ALANINE, D-
+
+>  <AA>
+a
+
+>  <AA_NAME>
+ALANINE D
+
+>  <CONNECTORS>
+5;1
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 13 13  0     1  0            999 V2000
+    7.4667   -5.1167    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.5417   -4.5917    0.0000 C   0  0  1  0  0  0           0  0  0
+    7.4625   -6.1667    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.6167   -5.1042    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.6875   -4.5625    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.5417   -3.5167    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.3667   -4.5875    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.8500   -3.5000    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.7792   -5.1125    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.6792   -3.5250    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.7667   -2.9917    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8375   -4.5667    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.9250   -2.9917    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  4  2  1  0     0  0
+  5  4  1  0     0  0
+  2  6  1  1     0  0
+  7  1  1  0     0  0
+  8 11  1  0     0  0
+  9  5  2  0     0  0
+ 10  5  1  0     0  0
+ 11 10  2  0     0  0
+ 12  9  1  0     0  0
+ 13  8  1  0     0  0
+ 12  8  2  0     0  0
+M  END
+>  <UNII>
+
+>  <NAMES>
+D-TYROSINE
+TYROSINE, D-
+
+>  <AA>
+y
+
+>  <AA_NAME>
+TYROSINE D
+
+>  <CONNECTORS>
+6;1
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    5.1667   -3.8667    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.4542   -3.8375    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.0292   -4.5542    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.3167   -4.5083    0.0000 C   0  0  2  0  0  0           0  0  0
+    7.4542   -2.5292    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.0417   -5.9000    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.3250   -5.8417    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.6042   -4.4917    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.8500   -3.8917    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  4  1  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  3  2  0     0  0
+  4  7  1  6     0  0
+  8  2  1  0     0  0
+  9  3  1  0     0  0
+M  END
+>  <UNII>
+4SR0Q8YD1X
+
+>  <NAMES>
+ASPARTIC ACID, D-
+ASPARTIC ACID,D
+
+>  <AA>
+d
+
+>  <AA_NAME>
+ASPARTIC ACID D
+
+>  <CONNECTORS>
+7;2
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 10  9  0     1  0            999 V2000
+    6.8417   -5.8417    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.1625   -5.7875    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.8417   -6.8875    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.9500   -5.2917    0.0000 C   0  0  1  0  0  0           0  0  0
+    3.1542   -6.8667    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.0250   -5.8000    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.1167   -5.2542    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.7792   -5.3000    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.9500   -4.2417    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.2542   -5.2750    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  7  1  0     0  0
+  3  1  2  0     0  0
+  4  1  1  0     0  0
+  5  2  2  0     0  0
+  6  4  1  0     0  0
+  7  6  1  0     0  0
+  8  1  1  0     0  0
+  4  9  1  1     0  0
+ 10  2  1  0     0  0
+M  END
+>  <UNII>
+Q479989WEA
+
+>  <NAMES>
+D-GLUTAMIC ACID
+GLUTAMIC ACID, D-
+
+>  <AA>
+e
+
+>  <AA_NAME>
+GLUTAMIC ACID D
+
+>  <CONNECTORS>
+9;1
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 10  9  0     1  0            999 V2000
+    7.2125   -5.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.2125   -4.8500    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2750   -6.4292    0.0000 C   0  0  2  0  0  0           0  0  0
+    8.1167   -6.4625    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2750   -7.5250    0.0000 N   0  0  0  0  0  0           0  0  0
+    1.6542   -5.8875    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.5667   -6.4292    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.3625   -5.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.5042   -5.8875    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.4292   -6.4292    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  2  0     0  0
+  3  1  1  0     0  0
+  4  1  1  0     0  0
+  3  5  1  6     0  0
+  6  7  1  0     0  0
+  7  9  1  0     0  0
+  8  3  1  0     0  0
+  9 10  1  0     0  0
+ 10  8  1  0     0  0
+M  END
+>  <UNII>
+3HQ6U6424Q
+
+>  <NAMES>
+D-LYSINE
+LYSINE, D-
+
+>  <AA>
+k
+
+>  <AA_NAME>
+LYSINE D
+
+>  <CONNECTORS>
+5;1
+
+$$$$
+
+  Symyx   04271718542D 1   1.00000     0.00000     0
+
+ 11 11  0     1  0            999 V2000
+    3.2917   -2.8917    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.3792   -3.6625    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.9625   -3.2125    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.6292   -3.2000    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.6750   -4.9417    0.0000 N   0  0  0  0  0  0           0  0  0
+    2.2375   -3.7042    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.7917   -3.8792    0.0000 C   0  0  1  0  0  0           0  0  0
+    4.0250   -4.9167    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.9625   -1.8792    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.7917   -5.2042    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.1042   -3.8542    0.0000 O   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  7  1  0     0  0
+  4  2  1  0     0  0
+  5  6  1  0     0  0
+  6  1  2  0     0  0
+  7  4  1  0     0  0
+  8  2  2  0     0  0
+  9  3  2  0     0  0
+  7 10  1  6     0  0
+ 11  3  1  0     0  0
+  8  5  1  0     0  0
+M  END
+>  <UNII>
+HISTIDINE, D-
+
+>  <NAMES>
+D-HISTIDINE
+HISTIDINE, D-
+
+>  <AA>
+h
+
+>  <AA_NAME>
+HISTIDINE D
+
+>  <CONNECTORS>
+10;3
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+ 12 12  0     1  0            999 V2000
+    0.0042   -0.8542    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.0042   -0.0292    0.0000 C   0  0  1  0  0  0           0  0  0
+   -0.7125   -1.2667    0.0000 O   0  0  0  0  0  0           0  0  0
+    0.7167    0.3833    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.7083    0.3833    0.0000 N   0  0  0  0  0  0           0  0  0
+    0.7167   -1.2667    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.4292   -0.0292    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.1500    0.3833    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.4292   -0.8542    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.1417   -1.2667    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8625   -0.0292    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.8625   -0.8542    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  4  2  1  0     0  0
+  2  5  1  6     0  0
+  6  1  1  0     0  0
+  7  4  1  0     0  0
+  8  7  1  0     0  0
+  9  7  2  0     0  0
+ 10  9  1  0     0  0
+ 11  8  2  0     0  0
+ 12 10  2  0     0  0
+ 11 12  1  0     0  0
+M  END
+>  <UNII>
+032K16VRCU
+
+>  <NAMES>
+D-PHENYLALANINE
+PHENYLALANINE, D-
+
+>  <AA>
+f
+
+>  <AA_NAME>
+PHENYLALANINE D
+
+>  <CONNECTORS>
+5;1
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  9  8  0     1  0            999 V2000
+    4.1042   -2.0375    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.1750   -2.6042    0.0000 C   0  0  2  0  0  0           0  0  0
+    4.0792   -0.9417    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.2000   -3.6750    0.0000 N   0  0  0  0  0  0           0  0  0
+    5.0542   -2.5500    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.2417   -2.0875    0.0000 C   0  0  1  0  0  0           0  0  0
+    1.3167   -2.6417    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.2125   -1.0042    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.3542   -2.1417    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  6     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  6  1  0     0  0
+  6  8  1  1     0  0
+  9  7  1  0     0  0
+M  END
+>  <UNII>
+V87GJA0G54
+
+>  <NAMES>
+D-ISOLEUCINE
+ISOLEUCINE, D-
+
+>  <AA>
+i
+
+>  <AA_NAME>
+ISOLEUCINE D
+
+>  <CONNECTORS>
+4;1
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+ 12 11  0     1  0            999 V2000
+    2.3000   -3.8792    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.2167   -3.8917    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.2792   -2.5500    0.0000 N   0  0  0  0  0  0           0  0  0
+    9.2167   -2.5750    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.4292   -4.5667    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.0625   -4.5667    0.0000 C   0  0  2  0  0  0           0  0  0
+    1.1375   -4.5500    0.0000 N   0  0  0  0  0  0           0  0  0
+   10.3542   -4.5417    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.0625   -5.8875    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.5917   -3.8917    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.8917   -3.8792    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.7125   -4.5500    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  6  1  0     0  0
+  3  1  2  0     0  0
+  4  2  2  0     0  0
+  5  1  1  0     0  0
+  6 11  1  0     0  0
+  7  1  1  0     0  0
+  8  2  1  0     0  0
+  6  9  1  6     0  0
+ 10  5  1  0     0  0
+ 11 12  1  0     0  0
+ 12 10  1  0     0  0
+M  END
+>  <UNII>
+R54Z304Z7C
+
+>  <NAMES>
+D-ARGININE
+ARGININE, D-
+
+>  <AA>
+r
+
+>  <AA_NAME>
+ARGININE D
+
+>  <CONNECTORS>
+9;2
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  8  8  0     1  0            999 V2000
+    5.5791   -0.3125    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.4458   -1.3959    0.0000 N   0  0  0  0  0  0           0  0  0
+    4.2291   -0.3042    0.0000 C   0  0  2  0  0  0           0  0  0
+    6.2208   -1.4875    0.0000 O   0  0  0  0  0  0           0  0  0
+    6.2333    0.8291    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.2000   -0.9792    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.4583    0.7625    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.2041    0.3541    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  3  1  0     0  0
+  3  1  1  6     0  0
+  4  1  2  0     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  3  1  0     0  0
+  8  7  1  0     0  0
+  6  8  1  0     0  0
+M  END
+>  <UNII>
+
+
+>  <NAMES>
+D-PROLINE
+PROLINE, D-
+
+>  <AA>
+p
+
+>  <AA_NAME>
+PROLINE D
+
+>  <CONNECTORS>
+2;1
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  8  7  0     1  0            999 V2000
+    6.9167   -3.2167    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.7542   -3.8917    0.0000 C   0  0  2  0  0  0           0  0  0
+    6.9167   -1.9042    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.7542   -5.2250    0.0000 N   0  0  0  0  0  0           0  0  0
+    8.0417   -3.8917    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.6042   -3.2167    0.0000 C   0  0  3  0  0  0           0  0  0
+    3.4292   -3.8917    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.6042   -1.9042    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  1  2  0     0  0
+  2  4  1  6     0  0
+  5  1  1  0     0  0
+  6  2  1  0     0  0
+  7  6  1  0     0  0
+  8  6  1  0     0  0
+M  END
+>  <UNII>
+Y14I1443UR
+
+>  <NAMES>
+D-VALINE
+VALINE, D-
+
+>  <AA>
+v
+
+>  <AA_NAME>
+VALINE
+
+>  <CONNECTORS>
+4;1
+
+$$$$
+
+  Symyx   04271718532D 1   1.00000     0.00000     0
+
+  8  7  0     1  0            999 V2000
+   -0.0958   -0.0667    0.0000 C   0  0  1  0  0  0           0  0  0
+    0.6250   -0.4792    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.6250   -1.3042    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.0958    0.7583    0.0000 C   0  0  1  0  0  0           0  0  0
+   -0.8000   -0.4792    0.0000 N   0  0  0  0  0  0           0  0  0
+    1.3417   -0.0667    0.0000 O   0  0  0  0  0  0           0  0  0
+    0.6250    1.1708    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.8000    1.1708    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  1  1  0     0  0
+  3  2  2  0     0  0
+  4  1  1  0     0  0
+  1  5  1  6     0  0
+  6  2  1  0     0  0
+  4  7  1  6     0  0
+  8  4  1  0     0  0
+M  END
+>  <UNII>
+
+
+>  <NAMES>
+D-THREONINE
+THREONINE, D-
+
+>  <AA>
+t
+
+>  <AA_NAME>
+THREONINE D
+
+>  <CONNECTORS>
+5;2
+
+$$$$
+
+  -ISIS-  06101519152D
+
+ 14 13  0  0  1  0  0  0  0  0999 V2000
+    9.0500   -3.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2875   -3.9917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1417   -3.5042    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    8.2500   -3.9292    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    9.0500   -2.6167    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2875   -4.8875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4000   -3.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9667   -3.9625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1417   -2.5625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500   -4.8875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5917   -3.9625    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7917   -3.4875    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8750   -3.9292    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5042   -3.5042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  1  1  0  0  0  0
+  5  1  2  0  0  0  0
+  6  2  2  0  0  0  0
+  7  4  1  0  0  0  0
+  8 12  1  0  0  0  0
+  3  9  1  6  0  0  0
+  4 10  1  1  0  0  0
+ 11  7  1  0  0  0  0
+ 12 11  1  0  0  0  0
+ 13  1  1  0  0  0  0
+ 14  2  1  0  0  0  0
+M  END
+>  <NAMES>
+cysteine disulfide DL
+CYSTINE DL
+cysD-cysL
+CDSSCL
+
+>  <CONNECTORS>
+9;2
+10;1
+
+>  <UNII>
+48TCX9A1VT
+
+$$$$
+
+  ACCLDraw02091917422D
+
+ 23 25  0  0  1  0  0  0  0  0999 V2000
+    0.0065   -9.2388    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6714  -13.6520    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4685  -13.6519    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3528   -9.9769    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+    5.0130  -10.4134    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9234  -11.0824    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    5.5851  -12.1173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4685  -12.1173    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    4.1154  -11.0675    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    3.0667  -10.7378    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7324   -9.6748    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3565   -9.2387    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+    1.3565   -8.1316    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3565  -10.3458    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4571   -8.0620    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7073   -8.9807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5625   -8.4914    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4894   -9.6744    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4719  -10.3257    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5337   -9.8009    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6068   -8.6178    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6182   -7.9596    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6896   -6.7798    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 22 23  1  0  0  0  0
+ 18 19  1  0  0  0  0
+ 19 20  2  0  0  0  0
+ 20 21  1  0  0  0  0
+ 21 22  2  0  0  0  0
+ 17 22  1  0  0  0  0
+ 16  4  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 17 15  1  0  0  0  0
+ 17 18  2  0  0  0  0
+  4 18  1  0  0  0  0
+  6  4  1  1  0  0  0
+  8  7  1  0  0  0  0
+  6  7  1  0  0  0  0
+  5  6  1  0  0  0  0
+  9  5  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+  9  8  1  0  0  0  0
+  8  3  1  6  0  0  0
+M  END
+>  <UNII>
+
+
+>  <NAMES>
+
+>  <NA>
+A
+
+>  <NA_NAME>
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917422D
+
+ 21 22  0  0  1  0  0  0  0  0999 V2000
+   10.7830   -8.0791    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5449  -12.4835    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2171  -12.4835    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9395   -8.8241    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   15.7524   -9.3327    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6475   -9.9903    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   16.3149  -11.0078    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2171  -11.0078    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   14.8701   -9.9758    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   13.8391   -9.6515    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.5104   -8.6067    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1579   -8.0790    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+   12.1579   -6.9907    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1579   -9.1674    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.0077   -8.3757    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9347   -8.0219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.2605   -7.1886    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9488   -9.1388    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.1971   -6.8615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.2606   -6.4189    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.5119   -5.2383    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+ 15 18  2  0  0  0  0
+  4 16  1  0  0  0  0
+ 16 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  1  0  0  0  0
+ 17 20  2  0  0  0  0
+ 15 17  1  0  0  0  0
+  4 15  1  0  0  0  0
+  6  4  1  1  0  0  0
+  8  7  1  0  0  0  0
+  6  7  1  0  0  0  0
+  5  6  1  0  0  0  0
+  9  5  1  0  0  0  0
+  9  8  1  0  0  0  0
+  8  3  1  6  0  0  0
+M  END
+>  <UNII>
+
+
+>  <NAMES>
+
+>  <NA>
+C
+
+>  <NA_NAME>
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917432D
+
+ 24 26  0  0  1  0  0  0  0  0999 V2000
+    9.5336   -9.0883    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1693  -13.4741    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9164  -13.4742    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8034   -9.8276    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   14.4617  -10.2647    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3733  -10.9346    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   15.0346  -11.9710    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9164  -11.9710    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   13.5628  -10.9197    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   12.5126  -10.5895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1779   -9.4915    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.8336   -9.0883    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+   10.8336   -7.9797    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.8336  -10.1970    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9078   -7.9099    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1570   -8.8299    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.0148   -8.3400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9416   -9.5247    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.9255  -10.1768    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9888   -9.6513    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0620   -8.4665    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   18.0720   -7.8074    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.1435   -6.6259    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.9765  -10.3080    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 22 23  2  0  0  0  0
+ 20 24  1  0  0  0  0
+ 18 19  1  0  0  0  0
+ 19 20  2  0  0  0  0
+ 20 21  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 17 22  1  0  0  0  0
+ 16  4  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 17 15  1  0  0  0  0
+ 17 18  2  0  0  0  0
+  4 18  1  0  0  0  0
+  6  4  1  1  0  0  0
+  9  8  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+  9  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  8  7  1  0  0  0  0
+  8  3  1  6  0  0  0
+M  END
+>  <UNII>
+
+
+>  <NAMES>
+
+>  <NA>
+G
+
+>  <NA_NAME>
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917432D
+
+ 22 23  0  0  1  0  0  0  0  0999 V2000
+    8.7925   -7.5682    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3605  -11.8694    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0576  -11.8693    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8437   -8.2591    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   13.5924   -8.7547    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4865   -9.4116    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   14.1543  -10.4281    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0576  -10.4281    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   12.7110   -9.3971    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.6810   -9.0732    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.3526   -8.0294    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.0674   -7.5682    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+   10.0674   -6.4809    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.0674   -8.6554    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9470   -7.9099    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8669   -7.3797    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.3060   -6.7517    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   16.8140   -8.7543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2259   -6.2217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3811   -5.8955    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.7381   -4.7436    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3573   -5.3738    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 15 18  2  0  0  0  0
+ 19 22  1  0  0  0  0
+  4 16  1  0  0  0  0
+ 16 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+ 17 20  1  0  0  0  0
+ 15 17  1  0  0  0  0
+  4 15  1  0  0  0  0
+  6  4  1  1  0  0  0
+  8  7  1  0  0  0  0
+  6  7  1  0  0  0  0
+  5  6  1  0  0  0  0
+  9  5  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+  9  8  1  0  0  0  0
+  8  3  1  6  0  0  0
+M  END
+>  <UNII>
+43W3021X6C
+
+>  <NAMES>
+
+>  <NA>
+T
+
+>  <NA_NAME>
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917442D
+
+ 21 22  0  0  1  0  0  0  0  0999 V2000
+    6.1844   -7.5456    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4656  -11.7670    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1656  -11.7669    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1043   -8.1563    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   10.8033   -8.6468    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7086   -9.3119    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.3722  -10.3411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2618  -10.3411    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    9.9109   -9.2973    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    8.8681   -8.9693    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5356   -7.9125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3344   -7.5456    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+    7.3344   -6.4447    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.3344   -8.6464    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.2313   -7.8356    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1991   -7.2567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.6291   -6.6741    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   14.0837   -8.7160    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5969   -6.0956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7185   -5.7801    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.1142   -4.6249    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+ 15 18  2  0  0  0  0
+  4 16  1  0  0  0  0
+ 16 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+ 17 20  1  0  0  0  0
+ 15 17  1  0  0  0  0
+  4 15  1  0  0  0  0
+  6  4  1  1  0  0  0
+  8  7  1  0  0  0  0
+  6  7  1  0  0  0  0
+  5  6  1  0  0  0  0
+  9  5  1  0  0  0  0
+  9  8  1  0  0  0  0
+  8  3  1  6  0  0  0
+M  END
+>  <UNII>
+
+
+>  <NAMES>
+
+>  <NA>
+U
+
+>  <NA_NAME>
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917452D
+
+ 24 26  0  0  1  0  0  0  0  0999 V2000
+    9.0861   -8.1838    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4323  -12.8788    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.2514  -12.8788    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0182  -12.1400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1277   -9.1192    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   13.7936   -9.5539    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.7001  -10.2200    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   12.8998  -10.2051    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.8556   -9.8768    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5227   -8.8184    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1861   -8.1837    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+    9.6182   -7.1816    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1861   -9.2861    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2315   -7.2125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4850   -8.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.3323   -7.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2594   -8.8180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.2378   -9.4665    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   18.2950   -8.9439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.3678   -7.7659    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   17.3835   -7.1105    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4545   -5.9357    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   13.2514  -11.2505    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   14.3632  -11.2505    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+ 11  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 18 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+ 16 21  1  0  0  0  0
+ 15  5  1  0  0  0  0
+ 14 15  2  0  0  0  0
+ 16 14  1  0  0  0  0
+ 16 17  2  0  0  0  0
+  5 17  1  0  0  0  0
+  7  5  1  1  0  0  0
+ 24  4  1  6  0  0  0
+ 23 24  1  0  0  0  0
+  7 24  1  0  0  0  0
+  6  7  1  0  0  0  0
+  8  6  1  0  0  0  0
+ 11 13  2  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  0  0  0  0
+  8  9  1  1  0  0  0
+  8 23  1  0  0  0  0
+ 23  3  1  6  0  0  0
+M  END
+>  <UNII>
+415SHH325A
+
+>  <NAMES>
+
+>  <NA>
+a
+
+>  <NA_NAME>
+AMP
+
+>  <CONNECTORS>
+11;3
+
+$$$$
+
+  ACCLDraw02091917452D
+
+ 22 23  0  0  1  0  0  0  0  0999 V2000
+    9.3459   -8.9927    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5849  -13.3824    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.6511  -13.3823    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3896  -12.7867    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4413   -9.7504    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   14.1846  -10.2421    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0767  -10.8975    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   14.7452  -11.9116    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   13.3053  -10.8831    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   12.2778  -10.5599    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.9501   -9.5186    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5364   -8.9927    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+   10.0434   -7.9079    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5364  -10.0774    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5445   -9.4098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5299   -8.8841    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9110   -8.2570    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   17.4033  -10.2584    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8963   -7.7314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.9944   -7.3961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.3589   -6.2495    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   13.6511  -11.9116    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+ 15 18  2  0  0  0  0
+  5 16  1  0  0  0  0
+ 16 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  1  0  0  0  0
+ 17 20  2  0  0  0  0
+ 15 17  1  0  0  0  0
+  5 15  1  0  0  0  0
+  7  5  1  1  0  0  0
+  8  4  1  6  0  0  0
+ 22  8  1  0  0  0  0
+  7  8  1  0  0  0  0
+  6  7  1  0  0  0  0
+  9  6  1  0  0  0  0
+  9 22  1  0  0  0  0
+ 22  3  1  6  0  0  0
+M  END
+>  <UNII>
+F469818O25
+
+>  <NAMES>
+
+>  <NA>
+c
+
+>  <NA_NAME>
+CMP
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917462D
+
+ 25 27  0  0  1  0  0  0  0  0999 V2000
+    8.5335   -7.7905    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.5974  -12.2719    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5540  -12.2720    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3289  -11.6640    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4388   -8.6296    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   13.0987   -9.0662    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.0093   -9.7353    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   13.6709  -10.7705    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   12.2009   -9.7205    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.1519   -9.3907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.8176   -8.3275    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5085   -7.7905    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+    8.9716   -6.6832    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5085   -8.8979    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5431   -6.7142    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7932   -7.6331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6489   -7.1437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5757   -8.3271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5585   -8.9784    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   17.6205   -8.4535    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.6937   -7.2702    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   16.7048   -6.6118    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.7763   -5.4317    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.6071   -9.1095    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   12.5540  -10.7705    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  8  4  1  6  0  0  0
+ 22 23  2  0  0  0  0
+ 20 24  1  0  0  0  0
+ 18 19  1  0  0  0  0
+ 19 20  2  0  0  0  0
+ 20 21  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 17 22  1  0  0  0  0
+ 16  5  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 17 15  1  0  0  0  0
+ 17 18  2  0  0  0  0
+  5 18  1  0  0  0  0
+  7  5  1  1  0  0  0
+  9 25  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+  9  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+ 25  8  1  0  0  0  0
+ 25  3  1  6  0  0  0
+M  END
+>  <UNII>
+16597955EP
+
+>  <NAMES>
+
+>  <NA>
+g
+
+>  <NA_NAME>
+GMP
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917462D
+
+ 23 24  0  0  1  0  0  0  0  0999 V2000
+    9.3153   -8.8686    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3312  -13.2565    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3972  -13.2564    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1350  -12.6611    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1696   -9.6207    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   13.9305  -10.1175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8222  -10.7726    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   14.4909  -11.7863    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   13.3972  -11.7863    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   13.0515  -10.7582    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   12.0245  -10.4351    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6970   -9.3943    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4153   -8.8686    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+    9.9225   -7.7843    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4153   -9.9528    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.2671   -9.2640    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.1888   -8.7511    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6163   -8.1062    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   17.1382  -10.0994    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5378   -7.5936    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6874   -7.2594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.0346   -6.1080    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.6653   -6.7546    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+ 13  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 16 19  2  0  0  0  0
+ 20 23  1  0  0  0  0
+  5 17  1  0  0  0  0
+ 17 20  2  0  0  0  0
+ 20 21  1  0  0  0  0
+ 21 22  2  0  0  0  0
+ 18 21  1  0  0  0  0
+ 16 18  1  0  0  0  0
+  5 16  1  0  0  0  0
+  7  5  1  1  0  0  0
+  8  4  1  6  0  0  0
+  9  8  1  0  0  0  0
+  7  8  1  0  0  0  0
+  6  7  1  0  0  0  0
+ 10  6  1  0  0  0  0
+ 13 15  2  0  0  0  0
+ 13 14  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  1  0  0  0
+ 10  9  1  0  0  0  0
+  9  3  1  6  0  0  0
+M  END
+>  <UNII>
+
+
+>  <NAMES>
+
+>  <NA>
+t
+
+>  <NA_NAME>
+TMP
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+
+  ACCLDraw02091917472D
+
+ 22 23  0  0  1  0  0  0  0  0999 V2000
+    7.9143   -6.8893    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3261  -11.2983    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1856  -11.2982    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9318  -10.7000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.9632   -7.6440    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   12.7215   -8.1442    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.6175   -8.8025    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   13.2846   -9.8211    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.8383   -8.7880    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   10.8063   -8.4634    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4772   -7.4175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1894   -6.8893    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+    8.6612   -5.7998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1894   -7.9787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0650   -7.2824    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0326   -6.7902    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4126   -6.1182    0.0000 N   0  0  3  0  0  0  0  0  0  0  0  0
+   15.9428   -8.1194    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3801   -5.6261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.4768   -5.2700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.8224   -4.1120    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1856   -9.8211    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+ 12  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+ 12 14  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 10 11  1  0  0  0  0
+  9 10  1  1  0  0  0
+ 15 18  2  0  0  0  0
+  5 16  1  0  0  0  0
+ 16 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+ 17 20  1  0  0  0  0
+ 15 17  1  0  0  0  0
+  5 15  1  0  0  0  0
+  7  5  1  1  0  0  0
+  8  4  1  6  0  0  0
+ 22  8  1  0  0  0  0
+  7  8  1  0  0  0  0
+  6  7  1  0  0  0  0
+  9  6  1  0  0  0  0
+  9 22  1  0  0  0  0
+ 22  3  1  6  0  0  0
+M  END
+>  <UNII>
+E2OU15WN0N
+
+>  <NAMES>
+
+>  <NA>
+u
+
+>  <NA_NAME>
+UMP
+
+>  <CONNECTORS>
+12;3
+
+$$$$
+

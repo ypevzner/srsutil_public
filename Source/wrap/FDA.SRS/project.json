@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../FDA.SRS/FDA.SRS.csproj",
+      "bin": {
+        "assembly": "../../FDA.SRS/obj/{configuration}/FDA.SRS.dll",
+        "pdb": "../../FDA.SRS/obj/{configuration}/FDA.SRS.pdb"
+      }
+    }
+  }
+}

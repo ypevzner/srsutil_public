@@ -1,0 +1,129 @@
+>  <GSRS_JSON>
+{"uuid":"ef709b73-3962-459a-a21f-bb50e454a1fd","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"2","approvedBy":"FDA_SRS","names":[{"uuid":"07f56847-0476-41cb-85b1-afb59f3d9651","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"KARWINSKIA AFFINIS WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(07f56847-0476-41cb-85b1-afb59f3d9651)?view=full"},{"uuid":"0aaa3164-adde-48be-bb40-2aa8ede95eff","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"KARWINSKIA UMBELLATA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(0aaa3164-adde-48be-bb40-2aa8ede95eff)?view=full"},{"uuid":"1de5e9a7-f417-43d1-8dbf-473addd6adad","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"KARWINSKIA GLANDULOSA WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["b20a8b2e-4def-49a3-bbf9-9411faf972b9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(1de5e9a7-f417-43d1-8dbf-473addd6adad)?view=full"},{"uuid":"35d22b71-a00d-4a17-b210-2fd4fdffecbc","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"KARWINSKIA PARVIFOLIA WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["b20a8b2e-4def-49a3-bbf9-9411faf972b9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(35d22b71-a00d-4a17-b210-2fd4fdffecbc)?view=full"},{"uuid":"5080da75-213f-4f17-af9f-2eff02d099c0","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"KARWINSKIA HUMBOLDTIANA (WILLD. EX SCHULT.) ZUCC.","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5080da75-213f-4f17-af9f-2eff02d099c0)?view=full"},{"uuid":"5777c5c0-49bd-45f4-9d90-f4f080443c6e","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"RHAMNUS HUMBOLDTIANA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5777c5c0-49bd-45f4-9d90-f4f080443c6e)?view=full"},{"uuid":"5937e382-9562-4056-aee2-aac8c95d4f02","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"COYOTILLO WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["ed0f7690-49af-433f-8fbb-ab2262029df9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5937e382-9562-4056-aee2-aac8c95d4f02)?view=full"},{"uuid":"7ce2b586-3c08-4fe3-8184-b9d4b387e3fa","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"KARWINSKIA HUMBOLDTIANA WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(7ce2b586-3c08-4fe3-8184-b9d4b387e3fa)?view=full"},{"uuid":"829d8815-e01a-4746-8292-2077dc40b18c","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"DECORIMA UMBELLATA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(829d8815-e01a-4746-8292-2077dc40b18c)?view=full"},{"uuid":"9b69ee70-4381-44fd-b431-8defdbe7e57a","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"RHAMNUS BINIFLORA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(9b69ee70-4381-44fd-b431-8defdbe7e57a)?view=full"},{"uuid":"aad97b24-6c3b-4169-a167-73b899c51bf3","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"COYOTILLO [HOC]","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["ed0f7690-49af-433f-8fbb-ab2262029df9"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(aad97b24-6c3b-4169-a167-73b899c51bf3)?view=full"},{"uuid":"f177a65a-dfa9-4dc8-9f62-d4e0f0cf7bbc","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"ZIZIPHUS UMBELLATA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(f177a65a-dfa9-4dc8-9f62-d4e0f0cf7bbc)?view=full"},{"uuid":"f95971a7-9227-4c96-b978-45ffbd6ac982","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"name":"KARWINSKIA BINIFLORA WHOLE","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["167f728e-b12d-4fce-9bc7-780b0318646c"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(f95971a7-9227-4c96-b978-45ffbd6ac982)?view=full"}],"codes":[{"uuid":"0feb2e17-9071-4676-80ca-692b1c707053","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"ITIS","code":"28556","type":"PRIMARY","url":"http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=28556","references":["5bad08da-f4f7-4d5b-b2c0-62aff0c2c597"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(0feb2e17-9071-4676-80ca-692b1c707053)?view=full"},{"uuid":"560e25f1-beb3-45dc-9fca-beb474d5484f","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"WIKIPEDIA","code":"KARWINSKIA HUMBOLDTIANA","type":"PRIMARY","url":"https://en.wikipedia.org/wiki/Karwinskia_humboldtiana","references":["5bad08da-f4f7-4d5b-b2c0-62aff0c2c597"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(560e25f1-beb3-45dc-9fca-beb474d5484f)?view=full"},{"uuid":"625a8a79-a720-4542-8419-d292a7398c11","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"GRIN","code":"21129","type":"PRIMARY","url":"https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=21129","references":["5bad08da-f4f7-4d5b-b2c0-62aff0c2c597"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(625a8a79-a720-4542-8419-d292a7398c11)?view=full"},{"uuid":"88e8601a-1949-47ea-ba5c-2cbdf8071f67","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"MPNS","code":"WCSCMP-333501","type":"PRIMARY","url":"http://mpns.kew.org/mpns-portal/plantDetail?&filter=&fuzzy=false&nameType=all&dbs=wcsCmp&plantId=333501","references":["5bad08da-f4f7-4d5b-b2c0-62aff0c2c597"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(88e8601a-1949-47ea-ba5c-2cbdf8071f67)?view=full"},{"uuid":"9e4ba948-022a-4872-98f6-ae5e2302a607","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"USDA PLANTS","code":"KAHU","type":"PRIMARY","url":"http://plants.usda.gov/java/profile?symbol=KAHU","references":["5bad08da-f4f7-4d5b-b2c0-62aff0c2c597"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(9e4ba948-022a-4872-98f6-ae5e2302a607)?view=full"},{"uuid":"efd5e9e3-6413-4a94-9418-e02836085ee1","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"106683","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=106683","references":["5bad08da-f4f7-4d5b-b2c0-62aff0c2c597"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(efd5e9e3-6413-4a94-9418-e02836085ee1)?view=full"}],"modifications":{"uuid":"9de4953c-94ae-4d3a-9e28-26f26fb41444","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[],"references":[{"uuid":"167f728e-b12d-4fce-9bc7-780b0318646c","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"citation":"MPNS","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(167f728e-b12d-4fce-9bc7-780b0318646c)?view=full"},{"uuid":"385f8287-72ba-4ef7-b35e-1c20ce1a3d4a","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [NFT1835HUN]","docType":"SRS","documentDate":1493391544000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=NFT1835HUN","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(385f8287-72ba-4ef7-b35e-1c20ce1a3d4a)?view=full"},{"uuid":"4dc0d7ce-08b9-459f-84d8-524de0325d01","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520359254000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(4dc0d7ce-08b9-459f-84d8-524de0325d01)?view=full"},{"uuid":"5bad08da-f4f7-4d5b-b2c0-62aff0c2c597","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391544000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(5bad08da-f4f7-4d5b-b2c0-62aff0c2c597)?view=full"},{"uuid":"6b7adf22-b0f1-4b53-bd60-a5047d18c322","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"citation":"Catalogue of Life 2011","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(6b7adf22-b0f1-4b53-bd60-a5047d18c322)?view=full"},{"uuid":"b20a8b2e-4def-49a3-bbf9-9411faf972b9","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"citation":"TROPICOS","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b20a8b2e-4def-49a3-bbf9-9411faf972b9)?view=full"},{"uuid":"ed0f7690-49af-433f-8fbb-ab2262029df9","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"citation":"HOC 2","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(ed0f7690-49af-433f-8fbb-ab2262029df9)?view=full"}],"approvalID":"NFT1835HUN","tags":["HOC","KEW"],"structurallyDiverse":{"uuid":"c035f69a-8aa9-42e1-b38e-023b464328b4","created":1520359254000,"createdBy":"admin","lastEdited":1520359254000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"PLANT","organismFamily":"RHAMNACEAE","organismGenus":"KARWINSKIA","organismSpecies":"HUMBOLDTIANA","organismAuthor":"(WILLD. EX ROEM. & SCHULT.) ZUCC.","part":["WHOLE"],"references":["6b7adf22-b0f1-4b53-bd60-a5047d18c322","385f8287-72ba-4ef7-b35e-1c20ce1a3d4a"],"access":[]},"_approvalIDDisplay":"NFT1835HUN","_name":"KARWINSKIA HUMBOLDTIANA WHOLE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(ef709b73-3962-459a-a21f-bb50e454a1fd)?view=full"}
+
+>  <SUBSTANCE_ID>
+101396
+
+>  <UNII>
+NFT1835HUN
+
+>  <REF_INFO_PART1>
+<TAXON_AUTHOR>(WILLD. EX ROEM. & SCHULT.) ZUCC.</TAXON_AUTHOR>
+
+>  <ITIS_TSN>
+28556
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+ <SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+ <SOURCE_MATERIAL_TYPE>PLANT</SOURCE_MATERIAL_TYPE>
+ <SOURCE_MATERIAL_STATE/>
+ <PARENT_SUBSTANCE_ID/>
+ <PARENT_SUBSTANCE_NAME/>
+ <DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+ <PART>WHOLE</PART>
+ <PART_LOCATION/>
+ </PART_GROUP>
+<FRACTION>
+ <MATERIAL_TYPE/>
+ <FRACTION/>
+ </FRACTION>
+<ORGANISM>
+ <KINGDOM>PLANTAE</KINGDOM>
+ <PHYLUM>MAGNOLIOPHYTA</PHYLUM>
+ <CLASS>MAGNOLIOPSIDA</CLASS>
+ <ORDER>RHAMNALES</ORDER>
+ <FAMILY>RHAMNACEAE</FAMILY>
+ <GENUS>KARWINSKIA</GENUS>
+ <SPECIES>HUMBOLDTIANA</SPECIES>
+ <HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+ <HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+ <HYBRID_TYPE/>
+ <INFRASPECIFIC_TYPE/>
+ <INFRASPECIFIC_DESCRIPTION/>
+ </ORGANISM>
+ </SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+ <MODIFICATION_TYPE/>
+ <RESIDUE_MODIFIED/>
+ <RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+ <ROLE/>
+ <NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+ <PARAMETER/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PARAMETER_GROUP>
+ </PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+ <STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+ <ROLE/>
+ <MOIETY_ID/>
+ <MOIETY_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOIETY>
+<MOLECULAR_FRAGMENT>
+ <ROLE/>
+ <MOLECULAR_FRAGMENT_ID/>
+ <MOLECULAR_FRAGMENT_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_FRAGMENT>
+ </STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+ <AGENT_MODIFICATION_TYPE/>
+ <ROLE/>
+ <MODIFICATION_AGENT_ID/>
+ <MODIFICATION_AGENT/>
+ <MODIFICATION_PROCESS/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </AGENT_MODIFICATION>
+ </MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+ <PROPERTY_TYPE/>
+ <PROPERTY_NAME/>
+ <SUBSTANCE_ID/>
+ <SUBSTANCE_NAME/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PROPERTY_GROUP>
+ <COMMENT/>
+ </STRUCTURALLY_DIVERSE>
+
+$$$$

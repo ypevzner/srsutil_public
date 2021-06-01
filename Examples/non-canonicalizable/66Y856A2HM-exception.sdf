@@ -1,0 +1,81 @@
+
+  -INDIGO-06251712152D
+
+ 25 24  0  0  0  0  0  0  0  0999 V2000
+    7.2708   -3.9215    0.0000 Sn  0  0  0  0  0  0  0  0  0  0  0  0
+    6.4422   -3.9215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0302   -3.2086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2017   -3.2086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7897   -2.4912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9564   -2.4912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5444   -1.7690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7112   -1.7690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2993   -1.0516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6828   -4.6391    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2708   -5.3565    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6828   -6.0740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2708   -6.7961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6828   -7.5090    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2708   -8.2219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6828   -8.9440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2708   -9.6615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6828   -3.2086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5114   -3.2086    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9280   -2.4912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.7566   -2.4912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1686   -1.7690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.0018   -1.7690    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4138   -1.0516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.2424   -1.0516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  3  1  0  0  0  0
+  5  4  1  0  0  0  0
+  6  5  1  0  0  0  0
+  7  6  1  0  0  0  0
+  8  7  1  0  0  0  0
+  9  8  1  0  0  0  0
+ 10  1  1  0  0  0  0
+ 11 10  1  0  0  0  0
+ 12 11  1  0  0  0  0
+ 13 12  1  0  0  0  0
+ 14 13  1  0  0  0  0
+ 15 14  1  0  0  0  0
+ 16 15  1  0  0  0  0
+ 17 16  1  0  0  0  0
+ 18  1  1  0  0  0  0
+ 19 18  1  0  0  0  0
+ 20 19  1  0  0  0  0
+ 21 20  1  0  0  0  0
+ 22 21  1  0  0  0  0
+ 23 22  1  0  0  0  0
+ 24 23  1  0  0  0  0
+ 25 24  1  0  0  0  0
+M  END
+> <SUBSTANCE_ID>
+70145
+
+> <UNII>
+66Y856A2HM
+
+> <DESC_PART1>
+
+> <DESC_PART2>
+
+> <COMMENTS>
+
+> <CDBREGNO>
+71699
+
+> <STRUCTURE_ID>
+38603
+
+> <SUBSTANCE_NAME>
+
+> <Exception>
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ChemSpider.Molecules.MoleculeExtensions.CanonicalNumbers(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 25
+   at ChemSpider.Molecules.MoleculeExtensions.ReorderCanonically(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 81
+   at UnitTestProject.CompoundsTests.<>c__DisplayClass1_0.<CanonicalNumbers_OnAllOfMixtures>b__0(SdfRecord sdf) in D:\PROJECTS\SDE\FDA\srs\Source\SRSTests\CompoundsTests.cs:line 74
+
+$$$$

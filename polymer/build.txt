@@ -1,0 +1,34 @@
+Compilation instructions:
+
+Linux:
+
+First you need to build a modified copy of RDKIT which is included in the source distribution. The other two dependencies - tclap and boost
+are header-only and do not need to be compiled.
+
+cd rdkit-master
+# change the environment variable below to your own location
+export RDBASE=/home/igor/polymer/rdkit-master
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$RDBASE/lib
+mkdir build
+cd build
+# change the boost location below to your own value
+cmake -DRDK_BUILD_PYTHON_WRAPPERS= -DRDK_BUILD_INCHI_SUPPORT=ON -DRDK_BUILD_SLN_SUPPORT=OFF -DBOOST_ROOT=/home/igor/repo/fda/boost_1_55_0/ ..
+make
+make install
+
+# return to the polymer source folder
+cd ../..
+# Edit the Makefile to modify the values of RDBASE, BOOST_HOME, and TCLAP to your own locations
+make
+
+# The tool should now be build
+
+Windows:
+
+On Windows I am using free MinGW compiler with Msys shell.
+The steps are identical to Linux, with the difference in cmake command line options for RDKIT:
+
+# Change the value of BOOST_ROOT below.
+cmake -G"MSYS Makefiles" -DRDK_BUILD_PYTHON_WRAPPERS= -DRDK_BUILD_INCHI_SUPPORT=ON -DRDK_BUILD_SLN_SUPPORT=OFF -DBOOST_ROOT=C:/MinGW/msys/1.0/home/igor/boost_1_53_0/ ..
+
+

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="affba2fe-4e70-488b-94cc-a6baa93e6922" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20190422" />
+  <setId root="0820d3a1-a5ac-4da6-b754-990a94c785a7" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="123bb36e-808e-468e-9f7a-257871491715" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20190422" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="H2198F8ZNA" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="H2198F8ZNA" codeSystem="2.16.840.1.113883.4.9" />
+                <name>INFLUENZA B VIRUS B/PHUKET/3073/2013 ANTIGEN (UV, FORMALDEHYDE INACTIVATED)</name>
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="d41d8cd9-8f00-b204-e980-0998ecf8427e" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <productOf>
+                <derivationProcess>
+                  <interactor typeCode="CSM">
+                    <identifiedSubstance>
+                      <id extension="OB7PUXZOKT" root="2.16.840.1.113883.4.9" />
+                      <identifiedSubstance>
+                        <code code="OB7PUXZOKT" codeSystem="2.16.840.1.113883.4.9" />
+                        <name>INFLUENZA B VIRUS B/PHUKET/3073/2013 WHOLE</name>
+                      </identifiedSubstance>
+                    </identifiedSubstance>
+                  </interactor>
+                  <component>
+                    <sequenceNumber value="1" />
+                    <derivationProcess>
+                      <code code="C157220" displayName="antigen cultivation" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                      <interactor typeCode="CSM">
+                        <identifiedSubstance>
+                          <id extension="291P45F896" root="2.16.840.1.113883.4.9" />
+                          <identifiedSubstance>
+                            <code code="291P45F896" codeSystem="2.16.840.1.113883.4.9" />
+                            <name>chicken eggs</name>
+                          </identifiedSubstance>
+                        </identifiedSubstance>
+                      </interactor>
+                    </derivationProcess>
+                  </component>
+                  <component>
+                    <sequenceNumber value="2" />
+                    <derivationProcess>
+                      <code code="C61471" displayName="attenuation" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                      <interactor typeCode="CSM">
+                        <identifiedSubstance>
+                          <id extension="1HG84L3525" root="2.16.840.1.113883.4.9" />
+                          <identifiedSubstance>
+                            <code code="1HG84L3525" codeSystem="2.16.840.1.113883.4.9" />
+                            <name>FORMALDEHYDE</name>
+                          </identifiedSubstance>
+                        </identifiedSubstance>
+                      </interactor>
+                      <component>
+                        <derivationProcess>
+                          <code code="C17231" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ultraviolet radiation" />
+                        </derivationProcess>
+                      </component>
+                    </derivationProcess>
+                  </component>
+                  <component>
+                    <sequenceNumber value="3" />
+                    <derivationProcess>
+                      <code code="C157219" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="viral envelope glycoprotein purification" />
+                    </derivationProcess>
+                  </component>
+                </derivationProcess>
+              </productOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

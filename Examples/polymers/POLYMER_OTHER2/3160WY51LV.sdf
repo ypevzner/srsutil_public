@@ -1,0 +1,141 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 27 26  0     0  0            999 V2000
+   -2.3834   -2.7416    0.0000 N   0  0  0  0  0  0           0  0  0
+   -1.3667   -2.1458    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.3417   -2.7250    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.6708   -2.1291    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.6958   -2.7083    0.0000 N   0  0  3  0  0  0           0  0  0
+    2.7083   -2.1125    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.7333   -2.6916    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.7458   -2.0958    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.7708   -2.6750    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.7833   -2.0791    0.0000 N   0  0  3  0  0  0           0  0  0
+    7.8083   -2.6583    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.8208   -2.0625    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.8458   -2.6416    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.8583   -2.0458    0.0000 N   0  0  0  0  0  0           0  0  0
+    1.6958   -3.8875    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.6750   -4.4750    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.3417   -3.8875    0.0000 C   0  0  0  0  0  0           0  0  0
+   -1.3625   -4.4750    0.0000 N   0  0  0  0  0  0           0  0  0
+    6.7708   -0.9041    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.7833   -0.3041    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.8083   -0.8791    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.8208   -0.2791    0.0000 N   0  0  0  0  0  0           0  0  0
+    6.7458   -8.3875    0.0000 Cl  0  0  0  0  0  0           0  0  0
+    5.7292   -8.9792    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.7083   -8.3958    0.0000 C   0  0  3  0  0  0           0  0  0
+    4.1159   -7.3802    0.0000 O   0  0  0  0  0  0           0  0  0
+    3.5326   -8.4011    0.0000 C   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+ 12 13  1  0     0  0
+  6  7  1  0     0  0
+ 13 14  1  0     0  0
+  3  4  1  0     0  0
+  5 15  1  0     0  0
+  7  8  1  0     0  0
+ 15 16  1  0     0  0
+ 16 17  1  0     0  0
+  8  9  1  0     0  0
+ 17 18  1  0     0  0
+  4  5  1  0     0  0
+ 10 19  1  0     0  0
+  9 10  1  0     0  0
+ 19 20  1  0     0  0
+  2  3  1  0     0  0
+ 20 21  1  0     0  0
+ 10 11  1  0     0  0
+ 21 22  1  0     0  0
+ 23 24  1  0     0  0
+ 24 25  1  0     0  0
+ 26 25  1  0     0  0
+ 27 26  1  0     0  0
+ 25 27  1  0     0  0
+  5  6  1  0     0  0
+ 11 12  1  0     0  0
+M  STY  2   1 MER   2 MER
+M  SLB  2   1   1   2   2
+M  SAL   1  5  23  24  25  26  27
+M  SDI   1  4    3.1000   -9.4000    3.1000   -6.9200
+M  SDI   1  4    7.2800   -6.9200    7.2800   -9.4000
+M  SAL   2 15   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+M  SAL   2  7  16  17  18  19  20  21  22
+M  SDI   2  4   -3.3700   -5.1600   -3.3700    0.1800
+M  SDI   2  4   11.8300    0.1800   11.8300   -5.1600
+M  END
+> <SUBSTANCE_ID>
+27302
+
+> <UNII>
+3160WY51LV
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_TYPE>COPOLYMER, NETWORK</POLYMER_TYPE>
+ <COMPONENT_NUMBER>2</COMPONENT_NUMBER>
+ <COMPONENT_AMOUNT_TYPE/>
+<COMPONENT>
+ <COMPONENT_NAME>EPICHLOROHYDRIN</COMPONENT_NAME>
+ <COMPONENT_ID>08OOR508C0</COMPONENT_ID>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </COMPONENT>
+<COMPONENT>
+ <COMPONENT_NAME/>
+ <COMPONENT_ID>1,4-BUTANEDIAMINE, N,N,N',N'-TETRAKIS(3-AMINOPROPYL)-</COMPONENT_ID>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </COMPONENT>
+ <SRU_NUMBER>1</SRU_NUMBER>
+ <SRU_AMOUNT_TYPE/>
+<SRU_GROUP>
+ <SRU_ID>A</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+<SRU_AMOUNT>
+ <AVERAGE>100</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS/>
+ <SUBSTITUTION_AMOUNT_TYPE/>
+<R_GROUP>
+ <R_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </R_GROUP>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<MW_GROUP>
+ <TYPE_MW/>
+ <MW_AVERAGE/>
+ <LOW_LIMIT_MW/>
+ <HIGH_LIMIT_MW/>
+ </MW_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS/>
+ </PROPERTIES_GROUP>
+ </POLYMER>
+
+> <COMMENTS>
+INCOMPLETE INFORMATION
+
+> <CDBREGNO>
+52512
+
+> <STRUCTURE_ID>
+21604
+
+$$$$

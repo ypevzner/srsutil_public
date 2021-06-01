@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="5417588f-b5a1-4473-ae43-399bdcdbfff2" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20180821" />
+  <setId root="8d0eacd5-6530-4332-8553-2880bfff90de" />
+  <versionNumber value="2" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="77654870-8cc2-4e24-a937-4841ea18018e" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20180821" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="02EMA6F96C" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="02EMA6F96C" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="f757b26a-5ad5-74c9-5801-083eb58e6e7f" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <productOf>
+                  <derivationProcess>
+                    <interactor typeCode="CSM">
+                      <identifiedSubstance>
+                        <id extension="0ZP13EBC5Y" root="2.16.840.1.113883.4.9">
+                          <!--should be N6466G03F7-->
+                        </id>
+                        <identifiedSubstance>
+                          <code code="0ZP13EBC5Y" codeSystem="2.16.840.1.113883.4.9">
+                            <!--should be N6466G03F7-->
+                          </code>
+                          <asEquivalentSubstance>
+                            <definingSubstance>
+                              <code code="47fe52f6-9ad0-28ef-4361-4ee4e7a94884" codeSystem="2.16.840.1.113883.3.2705" />
+                            </definingSubstance>
+                          </asEquivalentSubstance>
+                        </identifiedSubstance>
+                      </identifiedSubstance>
+                    </interactor>
+                    <component>
+                      <sequenceNumber value="4">
+                        <!--should be 1-->
+                      </sequenceNumber>
+                      <derivationProcess>
+                        <code code="hydrolysis" codeSystem="1.3.6.1.4.1.32366.1.3.1.7" displayName="HYDROLYSIS" />
+                        <interactor typeCode="CSM">
+                          <identifiedSubstance>
+                            <id extension="0ZP13EBC5Y" root="2.16.840.1.113883.4.9" />
+                            <identifiedSubstance>
+                              <code code="0ZP13EBC5Y" codeSystem="2.16.840.1.113883.4.9" />
+                              <asEquivalentSubstance>
+                                <definingSubstance>
+                                  <code code="47fe52f6-9ad0-28ef-4361-4ee4e7a94884" codeSystem="2.16.840.1.113883.3.2705" />
+                                </definingSubstance>
+                              </asEquivalentSubstance>
+                            </identifiedSubstance>
+                          </identifiedSubstance>
+                        </interactor>
+                      </derivationProcess>
+                    </component>
+                  </derivationProcess>
+                </productOf>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

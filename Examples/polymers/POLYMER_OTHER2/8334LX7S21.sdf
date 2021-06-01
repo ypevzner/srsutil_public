@@ -1,0 +1,108 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 18 17  0     0  0            999 V2000
+   -1.4208   -2.4264    0.0000 O   0  0  0  0  0  0           0  0  0
+   -1.8737   -1.7153    0.0000 C   0  0  0  0  0  0           0  0  0
+   -1.4688   -0.9945    0.0000 C   0  0  3  0  0  0           0  0  0
+   -1.8905   -0.2834    0.0000 C   0  0  0  0  0  0           0  0  0
+   -1.4855    0.4374    0.0000 O   0  0  0  0  0  0           0  0  0
+   -1.0025    1.1874    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.0891    1.1534    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.3243    1.8694    0.0000 C   0  0  0  0  0  0           0  0  0
+   -1.4158    1.9034    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.6420   -0.9848    0.0000 O   0  0  0  0  0  0           0  0  0
+    0.0660   -0.5580    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.7897   -0.9578    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.4978   -0.5310    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.0504    0.2686    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.5940   -2.4264    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.1806   -3.1424    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.6462   -3.1424    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.1806   -1.7104    0.0000 O   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  2  3  1  0     0  0
+  3  4  1  0     0  0
+  4  5  1  0     0  0
+  5  6  1  0     0  0
+  6  7  1  0     0  0
+  7  8  1  0     0  0
+  6  9  2  0     0  0
+  3 10  1  0     0  0
+ 10 11  1  0     0  0
+ 11 12  1  0     0  0
+ 12 13  1  0     0  0
+ 11 14  2  0     0  0
+  1 15  1  0     0  0
+ 15 16  1  0     0  0
+ 16 17  1  0     0  0
+ 15 18  2  0     0  0
+M  STY  3   1 SRU   2 SRU   3 SRU
+M  SLB  3   1   1   2   2   3   3
+M  SCN  3   1 HT    2 HT    3 HT
+M  SAL   1  1   7
+M  SBL   1  2   6   7
+M  SMT   1 A
+M  SDI   1  4   -0.8300    0.6600   -0.8300    1.5000
+M  SDI   1  4   -0.5900    1.4300    0.2500    1.4300
+M  SAL   2  1  12
+M  SBL   2  2  11  12
+M  SMT   2 A
+M  SDI   2  4    0.4200   -1.1700    0.4200   -0.3300
+M  SDI   2  4    1.1400   -0.3200    1.1400   -1.1600
+M  SAL   3  1  16
+M  SBL   3  2  15  16
+M  SMT   3 A
+M  SDI   3  4   -0.8100   -2.7800    0.0200   -2.7800
+M  SDI   3  4    0.2200   -2.7200    0.2200   -3.5500
+M  END
+> <SUBSTANCE_ID>
+27574
+
+> <UNII>
+8334LX7S21
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_TYPE>HOMOPOLYMER, BRANCHED</POLYMER_TYPE>
+ <NUMBER_OF_SRU>1</NUMBER_OF_SRU>
+ <SRU_AMOUNT_TYPE>WEIGHT PERCENT</SRU_AMOUNT_TYPE>
+<SRU_GROUP>
+ <SRU_ID>A</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION/>
+<SRU_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS/>
+ <SUBSTITUTION_AMOUNT_TYPE/>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE/>
+ <LOW_LIMIT>7</LOW_LIMIT>
+ <HIGH_LIMIT>17</HIGH_LIMIT>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<MW_GROUP>
+ <TYPE_MW/>
+ <MW_AVERAGE/>
+ <LOW_LIMIT_MW/>
+ <HIGH_LIMIT_MW/>
+ </MW_GROUP>
+<PHYSICAL_PROPERTIES_GROUP>
+ <PHYSICAL_PROPERTY_TYPE>MELTING POINT</PHYSICAL_PROPERTY_TYPE>
+ <AVERAGE/>
+ <LOW_LIMIT>27</LOW_LIMIT>
+ <HIGH_LIMIT>44</HIGH_LIMIT>
+ <UNITS/>
+ </PHYSICAL_PROPERTIES_GROUP>
+ <COMMENTS/>
+ </POLYMER>
+
+> <CDBREGNO>
+52696
+
+> <STRUCTURE_ID>
+21627
+
+$$$$

@@ -1,0 +1,63 @@
+
+  -INDIGO-06251712332D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+   -0.3724    0.2345    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3724    1.7448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7483   -0.4207    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0862   -0.2655    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0862    2.2034    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5966    2.6172    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9828    0.3552    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7483   -1.9655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9655    0.9793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.9828    1.8172    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4966   -2.7966    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.1207   -2.5207    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4655    0.9793    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8483   -0.5034    0.0000 Au  0  0  0  0  0 15  0  0  0  0  0  0
+    2.9655   -2.4552    0.0000 Na  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  2  0  0  0  0
+  6 10  2  0  0  0  0
+  8 11  2  0  0  0  0
+  8 12  1  0  0  0  0
+  9 13  1  0  0  0  0
+ 13 14  1  0  0  0  0
+  5  9  1  0  0  0  0
+  7 10  1  0  0  0  0
+M  CHG  2  12  -1  15   1
+M  END
+> <SUBSTANCE_ID>
+104852
+
+> <UNII>
+3X5C0Z836X
+
+> <DESC_PART1>
+
+> <DESC_PART2>
+
+> <COMMENTS>
+
+> <CDBREGNO>
+80481
+
+> <STRUCTURE_ID>
+46680
+
+> <SUBSTANCE_NAME>
+
+> <Exception>
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ChemSpider.Molecules.MoleculeExtensions.CanonicalNumbers(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 25
+   at ChemSpider.Molecules.MoleculeExtensions.ReorderCanonically(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 81
+   at UnitTestProject.CompoundsTests.<>c__DisplayClass1_0.<CanonicalNumbers_OnAllOfMixtures>b__0(SdfRecord sdf) in D:\PROJECTS\SDE\FDA\srs\Source\SRSTests\CompoundsTests.cs:line 74
+
+$$$$

@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="30c33d87-99b8-4ab9-8c36-fb45a7921346" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20180908" />
+  <setId root="ecd2ec1b-b204-4bec-9ac4-56cc3ed93a2f" />
+  <versionNumber value="3" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="a6f16b55-ffe2-4a60-bd2e-d876e1ab3e57" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20180908" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="D8LF3SZZ6K" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="D8LF3SZZ6K" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="b4880f0a-2265-49a7-6e99-5ec2d19bd24f" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator xsi:type="URG_PQ">
+                      <low value="0" inclusive="false" unit="mol" />
+                    </numerator>
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  6  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  6  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  6  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  0  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7-,8+/m0/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-BIIVOSGPSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  1  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  1  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  6  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7-,8+/m1/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-PRJMDXOYSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator xsi:type="URG_PQ">
+                      <low value="0" inclusive="false" unit="mol" />
+                    </numerator>
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  6  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  1  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  1  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7+,8-/m1/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-GJMOJQLCSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  1  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  6  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  6  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7+,8-/m0/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-RNJXMRFFSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator xsi:type="URG_PQ">
+                      <low value="0" inclusive="false" unit="mol" />
+                    </numerator>
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  1  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  6  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  1  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7+,8+/m0/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-XLPZGREQSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  6  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  1  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  6  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7+,8+/m1/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-CSMHCCOUSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator xsi:type="URG_PQ">
+                      <low value="0" inclusive="false" unit="mol" />
+                    </numerator>
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  1  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  1  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  1  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7-,8-/m1/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-BWZBUEFSSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 15 15  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -9.4085    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2121   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  6  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  6  0  0  0
+  6  8  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  1 12  1  6  0  0  0
+  3 13  1  0  0  0  0
+  6 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-9-6(3)10-7(4)11-8/h5-9H,1-4H3/t6-,7-,8-/m0/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">NOOYZCFJVKLILW-FXQIFTODSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator xsi:type="URG_PQ">
+                      <low value="0" inclusive="false" unit="mol" />
+                    </numerator>
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.6236   -5.8652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6008   -4.0935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  6  0  0  0
+  8 10  1  0  0  0  0
+  1 10  1  0  0  0  0
+  1 11  1  6  0  0  0
+  1 12  1  0  0  0  0
+  8 13  1  0  0  0  0
+ 10 14  1  0  0  0  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-10-6(3)9-7(4)11-8/h5-9H,1-4H3/t6-,7+,8?</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">ZNOHVVXGIQIPAU-DHBOJHSNSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator xsi:type="URG_PQ">
+                      <low value="0" inclusive="false" unit="mol" />
+                    </numerator>
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.6236   -5.8652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6008   -4.0935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  1  0  0  0
+  8 10  1  0  0  0  0
+  1 10  1  0  0  0  0
+  1 11  1  6  0  0  0
+  1 12  1  0  0  0  0
+  8 13  1  0  0  0  0
+ 10 14  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-10-6(3)9-7(4)11-8/h5-9H,1-4H3/t6-,7-/m1/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">ZNOHVVXGIQIPAU-RNFRBKRXSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="mol" />
+                        <denominator value="2" unit="mol" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                          <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[C8H17NS2
+  -FDASRS-09081811412D
+
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+    9.5550   -7.6368    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   10.5779   -7.0463    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+   10.5779   -5.8652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6008   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.6236   -5.8652    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6008   -4.0935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -5.2746    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -5.8652    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    7.5093   -5.2746    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5322   -7.0463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5550   -8.8179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9208   -8.0029    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -6.2313    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8980   -7.4124    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  6  0  0  0
+  8 10  1  0  0  0  0
+  1 10  1  0  0  0  0
+  1 11  1  1  0  0  0
+  1 12  1  0  0  0  0
+  8 13  1  0  0  0  0
+ 10 14  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                          <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C8H17NS2/c1-5(2)8-10-6(3)9-7(4)11-8/h5-9H,1-4H3/t6-,7-/m0/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                          <value xsi:type="ED" mediaType="application/x-inchi-key">ZNOHVVXGIQIPAU-BQBZGAKWSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

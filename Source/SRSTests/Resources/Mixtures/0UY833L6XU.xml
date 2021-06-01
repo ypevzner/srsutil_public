@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+  <id root="45c2b291-8afa-4149-a63d-0fa71aea73f6" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20170212" />
+  <setId root="97ca89a2-3653-475e-8941-298d97682ac0" />
+  <versionNumber value="2" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id root="1.3.6.1.4.1.519.1" extension="927645523" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="fff35dcf-f5b1-42be-b9c2-794d2a043547" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <title />
+          <text />
+          <effectiveTime value="20170212" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="0UY833L6XU" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="0UY833L6XU" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="a4cac3a9-f8c7-e6c3-7584-9ba43a2596ff" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator p3:type="URG_PQ" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+                      <low value="0" unit="1" inclusive="false" />
+                    </numerator>
+                    <denominator value="2" unit="1" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-mdl-molfile" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[
+  -FDASRS-02121721412D
+
+ 12 11  0  0  0  0  0  0  0  0999 V2000
+   20.2310   -4.7158    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0499   -4.7158    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4594   -5.7386    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.2783   -5.7386    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6877   -6.7615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5066   -6.7615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9161   -7.7844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7350   -7.7844    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0499   -6.7615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.8216   -3.6929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   22.0027   -3.6929    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   22.5933   -2.6700    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  9  3  1  0  0  0  0
+  1 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-inchi" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/C7H16O5/c8-1-3-11-5-7(10)6-12-4-2-9/h7-10H,1-6H2</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                      <value p4:type="ED" mediaType="application/x-inchi-key" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">ODMOFUHYUDOOFU-UHFFFAOYSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                  <quantity>
+                    <numerator p3:type="URG_PQ" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+                      <low value="0" unit="1" inclusive="false" />
+                    </numerator>
+                    <denominator value="2" unit="1" />
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="1" />
+                        <denominator value="2" unit="1" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                          <value p6:type="ED" mediaType="application/x-mdl-molfile" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[C7H16O5
+  -FDASRS-02121721412D
+
+ 16 15  0  0  0  0  0  0  0  0999 V2000
+   20.2310   -4.7158    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0499   -4.7158    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4594   -5.7386    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   17.2783   -5.7386    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6877   -6.7615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5066   -6.7615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9161   -7.7844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7350   -7.7844    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0499   -6.7615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.5625   -6.6250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.1531   -7.6479    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   22.3342   -7.6479    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.6067   -5.3665    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   19.2107   -5.7386    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3593   -7.1337    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   22.7099   -8.2986    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  3  9  1  6  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+  1 13  1  0  0  0  0
+  3 14  1  0  0  0  0
+  8 15  1  0  0  0  0
+ 12 16  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                          <value p6:type="ED" mediaType="application/x-inchi" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/C7H16O5/c8-1-3-11-6-7(5-10)12-4-2-9/h7-10H,1-6H2/t7-/m0/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                          <value p6:type="ED" mediaType="application/x-inchi-key" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">REVWMVMTMYXMBZ-ZETCQYMHSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                    <moiety>
+                      <code displayName="mixture component" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103243" />
+                      <quantity>
+                        <numerator value="1" unit="1" />
+                        <denominator value="2" unit="1" />
+                      </quantity>
+                      <partMoiety />
+                      <subjectOf>
+                        <characteristic>
+                          <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                          <value p6:type="ED" mediaType="application/x-mdl-molfile" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[C7H16O5
+  -FDASRS-02121721412D
+
+ 16 15  0  0  0  0  0  0  0  0999 V2000
+   20.2310   -4.7158    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0499   -4.7158    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.4594   -5.7386    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   17.2783   -5.7386    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6877   -6.7615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5066   -6.7615    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.9161   -7.7844    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.7350   -7.7844    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   19.0499   -6.7615    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.5625   -6.6250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.1531   -7.6479    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   22.3342   -7.6479    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.6067   -5.3665    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   19.2107   -5.7386    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3593   -7.1337    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   22.7099   -8.2986    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  3  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+  1 13  1  0  0  0  0
+  3 14  1  6  0  0  0
+  8 15  1  0  0  0  0
+ 12 16  1  0  0  0  0
+M  END
+]]></value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                          <value p6:type="ED" mediaType="application/x-inchi" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/C7H16O5/c8-1-3-11-6-7(5-10)12-4-2-9/h7-10H,1-6H2/t7-/m1/s1</value>
+                        </characteristic>
+                      </subjectOf>
+                      <subjectOf>
+                        <characteristic>
+                          <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                          <value p6:type="ED" mediaType="application/x-inchi-key" xmlns:p6="http://www.w3.org/2001/XMLSchema-instance">REVWMVMTMYXMBZ-SSDOTTSWSA-N</value>
+                        </characteristic>
+                      </subjectOf>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

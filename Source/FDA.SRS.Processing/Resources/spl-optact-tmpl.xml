@@ -1,0 +1,6 @@
+﻿<subjectOf>
+  <characteristic>
+    <code code="C103201" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Optical Activity" />
+    <value xsi:type="CV" code="{OPTCODE}" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="{OPTACT}" />
+  </characteristic>
+</subjectOf>

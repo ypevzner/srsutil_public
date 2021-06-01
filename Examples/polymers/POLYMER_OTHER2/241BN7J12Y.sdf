@@ -1,0 +1,122 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 18 16  0     0  0            999 V2000
+    5.0892   -2.1764    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.8391   -1.5993    0.0000 C   0  0  3  0  0  0           0  0  0
+    4.5050   -2.1737    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.7101   -1.2910    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.3338   -1.5221    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.1396   -0.8042    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.1245   -2.3107    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.3141   -1.2952    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.6391   -1.6035    0.0000 *   0  0  0  0  0  0           0  0  0
+    1.6162   -5.3249    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.9462   -4.7464    0.0000 C   0  0  3  0  0  0           0  0  0
+    1.4253   -4.4423    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.7462   -4.7506    0.0000 *   0  0  0  0  0  0           0  0  0
+    2.8213   -4.4381    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.4409   -4.6734    0.0000 C   0  0  0  0  0  0           0  0  0
+    3.5128   -5.4056    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.0548   -3.9763    0.0000 C   0  0  0  0  0  0           0  0  0
+    2.2004   -5.3276    0.0000 C   0  0  0  0  0  0           0  0  0
+  9  8  1  0     0  0
+  2  1  1  0     0  0
+  2  3  1  0     0  0
+  2  4  1  0     0  0
+  4  5  1  0     0  0
+  5  6  2  0     0  0
+  5  7  1  0     0  0
+  8  2  1  0     0  0
+ 11 10  1  0     0  0
+ 12 11  1  0     0  0
+ 13 12  1  0     0  0
+ 11 14  1  0     0  0
+ 14 15  2  0     0  0
+ 15 16  1  0     0  0
+ 15 17  1  0     0  0
+ 11 18  1  0     0  0
+M  STY  2   1 SRU   2 SRU
+M  SLB  2   1   1   2   2
+M  SCN  2   1 HT    2 HT
+M  SAL   1  4   1   2   3   8
+M  SBL   1  2   1   4
+M  SMT   1 A
+M  SDI   1  4    3.9600   -1.6900    3.9600   -1.1100
+M  SDI   1  4    5.0600   -1.1100    5.0600   -1.6900
+M  SAL   2  4  10  11  12  18
+M  SBL   2  2  11  12
+M  SMT   2 A
+M  SDI   2  4    1.0700   -4.8400    1.0700   -4.2600
+M  SDI   2  4    2.1700   -4.2600    2.1700   -4.8400
+M  END
+> <SUBSTANCE_ID>
+75902
+
+> <UNII>
+241BN7J12Y
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_TYPE> HOMOPOLYMER </POLYMER_TYPE>
+ <COMPONENT_NUMBER>1</COMPONENT_NUMBER>
+ <COMPONENT_AMOUNT_TYPE>WEIGHT PERCENT</COMPONENT_AMOUNT_TYPE>
+<COMPONENT>
+ <COMPONENT_NAME>ISOBUTYLENE</COMPONENT_NAME>
+ <COMPONENT_ID>QA2LMR467H</COMPONENT_ID>
+ <AVERAGE>100</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </COMPONENT>
+ <SRU_NUMBER>1</SRU_NUMBER>
+ <SRU_AMOUNT_TYPE>WEIGHT PERCENT</SRU_AMOUNT_TYPE>
+<SRU_GROUP>
+ <SRU_ID>A</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+<SRU_AMOUNT>
+ <AVERAGE>100</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS/>
+ <SUBSTITUTION_AMOUNT_TYPE/>
+<R_GROUP>
+ <R_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </R_GROUP>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<MW_GROUP>
+ <TYPE_MW>NUMBER AVERAGE</TYPE_MW>
+ <MW_AVERAGE>1300</MW_AVERAGE>
+ <LOW_LIMIT_MW/>
+ <HIGH_LIMIT_MW/>
+ </MW_GROUP>
+<MW_GROUP>
+ <TYPE_MW>WEIGHT AVERAGE</TYPE_MW>
+ <MW_AVERAGE>2600</MW_AVERAGE>
+ <LOW_LIMIT_MW/>
+ <HIGH_LIMIT_MW/>
+ </MW_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY>VISCOSITY</PROPERTY>
+ <AVERAGE>500</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS>MM2/S @ 100 C</UNITS>
+ </PROPERTIES_GROUP>
+ </POLYMER>
+
+> <CDBREGNO>
+73650
+
+> <STRUCTURE_ID>
+40475
+
+$$$$

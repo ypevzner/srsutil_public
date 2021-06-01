@@ -1,0 +1,103 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 14 12  0     0  0            999 V2000
+   -2.0000   -0.1250    0.0000 C   0  0  0  0  0  0           0  0  0
+   -0.2509    0.8848    0.0000 C   0  0  0  0  0  0           0  0  0
+    1.7000    0.3621    0.0000 *   0  0  0  0  0  0           0  0  0
+   -0.2509    2.9045    0.0000 O   0  0  0  0  0  0           0  0  0
+   -3.5313    0.8553    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.0938    0.0938    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.4688   -1.4688    0.0000 C   0  0  3  0  0  0           0  0  0
+    8.5094   -2.7913    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.8844   -4.3538    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.9251   -5.6763    0.0000 *   0  0  0  0  0  0           0  0  0
+    5.8432   -1.9043    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.4077   -3.5298    0.0000 *   0  0  0  0  0  0           0  0  0
+    7.0839    1.8428    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.3348    2.8527    0.0000 *   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  2  3  1  0     0  0
+  2  4  2  0     0  0
+  1  5  1  0     0  0
+  6  7  1  0     0  0
+  7  8  1  0     0  0
+  8  9  1  0     0  0
+  9 10  1  0     0  0
+  7 11  1  0     0  0
+ 11 12  1  0     0  0
+  6 13  1  0     0  0
+ 13 14  1  0     0  0
+M  STY  1   1 SRU
+M  SLB  1   1   1
+M  SCN  1   1 HT
+M  SAL   1  1   1
+M  SBL   1  2   1   4
+M  SMT   1 A
+M  SDI   1  4   -2.7700   -0.6100   -2.7700    1.3500
+M  SDI   1  4   -1.1300    1.3700   -1.1300   -0.6000
+M  END
+> <SUBSTANCE_ID>
+50793
+
+> <UNII>
+ZRA72DR3R7
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_TYPE> HOMOPOLYMER </POLYMER_TYPE>
+ <COMPONENT_NUMBER/>
+ <COMPONENT_AMOUNT_TYPE/>
+<COMPONENT>
+ <COMPONENT_NAME/>
+ <COMPONENT_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </COMPONENT>
+ <SRU_NUMBER/>
+ <SRU_AMOUNT_TYPE/>
+<SRU_GROUP>
+ <SRU_ID>A</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION/>
+<SRU_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS/>
+ <SUBSTITUTION_AMOUNT_TYPE/>
+<R_GROUP>
+ <R_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </R_GROUP>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE/>
+ <LOW_LIMIT>16</LOW_LIMIT>
+ <HIGH_LIMIT>34</HIGH_LIMIT>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<MW_GROUP>
+ <TYPE_MW/>
+ <MW_AVERAGE/>
+ <LOW_LIMIT_MW/>
+ <HIGH_LIMIT_MW/>
+ </MW_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS/>
+ </PROPERTIES_GROUP>
+ </POLYMER>
+
+> <CDBREGNO>
+62577
+
+> <STRUCTURE_ID>
+29581
+
+$$$$

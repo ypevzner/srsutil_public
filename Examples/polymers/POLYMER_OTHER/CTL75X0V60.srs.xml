@@ -1,0 +1,87 @@
+<SUBSTANCE>
+  <SUBSTANCE_ID />
+  <SINGLE_SUBSTANCE>
+    <ELEMENT_TYPE>
+      <NUCLEIC_ACID>
+        <SEQUENCE_TYPE>COMPLETE</SEQUENCE_TYPE>
+        <NUMBER_OF_SUBUNITS>1</NUMBER_OF_SUBUNITS>
+        <SUBUNIT_GROUP>
+          <SUBUNIT>1</SUBUNIT>
+          <SUBUNIT_TYPE>LINEAR</SUBUNIT_TYPE>
+          <LENGTH>44</LENGTH>
+          <BASE_SEQUENCE>GCGCCGUAUGGGAUUAAGUAAAUGAGGAGUUGGAGGAAGGGCGC</BASE_SEQUENCE>
+          <FIVE_PRIME_FRAGMENT_NAME />
+          <FIVE_PRIME_FRAGMENT_ID />
+          <THREE_PRIME_FRAGMENT_NAME />
+          <THREE_PRIME_FRAGMENT_ID />
+          <SUGAR>
+            <RESIDUES>1_1-1_44</RESIDUES>
+            <SUGAR_NAME>.BETA.-L-RIBOSE</SUGAR_NAME>
+            <SUGAR_ID>856511Z6TO</SUGAR_ID>
+            <SUGAR_INCHI>InChI=1S/C5H10O5/c6-1-2-3(7)4(8)5(9)10-2/h2-9H,1H2/t2-,3-,4-,5-/m0/s1</SUGAR_INCHI>
+          </SUGAR>
+          <INTERNUCLEOTIDE_LINKAGE>
+            <RESIDUES>1_2-1_44</RESIDUES>
+            <LINKAGE>3'-5'</LINKAGE>
+            <LINKAGE_NAME>PHOSPHATE LINKAGE</LINKAGE_NAME>
+            <LINKAGE_ID />
+          </INTERNUCLEOTIDE_LINKAGE>
+          <INTERNUCLEOTIDE_LINKAGE>
+            <RESIDUES>1_1</RESIDUES>
+            <LINKAGE />
+            <LINKAGE_NAME />
+            <LINKAGE_ID />
+            <MOLFILE external="1" />
+            <POLYMER>
+              <POLYMER_CLASS>HOMOPOLYMER</POLYMER_CLASS>
+              <POLYMER_GEOMETRY>LINEAR</POLYMER_GEOMETRY>
+              <COPOLYMER_SEQUENCE_TYPE />
+              <STRUCTURAL_REPEAT_UNIT>
+                <NUMBER_OF_STRUCTURAL_REPEAT_UNITS>2</NUMBER_OF_STRUCTURAL_REPEAT_UNITS>
+                <STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>MOLE PERCENT</STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>
+                <STRUCTURAL_REPEAT_UNIT_GROUP>
+                  <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+                  <STRUCTURAL_REPEAT_UNIT>A</STRUCTURAL_REPEAT_UNIT>
+                  <DEGREE_POLYMERIZATION>
+                    <AMOUNT>
+                      <AVERAGE />
+                      <LOW_LIMIT />
+                      <HIGH_LIMIT />
+                      <UNIT />
+                      <NON_NUMERIC_VALUE />
+                    </AMOUNT>
+                  </DEGREE_POLYMERIZATION>
+                </STRUCTURAL_REPEAT_UNIT_GROUP>
+                <STRUCTURAL_REPEAT_UNIT_GROUP>
+                  <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+                  <STRUCTURAL_REPEAT_UNIT>B</STRUCTURAL_REPEAT_UNIT>
+                  <DEGREE_POLYMERIZATION>
+                    <AMOUNT>
+                      <AVERAGE />
+                      <LOW_LIMIT />
+                      <HIGH_LIMIT />
+                      <UNIT />
+                      <NON_NUMERIC_VALUE />
+                    </AMOUNT>
+                  </DEGREE_POLYMERIZATION>
+                </STRUCTURAL_REPEAT_UNIT_GROUP>
+              </STRUCTURAL_REPEAT_UNIT>
+            </POLYMER>
+          </INTERNUCLEOTIDE_LINKAGE>
+        </SUBUNIT_GROUP>
+        <AREA_OF_HYBRIDISATION />
+        <MOLECULAR_WEIGHT>
+          <MOLECULAR_WEIGHT_TYPE>NUMBER</MOLECULAR_WEIGHT_TYPE>
+          <MOLECULAR_WEIGHT_METHOD />
+          <AMOUNT>
+            <AVERAGE />
+            <LOW_LIMIT />
+            <HIGH_LIMIT />
+            <UNIT>kDa</UNIT>
+            <NON_NUMERIC_VALUE />
+          </AMOUNT>
+        </MOLECULAR_WEIGHT>
+      </NUCLEIC_ACID>
+    </ELEMENT_TYPE>
+  </SINGLE_SUBSTANCE>
+</SUBSTANCE>

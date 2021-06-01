@@ -1,0 +1,185 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 31 30  0     0  0            999 V2000
+    3.3750   -2.8438    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.3979   -3.4343    0.0000 O   0  0  0  0  0  0           0  0  0
+    5.4207   -2.8438    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.4436   -3.4343    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.4665   -2.8438    0.0000 O   0  0  0  0  0  0           0  0  0
+    8.4893   -3.4343    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.5122   -2.8438    0.0000 C   0  0  0  0  0  0           0  0  0
+   10.5351   -3.4343    0.0000 N   0  0  3  0  0  0           0  0  0
+   11.5579   -2.8438    0.0000 C   0  0  0  0  0  0           0  0  0
+   12.5808   -3.4343    0.0000 C   0  0  0  0  0  0           0  0  0
+   13.6036   -2.8438    0.0000 N   0  0  0  0  0  0           0  0  0
+   14.6265   -3.4343    0.0000 C   0  0  0  0  0  0           0  0  0
+   15.6494   -2.8438    0.0000 C   0  0  0  0  0  0           0  0  0
+   16.6722   -3.4343    0.0000 C   0  0  0  0  0  0           0  0  0
+   17.6951   -2.8438    0.0000 C   0  0  0  0  0  0           0  0  0
+   18.7180   -3.4343    0.0000 C   0  0  0  0  0  0           0  0  0
+   19.7408   -2.8438    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.5122   -1.6626    0.0000 O   0  0  0  0  0  0           0  0  0
+   12.5808   -4.6154    0.0000 O   0  0  0  0  0  0           0  0  0
+   20.7637   -3.4343    0.0000 O   0  0  0  0  0  0           0  0  0
+   21.7866   -2.8438    0.0000 P   0  0  3  0  0  0           0  0  0
+   22.8094   -3.4343    0.0000 O   0  0  0  0  0  0           0  0  0
+   21.7866   -1.6626    0.0000 O   0  0  0  0  0  0           0  0  0
+   20.7637   -2.2532    0.0000 O   0  0  0  0  0  0           0  0  0
+   10.5351   -4.6154    0.0000 C   0  0  0  0  0  0           0  0  0
+    9.5122   -5.2060    0.0000 C   0  0  0  0  0  0           0  0  0
+    8.4893   -4.6154    0.0000 O   0  0  0  0  0  0           0  0  0
+    7.4665   -5.2060    0.0000 C   0  0  0  0  0  0           0  0  0
+    6.4436   -4.6154    0.0000 C   0  0  0  0  0  0           0  0  0
+    5.4207   -5.2060    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.3979   -4.6154    0.0000 C   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  2  3  1  0     0  0
+  3  4  1  0     0  0
+  4  5  1  0     0  0
+  5  6  1  0     0  0
+  6  7  1  0     0  0
+  7  8  1  0     0  0
+  8  9  1  0     0  0
+  9 10  1  0     0  0
+ 10 11  1  0     0  0
+ 11 12  1  0     0  0
+ 12 13  1  0     0  0
+ 13 14  1  0     0  0
+ 14 15  1  0     0  0
+ 15 16  1  0     0  0
+ 16 17  1  0     0  0
+  7 18  2  0     0  0
+ 10 19  2  0     0  0
+ 17 20  1  0     0  0
+ 20 21  1  0     0  0
+ 21 22  1  0     0  0
+ 21 23  2  0     0  0
+ 21 24  1  0     0  0
+  8 25  1  0     0  0
+ 25 26  1  0     0  0
+ 26 27  1  0     0  0
+ 27 28  1  0     0  0
+ 28 29  1  0     0  0
+ 29 30  1  0     0  0
+ 30 31  1  0     0  0
+M  STY  4   1 GEN   2 DAT   3 GEN   4 DAT
+M  SLB  4   1   1   2   2   3   3   4   4
+M  SAL   1  3   2   3   4
+M  SBL   1  2   1   4
+M  SDI   1  4    3.8864   -3.7296    3.8864   -2.5485
+M  SDI   1  4    6.9550   -2.5485    6.9550   -3.7296
+M  SDT   2 fdareg_sgroup
+M  SDD   2     0.0000    0.0000    DR    ALL  1       6
+M  SED   2 A
+M  SAL   3  3  28  29  30
+M  SBL   3  2  27  30
+M  SDI   3  4    4.9093   -5.5012    4.9093   -4.3201
+M  SDI   3  4    7.9779   -4.3201    7.9779   -5.5012
+M  SDT   4 fdareg_sgroup
+M  SDD   4     0.0000    0.0000    DR    ALL  1       6
+M  SED   4 B
+M  SPL  2   2   1   4   3
+M  END
+> <SUBSTANCE_ID>
+182441
+
+> <UNII>
+MTM792B442
+
+> <DESC_PART1>
+<SUBSTANCE>
+ <SUBSTANCE_ID/>
+<SINGLE_SUBSTANCE>
+<ELEMENT_TYPE>
+<NUCLEIC_ACID>
+ <SEQUENCE_TYPE>COMPLETE</SEQUENCE_TYPE>
+ <NUMBER_OF_SUBUNITS>1</NUMBER_OF_SUBUNITS>
+<SUBUNIT_GROUP>
+ <SUBUNIT>1</SUBUNIT>
+ <SUBUNIT_TYPE>LINEAR</SUBUNIT_TYPE>
+ <LENGTH>45</LENGTH>
+ <BASE_SEQUENCE>GCGUGGUGUGAUCUAGAUGUAUUGGCUGAUCCUAGUCAGGUACGC</BASE_SEQUENCE>
+ <FIVE_PRIME_FRAGMENT_NAME/>
+ <FIVE_PRIME_FRAGMENT_ID/>
+ <THREE_PRIME_FRAGMENT_NAME/>
+ <THREE_PRIME_FRAGMENT_ID/>
+<SUGAR>
+ <RESIDUES>1_1-1_44</RESIDUES>
+ <SUGAR_NAME>.BETA.-L-RIBOSE</SUGAR_NAME>
+ <SUGAR_ID>856511Z6TO</SUGAR_ID>
+ <SUGAR_INCHI>InChI=1S/C5H10O5/c6-1-2-3(7)4(8)5(9)10-2/h2-9H,1H2/t2-,3-,4-,5-/m0/s1</SUGAR_INCHI>
+ </SUGAR>
+<INTERNUCLEOTIDE_LINKAGE>
+ <RESIDUES>1_2-1_44</RESIDUES>
+ <LINKAGE>3'-5'</LINKAGE>
+ <LINKAGE_NAME>PHOSPHATE LINKAGE</LINKAGE_NAME>
+ <LINKAGE_ID/>
+ </INTERNUCLEOTIDE_LINKAGE>
+<INTERNUCLEOTIDE_LINKAGE>
+ <RESIDUES>1_1</RESIDUES>
+ <LINKAGE/>
+ <LINKAGE_NAME/>
+ <LINKAGE_ID/>
+ <MOLFILE external="1"/>
+<POLYMER>
+ <POLYMER_CLASS>HOMOPOLYMER</POLYMER_CLASS>
+ <POLYMER_GEOMETRY>LINEAR</POLYMER_GEOMETRY>
+ <COPOLYMER_SEQUENCE_TYPE/>
+<STRUCTURAL_REPEAT_UNIT>
+ <NUMBER_OF_STRUCTURAL_REPEAT_UNITS>2</NUMBER_OF_STRUCTURAL_REPEAT_UNITS>
+ <STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>MOLE PERCENT</STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>A</STRUCTURAL_REPEAT_UNIT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>B</STRUCTURAL_REPEAT_UNIT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+ </STRUCTURAL_REPEAT_UNIT>
+ </POLYMER>
+ </INTERNUCLEOTIDE_LINKAGE>
+ </SUBUNIT_GROUP>
+ <AREA_OF_HYBRIDISATION/>
+<MOLECULAR_WEIGHT>
+ <MOLECULAR_WEIGHT_TYPE>NUMBER</MOLECULAR_WEIGHT_TYPE>
+ <MOLECULAR_WEIGHT_METHOD/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT>kDa</UNIT>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_WEIGHT>
+ </NUCLEIC_ACID>
+ </ELEMENT_TYPE>
+ </SINGLE_SUBSTANCE>
+ </SUBSTANCE>
+
+> <CDBREGNO>
+122915
+
+> <STRUCTURE_ID>
+82575
+
+$$$$

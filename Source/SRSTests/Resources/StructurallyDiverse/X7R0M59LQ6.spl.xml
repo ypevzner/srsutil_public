@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="1e4d6363-d573-4e0e-92a1-4fd3d664d7cf" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20200228" />
+  <setId root="d736e65a-e633-444f-a2d5-bae1f2cbd43d" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="48ac562a-b2fc-430c-a572-2eed429e2349" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20200228" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="X7R0M59LQ6" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="X7R0M59LQ6" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="a1a035e4-9754-5852-52e1-cf6e74160f12" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <subjectOf>
+                <document>
+                  <bibliographicDesignationText>Escherichia coli (Migula, 1895) Castellani and Chalmers, 1919</bibliographicDesignationText>
+                </document>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code code="" codeSystem="" displayName="" />
+                  <value>O6</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+  <subjectOf>
+    <action>
+      <code code="general_error" codeSystem="1.2.3" />
+      <text>No Parent Record Exists</text>
+    </action>
+  </subjectOf>
+</document>

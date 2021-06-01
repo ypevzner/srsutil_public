@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="7e7a9db9-6aac-43ec-9d8c-9369604b6e05" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20180829" />
+  <setId root="2f3778b4-3f46-47f2-90dc-3cddfad09014" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="5cf1f677-3f7c-41e2-ad75-633abf0f5f1d" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20180829" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="RIQ7AYN7DL" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="RIQ7AYN7DL" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="0cb8b685-c8e1-b720-11ee-db099476636f" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code code="C118424" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PROTEIN SUBUNIT" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU1" root="7e7a9db9-6aac-43ec-9d8c-9369604b6e05" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-aa-seq">GTRAARVPRTVLPFEAMPRRPGNRWLRLLQIWREQGYEDLHLEVHQTFQELGPIFRYDLGGAGMVCVMLPEDVEKLQQVDSLHPHRMSLEPWVAYRQHRGHKCGVFLLNGPEWRFNRLRLNPEVLSPNAVQRFLPMVDAVARDFSQALKKKVLQNARGSLTLDVQPSIFHYTIEASNLALFGERLGLVGHSPSSASLNFLHALEVMFKSTVQLMFMPRSLSRWTSPKVWKEHFEAWDCIFQYGDNCIQKIYQELAFSRPQQYTSIVAELLLNAELSPDAIKANSMELTAGSVDTTVFPLLMTLFELARNPNVQQALRQESLAAAASISEHPQKATTELPLLRAALKETLRLYPVGLFLERVASSDLVLQNYHIPAGTLVRVFLYSLGRNPALFPRPERYNPQRWLDIRGSGRNFYHVPFGFGMRQCLGRRLAEAEMLLLLHHVLKHLQVETLTQEDIKMVYSFILRPSMFPLLTFRAIN</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

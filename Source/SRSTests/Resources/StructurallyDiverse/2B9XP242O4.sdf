@@ -1,0 +1,137 @@
+>  <GSRS_JSON>
+{"uuid":"04fdf6b0-9eae-42c8-8340-d9ab855c0711","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"2","approvedBy":"FDA_SRS","names":[{"uuid":"0117f250-13ba-47ab-baaf-a6d5bac69697","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"name":"ROUND-LEAF MINTBUSH WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["be67a581-5480-42cd-a56d-db795c2115d1"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(0117f250-13ba-47ab-baaf-a6d5bac69697)?view=full"},{"uuid":"8d78c423-5279-4e4d-958e-6966b21e037f","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"name":"PROSTANTHERA ROTUNDIFOLIA WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["be67a581-5480-42cd-a56d-db795c2115d1"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(8d78c423-5279-4e4d-958e-6966b21e037f)?view=full"},{"uuid":"ab742e30-8198-4480-988b-d8d4f73f4c36","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"name":"PROSTANTHERA ROTUNDIFOLIA R. BR.","type":"sys","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["be67a581-5480-42cd-a56d-db795c2115d1"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(ab742e30-8198-4480-988b-d8d4f73f4c36)?view=full"}],"codes":[{"uuid":"1f01ac1b-d5d3-4bc2-ac1c-5e873fe897b1","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"WIKIPEDIA","code":"PROSTANTHERA ROTUNDIFOLIA","type":"PRIMARY","url":"https://en.wikipedia.org/wiki/Prostanthera_rotundifolia","references":["8c1b900f-3264-4d0f-9284-17123fea5308"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(1f01ac1b-d5d3-4bc2-ac1c-5e873fe897b1)?view=full"},{"uuid":"5579179c-b3c8-4bb8-9db3-9a0ffb0f1a82","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"28512","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28512","references":["8c1b900f-3264-4d0f-9284-17123fea5308"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(5579179c-b3c8-4bb8-9db3-9a0ffb0f1a82)?view=full"},{"uuid":"89e8da0c-a7ae-4219-ba90-32eeacdc72e0","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"GRIN","code":"29783","type":"PRIMARY","url":"https://npgsweb.ars-grin.gov/gringlobal/taxonomydetail.aspx?id=29783","references":["8c1b900f-3264-4d0f-9284-17123fea5308"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(89e8da0c-a7ae-4219-ba90-32eeacdc72e0)?view=full"}],"modifications":{"uuid":"4ff89679-40b3-4a31-94b8-872c2d306e20","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[],"references":[{"uuid":"5da91ba0-d9a2-4720-90c4-90e3ab5347db","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520359219000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(5da91ba0-d9a2-4720-90c4-90e3ab5347db)?view=full"},{"uuid":"8c1b900f-3264-4d0f-9284-17123fea5308","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391301000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(8c1b900f-3264-4d0f-9284-17123fea5308)?view=full"},{"uuid":"b30ce259-c2a4-4960-8d29-d6b426141ada","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [2B9XP242O4]","docType":"SRS","documentDate":1493391301000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=2B9XP242O4","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b30ce259-c2a4-4960-8d29-d6b426141ada)?view=full"},{"uuid":"be67a581-5480-42cd-a56d-db795c2115d1","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"citation":"GRIN","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(be67a581-5480-42cd-a56d-db795c2115d1)?view=full"}],"approvalID":"2B9XP242O4","tags":[],"structurallyDiverse":{"uuid":"cdfe1a48-4da4-4eab-982d-fd838243779d","created":1520359219000,"createdBy":"admin","lastEdited":1520359219000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"PLANT","organismFamily":"LAMIACEAE","organismGenus":"PROSTANTHERA","organismSpecies":"ROTUNDIFOLIA","organismAuthor":"R. BR.","part":["WHOLE"],"references":["be67a581-5480-42cd-a56d-db795c2115d1","b30ce259-c2a4-4960-8d29-d6b426141ada"],"access":[]},"_approvalIDDisplay":"2B9XP242O4","_name":"PROSTANTHERA ROTUNDIFOLIA WHOLE","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(04fdf6b0-9eae-42c8-8340-d9ab855c0711)?view=full"}
+
+
+>  <SUBSTANCE_ID>
+86297
+
+>  <UNII>
+2B9XP242O4
+
+>  <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+<SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+<SOURCE_MATERIAL_TYPE>PLANT</SOURCE_MATERIAL_TYPE>
+<SOURCE_MATERIAL_STATE/>
+<PARENT_SUBSTANCE_ID/>
+<PARENT_SUBSTANCE_NAME/>
+<DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+<PART>WHOLE</PART>
+<PART_LOCATION/>
+</PART_GROUP>
+<FRACTION>
+<MATERIAL_TYPE/>
+<FRACTION/>
+</FRACTION>
+<ORGANISM>
+<KINGDOM>PLANTAE</KINGDOM>
+<PHYLUM>MAGNOLIOPHYTA</PHYLUM>
+<CLASS>MAGNOLIOPSIDA</CLASS>
+<ORDER>LAMIALES</ORDER>
+<FAMILY>LAMIACEAE</FAMILY>
+<GENUS>PROSTANTHERA</GENUS>
+<SPECIES>ROTUNDIFOLIA</SPECIES>
+<HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+<HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+<HYBRID_TYPE/>
+<INFRASPECIFIC_TYPE/>
+<INFRASPECIFIC_DESCRIPTION/>
+</ORGANISM>
+</SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+<MODIFICATION_TYPE/>
+<RESIDUE_MODIFIED/>
+<RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+<ROLE/>
+<NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+<PARAMETER/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PARAMETER_GROUP>
+</PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+<ROLE/>
+<MOIETY_ID/>
+<MOIETY_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOIETY>
+<MOLECULAR_FRAGMENT>
+<ROLE/>
+<MOLECULAR_FRAGMENT_ID/>
+<MOLECULAR_FRAGMENT_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOLECULAR_FRAGMENT>
+</STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+<AGENT_MODIFICATION_TYPE/>
+<ROLE/>
+<MODIFICATION_AGENT_ID/>
+<MODIFICATION_AGENT/>
+<MODIFICATION_PROCESS/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</AGENT_MODIFICATION>
+</MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+<PROPERTY_TYPE/>
+<PROPERTY_NAME/>
+<SUBSTANCE_ID/>
+<SUBSTANCE_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PROPERTY_GROUP>
+<COMMENT/>
+</STRUCTURALLY_DIVERSE>
+
+>  <DESC_PART2>
+
+>  <DESC_PART3>
+
+>  <REF_INFO_PART1>
+<TAXON_AUTHOR>R. BR.</TAXON_AUTHOR>
+
+>  <COMMENTS>
+
+>  <CDBREGNO>
+
+>  <STRUCTURE_ID>
+
+$$$$

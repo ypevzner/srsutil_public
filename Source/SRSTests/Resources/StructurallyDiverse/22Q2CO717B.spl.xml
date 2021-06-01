@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="bead5ed2-f72d-45f7-a146-62ad261b022e" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20151026" />
+  <setId root="5ac71a9e-6af2-4152-973d-79e81947cade" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="1b623249-d671-4101-9bcd-d199cd1defee" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20151026" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="22Q2CO717B" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="22Q2CO717B" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="d04c7153-21bb-fa11-5615-64942e1b0108" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <subjectOf>
+                <document>
+                  <bibliographicDesignationText></bibliographicDesignationText>
+                </document>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code code="C987654" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="strain" />
+                  <value xsi:type="ST">A/CALIFORNIA/7/2009 (H1N1)</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+  <subjectOf>
+    <action>
+      <code code="sd_modification_not_supported_yet" codeSystem="1.2.3" />
+      <text><![CDATA[<AGENT_MODIFICATION>
+  <AGENT_MODIFICATION_TYPE>BIOLOGICAL</AGENT_MODIFICATION_TYPE>
+  <ROLE>ATTENUATION</ROLE>
+  <MODIFICATION_AGENT_ID />
+  <MODIFICATION_AGENT />
+  <MODIFICATION_PROCESS>COLD ADAPTATION</MODIFICATION_PROCESS>
+  <AMOUNT_TYPE />
+  <AMOUNT>
+    <AVERAGE />
+    <LOW_LIMIT />
+    <HIGH_LIMIT />
+    <UNIT />
+    <NON_NUMERIC_VALUE />
+  </AMOUNT>
+</AGENT_MODIFICATION>]]></text>
+    </action>
+  </subjectOf>
+</document>

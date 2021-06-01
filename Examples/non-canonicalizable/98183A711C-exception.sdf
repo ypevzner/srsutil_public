@@ -1,0 +1,69 @@
+
+  -INDIGO-06251712282D
+
+ 19 18  0  0  0  0  0  0  0  0999 V2000
+    6.4560   -6.1614    0.0000 Sn  0  0  0  0  0  0  0  0  0  0  0  0
+    6.4560   -5.3342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1702   -4.9230    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8842   -5.3342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6030   -4.9230    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.3217   -5.3342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.0359   -4.9230    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1702   -6.5773    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8842   -6.1614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6030   -6.5773    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.3217   -6.1614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.0359   -6.5773    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7500   -6.1614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7373   -6.5773    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0185   -6.1614    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0185   -5.3342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3044   -4.9230    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3044   -4.0958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5903   -3.6799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  1  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 12 13  1  0  0  0  0
+  1 14  1  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 18 19  1  0  0  0  0
+M  END
+> <SUBSTANCE_ID>
+70041
+
+> <UNII>
+98183A711C
+
+> <DESC_PART1>
+
+> <DESC_PART2>
+
+> <COMMENTS>
+
+> <CDBREGNO>
+71647
+
+> <STRUCTURE_ID>
+38551
+
+> <SUBSTANCE_NAME>
+
+> <Exception>
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ChemSpider.Molecules.MoleculeExtensions.CanonicalNumbers(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 25
+   at ChemSpider.Molecules.MoleculeExtensions.ReorderCanonically(NewMolecule mol) in D:\PROJECTS\SDS\OPS\RSC.ChemToolkit\Source\ChemSpider.Molecules\MoleculeExtensions.cs:line 81
+   at UnitTestProject.CompoundsTests.<>c__DisplayClass1_0.<CanonicalNumbers_OnAllOfMixtures>b__0(SdfRecord sdf) in D:\PROJECTS\SDE\FDA\srs\Source\SRSTests\CompoundsTests.cs:line 74
+
+$$$$

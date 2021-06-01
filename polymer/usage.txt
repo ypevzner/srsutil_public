@@ -1,0 +1,52 @@
+Usage:
+
+To get help on the command line options run:
+polymer --help
+
+Most likely you will need the following options most of the time:
+polymer --do-not-canonicalize input.mol output.sdf
+
+The tool takes two mandatory arguments - input filename and output filename.
+By default the input is assumed to be MDL MOL file containing single polymer molecule.
+Optional command line arguments include:
+
+   --do-not-canonicalize
+     Do not canonicalize molecules - that is, do not perform frame shifting of the brackets.
+     This is most likely the option you will most commonly use.
+
+   --do-not-split
+     Do not split fragments - do not output SRUs, connections and endpoints as separate molecules
+     in the output SD file.
+
+   --keep-wildcard
+     Keep wildcard atoms unmodified - do not absorb any additional atoms into the wildcard atoms ("*").
+
+   --sru <filename>
+     output found SRUs to file name - output SRU fragments into a separate file.
+
+   --connection
+     Print out connection atom numbers
+
+   --xml <filename>
+     external XML file name - for MDL MOL input allows to give an external XML file.
+     Currently ignored.
+
+   --sdf
+     Input and output are SD files - if the input is an sd file containing several molecules,
+     use this option.
+
+   --,  --ignore_rest
+     Ignores the rest of the labeled arguments following this flag.
+
+   --version
+     Displays version information and exits.
+
+   -h,  --help
+     Displays usage information and exits.
+
+   <filename>
+     (required)  Input MOL file
+
+   <filename>
+     (required)  Output MOL file
+

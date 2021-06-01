@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FDA.SRS.Processing.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ncbi_names_file" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">names.dmp</Value>
+    </Setting>
+    <Setting Name="ncbi_download_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdmp.zip</Value>
+    </Setting>
+    <Setting Name="ncbi_taxonomy_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ncbi-taxonomy-authority.txt</Value>
+    </Setting>
+    <Setting Name="itis_database_file" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ITIS.sqlite</Value>
+    </Setting>
+    <Setting Name="itis_download_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.itis.gov/downloads/itisSqlite.zip</Value>
+    </Setting>
+    <Setting Name="itis_taxonomy_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">itis-taxonomy-authority.txt</Value>
+    </Setting>
+    <Setting Name="usda_species_file" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">species.dbf</Value>
+    </Setting>
+    <Setting Name="usda_download_url" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://www.ars-grin.gov/misc/tax/species.zip</Value>
+    </Setting>
+    <Setting Name="usda_taxonomy_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">usda-taxonomy-authority.txt</Value>
+    </Setting>
+    <Setting Name="ncbi_cached_file" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">taxdmp.zip</Value>
+    </Setting>
+    <Setting Name="itis_cached_file" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">itisSqlite.zip</Value>
+    </Setting>
+    <Setting Name="usda_cached_file" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">species.zip</Value>
+    </Setting>
+    <Setting Name="kew_cached_file" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">KewGardens.csv</Value>
+    </Setting>
+    <Setting Name="kew_taxonomy_filename" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">kew-taxonomy-authority.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

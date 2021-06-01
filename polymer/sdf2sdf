@@ -1,0 +1,281 @@
+#!/usr/bin/perl
+use File::Temp;
+
+if ($#ARGV != 3)
+{
+    print "Usage: ".$0." input.sdf output.sdf registry.sdf srs2mol\n";
+    exit(0);
+}
+
+$input = $ARGV[0];
+$output = $ARGV[1];
+$registry = $ARGV[2];
+$srs2mol = $ARGV[3];
+
+@parts = ("DESC_PART1","DESC_PART2","DESC_PART3");
+
+sub check_flags()
+{
+    for my $f (@parts)
+    {
+	if ($flag_part{$f})
+	{
+	    return 1;
+	}
+    }
+    return undef;
+}
+
+
+open(IN,$input);
+open(OUT,">".$output);
+while ($line=<IN>)
+{   
+    $text .= $line;
+    chomp($line);
+    $line =~ s/\r//g;
+    if ($line eq '$$$$')
+    {
+	my $mol;
+	my $true_errors;
+
+	{
+	    my $srs;
+	    for my $f (@parts)
+	    {
+		chomp($part{$f});
+		$srs .= $part{$f};
+	    }
+
+	    if ($srs)
+	    {
+		my ($fh1,$filename1) =  File::Temp::tempfile();
+		print $fh1 $srs;
+		close $fh1;
+		my ($fh2, $filename2) =  File::Temp::tempfile();
+		close $fh2;
+		my $error;
+		if ($top_moltab)
+		{
+		    my ($fh3,$filename3) =  File::Temp::tempfile();
+		    print $fh3 $top_moltab;
+		    close $fh3;
+		    #print "$srs2mol $filename1 $filename2 --external $filename3 --registry $registry\n";
+		    $error = `$srs2mol $filename1 $filename2 --external $filename3 --registry $registry 2>&1`;
+		}
+		else
+		{
+                    #print "$srs2mol $filename1 $filename2 --registry $registry\n";
+		    $error = `$srs2mol $filename1 $filename2 --registry $registry 2>&1`;
+		}
+		if (!$error)
+		{
+		    open(MOL,$filename2);
+		    local $/;
+		    $mol = <MOL>;
+		    close(MOL);
+		    if ($mol)
+		    {
+			$mol =~ s/\$\$\$\$//;
+			chop($mol);
+			if ($mol =~ /\$\$\$\$/)
+			{
+			    undef $mol;
+			    print $subst." | ".$id." | Disconnected subunits|copied\n";
+			}
+			else
+			{
+			    print $subst." | ".$id." | Success|converted\n";
+			}
+		    }
+		}
+		else
+		{
+		    chomp($error);
+		    print $subst." | ".$id." | ".$error."|copied\n";
+		    if (!($error eq "Glycosylation found, stopping processing" || $error eq "Cannot find protein part of XML input"
+			  || $error =~ /Maximum number of atoms for mol block exceeded/ || $error =~ /Maximum number of bonds for mol block exceeded/
+			  || $error eq "Maximum number of atoms or bonds for mol block exceeded in combining disulphide bonds"
+			  || $error =~ /Amount not empty at structural modification group/
+			  || $error =~ /Physical modification group not empty/
+			  || $error =~ /Agent modification group not empty/
+			))
+		    {
+			$true_errors = 1;
+		    }
+		}
+		
+	    }
+	}
+
+	if ($mol || $top_moltab)
+	{	  
+	    if ($mol)
+	    {
+		print OUT $mol; 
+	    }
+	    elsif ($top_moltab)
+	    {
+		print OUT $top_moltab;
+		for my $f (@parts)
+		{
+		    if ($part{$f})
+		    {
+			print OUT ">  <".$f.">\n";
+			print OUT $part{$f};
+			print OUT "\n";
+		    }
+		}
+	    }
+	    print OUT $text_without_desc;
+	    print OUT '$$$$'."\n";
+	}
+	else
+	{
+	    if ($true_errors)
+	    {
+		print OUT ">  <SRS2MOL_COMMENTS>\n";
+		print OUT "PROTEIN CONVERSION FAILED\n\n";
+	    }
+	    print OUT $text;
+	}
+	undef $top_moltab;
+	undef $text;
+	undef $text_without_desc;
+	for my $f (@parts)
+	{
+	    undef $part{$f};
+	    undef $flag_part{$f};
+	}
+	undef $mol;
+	undef $id;
+	undef $flag_id;
+	undef $subst;
+	undef $flag_subst;
+	next;
+    }
+
+    
+    my $flags = undef;
+    if ($line =~ /^>\s+<.+>/)
+    {
+	my $found = undef;
+	for my $f (@parts)
+	{
+	    if ($line eq ">  <".$f.">")
+	    {
+		$found = 1;
+	    }
+	}
+	if (!$found)
+	{
+	    for my $d (@parts)
+	    {
+		undef $flag_part{$d};
+	    }
+	}
+    }
+
+   
+    for my $f (@parts)
+    {
+	if ($line eq ">  <".$f.">")
+	{
+	    for my $d (@parts)
+	    {
+		if ($flag_part{$d})
+		{
+		    if ($embedded_molfile)
+		    {		    
+			chomp($part{$d});
+			chomp($part{$d});
+			$part{$d} .= " \n";
+		    }
+		    undef $flag_part{$d};
+		}
+	    }
+	    $flag_part{$f} = 1;
+	    $flags = 1;	
+	}
+    }
+    if ($flags)
+    {
+	next;
+    }
+    
+    if ($line =~ /<MOLFILE>.*<\/MOLFILE>/)
+    {
+	undef $embedded_molfile;
+    }
+    elsif  ($line =~ /<\/MOLFILE>.*<MOLFILE>/)
+    {
+	$embedded_molfile = 1;
+    }
+    elsif ($line =~ /<MOLFILE>/)
+    {
+	$embedded_molfile = 1;
+    }
+    elsif ($line =~ /<\/MOLFILE>/)
+    {
+	undef $embedded_molfile;
+    }
+
+    if (!$embedded_molfile)
+    {
+	if ($line eq "M  END")
+	{
+	    $top_moltab = $text_without_desc; 
+	    $top_moltab .= $line."\n";
+	    undef $text_without_desc;
+	    next;
+	}
+	if (!check_flags())
+	{
+	    $text_without_desc .= $line."\n";
+	}
+	if (!$line || $line =~ /^\s*$/)
+	{	  
+	    next;
+	}
+    }
+
+    $flags = undef;
+    for my $f (@parts)
+    {
+	if ($flag_part{$f})
+	{
+	    $part{$f} .= $line."\n";
+	    $flags = 1;
+	}
+    }
+    if ($flags)
+    {
+	next;
+    }
+
+    if (!check_flags() && $line eq ">  <UNII>")
+    {
+	$flag_id = 1;
+	next;
+    }
+    if ($flag_id)
+    {
+	$id = $line;
+	undef $flag_id;
+    }
+    if (!check_flags() && $line eq ">  <SUBSTANCE_ID>")
+    {
+	$flag_subst = 1;
+	next;
+    }
+    if ($flag_subst)
+    {
+	$subst = $line;
+	undef $flag_subst;
+    }
+   
+}
+close(IN);
+
+
+

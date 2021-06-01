@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PROTEIN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SEQUENCE_TYPE" type="xs:string" />
+        <xs:element name="NUMBER_OF_SUBUNITS" />
+        <xs:element maxOccurs="unbounded" name="SUBUNIT_GROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUBUNIT" type="xs:unsignedByte" />
+              <xs:element name="LENGTH" type="xs:unsignedShort" />
+              <xs:element name="SEQUENCE" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DISULFIDE_LINKAGE" />
+        <xs:element name="OTHER_LINKAGE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SITE" />
+              <xs:element name="LINKAGE_TYPE" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GLYCOSYLATION">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GLYCOSYLATION_TYPE" />
+              <xs:element name="N_GLYCOSYLATION" />
+              <xs:element name="O_GLYCOSYLATION" />
+              <xs:element name="C_GLYCOSYLATION" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MODIFICATION_GROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STRUCTURAL_MODIFICATION_GROUP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RESIDUE_MODIFIED" type="xs:string" />
+                    <xs:element name="RESIDUE_SITE" />
+                    <xs:element name="NUMBER_OF_FRAGMENTS_MOIETIES" />
+                    <xs:element name="AMOUNT_TYPE" />
+                    <xs:element name="MOLECULAR_FRAGMENT_MOIETY">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="STRUCTURAL_MODIFICATION_TYPE" />
+                          <xs:element name="ROLE" type="xs:string" />
+                          <xs:element name="FRAGMENT_NUMBER" />
+                          <xs:element name="MOLECULAR_FRAGMENT_NAME" />
+                          <xs:element name="MOLECULAR_FRAGMENT_ID" />
+                          <xs:element name="MOLECULAR_FRAGMENT_INCHI" />
+                          <xs:element name="MOLFILE" type="xs:string" />
+                          <xs:element name="FRAGMENT_CONNECTIVTY" />
+                          <xs:element name="AMOUNT">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="AVERAGE" type="xs:unsignedByte" />
+                                <xs:element name="LOW_LIMIT" />
+                                <xs:element name="HIGH_LIMIT" />
+                                <xs:element name="UNIT" />
+                                <xs:element name="NON_NUMERIC_VALUE" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PROPERTY_GROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PROPERTY_TYPE" />
+              <xs:element name="PROPERTY" />
+              <xs:element name="PROPERTY_DESCRIPTION">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SUBSTANCE_NAME" />
+                    <xs:element maxOccurs="unbounded" name="SUBSTANCE_ID" />
+                    <xs:element name="AMOUNT_TYPE" />
+                    <xs:element name="AMOUNT">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="AVERAGE" />
+                          <xs:element name="LOW_LIMIT" />
+                          <xs:element name="HIGH_LIMIT" />
+                          <xs:element name="UNIT" />
+                          <xs:element name="NON_NUMERIC_VALUE" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MOLECULAR_WEIGHT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MOLECULAR_WEIGHT_TYPE" />
+              <xs:element name="MOLECULAR_WEIGHT_METHOD" />
+              <xs:element name="AMOUNT">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="AVERAGE" />
+                    <xs:element name="LOW_LIMIT" />
+                    <xs:element name="HIGH_LIMIT" />
+                    <xs:element name="UNIT" />
+                    <xs:element name="NON_NUMERIC_VALUE" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="COMMENTS" />
+        <xs:element name="PUBLIC_DOMAIN" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

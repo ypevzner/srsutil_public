@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../FDA.SRS.Utils/FDA.SRS.Utils.csproj",
+      "bin": {
+        "assembly": "../../FDA.SRS.Utils/obj/{configuration}/FDA.SRS.Utils.dll",
+        "pdb": "../../FDA.SRS.Utils/obj/{configuration}/FDA.SRS.Utils.pdb"
+      },
+      "dependencies": {
+        "Antlr": "3.5.0.2",
+        "ChemSpider.Database.Objects": "1.0.11",
+        "ChemSpider.Databases": "1.0.4",
+        "ChemSpider.Formats": "1.1.8",
+        "ChemSpider.Molecules": "1.1.4",
+        "ChemSpider.Toolkit": "1.1.2",
+        "ChemSpider.Utilities": "1.0.13",
+        "ChemSpider.Utilities.Web": "1.0.3",
+        "HtmlAgilityPack": "1.4.9",
+        "ICSharpCode.SharpZipLib.dll": "0.85.4.369",
+        "Indigo.Toolkit": "1.2.1",
+        "Microsoft.AspNet.Web.Optimization": "1.1.3",
+        "Microsoft.Web.Infrastructure": "1.0.0.0",
+        "Newtonsoft.Json": "8.0.3",
+        "WebGrease": "1.6.0",
+        "XMLDiffPatch": "1.0.8.28",
+        "FDA.SRS": "1.0.0-*"
+      }
+    }
+  }
+}

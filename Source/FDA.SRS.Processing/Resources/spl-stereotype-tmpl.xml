@@ -1,0 +1,6 @@
+﻿<subjectOf>
+  <characteristic>
+    <code code="C18188" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Stereochemistry Type" />
+    <value xsi:type="CV" code="{STEREOCODE}" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="{STEREOTYPE}" />
+  </characteristic>
+</subjectOf>

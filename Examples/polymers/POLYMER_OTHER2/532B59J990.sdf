@@ -1,0 +1,124 @@
+
+  Symyx   06031522332D 1   1.00000     0.00000     0
+
+ 13 11  0     0  0            999 V2000
+    4.7166   -0.5583    0.0000 *   0  0  0  0  0  0           0  0  0
+    5.6458   -0.1417    0.0000 C   0  0  3  0  0  0           0  0  0
+    6.3583   -0.5542    0.0000 C   0  0  0  0  0  0           0  0  0
+    7.5333   -0.1375    0.0000 *   0  0  0  0  0  0           0  0  0
+    5.6416    0.6833    0.0000 O   0  0  0  0  0  0           0  0  0
+   -2.2209   -0.3416    0.0000 *   0  0  0  0  0  0           0  0  0
+   -1.2917    0.0750    0.0000 C   0  0  3  0  0  0           0  0  0
+   -0.5792   -0.3375    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.5958    0.0792    0.0000 *   0  0  0  0  0  0           0  0  0
+   -1.2959    0.9000    0.0000 O   0  0  0  0  0  0           0  0  0
+   -0.7167    1.4875    0.0000 C   0  0  0  0  0  0           0  0  0
+    0.1083    1.4875    0.0000 O   0  0  0  0  0  0           0  0  0
+   -1.1333    2.2042    0.0000 C   0  0  0  0  0  0           0  0  0
+  2  3  1  0     0  0
+  3  4  1  0     0  0
+  1  2  1  0     0  0
+  7  8  1  0     0  0
+  8  9  1  0     0  0
+  6  7  1  0     0  0
+  7 10  1  0     0  0
+  2  5  1  0     0  0
+ 10 11  1  0     0  0
+ 11 12  2  0     0  0
+ 11 13  1  0     0  0
+M  STY  2   1 SRU   2 SRU
+M  SLB  2   1   1   2   2
+M  SCN  2   1 HT    2 HT
+M  SAL   1  3   2   3   5
+M  SBL   1  2   2   3
+M  SMT   1 B
+M  SDI   1  4    5.2500   -0.7500    5.2500    0.0700
+M  SDI   1  4    6.8200    0.0800    6.8200   -0.7500
+M  SAL   2  6   7   8  10  11  12  13
+M  SBL   2  2   5   6
+M  SMT   2 A
+M  SDI   2  4   -1.6800   -0.5400   -1.6800    0.2900
+M  SDI   2  4   -0.1200    0.2900   -0.1200   -0.5300
+M  END
+> <SUBSTANCE_ID>
+11934
+
+> <UNII>
+532B59J990
+
+> <DESC_PART1>
+<POLYMER>
+ <POLYMER_TYPE>COPOLYMER RANDOM</POLYMER_TYPE>
+ <NUMBER_OF_SRU>2</NUMBER_OF_SRU>
+ <SRU_AMOUNT_TYPE>MOLE PERCENT</SRU_AMOUNT_TYPE>
+<SRU_GROUP>
+ <SRU_ID>A</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION>UNKNOWN</ORIENTATION_OF_POLYMERIZATION>
+<SRU_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT>11</LOW_LIMIT>
+ <HIGH_LIMIT>13.5</HIGH_LIMIT>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS/>
+ <SUBSTITUTION_AMOUNT_TYPE/>
+<R_GROUP>
+ <R_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </R_GROUP>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<SRU_GROUP>
+ <SRU_ID>B</SRU_ID>
+ <ORIENTATION_OF_POLYMERIZATION>UNKNOWN</ORIENTATION_OF_POLYMERIZATION>
+<SRU_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT>86.5</LOW_LIMIT>
+ <HIGH_LIMIT>89</HIGH_LIMIT>
+ </SRU_AMOUNT>
+ <NUMBER_OF_RGROUPS/>
+ <SUBSTITUTION_AMOUNT_TYPE/>
+<R_GROUP>
+ <R_ID/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </R_GROUP>
+<DEGREE_POLYMERIZATION>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </DEGREE_POLYMERIZATION>
+ </SRU_GROUP>
+<MW_GROUP>
+ <TYPE_MW/>
+ <MW_AVERAGE/>
+ <LOW_LIMIT_MW>26300</LOW_LIMIT_MW>
+ <HIGH_LIMIT_MW>30000</HIGH_LIMIT_MW>
+ </MW_GROUP>
+<PHYSICAL_PROPERTIES_GROUP>
+ <PHYSICAL_PROPERTY_TYPE/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS/>
+ </PHYSICAL_PROPERTIES_GROUP>
+ <COMMENTS/>
+ </POLYMER>
+
+> <COMMENTS>
+FDA_ID: F011955 
+inactive ingredient
+
+> <CDBREGNO>
+52532
+
+> <STRUCTURE_ID>
+21605
+
+$$$$

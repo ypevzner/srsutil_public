@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="5d6dcedd-0f4e-4c68-ad5a-74944904b36c" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20201008" />
+  <setId root="b5524269-73d1-468a-b463-dbc7a2b0adb2" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="771ef495-614b-4f36-a7e7-37b5e794caf9" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20201008" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="9871T0PD5P" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="9871T0PD5P" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="e3a0abb5-13d2-bae9-ec6f-6bc471675c92" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+              </identifiedSubstance>
+              <productOf>
+                <derivationProcess>
+                  <code code="C25572" displayName="Modification" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                  <interactor typeCode="CSM">
+                    <identifiedSubstance>
+                      <id extension="04W636S1V3" root="2.16.840.1.113883.4.9" />
+                      <identifiedSubstance>
+                        <code code="04W636S1V3" codeSystem="2.16.840.1.113883.4.9" />
+                        <name>MALUS PUMILA WHOLE</name>
+                      </identifiedSubstance>
+                    </identifiedSubstance>
+                  </interactor>
+                  <component>
+                    <sequenceNumber value="1" />
+                    <derivationProcess>
+                      <code code="C0321" displayName="acquire fruit" codeSystem="1.2.3.99.999.1" />
+                    </derivationProcess>
+                  </component>
+                  <component>
+                    <sequenceNumber value="2" />
+                    <derivationProcess>
+                      <code code="C4056" displayName="acquire juice" codeSystem="1.2.3.99.999.1" />
+                    </derivationProcess>
+                  </component>
+                </derivationProcess>
+              </productOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

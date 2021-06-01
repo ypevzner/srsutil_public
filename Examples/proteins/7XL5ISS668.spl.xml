@@ -1,0 +1,793 @@
+﻿<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+  <id root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20110831" />
+  <setId root="b2315501-dc0c-56d0-e044-001185133a64" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id root="1.3.6.1.4.1.519.1" extension="927645523" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="be6341f5-9f15-4711-957c-8e0600d0f7fa" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <title />
+          <text />
+          <effectiveTime value="20110831" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="7XL5ISS668" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="7XL5ISS668" codeSystem="2.16.840.1.113883.4.9" />
+                <name>BRENTUXIMAB VEDOTIN</name>
+                <asNamedEntity>
+                  <code code="SY" codeSystem="2.16.840.1.113883.4.9.1" />
+                  <name>CAC10-VCMMAE(4)</name>
+                  <statusCode code="active" />
+                  <subjectOf>
+                    <document>
+                      <id root="2.16.840.1.113883.4.9.2" extension="21-58867" />
+                      <title>IND</title>
+                      <bibliographicDesignationText>IND; IND 71634; ind</bibliographicDesignationText>
+                    </document>
+                  </subjectOf>
+                </asNamedEntity>
+                <asEquivalentSubstance>
+                  <code code="C64637" displayName="same" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                  <definingSubstance>
+                    <code code="20978" codeSystem="1.9.9.99.9999.1" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <asEquivalentSubstance>
+                  <code code="C66664" displayName="mapping" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                  <definingSubstance>
+                    <code code="914088098" codeSystem="1.3.6.1.4.1.5193" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <!-- subunits start -->
+                <moiety>
+                  <code code="C118424" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PROTEIN SUBUNIT" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="HCh" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                    <name>IgG Heavy Chain</name>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118424" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PROTEIN SUBUNIT" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="HCh" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                    <name>IgG Heavy Chain</name>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118424" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PROTEIN SUBUNIT" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="LCh" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                    <name>IgG Light Chain</name>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118424" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PROTEIN SUBUNIT" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="LCh" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                    <name>IgG Light Chain</name>
+                  </partMoiety>
+                </moiety>
+                <!-- subunits end -->
+                <!-- glycolisation start -->
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="G1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="C118428" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                    <name>HUMAN TYPE GLYCAN</name>
+                    <bond>
+                      <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                      <positionNumber value="18" />
+                      <distalMoiety>
+                        <id extension="SU3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="G2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="C118428" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                    <name>HUMAN TYPE GLYCAN</name>
+                    <bond>
+                      <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                      <positionNumber value="18" />
+                      <distalMoiety>
+                        <id extension="SU4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <!-- glycolisation end -->
+                <!-- modifications start -->
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="M1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="SZB83O1W42" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>pyroglutamic acid</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="1" />
+                      <distalMoiety>
+                        <id extension="SU3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="M2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="SZB83O1W42" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>pyroglutamic acid</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="1" />
+                      <distalMoiety>
+                        <id extension="SU4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <!-- another modification -->
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="F1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="MMAE-Cys" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>monomethyl auristatin E with spacer, linker, attached to cysteine</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="226" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="F2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="MMAE-Cys" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>monomethyl auristatin E with spacer, linker, attached to cysteine</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="229" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="F3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="MMAE-Cys" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>monomethyl auristatin E with spacer, linker, attached to cysteine</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="226" />
+                      <distalMoiety>
+                        <id extension="SU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="F4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="MMAE-Cys" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>monomethyl auristatin E with spacer, linker, attached to cysteine</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="229" />
+                      <distalMoiety>
+                        <id extension="SU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="F5" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="MMAE-Cys" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>monomethyl auristatin E with spacer, linker, attached to cysteine</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="218" />
+                      <distalMoiety>
+                        <id extension="SU3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="F6" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="MMAE-Cys" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>monomethyl auristatin E with spacer, linker, attached to cysteine</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="218" />
+                      <distalMoiety>
+                        <id extension="SU4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <!-- modifications end -->                
+                <!-- disulfide bridges start -->
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="BR1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="CSSC" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>cysteine disulfide</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="220" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="220" />
+                      <distalMoiety>
+                        <id extension="SU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="BR2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="CSSC" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>cysteine disulfide</name>
+                    <bond>
+                      <code code="" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="22" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="93" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="BR3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="CSSC" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>cysteine disulfide</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="22" />
+                      <distalMoiety>
+                        <id extension="SU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="93" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="BR4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="CSSC" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>cysteine disulfide</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="123" />
+                      <distalMoiety>
+                        <id extension="SU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="56" />
+                      <distalMoiety>
+                        <id extension="SU3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                  <partMoiety>
+                    <id extension="BR5" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                    <code code="CSSC" codeSystem="2.16.840.1.113883.4.9" />
+                    <name>cysteine disulfide</name>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="123" />
+                      <distalMoiety>
+                        <id extension="SU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                    <bond>
+                      <code code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT" />
+                      <positionNumber value="56" />
+                      <distalMoiety>
+                        <id extension="SU2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <!-- disulfide bridges end -->
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code code="9997-6" displayName="molecular mass, computed from formula" codeSystem="2.16.840.1.113883.6.1">
+                    <originalText>FORMULA</originalText>
+                  </code>
+                  <value xsi:type="PQ" value="145200" />
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="HCh" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <identifiedSubstance>
+                <code code="HCh" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <name>IgG Heavy Chain</name>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code code="C13187" displayName="AMINO ACID SEQUENCE" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                  <value xsi:type="ED" mediaType="application/x-aa-seq">QIQLQQSGPEVVKPGASVKISCKASGYTFTDYYITWVKQKPGQGLEWIGWIYPGSGNTKYNEKFKGKATLTVDTSSSTAFMQLSSLTSEDTAVYFCANYGNYWFAYWGQGTQVTVSAASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCPPCPAPELLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSHEDPEVKFNWYVDGVEVHNAKTKPREEQYNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKALPAPIEKTISKAKGQPREPQVYTLPPSRDELTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSKLTVDKSRWQQGNVFSCSVMHEALHNHYTQKSLSLSPG</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="LCh" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <identifiedSubstance>
+                <code code="LCh" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <name>IgG Light Chain</name>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code code="C13187" displayName="AMINO ACID SEQUENCE" codeSystem="2.16.840.1.113883.3.26.1.1" />
+                  <value xsi:type="ED" mediaType="application/x-aa-seq">DIVLTQSPASLAVSLGQRATISCKASQSVDFDGDSYMNWYQQKPGQPPKVLIYAASNLESGIPARFSGSGSGTDFTLNIHPVEEEDAATYYCQQSNEDPWTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="SZB83O1W42" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <identifiedSubstance>
+                <code code="SZB83O1W42" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <name>pyroglutamic acid</name>
+                <moiety>
+                  <code code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS" />
+                  <positionNumber value="6" />
+                  <positionNumber value="5" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+   JSDraw211101301202D
+
+  9  9  0  0  0  0  0  0  0  0  1 V2000
+   23.3282   -7.6197    0.0000 N   0  0  3  0  0  0
+   22.0756   -8.5334    0.0000 C   0  0  0  0  0  0
+   20.5951   -8.0816    0.0000 O   0  0  0  0  0  0
+   22.5534   -9.9960    0.0000 C   0  0  0  0  0  0
+   24.1289   -9.9960    0.0000 C   0  0  0  0  0  0
+   24.5898   -8.4984    0.0000 C   0  0  1  0  0  0
+   26.0783   -7.9946    0.0000 C   0  0  0  0  0  0
+   27.2449   -9.0303    0.0000 O   0  0  0  0  0  0
+   26.8580   -6.6440    0.0000 O   0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  2  2  0  0  0  0
+  4  2  1  0  0  0  0
+  5  4  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  1  1  0  0  0  0
+  6  7  1  6  0  0  0
+  8  7  2  0  0  0  0
+  7  9  1  0  0  0  0
+M  END
+]]></value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C5H7NO3/c7-4-2-1-3(6-4)5(8)9/h3H,1-2H2,(H,6,7)(H,8,9)/t3-/m0/s1</value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi-key">ODHCTXKNWHHXJC-VKHMYHEASA-N</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="MMAE-Cys" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <identifiedSubstance>
+                <code code="MMAE-Cys" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <name>monomethyl auristatin E with spacer, linker, attached to cysteine</name>
+                <moiety>
+                  <code code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS" />
+                  <positionNumber value="72" />
+                  <positionNumber value="69" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+   JSDraw211101301122D
+
+104107  0  0  0  0  0  0  0  0  1 V2000
+   15.7472  -16.3937    0.0000 C   0  0  0  0  0  0
+   16.3572  -14.9578    0.0000 C   0  0  0  0  0  0
+   15.5542  -13.6198    0.0000 O   0  0  0  0  0  0
+   17.9121  -15.0938    0.0000 N   0  0  0  0  0  0
+   18.9361  -13.9168    0.0000 C   0  0  0  0  0  0
+   20.4671  -14.2138    0.0000 C   0  0  0  0  0  0
+   21.4921  -13.0368    0.0000 C   0  0  0  0  0  0
+   23.0230  -13.3348    0.0000 C   0  0  0  0  0  0
+   24.0470  -12.1568    0.0000 C   0  0  0  0  0  0
+   25.5780  -12.4548    0.0000 C   0  0  0  0  0  0
+   26.0870  -13.9308    0.0000 O   0  0  0  0  0  0
+   26.6020  -11.2778    0.0000 N   0  0  0  0  0  0
+   28.1339  -11.5758    0.0000 C   0  0  1  0  0  0
+   28.6419  -13.0508    0.0000 C   0  0  0  0  0  0
+   30.1729  -13.3488    0.0000 C   0  0  0  0  0  0
+   27.6180  -14.2288    0.0000 C   0  0  0  0  0  0
+   29.1579  -10.3978    0.0000 C   0  0  0  0  0  0
+   30.6889  -10.6958    0.0000 N   0  0  0  0  0  0
+   31.7129   -9.5189    0.0000 C   0  0  2  0  0  0
+   33.2448   -9.8158    0.0000 C   0  0  0  0  0  0
+   33.7528  -11.2918    0.0000 O   0  0  0  0  0  0
+   34.2678   -8.6389    0.0000 N   0  0  0  0  0  0
+   35.8008   -8.9369    0.0000 C   0  0  0  0  0  0
+   36.8238   -7.7599    0.0000 C   0  0  0  0  0  0
+   38.3558   -8.0579    0.0000 C   0  0  0  0  0  0
+   38.8637   -9.5319    0.0000 C   0  0  0  0  0  0
+   40.3957   -9.8308    0.0000 C   0  0  0  0  0  0
+   40.9037  -11.3058    0.0000 O   0  0  0  0  0  0
+   42.4347  -11.6038    0.0000 C   0  0  0  0  0  0
+   42.9427  -13.0788    0.0000 N   0  0  0  0  0  0
+   41.9187  -14.2568    0.0000 C   0  0  0  0  0  0
+   44.4736  -13.3768    0.0000 C   0  0  1  0  0  0
+   45.4976  -12.1998    0.0000 C   0  0  0  0  0  0
+   47.0296  -12.4978    0.0000 C   0  0  0  0  0  0
+   44.9896  -10.7238    0.0000 C   0  0  0  0  0  0
+   44.9826  -14.8528    0.0000 C   0  0  0  0  0  0
+   46.5136  -15.1508    0.0000 N   0  0  0  0  0  0
+   47.0216  -16.6267    0.0000 C   0  0  2  0  0  0
+   48.5526  -16.9247    0.0000 C   0  0  0  0  0  0
+   49.0616  -18.3997    0.0000 N   0  0  0  0  0  0
+   48.0366  -19.5777    0.0000 C   0  0  0  0  0  0
+   50.5925  -18.6977    0.0000 C   0  0  0  0  0  0
+   51.6165  -17.5207    0.0000 C   0  0  1  0  0  0
+   53.1485  -17.8177    0.0000 C   0  0  0  0  0  0
+   51.1085  -16.0437    0.0000 C   0  0  0  0  0  0
+   52.1325  -14.8668    0.0000 C   0  0  0  0  0  0
+   50.0855  -17.2227    0.0000 H   0  0  0  0  0  0
+   51.1005  -20.1737    0.0000 C   0  0  0  0  0  0
+   52.6325  -20.4707    0.0000 C   0  0  0  0  0  0
+   53.1395  -21.9456    0.0000 C   0  0  0  0  0  0
+   54.6725  -22.2436    0.0000 N   0  0  0  0  0  0
+   55.8124  -21.1806    0.0000 C   0  0  1  0  0  0
+   57.1774  -21.9366    0.0000 C   0  0  0  0  0  0
+   55.6224  -19.6317    0.0000 C   0  0  1  0  0  0
+   56.8694  -18.6917    0.0000 C   0  0  1  0  0  0
+   58.3054  -19.3017    0.0000 C   0  0  0  0  0  0
+   56.6794  -17.1437    0.0000 C   0  0  0  0  0  0
+   57.9254  -16.2047    0.0000 N   0  0  0  0  0  0
+   57.7354  -14.6568    0.0000 C   0  0  0  0  0  0
+   58.9824  -13.7168    0.0000 C   0  0  1  0  0  0
+   58.7924  -12.1678    0.0000 O   0  0  0  0  0  0
+   60.4184  -14.3278    0.0000 C   0  0  0  0  0  0
+   61.6643  -13.3878    0.0000 C   0  0  0  0  0  0
+   63.1003  -13.9978    0.0000 C   0  0  0  0  0  0
+   63.2913  -15.5467    0.0000 C   0  0  0  0  0  0
+   60.6083  -15.8757    0.0000 C   0  0  0  0  0  0
+   62.0443  -16.4857    0.0000 C   0  0  0  0  0  0
+   56.2994  -14.0458    0.0000 C   0  0  0  0  0  0
+   55.2424  -16.5337    0.0000 O   0  0  0  0  0  0
+   54.1865  -19.0207    0.0000 O   0  0  0  0  0  0
+   53.9965  -17.4727    0.0000 C   0  0  0  0  0  0
+   54.3475  -20.6457    0.0000 H   0  0  0  0  0  0
+   55.3314  -23.6576    0.0000 C   0  0  0  0  0  0
+   56.8794  -23.4676    0.0000 C   0  0  0  0  0  0
+   52.1165  -23.1236    0.0000 O   0  0  0  0  0  0
+   50.0765  -21.3506    0.0000 O   0  0  0  0  0  0
+   50.5845  -22.8256    0.0000 C   0  0  0  0  0  0
+   49.5776  -15.7467    0.0000 O   0  0  0  0  0  0
+   45.9976  -17.8037    0.0000 C   0  0  0  0  0  0
+   46.5056  -19.2787    0.0000 C   0  0  0  0  0  0
+   44.4666  -17.5057    0.0000 C   0  0  0  0  0  0
+   43.9577  -16.0307    0.0000 O   0  0  0  0  0  0
+   43.4587  -10.4258    0.0000 O   0  0  0  0  0  0
+   36.3078  -10.4128    0.0000 C   0  0  0  0  0  0
+   37.8408  -10.7108    0.0000 C   0  0  0  0  0  0
+   31.2049   -8.0439    0.0000 C   0  0  0  0  0  0
+   32.2289   -6.8659    0.0000 C   0  0  0  0  0  0
+   31.7219   -5.3899    0.0000 C   0  0  0  0  0  0
+   32.7449   -4.2130    0.0000 N   0  0  0  0  0  0
+   32.2379   -2.7370    0.0000 C   0  0  0  0  0  0
+   30.7059   -2.4400    0.0000 O   0  0  0  0  0  0
+   33.2608   -1.5600    0.0000 N   0  0  0  0  0  0
+   28.6499   -8.9229    0.0000 O   0  0  0  0  0  0
+   16.9251  -17.4177    0.0000 C   0  0  0  0  0  0
+   18.2621  -16.6147    0.0000 C   0  0  0  0  0  0
+   19.6991  -17.2237    0.0000 O   0  0  0  0  0  0
+   14.2272  -16.7447    0.0000 S   0  0  0  0  0  0
+   13.7712  -18.2367    0.0000 S   0  0  0  0  0  0
+   12.2502  -18.5867    0.0000 C   0  0  0  0  0  0
+   11.7942  -20.0797    0.0000 C   0  0  2  0  0  0
+   12.8572  -21.2206    0.0000 N   0  0  0  0  0  0
+   10.2733  -20.4307    0.0000 C   0  0  0  0  0  0
+    9.8173  -21.9226    0.0000 O   0  0  0  0  0  0
+    9.2093  -19.2897    0.0000 O   0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+ 10 12  1  0  0  0  0
+ 13 12  1  6  0  0  0
+ 13 14  1  0  0  0  0
+ 14 15  1  0  0  0  0
+ 14 16  1  0  0  0  0
+ 13 17  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 19 18  1  1  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+ 20 22  1  0  0  0  0
+ 22 23  1  0  0  0  0
+ 23 24  2  0  0  0  0
+ 24 25  1  0  0  0  0
+ 25 26  2  0  0  0  0
+ 26 27  1  0  0  0  0
+ 27 28  1  0  0  0  0
+ 28 29  1  0  0  0  0
+ 29 30  1  0  0  0  0
+ 30 31  1  0  0  0  0
+ 32 30  1  1  0  0  0
+ 32 33  1  0  0  0  0
+ 33 34  1  0  0  0  0
+ 33 35  1  0  0  0  0
+ 32 36  1  0  0  0  0
+ 36 37  1  0  0  0  0
+ 38 37  1  6  0  0  0
+ 38 39  1  0  0  0  0
+ 39 40  1  0  0  0  0
+ 40 41  1  0  0  0  0
+ 40 42  1  0  0  0  0
+ 42 43  1  0  0  0  0
+ 43 44  1  6  0  0  0
+ 43 45  1  0  0  0  0
+ 45 46  1  0  0  0  0
+ 42 47  1  0  0  0  0
+ 42 48  1  0  0  0  0
+ 48 49  1  0  0  0  0
+ 49 50  1  0  0  0  0
+ 50 51  1  0  0  0  0
+ 51 52  1  0  0  0  0
+ 52 53  1  0  0  0  0
+ 52 54  1  6  0  0  0
+ 54 55  1  0  0  0  0
+ 55 56  1  6  0  0  0
+ 55 57  1  0  0  0  0
+ 57 58  1  0  0  0  0
+ 58 59  1  0  0  0  0
+ 59 60  1  0  0  0  0
+ 60 61  1  1  0  0  0
+ 60 62  1  0  0  0  0
+ 62 63  1  0  0  0  0
+ 63 64  2  0  0  0  0
+ 64 65  1  0  0  0  0
+ 62 66  2  0  0  0  0
+ 66 67  1  0  0  0  0
+ 65 67  2  0  0  0  0
+ 59 68  1  0  0  0  0
+ 57 69  2  0  0  0  0
+ 54 70  1  6  0  0  0
+ 70 71  1  0  0  0  0
+ 52 72  1  1  0  0  0
+ 51 73  1  0  0  0  0
+ 73 74  1  0  0  0  0
+ 53 74  1  0  0  0  0
+ 50 75  2  0  0  0  0
+ 48 76  1  0  0  0  0
+ 76 77  1  0  0  0  0
+ 39 78  2  0  0  0  0
+ 38 79  1  0  0  0  0
+ 79 80  1  0  0  0  0
+ 79 81  1  0  0  0  0
+ 36 82  2  0  0  0  0
+ 29 83  2  0  0  0  0
+ 23 84  1  0  0  0  0
+ 84 85  2  0  0  0  0
+ 26 85  1  0  0  0  0
+ 19 86  1  0  0  0  0
+ 86 87  1  0  0  0  0
+ 87 88  1  0  0  0  0
+ 88 89  1  0  0  0  0
+ 89 90  1  0  0  0  0
+ 90 91  2  0  0  0  0
+ 90 92  1  0  0  0  0
+ 17 93  2  0  0  0  0
+  1 94  1  0  0  0  0
+ 94 95  1  0  0  0  0
+  4 95  1  0  0  0  0
+ 95 96  2  0  0  0  0
+  1 97  1  0  0  0  0
+ 97 98  1  0  0  0  0
+ 98 99  1  0  0  0  0
+ 99100  1  0  0  0  0
+100101  1  6  0  0  0
+100102  1  0  0  0  0
+102103  2  0  0  0  0
+102104  1  0  0  0  0
+M  END
+]]></value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C71H112N12O17S2/c1-15-43(8)60(52(98-13)36-55(85)82-35-23-27-51(82)62(99-14)44(9)63(88)75-45(10)61(87)47-24-18-16-19-25-47)80(11)68(93)58(41(4)5)79-66(91)59(42(6)7)81(12)71(97)100-38-46-29-31-48(32-30-46)76-64(89)50(26-22-33-74-70(73)96)77-65(90)57(40(2)3)78-54(84)28-20-17-21-34-83-56(86)37-53(67(83)92)102-101-39-49(72)69(94)95/h16,18-19,24-25,29-32,40-45,49-53,57-62,87H,15,17,20-23,26-28,33-39,72H2,1-14H3,(H,75,88)(H,76,89)(H,77,90)(H,78,84)(H,79,91)(H,94,95)(H3,73,74,96)/t43-,44+,45?,49-,50-,51-,52?,53?,57-,58-,59-,60?,61+,62+/m0/s1</value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi-key">NDWPHEQBSHTUDN-VNANEVLNSA-N</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="CSSC" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <identifiedSubstance>
+                <code code="CSSC" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <name>cysteine disulfide</name>
+                <moiety>
+                  <code code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS" />
+                  <positionNumber value="7" />
+                  <positionNumber value="5" />
+                  <partMoiety />
+                </moiety>
+                <moiety>
+                  <code code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS" />
+                  <positionNumber value="8" />
+                  <positionNumber value="6" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                  <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[cysteine disulfide
+  Mrv0541 11101307272D          
+
+ 14 13  0  0  1  0            999 V2000
+    7.2849    3.3809    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2849    2.5559    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    6.5704    2.1434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8559    2.5559    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1414    2.1434    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4270    2.5559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7125    2.1434    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    3.7125    1.3184    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9980    2.5559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2836    2.1434    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9980    3.3809    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9993    2.1434    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7138    2.5559    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9993    1.3184    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  6  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  6  0  0  0
+  7  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  2  0  0  0  0
+  2 12  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 14  2  0  0  0  0
+M  END
+]]></value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                  <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C6H12N2O4S2/c7-3(5(9)10)1-13-14-2-4(8)6(11)12/h3-4H,1-2,7-8H2,(H,9,10)(H,11,12)/t3-,4-/m0/s1</value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                  <value xsi:type="ED" mediaType="application/x-inchi-key">LEVWYRKDKASIDU-IMJSIDKUSA-N</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

@@ -1,0 +1,669 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "Antlr/3.5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {}
+        }
+      },
+      "ChemSpider.Database.Objects/1.0.11": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Databases": "1.0.4",
+          "ChemSpider.Molecules": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Data.Database.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Data.Database.dll": {}
+        }
+      },
+      "ChemSpider.Databases/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ChemSpider.Database.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Database.dll": {}
+        }
+      },
+      "ChemSpider.Formats/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Database.Objects": "1.0.11",
+          "ChemSpider.Utilities.Web": "1.0.3"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Formats.Accelrys.dll": {},
+          "lib/net45/ChemSpider.Formats.ChemDraw.dll": {},
+          "lib/net45/ChemSpider.Formats.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Formats.Accelrys.dll": {},
+          "lib/net45/ChemSpider.Formats.ChemDraw.dll": {},
+          "lib/net45/ChemSpider.Formats.dll": {}
+        }
+      },
+      "ChemSpider.Molecules/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Toolkit": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Molecules.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Molecules.dll": {}
+        }
+      },
+      "ChemSpider.Toolkit/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Utilities": "1.0.12",
+          "ChemSpider.Utilities.Web": "1.0.3",
+          "Indigo.Toolkit": "1.1.12"
+        },
+        "compile": {
+          "lib/net45/ChemImageNet.dll": {},
+          "lib/net45/ExtUtilsNet.dll": {},
+          "lib/net45/InChINet.dll": {},
+          "lib/net45/OpenBabelNet.dll": {},
+          "lib/net45/OpenEyeNet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemImageNet.dll": {},
+          "lib/net45/ExtUtilsNet.dll": {},
+          "lib/net45/InChINet.dll": {},
+          "lib/net45/OpenBabelNet.dll": {},
+          "lib/net45/OpenEyeNet.dll": {}
+        }
+      },
+      "ChemSpider.Utilities/1.0.13": {
+        "type": "package",
+        "dependencies": {
+          "ICSharpCode.SharpZipLib.dll": "0.85.4.369",
+          "XMLDiffPatch": "1.0.8.28"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.dll": {},
+          "lib/net45/ChemSpider.Interoperability.dll": {},
+          "lib/net45/ChemSpider.Utilities.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.dll": {},
+          "lib/net45/ChemSpider.Interoperability.dll": {},
+          "lib/net45/ChemSpider.Utilities.dll": {}
+        }
+      },
+      "ChemSpider.Utilities.Web/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Utilities": "1.0.12",
+          "HtmlAgilityPack": "1.4.9",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Mvc.dll": {},
+          "lib/net45/ChemSpider.Utilities.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Mvc.dll": {},
+          "lib/net45/ChemSpider.Utilities.Web.dll": {}
+        }
+      },
+      "FDA.SRS/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "HtmlAgilityPack/1.4.9": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "ICSharpCode.SharpZipLib.dll/0.85.4.369": {
+        "type": "package",
+        "compile": {
+          "lib/net20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/net20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "Indigo.Toolkit/1.1.12": {
+        "type": "package",
+        "compile": {
+          "lib/net40/indigo-dotnet.dll": {},
+          "lib/net40/indigo-inchi-dotnet.dll": {},
+          "lib/net40/indigo-renderer-dotnet.dll": {}
+        },
+        "runtime": {
+          "lib/net40/indigo-dotnet.dll": {},
+          "lib/net40/indigo-inchi-dotnet.dll": {},
+          "lib/net40/indigo-renderer-dotnet.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Web.Optimization/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0",
+          "WebGrease": "1.5.2"
+        },
+        "compile": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WebGrease/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "5.0.4"
+        },
+        "compile": {
+          "lib/WebGrease.dll": {}
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {}
+        }
+      },
+      "XMLDiffPatch/1.0.8.28": {
+        "type": "package",
+        "compile": {
+          "lib/net/XmlDiffPatch.dll": {},
+          "lib/net/XmlDiffPatch.View.dll": {}
+        },
+        "runtime": {
+          "lib/net/XmlDiffPatch.dll": {},
+          "lib/net/XmlDiffPatch.View.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x64": {
+      "Antlr/3.5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Antlr3.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {}
+        }
+      },
+      "ChemSpider.Database.Objects/1.0.11": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Databases": "1.0.4",
+          "ChemSpider.Molecules": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Data.Database.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Data.Database.dll": {}
+        }
+      },
+      "ChemSpider.Databases/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ChemSpider.Database.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Database.dll": {}
+        }
+      },
+      "ChemSpider.Formats/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Database.Objects": "1.0.11",
+          "ChemSpider.Utilities.Web": "1.0.3"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Formats.Accelrys.dll": {},
+          "lib/net45/ChemSpider.Formats.ChemDraw.dll": {},
+          "lib/net45/ChemSpider.Formats.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Formats.Accelrys.dll": {},
+          "lib/net45/ChemSpider.Formats.ChemDraw.dll": {},
+          "lib/net45/ChemSpider.Formats.dll": {}
+        }
+      },
+      "ChemSpider.Molecules/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Toolkit": "1.1.0"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Molecules.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Molecules.dll": {}
+        }
+      },
+      "ChemSpider.Toolkit/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Utilities": "1.0.12",
+          "ChemSpider.Utilities.Web": "1.0.3",
+          "Indigo.Toolkit": "1.1.12"
+        },
+        "compile": {
+          "lib/net45/ChemImageNet.dll": {},
+          "lib/net45/ExtUtilsNet.dll": {},
+          "lib/net45/InChINet.dll": {},
+          "lib/net45/OpenBabelNet.dll": {},
+          "lib/net45/OpenEyeNet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemImageNet.dll": {},
+          "lib/net45/ExtUtilsNet.dll": {},
+          "lib/net45/InChINet.dll": {},
+          "lib/net45/OpenBabelNet.dll": {},
+          "lib/net45/OpenEyeNet.dll": {}
+        }
+      },
+      "ChemSpider.Utilities/1.0.13": {
+        "type": "package",
+        "dependencies": {
+          "ICSharpCode.SharpZipLib.dll": "0.85.4.369",
+          "XMLDiffPatch": "1.0.8.28"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.dll": {},
+          "lib/net45/ChemSpider.Interoperability.dll": {},
+          "lib/net45/ChemSpider.Utilities.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.dll": {},
+          "lib/net45/ChemSpider.Interoperability.dll": {},
+          "lib/net45/ChemSpider.Utilities.dll": {}
+        }
+      },
+      "ChemSpider.Utilities.Web/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "ChemSpider.Utilities": "1.0.12",
+          "HtmlAgilityPack": "1.4.9",
+          "Microsoft.AspNet.Web.Optimization": "1.1.3",
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "compile": {
+          "lib/net45/ChemSpider.Mvc.dll": {},
+          "lib/net45/ChemSpider.Utilities.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ChemSpider.Mvc.dll": {},
+          "lib/net45/ChemSpider.Utilities.Web.dll": {}
+        }
+      },
+      "FDA.SRS/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "HtmlAgilityPack/1.4.9": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
+      "ICSharpCode.SharpZipLib.dll/0.85.4.369": {
+        "type": "package",
+        "compile": {
+          "lib/net20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/net20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "Indigo.Toolkit/1.1.12": {
+        "type": "package",
+        "compile": {
+          "lib/net40/indigo-dotnet.dll": {},
+          "lib/net40/indigo-inchi-dotnet.dll": {},
+          "lib/net40/indigo-renderer-dotnet.dll": {}
+        },
+        "runtime": {
+          "lib/net40/indigo-dotnet.dll": {},
+          "lib/net40/indigo-inchi-dotnet.dll": {},
+          "lib/net40/indigo-renderer-dotnet.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Web.Optimization/1.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0",
+          "WebGrease": "1.5.2"
+        },
+        "compile": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Optimization.dll": {}
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WebGrease/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr": "3.4.1.9004",
+          "Newtonsoft.Json": "5.0.4"
+        },
+        "compile": {
+          "lib/WebGrease.dll": {}
+        },
+        "runtime": {
+          "lib/WebGrease.dll": {}
+        }
+      },
+      "XMLDiffPatch/1.0.8.28": {
+        "type": "package",
+        "compile": {
+          "lib/net/XmlDiffPatch.dll": {},
+          "lib/net/XmlDiffPatch.View.dll": {}
+        },
+        "runtime": {
+          "lib/net/XmlDiffPatch.dll": {},
+          "lib/net/XmlDiffPatch.View.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FDA.SRS/1.0.0": {
+      "type": "project",
+      "path": "../FDA.SRS/project.json"
+    },
+    "Antlr/3.5.0.2": {
+      "type": "package",
+      "sha512": "CSfrVuDVMx3OrQhT84zed+tOdM1clljyRLWWlQM22fJsmG836RVDGQlE6tzysXh8X8p9UjkHbLr6OqEIVhtdEA==",
+      "files": [
+        "Antlr.3.5.0.2.nupkg",
+        "Antlr.3.5.0.2.nupkg.sha512",
+        "Antlr.nuspec",
+        "lib/Antlr3.Runtime.dll",
+        "lib/Antlr3.Runtime.pdb"
+      ]
+    },
+    "ChemSpider.Database.Objects/1.0.11": {
+      "type": "package",
+      "sha512": "2HpjgE7aTzr334CcBehJGOsiT+taAzV079MfHNEVcx4DEcYNa7PMVRHxHZTRrl4xoxnQPF1s/0Pt8euwWZeFnQ==",
+      "files": [
+        "ChemSpider.Database.Objects.1.0.11.nupkg",
+        "ChemSpider.Database.Objects.1.0.11.nupkg.sha512",
+        "ChemSpider.Database.Objects.nuspec",
+        "lib/net45/ChemSpider.Data.Database.dll"
+      ]
+    },
+    "ChemSpider.Databases/1.0.4": {
+      "type": "package",
+      "sha512": "AgCUppSPnPShLx+KQ5Il4x1dHQozRYP3mvrFj0HkJEATEt42+JMS+wn2UaHduuwKAG3RhciI5a9hhiDulR7lQA==",
+      "files": [
+        "ChemSpider.Databases.1.0.4.nupkg",
+        "ChemSpider.Databases.1.0.4.nupkg.sha512",
+        "ChemSpider.Databases.nuspec",
+        "lib/net45/ChemSpider.Database.dll"
+      ]
+    },
+    "ChemSpider.Formats/1.1.2": {
+      "type": "package",
+      "sha512": "68WlM0PuqyvGK6JNjXLhCSpeSH+LzCCHtKwDKbJAZoujqESdGXTTyx+NkCgHD/w6FH/m2J85dijjMkx2uBF/+w==",
+      "files": [
+        "ChemSpider.Formats.1.1.2.nupkg",
+        "ChemSpider.Formats.1.1.2.nupkg.sha512",
+        "ChemSpider.Formats.nuspec",
+        "lib/net45/ChemSpider.Formats.Accelrys.dll",
+        "lib/net45/ChemSpider.Formats.ChemDraw.dll",
+        "lib/net45/ChemSpider.Formats.dll"
+      ]
+    },
+    "ChemSpider.Molecules/1.1.1": {
+      "type": "package",
+      "sha512": "qPuUILUow7JMWt620uJTFbZ5V2qaOdyTzFSRVYOoPIi5EbsNi45/WV83I5i5EzYQhsPGDWUC2jaU0JbmR0XkpQ==",
+      "files": [
+        "ChemSpider.Molecules.1.1.1.nupkg",
+        "ChemSpider.Molecules.1.1.1.nupkg.sha512",
+        "ChemSpider.Molecules.nuspec",
+        "lib/net45/ChemSpider.Molecules.dll"
+      ]
+    },
+    "ChemSpider.Toolkit/1.1.1": {
+      "type": "package",
+      "sha512": "JGuKHIGP/dWeTpCa3iYC5oEGC+frxBqaurhE4BLb/dTcvRjartxNUVO9YpalOenR/h8F8KyOkQ9s+3PpceuQag==",
+      "files": [
+        "ChemSpider.Toolkit.1.1.1.nupkg",
+        "ChemSpider.Toolkit.1.1.1.nupkg.sha512",
+        "ChemSpider.Toolkit.nuspec",
+        "lib/net45/ChemImageNet.dll",
+        "lib/net45/ExtUtilsNet.dll",
+        "lib/net45/InChINet.dll",
+        "lib/net45/OpenBabelNet.dll",
+        "lib/net45/OpenEyeNet.dll"
+      ]
+    },
+    "ChemSpider.Utilities/1.0.13": {
+      "type": "package",
+      "sha512": "16m4oBeZUebghtwEzG/O1E197oF6o97KPNLap/tEdgYA7DikP2QBe7P5AcZ+twz6vZqZhg11vlVyFl7eLLh5NQ==",
+      "files": [
+        "ChemSpider.Utilities.1.0.13.nupkg",
+        "ChemSpider.Utilities.1.0.13.nupkg.sha512",
+        "ChemSpider.Utilities.nuspec",
+        "lib/net45/ChemSpider.dll",
+        "lib/net45/ChemSpider.Interoperability.dll",
+        "lib/net45/ChemSpider.Utilities.dll"
+      ]
+    },
+    "ChemSpider.Utilities.Web/1.0.3": {
+      "type": "package",
+      "sha512": "Ja7NIYsxlTg5Q2byNbU8B5AoI72JWrDkDkpkqQNJioGwOMlCq7lJhEmsfqbs0kUUkkqb4Hw5wR2omO+kn8nKjA==",
+      "files": [
+        "ChemSpider.Utilities.Web.1.0.3.nupkg",
+        "ChemSpider.Utilities.Web.1.0.3.nupkg.sha512",
+        "ChemSpider.Utilities.Web.nuspec",
+        "lib/net45/ChemSpider.Mvc.dll",
+        "lib/net45/ChemSpider.Utilities.Web.dll"
+      ]
+    },
+    "HtmlAgilityPack/1.4.9": {
+      "type": "package",
+      "sha512": "anZIsi7bbHZ35ZZzvCA+gVWC/mEXVhcJjJvxr3wzUEDsOE4uk0Fa0ZiaxVn83AZpVKVO4RHyqamPkzzJbMUgmQ==",
+      "files": [
+        "HAPIcon.png",
+        "HtmlAgilityPack.1.4.9.nupkg",
+        "HtmlAgilityPack.1.4.9.nupkg.sha512",
+        "HtmlAgilityPack.nuspec",
+        "lib/Net20/HtmlAgilityPack.dll",
+        "lib/Net20/HtmlAgilityPack.pdb",
+        "lib/Net20/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.pri",
+        "lib/NetCore45/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/sl3-wp/_._",
+        "lib/sl4/HtmlAgilityPack.dll",
+        "lib/sl4/HtmlAgilityPack.pdb",
+        "lib/sl4/HtmlAgilityPack.XML",
+        "lib/sl5/HtmlAgilityPack.dll",
+        "lib/sl5/HtmlAgilityPack.pdb",
+        "lib/sl5/HtmlAgilityPack.XML",
+        "readme.txt"
+      ]
+    },
+    "ICSharpCode.SharpZipLib.dll/0.85.4.369": {
+      "type": "package",
+      "sha512": "HrJHR5IQoTXXQZgoGZZiu2oYw7V4FdjhwVLwWhV4G+9Xe9wo4MB+n7OaG96efyEJ2PFm4KhCbWNr54HWFdyt2A==",
+      "files": [
+        "ICSharpCode.SharpZipLib.dll.0.85.4.369.nupkg",
+        "ICSharpCode.SharpZipLib.dll.0.85.4.369.nupkg.sha512",
+        "ICSharpCode.SharpZipLib.dll.nuspec",
+        "lib/net20/ICSharpCode.SharpZipLib.dll",
+        "NuGet.Config",
+        "NuGet.exe",
+        "NuGet.targets",
+        "packages.config"
+      ]
+    },
+    "Indigo.Toolkit/1.1.12": {
+      "type": "package",
+      "sha512": "fZcY1bd/FPDQJBv9RcmOVrYeuJgq8ciz+tjaD9O4a/owmL4jsXIO3jPBFCWMRG8XOj25mLACHmJi97LLH/fJug==",
+      "files": [
+        "Indigo.Toolkit.1.1.12.nupkg",
+        "Indigo.Toolkit.1.1.12.nupkg.sha512",
+        "Indigo.Toolkit.nuspec",
+        "lib/net40/indigo-dotnet.dll",
+        "lib/net40/indigo-inchi-dotnet.dll",
+        "lib/net40/indigo-renderer-dotnet.dll"
+      ]
+    },
+    "Microsoft.AspNet.Web.Optimization/1.1.3": {
+      "type": "package",
+      "sha512": "TWKKpTWEdB8jXp2Vl2TXNKW30GBQg6nnh0y8iZWmGY5c1XY4f649vfDslNHsCsvk9JZxc1Rkm/UGDdfq4gjWRQ==",
+      "files": [
+        "lib/net40/System.Web.Optimization.dll",
+        "lib/net40/system.web.optimization.xml",
+        "Microsoft.AspNet.Web.Optimization.1.1.3.nupkg",
+        "Microsoft.AspNet.Web.Optimization.1.1.3.nupkg.sha512",
+        "Microsoft.AspNet.Web.Optimization.nuspec"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "files": [
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "Microsoft.Web.Infrastructure.1.0.0.nupkg",
+        "Microsoft.Web.Infrastructure.1.0.0.nupkg.sha512",
+        "Microsoft.Web.Infrastructure.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/8.0.1": {
+      "type": "package",
+      "sha512": "qFzqzune1D7hDz8kNavFwrJ0fv8qkwANGyUOPjP0I67DmNH04nmSCRB0g0LCIqogMKrBXjsiP43Z0E1huBvxOg==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.8.0.1.nupkg",
+        "Newtonsoft.Json.8.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "WebGrease/1.6.0": {
+      "type": "package",
+      "sha512": "1d29edoh4IZPLig82coowiPBS1ltxT97PwEIkOk0dHqtJwD9v5C7gPm6Ot1hKHT86otKm04oDQ00x5c+PyVyxw==",
+      "files": [
+        "lib/WebGrease.dll",
+        "tools/WG.EXE",
+        "WebGrease.1.6.0.nupkg",
+        "WebGrease.1.6.0.nupkg.sha512",
+        "WebGrease.nuspec"
+      ]
+    },
+    "XMLDiffPatch/1.0.8.28": {
+      "type": "package",
+      "sha512": "YkheWbBdFWKmtexnCGm2KbKanXrGxfbQDtM3/W//D5CWqps7OLZD5Lfq95apb5Zv3NCMoFiwschSK5vS1EoMOw==",
+      "files": [
+        "lib/net/XmlDiffPatch.dll",
+        "lib/net/XmlDiffPatch.View.dll",
+        "XMLDiffPatch.1.0.8.28.nupkg",
+        "XMLDiffPatch.1.0.8.28.nupkg.sha512",
+        "XMLDiffPatch.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.5.1": [
+      "Antlr >= 3.5.0.2",
+      "ChemSpider.Database.Objects >= 1.0.11",
+      "ChemSpider.Databases >= 1.0.4",
+      "ChemSpider.Formats >= 1.1.2",
+      "ChemSpider.Molecules >= 1.1.1",
+      "ChemSpider.Toolkit >= 1.1.1",
+      "ChemSpider.Utilities >= 1.0.13",
+      "ChemSpider.Utilities.Web >= 1.0.3",
+      "HtmlAgilityPack >= 1.4.9",
+      "ICSharpCode.SharpZipLib.dll >= 0.85.4.369",
+      "Indigo.Toolkit >= 1.1.12",
+      "Microsoft.AspNet.Web.Optimization >= 1.1.3",
+      "Microsoft.Web.Infrastructure >= 1.0.0",
+      "Newtonsoft.Json >= 8.0.1",
+      "WebGrease >= 1.6.0",
+      "XMLDiffPatch >= 1.0.8.28",
+      "FDA.SRS >= 1.0.0-*"
+    ]
+  }
+}

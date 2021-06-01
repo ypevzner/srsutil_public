@@ -1,0 +1,379 @@
+<?xml version="1.0"?> 
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="Dr.Lawrence.PEPTIDE.Schema">
+  <xs:element name="SUBSTANCE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="SUBSTANCE_ID"/>
+        <xs:element name="NAME_GROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="NAME"/>
+              <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+              <xs:element type="xs:string" name="NAME_TYPE"/>
+              <xs:element type="xs:string" name="LANGUAGE_ISOCODE"/>
+              <xs:element name="OFFICIAL_NAME_GROUP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="OFFICIAL_NAME_TYPE"/>
+                    <xs:element type="xs:string" name="OFFICIAL_NAME_STATUS"/>
+                    <xs:element type="xs:string" name="OFFICIAL_NAME_STATUS_CHANGE_DATE"/>
+                    <xs:element name="OFFICIAL_NAME_JURISDICTION_GROUP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="OFFICIAL_NAME_JURISDICTION"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="OFFICIAL_NAME_DOMAIN"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="REFERENCE_SOURCE_GROUP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_TYPE"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_IDENTIFIER"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_CITATION"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CODE_GROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="CODE"/>
+              <xs:element type="xs:string" name="CODE_SYSTEM"/>
+              <xs:element type="xs:string" name="CODE_SYSTEM_ID"/>
+              <xs:element type="xs:string" name="CODE_STATUS"/>
+              <xs:element type="xs:string" name="CODE_STATUS_CHANGE_DATE"/>
+              <xs:element name="REFERENCE_SOURCE_GROUP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_TYPE"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_IDENTIFIER"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_CITATION"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="REFERENCE_INFORMATION">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SUBSTANCE_RELATIONSHIP_GROUP">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="RELATIONSHIP"/>
+                    <xs:element type="xs:string" name="TYPE_OF_INTERACTION"/>
+                    <xs:element type="xs:string" name="SUBSTANCE_ID"/>
+                    <xs:element type="xs:string" name="SUBSTANCE_NAME"/>
+                    <xs:element type="xs:string" name="AMOUNT_TYPE"/>
+                    <xs:element name="AMOUNT">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="AVERAGE"/>
+                          <xs:element type="xs:string" name="LOW_LIMIT"/>
+                          <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                          <xs:element type="xs:string" name="UNIT"/>
+                          <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="REFERENCE_SOURCE_GROUP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_TYPE"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_IDENTIFIER"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_CITATION"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="GENE_GROUP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="GENE_SEQUENCE_ORIGIN"/>
+                    <xs:element type="xs:string" name="GENE_ID"/>
+                    <xs:element type="xs:string" name="GENE_NAME"/>
+                    <xs:element name="REFERENCE_SOURCE_GROUP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_TYPE"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_IDENTIFIER"/>
+                          <xs:element type="xs:anyURI" name="REFERENCE_SOURCE_CITATION"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SUBSTANCE_CLASSIFICATION">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="DOMAIN"/>
+                    <xs:element type="xs:string" name="SUBSTANCE_TYPE"/>
+                    <xs:element type="xs:string" name="SUBSTANCE_SUBTYPE"/>
+                    <xs:element name="REFERENCE_SOURCE_GROUP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_TYPE"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_IDENTIFIER"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_CITATION"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="TARGET_GROUP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="TARGET_ORGANISM"/>
+                    <xs:element type="xs:string" name="TARGET_TYPE"/>
+                    <xs:element type="xs:string" name="TARGET_NAME"/>
+                    <xs:element type="xs:short" name="TARGET_ID"/>
+                    <xs:element type="xs:string" name="TARGET_ID_SOURCE"/>
+                    <xs:element type="xs:string" name="INTERACTION_TYPE"/>
+                    <xs:element name="REFERENCE_SOURCE_GROUP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_TYPE"/>
+                          <xs:element type="xs:string" name="REFERENCE_SOURCE_IDENTIFIER"/>
+                          <xs:element type="xs:anyURI" name="REFERENCE_SOURCE_CITATION"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="COMMENTS"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SINGLE_SUBSTANCE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STRUCTURE">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="STRUCTURAL_REPRESENTATION_TYPE"/>
+                    <xs:element type="xs:string" name="STRUCTURAL_REPRESENTATION"/>
+                    <xs:element type="xs:string" name="STEREOCHEMISTRY"/>
+                    <xs:element type="xs:string" name="OPTICAL_ACTIVITY"/>
+                    <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                    <xs:element name="ISOTOPE_GROUP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="NUCLIDE_ID"/>
+                          <xs:element type="xs:string" name="NUCLIDE_NAME"/>
+                          <xs:element type="xs:string" name="SUBSTITUTION_TYPE"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ELEMENT_TYPE">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="PROTEIN">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="SEQUENCE_TYPE"/>
+                          <xs:element type="xs:byte" name="NUMBER_OF_SUBUNITS"/>
+                          <xs:element name="SUBUNIT_GROUP">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:byte" name="SUBUNIT"/>
+                                <xs:element type="xs:byte" name="LENGTH"/>
+                                <xs:element type="xs:string" name="SEQUENCE"/>
+                                <xs:element type="xs:string" name="C_TERMINAL_MODIFICATION"/>
+                                <xs:element type="xs:string" name="C_TERMINAL_MODIFICATION_ID"/>
+                                <xs:element type="xs:string" name="N_TERMINAL_MODIFICATION"/>
+                                <xs:element type="xs:string" name="N_TERMINAL_MODIFICATION_ID"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="DISULFIDE_LINKAGE"/>
+                          <xs:element name="GLYCOSYLATION">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="GLYCOSYLATION_TYPE"/>
+                                <xs:element type="xs:string" name="N_GLYCOSYLATION"/>
+                                <xs:element type="xs:string" name="O_GLYCOSYLATION"/>
+                                <xs:element type="xs:string" name="C_GLYCOSYLATION"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="MODIFICATION_GROUP">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="PHYSICAL_MODIFICATION_GROUP">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="ROLE"/>
+                                      <xs:element type="xs:byte" name="NUMBER_OF_PARAMETERS"/>
+                                      <xs:element name="PARAMETER_GROUP">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="PARAMETER"/>
+                                            <xs:element name="AMOUNT">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:string" name="AVERAGE"/>
+                                                  <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                                  <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                                                  <xs:element type="xs:string" name="UNIT"/>
+                                                  <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="AGENT_MODIFICATION_GROUP">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="AGENT_MODIFICATION_TYPE"/>
+                                      <xs:element type="xs:string" name="ROLE"/>
+                                      <xs:element type="xs:string" name="MODIFICATION_AGENT"/>
+                                      <xs:element type="xs:string" name="MODIFICATION_AGENT_ID"/>
+                                      <xs:element type="xs:string" name="MODIFICATION_PROCESS"/>
+                                      <xs:element type="xs:string" name="AMOUNT_TYPE"/>
+                                      <xs:element name="AMOUNT">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="AVERAGE"/>
+                                            <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                            <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                                            <xs:element type="xs:string" name="UNIT"/>
+                                            <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="STRUCTURAL_MODIFICATION_GROUP">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="RESIDUE_MODIFIED"/>
+                                      <xs:element type="xs:string" name="RESIDUE_SITE"/>
+                                      <xs:element type="xs:string" name="NUMBER_OF_FRAGMENTS_MOIETIES"/>
+                                      <xs:element type="xs:string" name="AMOUNT_TYPE"/>
+                                      <xs:element name="MOLECULAR_FRAGMENT_MOIETY">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="STRUCTURAL_MODIFICATION_TYPE"/>
+                                            <xs:element type="xs:string" name="ROLE"/>
+                                            <xs:element type="xs:string" name="FRAGMENT_NUMBER"/>
+                                            <xs:element type="xs:string" name="MOLECULAR_FRAGMENT_NAME"/>
+                                            <xs:element type="xs:string" name="MOLECULAR_FRAGMENT_ID"/>
+                                            <xs:element type="xs:string" name="FRAGMENT_CONNECTIVTY"/>
+                                            <xs:element name="AMOUNT">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:byte" name="AVERAGE"/>
+                                                  <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                                  <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                                                  <xs:element type="xs:string" name="UNIT"/>
+                                                  <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="PROPERTY_GROUP">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="PROPERTY_TYPE"/>
+                                <xs:element type="xs:string" name="PROPERTY"/>
+                                <xs:element name="PROPERTY_DESCRIPTION">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="SUBSTANCE_NAME"/>
+                                      <xs:element type="xs:string" name="SUBSTANCE_ID" maxOccurs="unbounded" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="AMOUNT_TYPE"/>
+                                      <xs:element name="AMOUNT">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="AVERAGE"/>
+                                            <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                            <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                                            <xs:element type="xs:string" name="UNIT"/>
+                                            <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="MOLECULAR_WEIGHT">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="MOLECULAR_WEIGHT_TYPE"/>
+                                <xs:element type="xs:string" name="MOLECULAR_WEIGHT_METHOD"/>
+                                <xs:element name="AMOUNT">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:short" name="AVERAGE"/>
+                                      <xs:element type="xs:string" name="LOW_LIMIT"/>
+                                      <xs:element type="xs:string" name="HIGH_LIMIT"/>
+                                      <xs:element type="xs:string" name="UNIT"/>
+                                      <xs:element type="xs:string" name="NON_NUMERIC_VALUE"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="COMMENTS"/>
+                          <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="REFERENCE_SOURCE_GROUP">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="PUBLIC_DOMAIN"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_TYPE"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_IDENTIFIER"/>
+                    <xs:element type="xs:string" name="REFERENCE_SOURCE_CITATION"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

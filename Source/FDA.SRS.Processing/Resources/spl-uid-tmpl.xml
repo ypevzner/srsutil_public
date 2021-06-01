@@ -1,0 +1,6 @@
+﻿<subjectOf>
+  <characteristic>
+    <code code="9995-9" codeSystem="2.16.840.1.113883.6.1" displayName="SRS Unique Identifier" />
+    <value xsi:type="CV" codeSystem="2.16.840.1.113883.3.26.1.1">{UID}</value>
+  </characteristic>
+</subjectOf>

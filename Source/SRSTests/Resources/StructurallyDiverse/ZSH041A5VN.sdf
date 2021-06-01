@@ -1,0 +1,136 @@
+>  <GSRS_JSON>
+{"uuid":"4bec041e-5e62-4411-b6a0-07e3af8c8458","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"structurallyDiverse","status":"approved","version":"1","approvedBy":"FDA_SRS","names":[{"uuid":"2752b853-fba7-4a06-ab49-45f4f1086382","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"name":"TREPONEMA PALLIDUM WHOLE","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["b39c411b-749e-47c7-92a2-9d29986c8844"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(2752b853-fba7-4a06-ab49-45f4f1086382)?view=full"},{"uuid":"49096d61-24e2-4cdc-8b7d-27ed4debe253","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"name":"TREPONEMA PALLIDUM SUBSP. PALLIDUM","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":true,"references":["5907e52e-c15f-4f7e-9550-eb104ea035c2"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(49096d61-24e2-4cdc-8b7d-27ed4debe253)?view=full"},{"uuid":"5c4f4a1f-3035-44e1-a164-3872b2ca62c9","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"name":"MICROSPIRONEMA PALLIDUM","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["5907e52e-c15f-4f7e-9550-eb104ea035c2"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(5c4f4a1f-3035-44e1-a164-3872b2ca62c9)?view=full"},{"uuid":"8c16100c-b78e-45fa-abdf-e98727236c06","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"name":"SPIROCHAETA PALLIDA","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["5907e52e-c15f-4f7e-9550-eb104ea035c2"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(8c16100c-b78e-45fa-abdf-e98727236c06)?view=full"},{"uuid":"8daff061-795b-4b0e-acf5-b5c5316e9b01","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"name":"TREPONEMA PALLIDUM","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":true,"displayName":false,"references":["b39c411b-749e-47c7-92a2-9d29986c8844"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(8daff061-795b-4b0e-acf5-b5c5316e9b01)?view=full"},{"uuid":"924b3b9c-e04c-41c7-b7cb-1b914408ab3a","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"name":"SPIRONEMA PALLIDUM","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["5907e52e-c15f-4f7e-9550-eb104ea035c2"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(924b3b9c-e04c-41c7-b7cb-1b914408ab3a)?view=full"},{"uuid":"b8db0368-fa48-489e-999d-50d99acbc930","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"name":"SPIRILLUM PALLIDUM","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["5907e52e-c15f-4f7e-9550-eb104ea035c2"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/names(b8db0368-fa48-489e-999d-50d99acbc930)?view=full"}],"codes":[{"uuid":"165896ae-31e1-4770-a673-214372b2e94d","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"codeSystem":"NCBI TAXONOMY","code":"161","type":"PRIMARY","url":"http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=161","references":["3cc63602-0ef3-4310-b9d5-0b53a804e01d"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/codes(165896ae-31e1-4770-a673-214372b2e94d)?view=full"}],"modifications":{"uuid":"8d1179ab-f9a7-4c00-93e1-f4f28b0fe23e","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[],"properties":[],"relationships":[{"uuid":"019accba-b720-4da7-8f68-44e14ae5b1af","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"relatedSubstance":{"uuid":"efd9b5ab-8041-4813-86da-e9df7aa69003","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"refPname":"TREPONEMA PALLIDUM SUBSP. PALLIDUM","refuuid":"4bec041e-5e62-4411-b6a0-07e3af8c8458","substanceClass":"reference","approvalID":"ZSH041A5VN","linkingID":"ZSH041A5VN","name":"TREPONEMA PALLIDUM SUBSP. PALLIDUM","references":[],"access":[]},"originatorUuid":"019accba-b720-4da7-8f68-44e14ae5b1af","type":"ACTIVE MOIETY","references":[],"access":[]}],"references":[{"uuid":"3cc63602-0ef3-4310-b9d5-0b53a804e01d","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS CODE IMPORT","docType":"SRS","documentDate":1493391238000,"publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(3cc63602-0ef3-4310-b9d5-0b53a804e01d)?view=full"},{"uuid":"5907e52e-c15f-4f7e-9550-eb104ea035c2","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"citation":"NCBI","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(5907e52e-c15f-4f7e-9550-eb104ea035c2)?view=full"},{"uuid":"599a91ec-7fdc-460d-88e1-453a140e8a14","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"citation":"SRS import [ZSH041A5VN]","docType":"SRS","documentDate":1493391238000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=ZSH041A5VN","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(599a91ec-7fdc-460d-88e1-453a140e8a14)?view=full"},{"uuid":"b39c411b-749e-47c7-92a2-9d29986c8844","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"citation":"BIOS","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(b39c411b-749e-47c7-92a2-9d29986c8844)?view=full"},{"uuid":"d6f99b3e-61a4-47bc-8efe-72e06a1112f9","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"citation":"Catalog of Life 2010","docType":"SRS","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(d6f99b3e-61a4-47bc-8efe-72e06a1112f9)?view=full"},{"uuid":"e1e041fd-8453-4dcc-b5b3-85becafcc199","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"citation":"dump-public-2018-03-05.gsrs","docType":"BATCH_IMPORT","documentDate":1520373239000,"publicDomain":false,"tags":[],"id":"b9fdcca829e0ff2e96ec","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/references(e1e041fd-8453-4dcc-b5b3-85becafcc199)?view=full"}],"approvalID":"ZSH041A5VN","tags":[],"structurallyDiverse":{"uuid":"d3a6e22a-1523-4135-b38e-1eed70fac252","created":1520373239000,"createdBy":"admin","lastEdited":1520373239000,"lastEditedBy":"admin","deprecated":false,"sourceMaterialClass":"ORGANISM","sourceMaterialType":"BACTERIUM","organismFamily":"SPIROCHAETACEAE","organismGenus":"TREPONEMA","organismSpecies":"PALLIDUM","organismAuthor":"(SCHAUDINN & HOFFMANN) SCHAUDINN","part":["WHOLE"],"infraSpecificType":"SUBSPECIES","infraSpecificName":"SUBSP. PALLIDUM","references":["d6f99b3e-61a4-47bc-8efe-72e06a1112f9","599a91ec-7fdc-460d-88e1-453a140e8a14"],"access":[]},"_approvalIDDisplay":"ZSH041A5VN","_name":"TREPONEMA PALLIDUM SUBSP. PALLIDUM","access":[],"_self":"https://ginas.ncats.nih.gov/ginas/app/api/v1/substances(4bec041e-5e62-4411-b6a0-07e3af8c8458)?view=full"}
+
+> <SUBSTANCE_ID>
+50637
+
+> <UNII>
+ZSH041A5VN
+
+> <DESC_PART1>
+<STRUCTURALLY_DIVERSE>
+<SOURCE_MATERIAL>
+<SOURCE_MATERIAL_CLASS>ORGANISM</SOURCE_MATERIAL_CLASS>
+<SOURCE_MATERIAL_TYPE>BACTERIUM</SOURCE_MATERIAL_TYPE>
+<SOURCE_MATERIAL_STATE/>
+<PARENT_SUBSTANCE_ID/>
+<PARENT_SUBSTANCE_NAME/>
+<DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+<PART>WHOLE</PART>
+<PART_LOCATION/>
+</PART_GROUP>
+<FRACTION>
+<MATERIAL_TYPE/>
+<FRACTION/>
+</FRACTION>
+<ORGANISM>
+<KINGDOM>BACTERIA</KINGDOM>
+<PHYLUM>SPIROCHAETES</PHYLUM>
+<CLASS>SPIROCHAETES</CLASS>
+<ORDER>SPIROCHAETALES</ORDER>
+<FAMILY>SPIROCHAETACEAE</FAMILY>
+<GENUS>TREPONEMA</GENUS>
+<SPECIES>PALLIDUM</SPECIES>
+<HYBRID_SPECIES_MATERNAL_ORGANISM_ID/>
+<HYBRID_SPECIES_PATERNAL_ORGANISM_ID/>
+<HYBRID_TYPE/>
+<INFRASPECIFIC_TYPE>SUBSPECIES</INFRASPECIFIC_TYPE>
+<INFRASPECIFIC_DESCRIPTION>SUBSP. PALLIDUM</INFRASPECIFIC_DESCRIPTION>
+</ORGANISM>
+</SOURCE_MATERIAL>
+<MODIFICATION_GROUP>
+<MODIFICATION_TYPE/>
+<RESIDUE_MODIFIED/>
+<RESIDUE_SITE/>
+<PHYSICAL_MODIFICATION>
+<ROLE/>
+<NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+<PARAMETER/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PARAMETER_GROUP>
+</PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION_TYPE/>
+<MOIETY>
+<ROLE/>
+<MOIETY_ID/>
+<MOIETY_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOIETY>
+<MOLECULAR_FRAGMENT>
+<ROLE/>
+<MOLECULAR_FRAGMENT_ID/>
+<MOLECULAR_FRAGMENT_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</MOLECULAR_FRAGMENT>
+</STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+<AGENT_MODIFICATION_TYPE/>
+<ROLE/>
+<MODIFICATION_AGENT_ID/>
+<MODIFICATION_AGENT/>
+<MODIFICATION_PROCESS/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</AGENT_MODIFICATION>
+</MODIFICATION_GROUP>
+<PROPERTY_GROUP>
+<PROPERTY_TYPE/>
+<PROPERTY_NAME/>
+<SUBSTANCE_ID/>
+<SUBSTANCE_NAME/>
+<AMOUNT_TYPE/>
+<AMOUNT>
+<AVERAGE/>
+<LOW_LIMIT/>
+<HIGH_LIMIT/>
+<UNIT/>
+<NON_NUMERIC_VALUE/>
+</AMOUNT>
+</PROPERTY_GROUP>
+<COMMENT/>
+</STRUCTURALLY_DIVERSE>
+
+> <DESC_PART2>
+
+> <DESC_PART3>
+
+> <REF_INFO_PART1>
+<TAXON_AUTHOR>(SCHAUDINN & HOFFMANN) SCHAUDINN</TAXON_AUTHOR>
+
+> <COMMENTS>
+
+> <CDBREGNO>
+
+> <STRUCTURE_ID>
+
+$$$$

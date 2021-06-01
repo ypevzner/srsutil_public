@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../FDA.SRS.Database/FDA.SRS.Database.csproj",
+      "bin": {
+        "assembly": "../../FDA.SRS.Database/obj/{configuration}/FDA.SRS.Database.dll",
+        "pdb": "../../FDA.SRS.Database/obj/{configuration}/FDA.SRS.Database.pdb"
+      },
+      "dependencies": {
+        "Antlr": "3.5.0.2",
+        "ChemSpider.Database.Objects": "1.0.11",
+        "ChemSpider.Databases": "1.0.4",
+        "ChemSpider.Formats": "1.1.8",
+        "ChemSpider.Molecules": "1.1.4",
+        "ChemSpider.Toolkit": "1.1.2",
+        "ChemSpider.Utilities": "1.0.13",
+        "ChemSpider.Utilities.Web": "1.0.3",
+        "EntityFramework.Commands": "7.0.0-rc1-final",
+        "EntityFramework.Core": "7.0.0-rc1-final",
+        "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+        "EntityFramework.Relational": "7.0.0-rc1-final",
+        "EntityFramework.Relational.Design": "7.0.0-rc1-final",
+        "HtmlAgilityPack": "1.4.9",
+        "ICSharpCode.SharpZipLib.dll": "0.85.4.369",
+        "Indigo.Toolkit": "1.2.1",
+        "Ix-Async": "1.2.5",
+        "Microsoft.AspNet.Web.Optimization": "1.1.3",
+        "Microsoft.Extensions.Caching.Abstractions": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Caching.Memory": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Configuration.Abstractions": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Configuration.Binder": "1.0.0-rc1-final",
+        "Microsoft.Extensions.DependencyInjection": "1.0.0-rc1-final",
+        "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final",
+        "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Primitives": "1.0.0-rc1-final",
+        "Microsoft.Web.Infrastructure": "1.0.0.0",
+        "Newtonsoft.Json": "8.0.3",
+        "Remotion.Linq": "2.0.2",
+        "System.Collections.Immutable": "1.1.36",
+        "System.Diagnostics.DiagnosticSource": "4.0.0-beta-23516",
+        "System.Diagnostics.Tracing": "4.0.0",
+        "System.Runtime": "4.0.0",
+        "System.Threading": "4.0.0",
+        "WebGrease": "1.6.0",
+        "XMLDiffPatch": "1.0.8.28",
+        "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
+        "Microsoft.Extensions.PlatformAbstractions": "1.0.0-rc1-final",
+        "FDA.SRS.Utils": "1.0.0-*",
+        "sqlite-net-pcl": "1.1.1",
+        "SQLitePCL.raw": "0.8.6"
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FDA.SRS.ObjectModel.ProteinModification" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAAAEQA=</HashCode>
+      <FileName>ProteinModification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.Fragment" Collapsed="true">
+    <Position X="15.75" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="FDA.SRS.ObjectModel.Fragment.Connector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Fragment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAADBAAAAAIAIAAEAAEAAACCAEBI=</HashCode>
+      <FileName>Fragment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.Glycosylation" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAIAAEAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Glycosylation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.Link" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAABCAAAAAIAAAAAAAAAAIAAAEAA=</HashCode>
+      <FileName>Link.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.PhysicalModification" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>PhysicalModification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.ProteinAttachment" Collapsed="true">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAgAAIAAAIAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ProteinAttachment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.ProteinSite" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAkAAAAAAAAQIAAAAAAAAAAEAAAEAA=</HashCode>
+      <FileName>ProteinSite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.Sequence" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEIABAAAJABIAAAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>Sequence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.StructuralModification" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAQEAAABAAAAAIQAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>StructuralModification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.StructuralModificationGroup" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAggAAAAAAAAABAAAAYAIAAAAAAAIAAAAAAEAA=</HashCode>
+      <FileName>StructuralModification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FDA.SRS.ObjectModel.Subunit" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAABAAAAAAIAAAAAAAAAAAAEAEAA=</HashCode>
+      <FileName>Subunit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

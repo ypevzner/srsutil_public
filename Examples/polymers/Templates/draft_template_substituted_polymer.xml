@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+  <id root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20110831" />
+  <setId root="b2315501-dc0c-56d0-e044-001185133a64" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id root="1.3.6.1.4.1.519.1" extension="927645523" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="be6341f5-9f15-4711-957c-8e0600d0f7fa" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <title />
+          <text />
+          <effectiveTime value="20110831" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="5EYA69XGAT" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="5EYA69XGAT" codeSystem="2.16.840.1.113883.4.9" />
+                <moiety>
+                  <code displayName="POLYMERIC MOIETY" codeSystem="2.16.840.1.113883.3.26.1.1" code="F103243" />
+                  <partMoiety>
+                    <id extension="A" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e">
+                      <!--polymeric moiety ID-->
+                    </id>
+                    <code code="SRU1" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                    <!--structural repeat unit ID-->
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="SRU1" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <identifiedSubstance>
+                <code code="SRU1" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <moiety>
+                  <code code="F118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LINEAR POLYMER CONNECTION POINTS" />
+                  <positionNumber value="2">
+                    <!--left end (head)-->
+                  </positionNumber>
+                  <positionNumber value="5">
+                    <!--right end (tail)-->
+                  </positionNumber>
+                  <partMoiety></partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="F118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION, UNCERTAIN" />
+                  <quantity>
+                    <numerator p3:type="URG_PQ" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+                      <low value="4" unit="mole percent" />
+                      <high value="7.5" unit="mole percent" />
+                    </numerator>
+                    <denominator value="1" unit="1" />
+                    <!--percent of substitution-->
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                      <partMoiety>
+                        <id extension="FRAGMENT1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                        <code code="F1" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                        <bond>
+                          <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                          <positionNumber value="13" />
+                          <distalMoiety>
+                            <id extension="SRU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                          </distalMoiety>
+                        </bond>
+                      </partMoiety>
+                    </moiety>
+                    <moiety>
+                      <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                      <partMoiety>
+                        <id extension="FRAGMENT2" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                        <code code="F1" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                        <bond>
+                          <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                          <positionNumber value="16" />
+                          <distalMoiety>
+                            <id extension="SRU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                          </distalMoiety>
+                        </bond>
+                      </partMoiety>
+                    </moiety>
+                    <moiety>
+                      <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                      <partMoiety>
+                        <id extension="FRAGMENT3" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                        <code code="F1" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                        <bond>
+                          <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                          <positionNumber value="8" />
+                          <distalMoiety>
+                            <id extension="SRU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                          </distalMoiety>
+                        </bond>
+                      </partMoiety>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="F118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION, UNCERTAIN" />
+                  <quantity>
+                    <numerator p3:type="URG_PQ" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+                      <low value="27" unit="mole percent" />
+                      <high value="30" unit="mole percent" />
+                    </numerator>
+                    <denominator value="1" unit="1" />
+                    <!--percent of substitution-->
+                  </quantity>
+                  <partMoiety>
+                    <moiety>
+                      <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                      <partMoiety>
+                        <id extension="FRAGMENT4" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                        <code code="F2" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                        <bond>
+                          <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                          <positionNumber value="13" />
+                          <distalMoiety>
+                            <id extension="SRU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                          </distalMoiety>
+                        </bond>
+                      </partMoiety>
+                    </moiety>
+                    <moiety>
+                      <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                      <partMoiety>
+                        <id extension="FRAGMENT5" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                        <code code="F2" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                        <bond>
+                          <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                          <positionNumber value="16" />
+                          <distalMoiety>
+                            <id extension="SRU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                          </distalMoiety>
+                        </bond>
+                      </partMoiety>
+                    </moiety>
+                    <moiety>
+                      <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION" />
+                      <partMoiety>
+                        <id extension="FRAGMENT6" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                        <code code="F2" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                        <bond>
+                          <code code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT" />
+                          <positionNumber value="8" />
+                          <distalMoiety>
+                            <id extension="SRU1" root="bf170df7-8153-45c1-9a21-6e1aa1b4c97e" />
+                          </distalMoiety>
+                        </bond>
+                      </partMoiety>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-mdl-molfile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[
+  ACCLDraw04301514122D
+
+ 17 17  0  0  1  0  0  0  0  0999 V2000
+    6.9493   -5.6860    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.0104   -5.6860    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.6077   -5.0522    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.1202   -5.6909    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   10.2429   -5.6909    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    9.8698   -5.0414    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8660   -3.7480    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1244   -3.7480    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7585   -4.3966    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1280   -5.0414    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    8.7538   -5.6860    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    9.1119   -7.6146    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7476   -6.9740    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1216   -6.3356    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    9.8687   -6.3356    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   10.2366   -6.9789    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8577   -7.6188    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+ 11  2  1  6  0  0  0
+  5  3  1  6  0  0  0
+  5  4  1  0  0  0  0
+  5 15  1  0  0  0  0
+  6  5  1  0  0  0  0
+ 10  6  1  0  0  0  0
+  8  7  1  0  0  0  0
+  9  8  1  0  0  0  0
+ 10  9  1  1  0  0  0
+ 11 10  1  0  0  0  0
+ 14 11  1  0  0  0  0
+ 13 12  1  0  0  0  0
+ 14 13  1  1  0  0  0
+ 15 14  1  0  0  0  0
+ 15 16  1  6  0  0  0
+ 16 17  1  0  0  0  0
+M  END
+]]></value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/C6H12O5/c7-1-4-6(10)5(9)3(8)2-11-4/h3-10H,1-2H2/t3-,4+,5+,6+/m0/s1</value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi-key" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">MPCAJMNYNOGXPB-SLPGGIOYSA-N</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F1" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <name>HYDROXYPROPYL FRAGMENT</name>
+              <identifiedSubstance>
+                <code code="F1" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <moiety>
+                  <code code="F118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONNECTION ATOM" />
+                  <positionNumber value="3" />
+                </moiety>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-mdl-molfile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[
+  ACCLDraw04301514532D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    9.7228   -6.6729    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7858   -6.0684    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.7627   -6.6663    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7394   -6.0751    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+   10.7394   -4.8923    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  4  1  0  0  0  0
+  3  2  1  0  0  0  0
+  4  3  1  0  0  0  0
+  4  5  1  0  0  0  0
+M  END
+]]></value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/C3H8O/c1-3(2)4/h3-4H,1-2H3</value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi-key" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">KFZMGEQAYNKOFK-UHFFFAOYSA-N</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F2" root="b2315501-dc0c-56d0-e044-001185133a64" />
+              <name>METHYL FRAGMENT</name>
+              <identifiedSubstance>
+                <code code="F2" codeSystem="b2315501-dc0c-56d0-e044-001185133a64" />
+                <moiety>
+                  <code code="F118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONNECTION ATOM" />
+                  <positionNumber value="2" />
+                </moiety>
+              </identifiedSubstance>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-mdl-molfile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><![CDATA[
+  ACCLDraw04301515172D
+
+  2  1  0  0  0  0  0  0  0  0999 V2000
+   12.2153   -7.8000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   11.0347   -7.8000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+M  END
+]]></value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">InChI=1S/CH4/h1H4</value>
+                </characteristic>
+              </subjectOf>
+              <subjectOf>
+                <characteristic>
+                  <code displayName="Chemical Structure" codeSystem="2.16.840.1.113883.3.26.1.1" code="C103240" />
+                  <value xsi:type="ED" mediaType="application/x-inchi-key" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">VNWKTOKETHGBQD-UHFFFAOYSA-N</value>
+                </characteristic>
+              </subjectOf>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

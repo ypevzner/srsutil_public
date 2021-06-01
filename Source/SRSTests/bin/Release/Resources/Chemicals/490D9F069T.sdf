@@ -1,0 +1,106 @@
+
+  Symyx   04271611292D 1   1.00000     0.00000     0
+
+ 15  9  0     0  0            999 V2000
+    7.6374   -5.0988    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.2020   -5.0050    0.0000 La  0  1  0  0  0  0           0  0  0
+    2.9437   -5.5300    0.0000 O   0  5  0  0  0  0           0  0  0
+    3.5854   -5.1550    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.2312   -5.5175    0.0000 O   0  5  0  0  0  0           0  0  0
+    3.5854   -4.4133    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.9437   -5.5300    0.0000 O   0  5  0  0  0  0           0  0  0
+    3.5854   -5.1550    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.2312   -5.5175    0.0000 O   0  5  0  0  0  0           0  0  0
+    3.5854   -4.4133    0.0000 O   0  0  0  0  0  0           0  0  0
+    2.9437   -5.5300    0.0000 O   0  5  0  0  0  0           0  0  0
+    3.5854   -5.1550    0.0000 C   0  0  0  0  0  0           0  0  0
+    4.2312   -5.5175    0.0000 O   0  5  0  0  0  0           0  0  0
+    3.5854   -4.4133    0.0000 O   0  0  0  0  0  0           0  0  0
+    1.2020   -5.0050    0.0000 La  0  1  0  0  0  0           0  0  0
+  3  4  1  0     0  0
+  4  5  1  0     0  0
+  4  6  2  0     0  0
+  7  8  1  0     0  0
+  8  9  1  0     0  0
+  8 10  2  0     0  0
+ 11 12  1  0     0  0
+ 12 13  1  0     0  0
+ 12 14  2  0     0  0
+M  CHG  8   2   3   3  -1   5  -1   7  -1   9  -1  11  -1  13  -1  15   3
+M  STY  6   1 GEN   2 GEN   3 MUL   4 MUL   5 DAT   6 DAT
+M  SLB  6   1   1   2   3   3   4   4   5   5   6   6   7
+M  SCN  2   3 HT    4 HT
+M  SAL   1  1   1
+M  SDI   1  4    7.3400   -5.5200    7.3400   -4.8000
+M  SDI   1  4    8.2500   -4.8000    8.2500   -5.5200
+M  SAL   2 14   2   3   4   5   6   7   8   9  10  11  12  13  14  15
+M  SDI   2  4    0.3700   -6.5600    0.3700   -3.5400
+M  SDI   2  4    5.6600   -3.5400    5.6600   -6.5600
+M  SAL   3  2   2  15
+M  SPA   3  1   2
+M  SMT   3 2
+M  SDI   3  4    0.9500   -5.3500    0.9500   -4.5700
+M  SDI   3  4    1.8500   -4.5700    1.8500   -5.3500
+M  SAL   4 12   3   4   5   6   7   8   9  10  11  12  13  14
+M  SPA   4  4   3   4   5   6
+M  SMT   4 3
+M  SDI   4  4    2.6500   -5.8700    2.6500   -4.1100
+M  SDI   4  4    4.6700   -4.1100    4.6700   -5.8700
+M  SDT   5 FDAREG_SGROUP
+M  SDD   5     8.3600   -5.6400    DA    ALL  1       5
+M  SED   5 B
+M  SDT   6 FDAREG_SGROUP
+M  SDD   6     5.9200   -6.7800    DA    ALL  1       5
+M  SED   6 A
+M  SPL  2   5   1   6   2
+M  END
+>  <SUBSTANCE_ID>
+15694
+
+>  <UNII>
+490D9F069T
+
+>  <DESC_PART1>
+<CHEMICAL>
+ <NUMBER_OF_MOIETIES>2</NUMBER_OF_MOIETIES>
+ <MOIETY_AMOUNT_TYPE>MOLE RATIO</MOIETY_AMOUNT_TYPE>
+<MOIETY_GROUP>
+ <MOIETY_ID>A</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE>1</AVERAGE>
+ <LOW_LIMIT>1</LOW_LIMIT>
+ <HIGH_LIMIT>1</HIGH_LIMIT>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<MOIETY_GROUP>
+ <MOIETY_ID>B</MOIETY_ID>
+<MOIETY_AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ </MOIETY_AMOUNT>
+ </MOIETY_GROUP>
+<PROPERTIES_GROUP>
+ <PROPERTY/>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNITS/>
+ </PROPERTIES_GROUP>
+ </CHEMICAL>
+
+>  <DESC_PART2>
+
+>  <COMMENTS>
+FDA_ID: F016128; TYPICALLY CONTAINS BETWEEN 4 AND 5 MOLES OF WATER ACCORDING TO
+LABEL (DRUGS@FDA 3FEB06).
+
+>  <CDBREGNO>
+85584
+
+>  <STRUCTURE_ID>
+50482
+
+>  <SUBSTANCE_NAME>
+
+$$$$
