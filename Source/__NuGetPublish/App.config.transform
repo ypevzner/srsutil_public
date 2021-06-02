@@ -1,0 +1,234 @@
+﻿<configuration>
+  <configSections>
+    <section name="ImageOptions" type="System.Configuration.NameValueSectionHandler"/>
+    <section name="FragmentsRegistry" type="System.Configuration.NameValueSectionHandler"/>
+    <section name="NAFragmentsRegistry" type="System.Configuration.NameValueSectionHandler"/>
+    <sectionGroup name="Validation">
+      <section name="BadComments" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="DescriptionRoot" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="BadMixtureType" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="BadSdata" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="SkipSdata" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="SequenceTypes" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="GlycosylationTypes" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="AgentModificationTypes" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="AgentModificationRoles" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="AmountTypes" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="Units" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="StructureModificationTypes" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="MWTypes" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="MWMethods" type="System.Configuration.NameValueSectionHandler"/>
+      <section name="LinkageTypes" type="System.Configuration.NameValueSectionHandler"/>
+    </sectionGroup>
+    <section name="SPL.Codes" type="FDA.SRS.Utils.SplCodesSection, FDA.SRS.Utils" allowLocation="true" allowDefinition="Everywhere"/>
+  </configSections>
+  <appSettings>
+    <!-- Absolute path to XML files needed by validation (if it is not in the same directory where executed)-->
+    <add key="ValidationRulesXMLFilePath" value=""/>
+    <add key="AcidBaseRulesXMLFilePath" value=""/>
+
+    <!-- URL (or URI) to the latest registry (SubstanceIndexing.dat) which lists the current version of SPL by UNII -->
+    <!-- If for any reason this file is not accessible or it does not contain an expected signature (^UNII\|) then SubstancesIndexing.dat is loaded from internal resource. -->
+    <add key="SubstanceIndexingURI" value="http://elist.fda.gov/prpllr/public/report/SubstanceIndexing.dat"/>
+  </appSettings>
+  <!-- http://lifescience.opensource.epam.com/indigo/options/rendering-options.html -->
+  <ImageOptions>
+    <add key="render-atom-ids-visible" value="False"/>
+    <add key="render-bond-ids-visible" value="False"/>
+    <add key="render-atom-bond-ids-from-one" value="True"/>
+    <add key="render-output-format" value="png"/>
+    <add key="render-margins" value="300, 300"/>
+  </ImageOptions>
+  <!-- Fragments library - lookup for chemical structures by UNII, names, etc -->
+  <FragmentsRegistry>
+    <!-- key is a name of SDF file, value defines which fields should be taken from SDF and how mapped to the known field types (UNII, NAME, SYNONYMS) -->
+    <!-- value: <field>, <field>, ...; <filed> => <field>, ... -->
+    <add key="registry.sdf" value="UNII"/>
+    <add key="Fragments.sdf" value="UNII"/>
+  </FragmentsRegistry>
+  <NAFragmentsRegistry>
+    <!-- key is a name of SDF file, value defines which fields should be taken from SDF and how mapped to the known field types (UNII, NAME, SYNONYMS) -->
+    <!-- value: <field>, <field>, ...; <filed> => <field>, ... -->
+    <add key="registry.sdf" value="UNII"/>
+    <add key="NA_Fragments.sdf" value="UNII"/>
+  </NAFragmentsRegistry>
+  <Validation>
+    <BadComments>
+      <!-- YP comented out per SRS-331 -->
+      <!-- <add key="1" value="Representative structure" /> -->
+      <add key="1" value="V3000 CONVERSION FAILED"/>
+    </BadComments>
+    <DescriptionRoot>
+      <add key="Substance" value="STEREOCHEMISTRY" />
+      <add key="Mixture" value="" />
+      <add key="Protein" value="PROTEIN" />
+      <add key="StructurallyDiverse" value="STRUCTURALLY_DIVERSE" />
+      <add key="Polymer" value="POLYMER" />
+    </DescriptionRoot>
+    <BadMixtureType>
+      <add key="1" value="ANY"/>
+      <add key="2" value="ONE_OF"/>
+    </BadMixtureType>
+    <!-- key is SGroup tag, value is a regular expression to check for -->
+    <BadSdata>
+      <add key="SED" value=".*?UNDEFINED"/>
+      <add key="SMT" value=".*?\.\d{1,}"/>
+      <add key="SUP" value=".*"/>
+    </BadSdata>
+    <SkipSdata>
+      <add key="SCN" value=".*"/>
+      <add key="V30" value="CONNECT"/>
+    </SkipSdata>
+    <SequenceTypes>
+      <add key="COMPLETE" value="1"/>
+      <add key="PARTIAL" value="2"/>
+      <add key="UNKNOWN" value="3"/>
+    </SequenceTypes>
+    <GlycosylationTypes>
+      <add key="AVIAN" value="1"/>
+      <add key="BACTERIUM" value="2"/>
+      <add key="FUNGAL" value="3"/>
+      <add key="HUMAN" value="4"/>
+      <add key="MAMMALIAN" value="5"/>
+      <!-- There is no corresponding code <add key="YEAST" value="6" />-->
+    </GlycosylationTypes>
+    <AgentModificationTypes>
+      <add key="RADIOLABEL" value="1"/>
+      <add key="ENZYMATIC" value="2"/>
+      <add key="ENZYME" value="3"/>
+      <add key="RADIONUCLIDE" value="4"/>
+      <add key="OXIDIZER" value="5"/>
+      <add key="CONJUGATION" value="6"/>
+      <add key="CONJUGATING AGENT" value="7"/>
+      <add key="CROSSLINKING" value="8"/>
+      <add key="REDUCTION" value="9"/>
+    </AgentModificationTypes>
+    <AgentModificationRoles>
+      <add key="TOXIN-HYDROLYSABLE LINKER" value="1"/>
+    </AgentModificationRoles>
+    <AmountTypes>
+      <add key="FOLD ENHANCEMENT" value="1"/>
+      <add key="MOIETIES PER MOLECULE" value="2"/>
+      <add key="MOLE PERCENT" value="3"/>
+      <add key="MOLE RATIO TO SUBUNIT" value="4"/>
+      <add key="MOLE RATIO" value="5"/>
+      <add key="MOLES PER SUBUNIT" value="6"/>
+      <add key="PER MOLE" value="7"/>
+      <add key="PERCENT MODIFIED" value="8"/>
+      <add key="PERCENT" value="9"/>
+      <add key="TIME" value="10"/>
+      <add key="WEIGHT PERCENT" value="11"/>
+      <add key="PROBABILITY" value="12"/>
+    </AmountTypes>
+    <Units>
+      <add key="AMU" value="1"/>
+      <add key="C" value="2"/>
+      <add key="DA" value="3"/>
+      <add key="DALTONS" value="4"/>
+      <add key="DAY" value="5"/>
+      <add key="IONS PER SUBUNIT" value="6"/>
+      <add key="MIN" value="7"/>
+      <add key="MINUTES" value="8"/>
+      <add key="MOLE PERCENT" value="9"/>
+      <add key="MOLE RATIO" value="10"/>
+      <add key="MOLE" value="11"/>
+      <add key="MOLES PER MOLE OF PROTEIN" value="12"/>
+      <add key="PER SUBUNIT" value="13"/>
+    </Units>
+    <StructureModificationTypes>
+      <add key="AMINO ACID SUBSTITUTION" value="1"/>
+    </StructureModificationTypes>
+    <MWTypes>
+      <add key="APPROXIMATE" value="1"/>
+      <add key="CALCULATED" value="2"/>
+      <add key="ESTIMATED" value="3"/>
+      <add key="FORMULA" value="4"/>
+      <add key="NUMBER" value="5"/>
+    </MWTypes>
+    <MWMethods>
+      <add key="ADDED GALACTOSE" value="1"/>
+      <add key="AMINO ACID ANALYSIS" value="2"/>
+      <add key="CALCULATED" value="3"/>
+      <add key="CENTRIFUGATION" value="4"/>
+      <add key="ESTIMATED" value="5"/>
+      <add key="MASS SPECTROMETRY" value="6"/>
+      <add key="NOT DESCRIBED" value="7"/>
+      <add key="SDS PAGE" value="8"/>
+      <add key="UNKNOWN" value="9"/>
+    </MWMethods>
+    <LinkageTypes>
+      <add key="LACTONE" value="1"/>
+      <add key="AMIDE BOND" value="2"/>
+      <add key="DIAMIDE" value="3"/>
+    </LinkageTypes>
+  </Validation>
+
+  <SPL.Codes defaultCodeSystem="2.16.840.1.113883.3.26.1.1" defaultValueType="ST">
+    <!-- Document level -->
+    <code id="document" code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance"/>
+    <code id="section" code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section"/>
+
+    <!-- Protein and sequence related -->
+    <code id="AMINO ACID SUBSTITUTION POINT" code="C118426" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID SUBSTITUTION POINT">
+      AMINO ACID SUBSTITUTION POINT – The location of amino acid substitution in a protein.
+    </code>
+    <code id="STRUCTURAL ATTACHMENT POINT" code="C14050" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL ATTACHMENT POINT">
+      STRUCTURAL ATTACHMENT POINT – The position where a structural modification is attached.
+    </code>
+    <code id="STRUCTURAL MODIFICATION" code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STRUCTURAL MODIFICATION">
+      STRUCTURAL MODIFICATION – A moiety that modifies the chemical structure of a substance.
+    </code>
+    <code id="PROTEIN SUBUNIT" code="C118424" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PROTEIN SUBUNIT">
+      Protein subunit – a single polypeptide chain  of a protein
+    </code>
+    <code id="AMINO ACID SEQUENCE" code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" mediaType="application/x-aa-seq">
+      Amino acid sequence – The sequence of amino acids along a polypeptide chain.
+    </code>
+    <code id="AMINO ACID CONNECTION POINTS" code="C118427" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMINO ACID CONNECTION POINTS">
+      The amino acid N and C atoms that participate in forming peptide bonds
+    </code>
+    <code id="HUMAN TYPE GLYCAN" code="C118428" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="HUMAN TYPE GLYCAN">
+      An oligosaccharide modifying a protein in human cells.
+    </code>
+    <code id="AVIAN TYPE GLYCAN" code="C118429" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AVIAN TYPE GLYCAN">
+      An oligosaccharide modifying a protein in avian cells.
+    </code>
+    <code id="BACTERIAL TYPE GLYCAN" code="C118430" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BACTERIAL TYPE GLYCAN">
+      An oligosaccharide modifying a protein in bacterial cells.
+    </code>
+    <code id="MAMMALIAN TYPE GLYCAN" code="C118431" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MAMMALIAN TYPE GLYCAN">
+      An oligosaccharide modifying a protein in mammalian cells.
+    </code>
+    <code id="FUNGAL TYPE GLYCAN" code="C118432" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="FUNGAL TYPE GLYCAN">
+      An oligosaccharide that is typically attached to a protein in fungal cells
+    </code>
+    <code id="COMPLETE" code="C25250" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="COMPLETE">
+      Brought to a conclusion; possessing all necessary parts; whole; finished
+    </code>
+    <code id="INCOMPLETE" code="C49160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INCOMPLETE">
+      Not whole; lacking some necessary part or detail; unfinished.
+    </code>
+
+    <!-- Predefined chemical characteristics and other -->
+    <code id="chemical-mol" code="C103240" displayName="Chemical Structure" mediaType="application/x-mdl-molfile"/>
+    <code id="chemical-inchi" code="C103240" displayName="Chemical Structure InChI" mediaType="application/x-inchi"/>
+    <code id="chemical-inchikey" code="C103240" displayName="Chemical Structure InChIKey" mediaType="application/x-inchi-key"/>
+    <code id="mass-from-formula" code="9997-6" codeSystem="2.16.840.1.113883.6.1" displayName="molecular mass, computed from formula" mediaType="text/plain"/>
+    <code id="hash" codeSystem="2.16.840.1.113883.3.2705"/>
+    <code id="unii" codeSystem="2.16.840.1.113883.4.9"/>
+
+    <!-- Predefined chemicals and proteins -->
+    <code id="CSSC" code="CSSC" codeSystem="2.16.840.1.113883.4.9" name="cysteine disulfide"/>
+
+    <!-- Structurally diverse -->
+    <code id="sd-acquire-achilles-tendon" code="FC0001" codeSystem="1.2.3.99.999.1" displayName="ACQUIRE ACHILLES TENDON"/>
+    <code id="serotype" code="C987654" displayName="serotype"/>
+    <code id="cultivar" code="C987654" displayName="cultivar"/>
+    <code id="strain" code="C987654" displayName="strain"/>
+
+    <!-- Other -->
+    <code id="same" code="C64637" displayName="same"/>
+    <code id="mapping" code="C66664" displayName="mapping"/>
+    <code id="error" codeSystem="1.2.3"/>
+  </SPL.Codes>
+</configuration>

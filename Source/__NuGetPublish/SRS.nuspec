@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SRS</id>
+    <version>1.0.6</version>
+    <title>SRS libraries</title>
+    <authors>CNI</authors>
+    <description>
+      SRS libraries (FDA.SRS.dll, FDA.SRS.Database.dll, FDA.SRS.ObjectModel.dll, FDA.SRS.Processing.dll, FDA.SRS.Services.dll, FDA.SRS.Utils.dll)
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+    </summary>
+    <language>en-US</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="App.config.transform" target="content\App.config.transform" />
+    <file src="App.config.transform" target="content\Web.config.transform" />
+    <file src="..\bin\FDA.SRS.dll" target="lib\net45\FDA.SRS.dll" />
+    <file src="..\bin\FDA.SRS.Utils.dll" target="lib\net45\FDA.SRS.Utils.dll" />
+    <file src="..\bin\FDA.SRS.ObjectModel.dll" target="lib\net45\FDA.SRS.ObjectModel.dll" />
+    <file src="..\bin\FDA.SRS.Database.dll" target="lib\net45\FDA.SRS.Database.dll" />
+    <file src="..\bin\FDA.SRS.Processing.dll" target="lib\net45\FDA.SRS.Processing.dll" />
+    <file src="..\bin\FDA.SRS.Services.dll" target="lib\net45\FDA.SRS.Services.dll" />
+  </files>
+</package>
