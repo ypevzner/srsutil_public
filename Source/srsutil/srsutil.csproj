@@ -440,7 +440,9 @@ copy /Y "$(SolutionDir)srsutil\Resources\NA_Fragments.sdf" "$(TargetDir)"
 copy /Y "$(SolutionDir)srsutil\Resources\KewGardens.csv" "$(TargetDir)"
 copy /Y "$(SolutionDir)srsutil\Resources\NA_Fragments_dictionary.txt" "$(TargetDir)"
 copy /Y "$(SolutionDir)srsutil\Resources\nucleic_acids.json" "$(TargetDir)"
-copy /Y "$(SolutionDir)srsutil\Resources\polymer.exe" "$(TargetDir)"</PostBuildEvent>
+copy /Y "$(SolutionDir)srsutil\Resources\polymer.exe" "$(TargetDir)"
+copy /Y "$(SolutionDir)srsutil\Resources\Indigo_DLL\*" "$(TargetDir)"
+copy /Y "$(SolutionDir)srsutil\Resources\DLL\*" "$(TargetDir)"</PostBuildEvent>
   </PropertyGroup>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Import Project="..\packages\SQLitePCL.native.sqlite3.v110_xp.0.9.3\build\SQLitePCL.native.sqlite3.v110_xp.targets" Condition="Exists('..\packages\SQLitePCL.native.sqlite3.v110_xp.0.9.3\build\SQLitePCL.native.sqlite3.v110_xp.targets')" />
