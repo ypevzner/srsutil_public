@@ -2634,7 +2634,9 @@ V	HG18B9YRS7".Replace("\r", "")
                                         min_mod_amount = s.Amount.Numerator.GetValueOrDefault();
                                     }
                                 }
-                                if (max_mod_amount + sum_of_mod_amounts > 1)
+                                //issue 2
+                                //if (max_mod_amount + sum_of_mod_amounts > 1)
+                                if (sum_of_mod_amounts > 1)
                                 {
                                     throw new Exception("Sum of modifications amounts at site " + mod_site.Id + " exceeds 1");
                                 }
