@@ -110,7 +110,10 @@ namespace FDA.SRS.ObjectModel
             if (Numerator != null)
                 v = String.Format("<{0}>", Numerator);
             else if (Low == null && High == null)
-                v = "";
+                if (Center != null)
+                    v = String.Format("[{0}]", Center);
+                else
+                    v = "";
             else if (Low == null)
                 v = String.Format("[..{0}]", High);
             else if (High == null)
