@@ -86,9 +86,9 @@ namespace FDA.SRS.ObjectModel
 					);
 
 				if (!SplOptions.ExportOptions.Features.Has("separate-sequence-definition"))
-					//YP SRS-419 Do not replace residues with X if they are modified
-					//moiety.Add(SugarSensitiveSequence.SequenceSpl);
-					moiety.Add(Sequence.SequenceSpl);
+					
+					moiety.Add(SugarSensitiveSequence.SequenceSpl);
+					//moiety.Add(Sequence.SequenceSpl);
 				return moiety;
 			}
 		}

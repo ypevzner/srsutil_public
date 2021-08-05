@@ -902,29 +902,35 @@ U   U".Replace("\r", "")
         public static void MakeSugarSensitiveSequence(this NucleicAcid na, PolymerBaseReadingState state)
         {
 
+            
 
             foreach (NASubunit su in na.Subunits)
             {
                 String sugar_sensitive_sequence = "";
                 for (int i = 0; i < su.Sequence.ToString().Length; i = i + 1)
                 {
-                    char next_character = 'X';
+                    char next_character = '?';
                     if (GetSugarAtPosition(su, i + 1) == "R")
                     {
                         next_character = char.ToLower(su.Sequence.ToString()[i]);
                     }
-                    else if (GetSugarAtPosition(su, i + 1) == "dR")
+                    else
                     {
                         next_character = char.ToUpper(su.Sequence.ToString()[i]);
                     }
-                    else if (GetSugarAtPosition(su, i + 1) != "dR")
-                    {
-                        next_character = 'X';
-                    }
-                    if (GetLinkageAtPosition(su, i + 1) != "P")
-                    {
-                        next_character = 'X';
-                    }
+                    //YP SRS-419 Do not replace residues with X if they are modified
+                    //else (GetSugarAtPosition(su, i + 1) == "dR")
+                    //{
+                    //    next_character = char.ToUpper(su.Sequence.ToString()[i]);
+                    //}
+                    //else if (GetSugarAtPosition(su, i + 1) != "dR")
+                    //{
+                    //   next_character = 'X';
+                    //}
+                    //if (GetLinkageAtPosition(su, i + 1) != "P")
+                    //{
+                    //    next_character = 'X';
+                    //}
                     sugar_sensitive_sequence = sugar_sensitive_sequence + next_character;
                 }
                 su.SugarSensitiveSequence = new NASequence(state.RootObject, sugar_sensitive_sequence);
