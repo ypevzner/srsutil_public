@@ -918,6 +918,10 @@ U   U".Replace("\r", "")
                     {
                         next_character = char.ToUpper(su.Sequence.ToString()[i]);
                     }
+                    //Issue 1. If "x" is in the sequence then make sure it's uppercase
+                    if (char.ToUpper(next_character) == 'X')
+                        next_character = char.ToUpper(next_character);
+
                     //YP SRS-419 Do not replace residues with X if they are modified
                     //else (GetSugarAtPosition(su, i + 1) == "dR")
                     //{
