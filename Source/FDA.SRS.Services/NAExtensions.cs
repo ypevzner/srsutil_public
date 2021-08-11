@@ -1153,7 +1153,9 @@ U   U".Replace("\r", "")
                     JToken amt_avg = amt_token.SelectToken("average");
                     if (amt_avg != null)
                     {
-                        su.SubunitAmount.AmountType = AmountType.Statistical;
+                        //YP Issue 3
+                        //su.SubunitAmount.AmountType = AmountType.Statistical;
+                        su.SubunitAmount.AmountType = AmountType.Exact;
                         su.SubunitAmount.Numerator = Convert.ToDouble(amt_avg.ToString());
                     }
                     JToken amt_low = amt_token.SelectToken("low");
@@ -6922,11 +6924,15 @@ u_nop	FKUNIIRUNP".Replace("\r", "")
                 {
                     mod.Amount.High = Math.Round(mod.Amount.High.GetValueOrDefault() / g.NucleotideSites.Count(), 2);
                 }
-                if (mod.Amount.Center != null)
+                //YP Issue 3
+                /*
+                 * if (mod.Amount.Center != null)
                 {
                     mod.Amount.Center = Math.Round(mod.Amount.Center.GetValueOrDefault() / g.NucleotideSites.Count(), 2);
                     //mod.Amount.AmountType = AmountType.UncertainZero;
                 }
+                */
+
                 if (mod.Amount.Numerator != null)
                 {
                     mod.Amount.Numerator = Math.Round(mod.Amount.Numerator.GetValueOrDefault() / g.NucleotideSites.Count(), 2);

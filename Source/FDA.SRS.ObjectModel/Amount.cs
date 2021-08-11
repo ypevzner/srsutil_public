@@ -53,7 +53,8 @@ namespace FDA.SRS.ObjectModel
 
         public double? High { get; set; }
 
-        public double? Center { get; set; }
+        //YP Issue 3. 
+        //public double? Center { get; set; }
 
         public double? Numerator {
             get;
@@ -109,11 +110,12 @@ namespace FDA.SRS.ObjectModel
             string v = "";
             if (Numerator != null)
                 v = String.Format("<{0}>", Numerator);
-            else if (Low == null && High == null)
-                if (Center != null)
-                    v = String.Format("[{0}]", Center);
-                else
-                    v = "";
+            //YP Issue 3
+            //else if (Low == null && High == null)
+                //if (Center != null)
+                //    v = String.Format("[{0}]", Center);
+                //else
+                //    v = "";
             else if (Low == null)
                 v = String.Format("[..{0}]", High);
             else if (High == null)
@@ -225,7 +227,9 @@ namespace FDA.SRS.ObjectModel
 
                 var xNum = new XElement(xmlns.spl + "numerator");
 
-                if (AmountType != AmountType.Exact && Center == null)
+                //YP Issue 3
+                //if (AmountType != AmountType.Exact && Center == null)
+                if (AmountType != AmountType.Exact)
                     xNum.Add(new XAttribute(xmlns.xsi + "type", "URG_PQ"));
 
                 if (AmountType == AmountType.Exact)
@@ -235,9 +239,12 @@ namespace FDA.SRS.ObjectModel
                 }
                 else if (AmountType == AmountType.Statistical)
                 {
-                    if (Numerator != null && !isDefaultNumerator && Center != null)
+                    //YP Issue 3
+                    //if (Numerator != null && !isDefaultNumerator && Center != null)
+                    if (Numerator != null && !isDefaultNumerator)
                         xNum.Add(new XAttribute("value", Numerator == null ? "" : Numerator.ToString()));
-                    if (Numerator != null && !isDefaultNumerator && Center != null)
+                    //if (Numerator != null && !isDefaultNumerator && Center != null)
+                    if (Numerator != null && !isDefaultNumerator)
                         xNum.Add(new XAttribute("unit", Unit.ToString()));
                     if (Low != null)
                     {
@@ -247,11 +254,14 @@ namespace FDA.SRS.ObjectModel
                     {
                         xNum.Add(new XElement(xmlns.spl + "high", new XAttribute("value", High == null ? "" : High.ToString()), new XAttribute("unit", Unit.ToString())));
                     }
+                    //YP Issue 3
+                    /*
                     if (Center != null)
                     {
                         //xNum.Add(new XElement(xmlns.spl + "center", new XAttribute("value", Center == null ? "" : Center.ToString()), new XAttribute("unit", Unit.ToString())));
                         xNum.Add(new XAttribute("value", Center == null ? "" : Center.ToString()), new XAttribute("unit", Unit.ToString()));
                     }
+                    */
                 }
                 else if (AmountType == AmountType.UncertainNonZero)
                 {
