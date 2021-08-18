@@ -64,7 +64,7 @@ namespace FDA.SRS.Processing
             //************************************************************
             // The following is for logging information regarding the hash
 
-            string seqOnlyUID = String.Join("|", na.Subunits.Select(su => su.Sequence.UID)).GetMD5String();
+            string seqOnlyUID = String.Join("|", na.Subunits.Select(su => su.SugarSensitiveSequence.UID)).GetMD5String();
             string mwOnlyUID = Optional<MolecularWeight>.ofNullable(na.MolecularWeight)
                                                .map(mw => mw.UID.GetMD5String())
                                                .orElse("null");

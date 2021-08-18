@@ -46,7 +46,7 @@ namespace FDA.SRS.ObjectModel
             get
             {
                 return (
-                    String.Join("|", Subunits.OrderBy(s => s.Sequence.ToString()).Select(s => s.UID)) + "_" +
+                    String.Join("|", Subunits.OrderBy(s => s.SugarSensitiveSequence.ToString()).Select(s => s.UID)) + "_" +
                     String.Join("|", NAModifications.Select(s => s.UID)) + "_" +
                     String.Join("|", NAFragments.Select(s => s.UID))
                 ).GetMD5String();

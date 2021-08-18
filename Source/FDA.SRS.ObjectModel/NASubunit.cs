@@ -53,7 +53,7 @@ namespace FDA.SRS.ObjectModel
 
 		public string UID
 		{
-			get { return Sequence.ToString().GetMD5String() + SubunitAmount.UID; }
+			get { return SugarSensitiveSequence.ToString().GetMD5String() + SubunitAmount.UID; }
 		}
 
 		public override XElement SPL
@@ -75,7 +75,7 @@ namespace FDA.SRS.ObjectModel
 				//	);
 
 				if ( SplOptions.ExportOptions.Features.Has("separate-sequence-definition") )
-					partMoiety.Add(new XElement(xmlns.spl + "code", new XAttribute("code", Sequence.Id ?? ""), new XAttribute("codeSystem", RootObject.DocId == null ? "" : RootObject.DocId.ToString())));
+					partMoiety.Add(new XElement(xmlns.spl + "code", new XAttribute("code", SugarSensitiveSequence.Id ?? ""), new XAttribute("codeSystem", RootObject.DocId == null ? "" : RootObject.DocId.ToString())));
 
 				var moiety =
 					new XElement(xmlns.spl + "moiety",
