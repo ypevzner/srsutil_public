@@ -724,13 +724,13 @@ namespace FDA.SRS.Processing
                     amount.High = Math.Round(amount.High.GetValueOrDefault() / moieties_count, 2);
                 }
                 //YP Issue 3
-                /*
+                
                 if (amount.Center != null)
                 {
                     amount.Center = Math.Round(amount.Center.GetValueOrDefault() / moieties_count, 2);
                     //amount.AmountType = AmountType.UncertainZero;
                 }
-                */
+                
                 if (amount.Numerator != null)
                 {
                     amount.Numerator = Math.Round(amount.Numerator.GetValueOrDefault() / moieties_count, 2);
@@ -758,8 +758,8 @@ namespace FDA.SRS.Processing
                 else
                 {
                     //YP Issue 3
-                    //try { a.Center = double.Parse(v); }
-                    try { a.Numerator= double.Parse(v); }
+                    try { a.Center = double.Parse(v); }
+                    //try { a.Numerator= double.Parse(v); }
                     catch (FormatException ex)
                     {
                         TraceUtils.ReportError("amount", mixture_unii, "Cannot parse <AMOUNT>: {0}", ex.Message);

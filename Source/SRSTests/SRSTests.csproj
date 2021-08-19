@@ -270,7 +270,6 @@
     <Compile Include="SequenceTests.cs" />
     <Compile Include="CompoundsTests.cs" />
     <Compile Include="CustomConfigTests.cs" />
-    <Compile Include="ProteinsTests.cs" />
     <Compile Include="StructurallyDiverseTests.cs" />
     <Compile Include="DatabasesTests.cs" />
     <Compile Include="ChemicalsTests.cs" />

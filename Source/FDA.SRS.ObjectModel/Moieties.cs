@@ -141,8 +141,8 @@ namespace FDA.SRS.ObjectModel
                 //YP if MoietyAmount isn't set, thus numerator is null, then use existing logic
                 //if MoietyAmount is set then return it as Amount
                 //YP Issue 3
-                //if (MoietyAmount.Numerator != null || MoietyAmount.Center !=null || MoietyAmount.Low != null || MoietyAmount.High != null)
-                if (MoietyAmount.Numerator != null || MoietyAmount.Low != null || MoietyAmount.High != null)
+                if (MoietyAmount.Numerator != null || MoietyAmount.Center !=null || MoietyAmount.Low != null || MoietyAmount.High != null)
+                //if (MoietyAmount.Numerator != null || MoietyAmount.Low != null || MoietyAmount.High != null)
                 {
                     return MoietyAmount;
                 }

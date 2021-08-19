@@ -1154,8 +1154,8 @@ U   U".Replace("\r", "")
                     if (amt_avg != null)
                     {
                         //YP Issue 3
-                        //su.SubunitAmount.AmountType = AmountType.Statistical;
-                        su.SubunitAmount.AmountType = AmountType.Exact;
+                        su.SubunitAmount.AmountType = AmountType.Statistical;
+                        //su.SubunitAmount.AmountType = AmountType.Exact;
                         su.SubunitAmount.Numerator = Convert.ToDouble(amt_avg.ToString());
                     }
                     JToken amt_low = amt_token.SelectToken("low");
@@ -6925,13 +6925,13 @@ u_nop	FKUNIIRUNP".Replace("\r", "")
                     mod.Amount.High = Math.Round(mod.Amount.High.GetValueOrDefault() / g.NucleotideSites.Count(), 2);
                 }
                 //YP Issue 3
-                /*
-                 * if (mod.Amount.Center != null)
+                
+                if (mod.Amount.Center != null)
                 {
                     mod.Amount.Center = Math.Round(mod.Amount.Center.GetValueOrDefault() / g.NucleotideSites.Count(), 2);
                     //mod.Amount.AmountType = AmountType.UncertainZero;
                 }
-                */
+                
 
                 if (mod.Amount.Numerator != null)
                 {

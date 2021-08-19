@@ -323,10 +323,10 @@ namespace FDA.SRS.Processing
                                                                     {
 
                                                                         //YP Issue 3
-                                                                        //sru.Amount.AmountType = AmountType.Statistical;
-                                                                        //sru.Amount.Center = Convert.ToDouble(n.SelectToken("..amount..average"));
-                                                                        sru.Amount.AmountType = AmountType.Exact;
-                                                                        sru.Amount.Numerator= Convert.ToDouble(n.SelectToken("..amount..average"));
+                                                                        sru.Amount.AmountType = AmountType.Statistical;
+                                                                        sru.Amount.Center = Convert.ToDouble(n.SelectToken("..amount..average"));
+                                                                        //sru.Amount.AmountType = AmountType.Exact;
+                                                                        //sru.Amount.Numerator= Convert.ToDouble(n.SelectToken("..amount..average"));
                                                                     }
                                                                 }
                                                                 else if (n.SelectToken("..amount..nonNumericValue") != null)
@@ -354,12 +354,12 @@ namespace FDA.SRS.Processing
                                                                 if (sru.Amount.SrsAmountType == "MOLE PERCENT")
                                                                 {
                                                                     //YP Issue 3
-                                                                    /*
-                                                                     * if (sru.Amount.Center != null)
+                                                                    
+                                                                    if (sru.Amount.Center != null)
                                                                     {
                                                                         srus_mw_total += sru.Amount.Center * sru.MolecularWeight;
                                                                     }
-                                                                    */
+                                                                    
                                                                     if (sru.Amount.Numerator != null)
                                                                     {
                                                                         srus_mw_total += sru.Amount.Numerator * sru.MolecularWeight;
@@ -397,12 +397,12 @@ namespace FDA.SRS.Processing
                                             if (chn_sru.Amount.SrsAmountType == "MOLE PERCENT")
                                             {
                                                 //YP Issue 3
-                                                /*
-                                                 * if (chn_sru.Amount.Center != null)
+                                                
+                                                if (chn_sru.Amount.Center != null)
                                                 {
                                                     chn_sru.Amount.Center = Math.Round((double)chn_sru.Amount.Center * (double)plmr.polimerization_factor, 0);
                                                 }
-                                                */
+                                                
                                                 if (chn_sru.Amount.Numerator != null)
                                                 {
                                                     chn_sru.Amount.Numerator = Math.Round((double)chn_sru.Amount.Numerator * (double)plmr.polimerization_factor, 0);
@@ -434,10 +434,10 @@ namespace FDA.SRS.Processing
                                                         {
 
                                                             //YP Issue 3
-                                                            //sru.Amount.AmountType = AmountType.Statistical;
-                                                            //sru.Amount.Center = Math.Round((monomer_amount / structural_units_count),1) ;
-                                                            sru.Amount.AmountType = AmountType.Exact;
-                                                            sru.Amount.Numerator= Math.Round((monomer_amount / structural_units_count), 1);
+                                                            sru.Amount.AmountType = AmountType.Statistical;
+                                                            sru.Amount.Center = Math.Round((monomer_amount / structural_units_count),1) ;
+                                                            //sru.Amount.AmountType = AmountType.Exact;
+                                                            //sru.Amount.Numerator= Math.Round((monomer_amount / structural_units_count), 1);
                                                         }
                                                     }
                                                     return monomer_amount;

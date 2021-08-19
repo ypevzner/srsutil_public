@@ -1262,8 +1262,8 @@ Y	Y".Replace("\r", "")
                     if (amt_avg != null)
                     {
                         //YP Issue 3
-                        //su.SubunitAmount.AmountType = AmountType.Statistical;
-                        su.SubunitAmount.AmountType = AmountType.Exact;
+                        su.SubunitAmount.AmountType = AmountType.Statistical;
+                        //su.SubunitAmount.AmountType = AmountType.Exact;
                         su.SubunitAmount.Numerator = Convert.ToDouble(amt_avg.ToString());
                     }
                     JToken amt_low = amt_token.SelectToken("low");
@@ -2601,19 +2601,19 @@ V	HG18B9YRS7".Replace("\r", "")
                                         sum_of_low_mod_amounts += s.Amount.Low;
                                         sum_of_high_mod_amounts += s.Amount.High;
                                         //YP Issue 3
-                                        //sum_of_avg_mod_amounts += s.Amount.Center;
-                                        sum_of_avg_mod_amounts += s.Amount.Numerator;
+                                        sum_of_avg_mod_amounts += s.Amount.Center;
+                                        //sum_of_avg_mod_amounts += s.Amount.Numerator;
                                         if (s.Amount.High.GetValueOrDefault() > max_mod_amount)
                                         {
                                             max_high_mod_amount = s.Amount.High.GetValueOrDefault();
                                         }
                                         //YP Issue 3
-                                        /*
-                                         * if (s.Amount.Center.GetValueOrDefault() > max_mod_amount)
+                                        
+                                         if (s.Amount.Center.GetValueOrDefault() > max_mod_amount)
                                         {
                                             max_avg_mod_amount = s.Amount.Center.GetValueOrDefault();
                                         }
-                                        */
+                                        
                                         if (s.Amount.Numerator.GetValueOrDefault() > max_mod_amount)
                                         {
                                             max_avg_mod_amount = s.Amount.Numerator.GetValueOrDefault();
@@ -2687,8 +2687,8 @@ V	HG18B9YRS7".Replace("\r", "")
                     else
                     {
                         //YP Issue 3
-                        //if (max_mod_amount + sum_of_mod_amounts + Math.Max(lnk.Amount.Center.GetValueOrDefault(), Math.Max(lnk.Amount.High.GetValueOrDefault(), lnk.Amount.Numerator.GetValueOrDefault())) > 1)
-                        if (max_mod_amount + sum_of_mod_amounts + Math.Max(lnk.Amount.Numerator.GetValueOrDefault(), Math.Max(lnk.Amount.High.GetValueOrDefault(), lnk.Amount.Numerator.GetValueOrDefault())) > 1)
+                        if (max_mod_amount + sum_of_mod_amounts + Math.Max(lnk.Amount.Center.GetValueOrDefault(), Math.Max(lnk.Amount.High.GetValueOrDefault(), lnk.Amount.Numerator.GetValueOrDefault())) > 1)
+                        //if (max_mod_amount + sum_of_mod_amounts + Math.Max(lnk.Amount.Numerator.GetValueOrDefault(), Math.Max(lnk.Amount.High.GetValueOrDefault(), lnk.Amount.Numerator.GetValueOrDefault())) > 1)
                         {
                             throw new Exception("Sum of modifications amounts exceeds 1");
                         }
@@ -2717,13 +2717,13 @@ V	HG18B9YRS7".Replace("\r", "")
                     mod.Amount.High = Math.Round(mod.Amount.High.GetValueOrDefault() / g.ResidueSites.Count(), 2);
                 }
                 //YP Issue 3
-                /*
-                 * if (mod.Amount.Center != null)
+                
+                if (mod.Amount.Center != null)
                 {
                     mod.Amount.Center = Math.Round(mod.Amount.Center.GetValueOrDefault() / g.ResidueSites.Count(), 2);
                     //mod.Amount.AmountType = AmountType.UncertainZero;
                 }
-                */
+                
                 if (mod.Amount.Numerator != null)
                 {
                     mod.Amount.Numerator = Math.Round(mod.Amount.Numerator.GetValueOrDefault() / g.ResidueSites.Count(), 2);
