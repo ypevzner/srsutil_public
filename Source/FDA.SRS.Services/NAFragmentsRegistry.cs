@@ -48,6 +48,10 @@ namespace FDA.SRS.Services
 
                     }
                     unii = ( r["UNII"] ?? new List<string>() ).FirstOrDefault();
+					if (unii== "AOQ54IZZ6J")
+                    {
+					
+                    }
 					if ( !String.IsNullOrEmpty(unii) && !synonyms.Contains(unii.ToLower()) )
 						synonyms.Add(unii.ToLower());
 				}
@@ -107,7 +111,7 @@ namespace FDA.SRS.Services
 							f.Synonyms.Add(s);
 					});
 				}
-                if (f.UNII == "WX07H97JHX")
+                if (f.UNII == "VD6PQK9DHG")
                 {
 
                 }
@@ -130,7 +134,7 @@ namespace FDA.SRS.Services
                         //.Where(s => s != "0") //newly added to leave out 0, which indicates no connector
                         .ToList();
 
-                    if (f.UNII == "WX07H97JHX")
+                    if (f.UNII == "VD6PQK9DHG")
                     {
 
                     }
@@ -153,11 +157,25 @@ namespace FDA.SRS.Services
                         .Select(s => s.Split(new char[] { ',', ';' }, StringSplitOptions.RemoveEmptyEntries))
                         .ToList();
 
+					try
+					{
+						for (int i = 0; i < conns.Count; i += 2)
+						{
+							//YP Issue 1
 
-                    for (int i = 0; i < conns.Count; i += 2)
+							if (f.getCanonicalAtoms().Length == 0)
+							{
+								f.AddConnectorsPair(conns[i], conns[i + 1], unii);
+							}
+							else
+							{
+								f.AddConnectorsPair((conns[i]==0 ? 0 : f.getCanonicalAtoms()[conns[i] - 1] + 1), (conns[i+1]==0 ? 0 : f.getCanonicalAtoms()[conns[i + 1] - 1] + 1), unii);
+							}
+						}
+					}
+					catch
                     {
-                        
-                        f.AddConnectorsPair(conns[i], conns[i + 1], unii);
+						continue;
                     }
                 }
                 // Extract connectors from asterisks
