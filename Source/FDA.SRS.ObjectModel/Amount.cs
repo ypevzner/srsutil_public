@@ -244,7 +244,7 @@ namespace FDA.SRS.ObjectModel
                     //if (Numerator != null && !isDefaultNumerator)
                         xNum.Add(new XAttribute("value", Numerator == null ? "" : Numerator.ToString()));
                     //if (Numerator != null && !isDefaultNumerator && Center != null)
-                    if (Numerator != null && !isDefaultNumerator)
+                    if ((Numerator != null && !isDefaultNumerator) && !(AmountType != AmountType.Exact && Center == null)) 
                         xNum.Add(new XAttribute("unit", Unit.ToString()));
                     if (Low != null)
                     {
