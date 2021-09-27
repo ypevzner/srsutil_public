@@ -325,6 +325,8 @@ namespace FDA.SRS.Processing
                                                                         //YP Issue 3
                                                                         sru.Amount.AmountType = AmountType.Statistical;
                                                                         sru.Amount.Center = Convert.ToDouble(n.SelectToken("..amount..average"));
+                                                                        sru.Amount.High = null;
+                                                                        sru.Amount.Low = null;
                                                                         //sru.Amount.AmountType = AmountType.Exact;
                                                                         //sru.Amount.Numerator= Convert.ToDouble(n.SelectToken("..amount..average"));
                                                                     }
