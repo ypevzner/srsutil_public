@@ -203,79 +203,85 @@ namespace FDA.SRS.Processing
                                     if (sdf.HasSGroup(SGroupType.DAT))
                                         throw new SrsException("invalid_mol", "DAT SGroups are not supported");
 
-                                    Optional<JToken>.ofNullable(job.SelectToken("properties"))
-                                    .map(t => t.AsJEnumerable()
-                                             .Filter(v => v.SelectToken("name").ToString().Contains("MOL_WEIGHT"))
-                                             .First())
-                                    .ifPresent(jmw => {
+                                    //YP Issue 5
+                                    if (job.SelectToken("properties") != null && job.SelectToken("properties").Count() >0)
+                                    {
+                                        Optional<JToken>.ofNullable(job.SelectToken("properties"))
+                                        .map(t => t.AsJEnumerable()
+                                                 .Filter(v => v.SelectToken("name").ToString().Contains("MOL_WEIGHT"))
+                                                 .First())
+                                        .ifPresent(jmw =>
+                                        {
                                         //TODO: This is really due to improper import of old SRS records into
                                         //GSRS. This should remain supported, but be updated in the future to
                                         //use parameters of the property.
 
                                         string mwname = jmw.SelectToken("name").ToString();
 
-                                        MolecularWeight mw = new MolecularWeight();
-                                        mw.Amount = PolymerBaseExtensions.ReadAmountJson(plmr, jmw.SelectToken("value"), state);
+                                            MolecularWeight mw = new MolecularWeight();
+                                            mw.Amount = PolymerBaseExtensions.ReadAmountJson(plmr, jmw.SelectToken("value"), state);
 
 
-                                        string mwcolon = Optional<JToken>.ofNullable(jmw.SelectToken("value.type"))
-                                                                        .map(v => v.ToString())
-                                                                        .orElse(null);
+                                            string mwcolon = Optional<JToken>.ofNullable(jmw.SelectToken("value.type"))
+                                                                            .map(v => v.ToString())
+                                                                            .orElse(null);
 
 
 
 
-                                        string mwparan = null;
+                                            string mwparan = null;
 
                                         //read from property value
                                         if (mwcolon == null || !mwcolon.Contains("("))
-                                        {
-                                            string[] split = mwname.Split(new char[] { ':' }, 2);
-                                            if (split.Length > 1)
                                             {
-                                                string[] split2 = split[1].Split(new char[] { '(' }, 2);
-                                                string mwcolon1 = split2[0].Trim();
-                                                if (split2.Length > 1)
+                                                string[] split = mwname.Split(new char[] { ':' }, 2);
+                                                if (split.Length > 1)
                                                 {
-                                                    mwparan = split2[1].Trim().Replace(")", "");
-                                                    mwcolon = split2[0].Trim();
+                                                    string[] split2 = split[1].Split(new char[] { '(' }, 2);
+                                                    string mwcolon1 = split2[0].Trim();
+                                                    if (split2.Length > 1)
+                                                    {
+                                                        mwparan = split2[1].Trim().Replace(")", "");
+                                                        mwcolon = split2[0].Trim();
+                                                    }
+                                                }
+                                                if (mwparan == null)
+                                                {
+                                                    string[] split2 = mwname.Split(new char[] { '(' }, 2);
+                                                    if (split2.Length > 1)
+                                                    {
+                                                        mwparan = split2[1].Replace(")", "").Trim();
+                                                    }
                                                 }
                                             }
-                                            if (mwparan == null)
-                                            {
-                                                string[] split2 = mwname.Split(new char[] { '(' }, 2);
-                                                if (split2.Length > 1)
-                                                {
-                                                    mwparan = split2[1].Replace(")", "").Trim();
-                                                }
-                                            }
-                                        }
 
                                         //mw.WeightType = mwcolon;
                                         //mw.WeightMethod = mwparan;
                                         SRSReadingUtils.readSingleElement(mwcolon, "MOLECULAR_WEIGHT_TYPE", ValidatedValues.MWTypes.Keys.Contains, v => mw.WeightType = v, plmr.UNII);
-                                        SRSReadingUtils.readSingleElement(mwparan, "MOLECULAR_WEIGHT_METHOD", ValidatedValues.MWMethods.Keys.Contains, v => mw.WeightMethod = v, plmr.UNII);
+                                            SRSReadingUtils.readSingleElement(mwparan, "MOLECULAR_WEIGHT_METHOD", ValidatedValues.MWMethods.Keys.Contains, v => mw.WeightMethod = v, plmr.UNII);
 
-                                        if (mw.WeightMethod != null
-                                           || mw.WeightType != null
-                                           || mw.Amount.Low != null
-                                           || mw.Amount.High != null
-                                           || mw.Amount.Numerator != null
-                                           || mw.Amount.NonNumericValue != null)
-                                        {
-
-
-                                            if (mw.Amount.Unit == null || mw.Amount.Unit.Equals("mol"))
+                                            if (mw.WeightMethod != null
+                                               || mw.WeightType != null
+                                               || mw.Amount.Low != null
+                                               || mw.Amount.High != null
+                                               || mw.Amount.Numerator != null
+                                               || mw.Amount.NonNumericValue != null)
                                             {
-                                                mw.Amount.Unit = "DA";
-                                            }
+
+
+                                                if (mw.Amount.Unit == null || mw.Amount.Unit.Equals("mol"))
+                                                {
+                                                    mw.Amount.Unit = "DA";
+                                                }
                                             //YP SRS-372 commenting this as the denominator unit should always be "mol" per Yulia
                                             //if (mw.Amount.DenominatorUnit == null || mw.Amount.DenominatorUnit.Equals("mol")) {
                                             //    mw.Amount.DenominatorUnit = "1";
                                             //}
                                             plmr.MolecularWeight = mw;
-                                        }
-                                    });
+                                            }
+                                        });
+                                    }
+                                    //End YP Issue 5
 
                                     // Moietize - the main processing routine
                                     plmr.RootObject = splDoc;
@@ -390,37 +396,39 @@ namespace FDA.SRS.Processing
                                         });
 
                                     //YP SRS-400
-                                    
-                                    plmr.polimerization_factor = plmr.MolecularWeight.Amount.Numerator / srus_mw_total;
-                                    foreach (Chain chn in plmr.Subunits)
+
+                                    if (plmr.MolecularWeight != null && srus_mw_total !=0)
                                     {
-                                        foreach (SRU chn_sru in chn.SRUs)
+                                        plmr.polimerization_factor = plmr.MolecularWeight.Amount.Numerator / srus_mw_total;
+                                        foreach (Chain chn in plmr.Subunits)
                                         {
-                                            if (chn_sru.Amount.SrsAmountType == "MOLE PERCENT")
+                                            foreach (SRU chn_sru in chn.SRUs)
                                             {
-                                                //YP Issue 3
-                                                
-                                                if (chn_sru.Amount.Center != null)
+                                                if (chn_sru.Amount.SrsAmountType == "MOLE PERCENT")
                                                 {
-                                                    chn_sru.Amount.Center = Math.Round((double)chn_sru.Amount.Center * (double)plmr.polimerization_factor, 0);
-                                                }
-                                                
-                                                if (chn_sru.Amount.Numerator != null)
-                                                {
-                                                    chn_sru.Amount.Numerator = Math.Round((double)chn_sru.Amount.Numerator * (double)plmr.polimerization_factor, 0);
-                                                }
-                                                if (chn_sru.Amount.Low != null)
-                                                {
-                                                    chn_sru.Amount.Low = Math.Round((double)chn_sru.Amount.Low * (double)plmr.polimerization_factor, 0);
-                                                }
-                                                if (chn_sru.Amount.High != null)
-                                                {
-                                                    chn_sru.Amount.High = Math.Round((double)chn_sru.Amount.High * (double)plmr.polimerization_factor, 0);
+                                                    //YP Issue 3
+
+                                                    if (chn_sru.Amount.Center != null)
+                                                    {
+                                                        chn_sru.Amount.Center = Math.Round((double)chn_sru.Amount.Center * (double)plmr.polimerization_factor, 0);
+                                                    }
+
+                                                    if (chn_sru.Amount.Numerator != null)
+                                                    {
+                                                        chn_sru.Amount.Numerator = Math.Round((double)chn_sru.Amount.Numerator * (double)plmr.polimerization_factor, 0);
+                                                    }
+                                                    if (chn_sru.Amount.Low != null)
+                                                    {
+                                                        chn_sru.Amount.Low = Math.Round((double)chn_sru.Amount.Low * (double)plmr.polimerization_factor, 0);
+                                                    }
+                                                    if (chn_sru.Amount.High != null)
+                                                    {
+                                                        chn_sru.Amount.High = Math.Round((double)chn_sru.Amount.High * (double)plmr.polimerization_factor, 0);
+                                                    }
                                                 }
                                             }
                                         }
                                     }
-
 
                                     if (non_numeric_amount_found && valid_amount_formula)
                                     {
