@@ -129,41 +129,48 @@ namespace FDA.SRS.Processing
             {
                 foreach (SdfRecord sdf in r.Records)
                 {
-                    string unii = sdf.GetFieldValue("UNII");
-                    if (String.IsNullOrEmpty(unii) && opt.GenerateMode != GenerateMode.NewSubstance)
-                        throw new SrsException("mandatory_field_missing", "UNII is missing and GenerateMode != NewSubstance");
+                    
+					string unii = sdf.GetFieldValue("UNII");
+                    //YP Issue 6, allow sdf without UNII
+					//if (String.IsNullOrEmpty(unii) && opt.GenerateMode != GenerateMode.NewSubstance)
+                    //    throw new SrsException("mandatory_field_missing", "UNII is missing and GenerateMode != NewSubstance");
 
                     if (expOpt.Canonicalize)
                     {
+						SDFUtil.NewMolecule nm = new SDFUtil.NewMolecule(sdf.Mol);
+						int[] atom_mapping = nm.CanonicalNumbers();
+						var new_conns = new List<string>();
 
-                        IList<string> conn_pairs = (sdf["CONNECTORS"] ?? new List<string>())
-                        .SelectMany(s => s.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries))
-                        .ToList();
+						if (sdf["CONNECTORS"] != null)
+						{
+							IList<string> conn_pairs = (sdf["CONNECTORS"] ?? new List<string>())
+							.SelectMany(s => s.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries))
+							.ToList();
 
-                        SDFUtil.NewMolecule nm = new SDFUtil.NewMolecule(sdf.Mol);
-                        int[] atom_mapping = nm.CanonicalNumbers();
-                        var new_conns = new List<string>();
-                        for (int j = 0; j < conn_pairs.Count; j++)
-                        {
-                            IList<int> conns = conn_pairs[j].Split(';').Select(s => int.Parse(s.Trim())).ToList();
-                            var new_conns_pair = new List<int>();
-                            for (int i = 0; i < conns.Count; i++)
-                            {
-                                if (conns[i] == 0)
-                                {
-                                    new_conns_pair.Add(0);
-                                }
-                                else
-                                {
-                                    new_conns_pair.Add(atom_mapping[conns[i] - 1] + 1);
-                                }
+							
+							
+							for (int j = 0; j < conn_pairs.Count; j++)
+							{
+								IList<int> conns = conn_pairs[j].Split(';').Select(s => int.Parse(s.Trim())).ToList();
+								var new_conns_pair = new List<int>();
+								for (int i = 0; i < conns.Count; i++)
+								{
+									if (conns[i] == 0)
+									{
+										new_conns_pair.Add(0);
+									}
+									else
+									{
+										new_conns_pair.Add(atom_mapping[conns[i] - 1] + 1);
+									}
 
-                            }
-                            new_conns.Add(string.Join(";", new_conns_pair));
-                        }
-                        SDFUtil.NewMolecule canonicalized_molecule = nm.ReorderCanonically();
+								}
+								new_conns.Add(string.Join(";", new_conns_pair));
+							}
+						}
+						SDFUtil.NewMolecule canonicalized_molecule = nm.ReorderCanonically();
                         sdf.Molecule = canonicalized_molecule;
-                        sdf.Properties["CONNECTORS"][0] = string.Join(Environment.NewLine, new_conns);
+						if (sdf["CONNECTORS"] != null) { sdf.Properties["CONNECTORS"][0] = string.Join(Environment.NewLine, new_conns); }
                         
                     }
                     sr.Write(sdf);
