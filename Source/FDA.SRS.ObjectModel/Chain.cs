@@ -10,9 +10,9 @@ namespace FDA.SRS.ObjectModel
     //Polymer chain
     public class Chain : SplObject, IUniquelyIdentifiable
 	{
-		public IEnumerable<SRU> SRUs { get; set; }
+		//public IEnumerable<SRU> SRUs { get; set; }
 
-		//public List<SRU> SRUs { get; set; } = new List<SRU>();
+		public List<SRU> SRUs { get; set; } = new List<SRU>();
 
 
 		private string _id;
@@ -27,6 +27,8 @@ namespace FDA.SRS.ObjectModel
 		}
 
 		public int Ordinal { get; set; }
+
+		public int sru_fragment_id { get; set; }
         public bool head_present { get; set; }
         public bool tail_present { get; set; }
 

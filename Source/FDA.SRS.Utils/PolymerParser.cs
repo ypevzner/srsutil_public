@@ -84,6 +84,52 @@ namespace FDA.SRS.Utils
             
         }
 
+        public int[] getConnectedFragmentIDs(int fragment_id)
+        {
+            
+            String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
+            if (cat == null) return new int[] { };
+            return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
+                            .Filter(s => s.Split(' ')[0] == fragment_id.ToString())
+                            .Map(s => s.Split(' ')[2])
+                            .Map(s => int.Parse(s))
+                            .ToArray();
+        }
+
+        public int[] getAllConnectedFragmentIDs()
+        {
+
+            String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
+            if (cat == null) return new int[] { };
+            return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
+                            .Map(s => s.Split(' ')[2])
+                            .Map(s => int.Parse(s))
+                            .ToArray();
+        }
+
+        public int getConnectedFragmentID(int connecting_atom_index)
+        {
+
+            String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
+            if (cat == null) return 0;
+            return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
+                            .Filter(s => s.Split(' ')[1] == connecting_atom_index.ToString())
+                            .Map(s => s.Split(' ')[2])
+                            .Map(s => int.Parse(s))
+                            .ToArray()[0];
+        }
+
+        public int[] getConnectingAtomIDs()
+        {
+
+            String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
+            if (cat == null) return new int[] { };
+            return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
+                            .Map(s => s.Split(' ')[1])
+                            .Map(s => int.Parse(s))
+                            .ToArray();
+        }
+
         public int[] getConnectingAtomsHead(int fragment_id = 0)
         {
             /*

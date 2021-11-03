@@ -12,6 +12,8 @@ namespace FDA.SRS.ObjectModel
 
         public List<Chain> Subunits { get; set; } = new List<Chain>();
 
+        public List<SRU> SRUs { get; set; } = new List<SRU>();
+        
         public new List<PlmrModification> Modifications { get; set; } = new List<PlmrModification>();
 
         private List<List<Tuple<int, int>>> _ConnectorsCache { get; set; } = new List<List<Tuple<int, int>>>();
@@ -62,6 +64,7 @@ namespace FDA.SRS.ObjectModel
                             xIdentifiedSubstance2
                         ));
 
+                
                 foreach (var s in Subunits)
                     xIdentifiedSubstance2.Add(s.SPL);
 
@@ -81,17 +84,14 @@ namespace FDA.SRS.ObjectModel
 
                 yield return xSubject;
 
-                foreach (var sub in Subunits)
+                
+                foreach (var sru in SRUs)
                 {
-                    if (sub.SRUs != null)
-                    {
-                        foreach (var sru in sub.SRUs)
-                        {
-                            yield return sru.SPL;
-                        }
-                    }
+                    yield return sru.SPL;
                 }
 
+                
+                
                 foreach (var s in Modifications)
                 {
                     if (s is PlmrStructuralModificationGroup)
@@ -101,6 +101,7 @@ namespace FDA.SRS.ObjectModel
 
                     }
                 }
+                
 
             }
         }

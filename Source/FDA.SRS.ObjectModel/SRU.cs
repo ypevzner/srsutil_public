@@ -52,11 +52,17 @@ namespace FDA.SRS.ObjectModel
 
         }
 
-        private string Type;
+        public string Type { get; set; }
 
-        private string Subtype;
+        public string Subtype { get; set; }
         public List<string> SRULabels { get; set;}
         public Chain parent_chain { get; set; }
+
+        public List<Chain> parent_chains{ get; set; } = new List<Chain>();
+        public List<Tuple<int, Chain>> connected_chains { get; set; } = new List<Tuple<int, Chain>>();
+        public int[] connected_fragment_ids { get; set; }
+
+        public int[] fragment_ids { get; set; }
         public int Ordinal { get; set; }
         private int _counter_value;
         public Amount Amount { get; set; }
@@ -86,6 +92,8 @@ namespace FDA.SRS.ObjectModel
             }
         }
         */
+
+        
 
         public override string Id
         {
@@ -167,6 +175,7 @@ namespace FDA.SRS.ObjectModel
             //this.setCanonicalizedMolecule();
 
             //}
+            //connected_fragment_ids = plmr_unit.getConnectedFragmentIDs(fragment_id);
             foreach (int atom_index in punit.getConnectingAtoms(fragment_id: Fragment_Id))
             {
                 this.Connecting_atoms.Add(atom_index);
@@ -223,6 +232,7 @@ namespace FDA.SRS.ObjectModel
                 _counter_value = Counters.FragmentCounter;
             }
 
+            
 
             //DisplayName = punit.getFragmentType();
             InChI = punit.getUnitInChI();
@@ -308,6 +318,7 @@ namespace FDA.SRS.ObjectModel
             get
             {
 
+                //YP Issue 5 sun
                 XElement xMoiety = new XElement(xmlns.spl + "moiety");
 
                 //xMoiety.Add(Amount.SPL);
@@ -366,10 +377,10 @@ namespace FDA.SRS.ObjectModel
                 PlmrTerms connection_point_terms = new PlmrTerms(Subtype + "#####" + "CONNECTION POINTS");
 
                 // if connection points not canonicalized use _cn[i - 1] + 1 instead of i
-
-                if ((Type == "Head end") || (Type == "F" && parent_chain.tail_present))
+                
+                if (Type == "Head end")
                 {
-                    foreach (int i in Connecting_atoms)
+                    foreach (int i in Connecting_atoms.OrderBy(a => a))
                     {
                         List<XElement> XConnectors = new List<XElement>();
                         XConnectors.Add(
@@ -379,45 +390,138 @@ namespace FDA.SRS.ObjectModel
                             new XElement(xmlns.spl + "positionNumber", new XAttribute("value", i))
                             );
                         XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
-                       // new XComment("SplFragmentSnapIn"),
-                       new XElement(xmlns.spl + "code",
+                        // new XComment("SplFragmentSnapIn"),
+                        new XElement(xmlns.spl + "code",
                             new XAttribute("code", connection_point_terms.Code),
                             new XAttribute("codeSystem", connection_point_terms.CodeSystem),
                             new XAttribute("displayName", connection_point_terms.DisplayName)
-                       ));
+                        ));
+                        XConnectorsMoiety.Add(XConnectors);
+                        XConnectorsMoiety.Add(xPartMoiety);
+                        xIdentifiedSubstance.Add(XConnectorsMoiety);
+                    }    
+                }
+                else if (Type == "Tail end")
+                {
+                    foreach (int i in Connecting_atoms.OrderBy(a => a))
+                    {
+                        List<XElement> XConnectors = new List<XElement>();
+                        XConnectors.Add(
+                            new XElement(xmlns.spl + "positionNumber", new XAttribute("value", i))
+                            );
+                        XConnectors.Add(
+                        new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
+                        );
+                        XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
+                        // new XComment("SplFragmentSnapIn"),
+                        new XElement(xmlns.spl + "code",
+                            new XAttribute("code", connection_point_terms.Code),
+                            new XAttribute("codeSystem", connection_point_terms.CodeSystem),
+                            new XAttribute("displayName", connection_point_terms.DisplayName)
+                        ));
                         XConnectorsMoiety.Add(XConnectors);
                         XConnectorsMoiety.Add(xPartMoiety);
                         xIdentifiedSubstance.Add(XConnectorsMoiety);
                     }
+
+                }
+                else if (Type == "F")
+                {
+                    
+                    foreach (Tuple<int, Chain> connected_chain in connected_chains.OrderBy(chain => chain.Item1))
+                    {
+                        List<XElement> XConnectors = new List<XElement>();
+                        if (connected_chain.Item2.head_present)
+                        {
+                                
+                            XConnectors.Add(
+                                new XElement(xmlns.spl + "positionNumber", new XAttribute("value", connected_chain.Item1))
+                                );
+                            XConnectors.Add(
+                            new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
+                            );
+                        }
+                        else if (connected_chain.Item2.tail_present)
+                        {
+                                
+                            XConnectors.Add(
+                            new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
+                            );
+                            XConnectors.Add(
+                                new XElement(xmlns.spl + "positionNumber", new XAttribute("value", connected_chain.Item1))
+                                );
+                        }
+                        XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
+                        // new XComment("SplFragmentSnapIn"),
+                        new XElement(xmlns.spl + "code",
+                            new XAttribute("code", connection_point_terms.Code),
+                            new XAttribute("codeSystem", connection_point_terms.CodeSystem),
+                            new XAttribute("displayName", connection_point_terms.DisplayName)
+                        ));
+                        XConnectorsMoiety.Add(XConnectors);
+                        XConnectorsMoiety.Add(xPartMoiety);
+                        xIdentifiedSubstance.Add(XConnectorsMoiety);
+                    }
+
                 }
                 
-                //YP to ensure there's always two positionNumbers, if only one connection point, add second positionNumber="N/A"
-                if ((Type == "Tail end") || (Type=="F" && parent_chain.head_present) )
+                /*
+                foreach (Chain prnt_chain in parent_chains)
                 {
-                    foreach (int i in Connecting_atoms)
+                    if ((Type == "Head end") || (Type == "F" && prnt_chain.tail_present))
                     {
-                        List<XElement> XConnectors = new List<XElement>();
-                        XConnectors.Add(
-                            new XElement(xmlns.spl + "positionNumber", new XAttribute("value", i))
+                        foreach (int i in Connecting_atoms)
+                        {
+                            List<XElement> XConnectors = new List<XElement>();
+                            XConnectors.Add(
+                            new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
                             );
-                        XConnectors.Add(
-                        new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
-                        );
-                        XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
-                       // new XComment("SplFragmentSnapIn"),
-                       new XElement(xmlns.spl + "code",
-                            new XAttribute("code", connection_point_terms.Code),
-                            new XAttribute("codeSystem", connection_point_terms.CodeSystem),
-                            new XAttribute("displayName", connection_point_terms.DisplayName)
-                       ));
-                        XConnectorsMoiety.Add(XConnectors);
-                        XConnectorsMoiety.Add(xPartMoiety);
-                        xIdentifiedSubstance.Add(XConnectorsMoiety);
+                            XConnectors.Add(
+                                new XElement(xmlns.spl + "positionNumber", new XAttribute("value", i))
+                                );
+                            XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
+                           // new XComment("SplFragmentSnapIn"),
+                           new XElement(xmlns.spl + "code",
+                                new XAttribute("code", connection_point_terms.Code),
+                                new XAttribute("codeSystem", connection_point_terms.CodeSystem),
+                                new XAttribute("displayName", connection_point_terms.DisplayName)
+                           ));
+                            XConnectorsMoiety.Add(XConnectors);
+                            XConnectorsMoiety.Add(xPartMoiety);
+                            xIdentifiedSubstance.Add(XConnectorsMoiety);
+                        }
                     }
-                    
+
+                    //YP to ensure there's always two positionNumbers, if only one connection point, add second positionNumber="N/A"
+                    if ((Type == "Tail end") || (Type == "F" && prnt_chain.head_present))
+                    {
+                        foreach (int i in Connecting_atoms)
+                        {
+                            List<XElement> XConnectors = new List<XElement>();
+                            XConnectors.Add(
+                                new XElement(xmlns.spl + "positionNumber", new XAttribute("value", i))
+                                );
+                            XConnectors.Add(
+                            new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
+                            );
+                            XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
+                           // new XComment("SplFragmentSnapIn"),
+                           new XElement(xmlns.spl + "code",
+                                new XAttribute("code", connection_point_terms.Code),
+                                new XAttribute("codeSystem", connection_point_terms.CodeSystem),
+                                new XAttribute("displayName", connection_point_terms.DisplayName)
+                           ));
+                            XConnectorsMoiety.Add(XConnectors);
+                            XConnectorsMoiety.Add(xPartMoiety);
+                            xIdentifiedSubstance.Add(XConnectorsMoiety);
+                        }
+
+                    }
                 }
+                */
                 if ((Type == "SRU"))
                 {
+                    
                     List<XElement> XConnectors = new List<XElement>();
                     foreach (int i in Connecting_atoms_head)
                     {

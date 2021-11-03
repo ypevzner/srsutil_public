@@ -232,7 +232,226 @@ namespace FDA.SRS.Processing
             }
         }
 
+        //YP Issue 5
         public static void Moietize(this Plmr plmr)
+        {
+            Chain chain = null;
+            String polymer_tool_options = "";
+
+            List<SRU> non_sru_frags = new List<SRU>();
+            
+            if (plmr.plmr_geometry == "BRANCHED") { polymer_tool_options = "--branched"; }
+            foreach (PolymerUnit plmrUnit in PolymerParser.instance(polymer_tool_options).decompose(plmr.Sdf.Mol))
+            {
+                int connector_ref_id = 0;
+                String plmr_error = plmrUnit.getError();
+                if (plmr_error != "")
+                {
+                    throw new SrsException("invalid_mol", plmr_error);
+                }
+                if (plmrUnit.getLabels().Count == 0 && plmrUnit.getFragmentType() == "disconnected")
+                {
+                    throw new SrsException("invalid_mol", "Unlabeled disconnected fragment " + plmrUnit.getMolecule().SMILES + " encountered in a polymer. This is not allowed.");
+                }
+
+                if (plmrUnit.getFragmentType() == "linear sru" || plmrUnit.getFragmentType() == "branched sru")
+                {
+                    int polymer_index = Int32.Parse(plmrUnit.getPolymerLabel());
+                    //need to create sru for each fragment_id but all represented by single fragment
+
+                    SRU new_sru = new SRU(plmrUnit, plmr.RootObject) { SRULabels = (plmrUnit.getLabels().Count() > 0 ? plmrUnit.getLabels() : null), UndefinedAmount = true, Mol = plmrUnit.getMol() };
+                    plmr.SRUs.Add(new_sru);
+                    foreach (int fragment_id in plmrUnit.getFragmentIds())
+                    {
+                        chain = new Chain(plmr.RootObject) { Code = "C48803", CodeSystem = "2.16.840.1.113883.3.26.1.1", DisplayName = "POLYMER", Ordinal = polymer_index, head_present = false, tail_present = false };
+                        //SRU new_sru = new SRU(plmrUnit, plmr.RootObject, fragment_id: fragment_id) { parent_chain = chain, SRULabels = (plmrUnit.getLabels().Count() > 0 ? plmrUnit.getLabels() : null), UndefinedAmount = true, Mol = plmrUnit.getMol() };
+                        chain.SRUs.Add(new_sru);
+                        chain.sru_fragment_id = fragment_id;
+                        plmr.Subunits.Add(chain);
+                        polymer_index++;
+                    }
+                }
+                else //non-sru fragment
+                {
+                    
+                    int sru_connection_position = 0;
+                    var g = new PlmrStructuralModificationGroup(plmr.RootObject);
+                    g.Modification = new PlmrStructuralModification(plmr.RootObject);
+
+                    //need to create mod for each chain all referencing same fragment
+
+                    g.Modification.Fragment = new SRU(plmrUnit, plmr.RootObject) { SRULabels = (plmrUnit.getLabels().Count() > 0 ? plmrUnit.getLabels() : null), UndefinedAmount = true, Mol = plmrUnit.getMol(), fragment_ids = plmrUnit.getFragmentIds() }; ;
+                    g.Modification.Fragment.parent_chains = get_chains_by_frag_ids(plmrUnit.getAllConnectedFragmentIDs(), plmr);
+                    g.Modification.Amount = new Amount(1);
+                    g.Amount = g.Modification.Amount;
+
+                    foreach (int connecting_atom_index in plmrUnit.getConnectingAtomIDs())
+                    {
+                        g.Modification.Fragment.connected_chains.Add(new Tuple<int, Chain>(connecting_atom_index, get_chain_by_frag_id(plmrUnit.getConnectedFragmentID(connecting_atom_index), plmr)));
+                    }
+                    
+                    
+                    
+                    //foreach (Chain parent_chain in get_chains_by_frag_ids(g.Modification.Fragment.connected_fragment_ids, plmr))
+                    foreach (int fragment_id in plmrUnit.getFragmentIds())
+                    {
+
+                        connector_ref_id = 0;
+                        foreach (int parent_chain_fragment_id in (plmrUnit.getConnectedFragmentIDs(fragment_id)))
+                        {
+                            SRU.Connector end_group_frag_connector = new SRU.Connector();
+
+                            Chain parent_chain = get_chain_by_frag_id(parent_chain_fragment_id, plmr);
+                            if (g.Modification.Fragment.Type == "Head end")
+                            {
+                                parent_chain.head_present = true;
+                                //positionNumber1 = 0;
+                                sru_connection_position = 1;
+                                end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+
+                            }
+                            else if (g.Modification.Fragment.Type == "Tail end")
+                            {
+                                parent_chain.tail_present = true;
+                                //positionNumber1 = 0;
+                                sru_connection_position = -1;
+                                //positionNumber2 = -1;
+                                end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+                            }
+                            else if (g.Modification.Fragment.Type == "F")
+                            {
+                                //positionNumber1 = 0;
+                                sru_connection_position = 1;
+                                //positionNumber2 = -1;
+                                end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+
+                            }
+                            else if (g.Modification.Fragment.Type == "Disconnected")
+                            {
+                                //positionNumber1 = 0;
+                                sru_connection_position = 0;
+                                //positionNumber2 = -1;
+                                end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+                            }
+                            PlmrSite site = new PlmrSite(plmr.RootObject, "Structural Repeat Unit Substitution Site");
+                            site.Position = sru_connection_position;
+                            end_group_frag_connector.Id = connector_ref_id;
+                            site.ConnectorRef = end_group_frag_connector;
+                            if (g.Modification.Fragment.Type != "Disconnected")
+                            {
+                                site.Chain = parent_chain;
+                            }
+                            site.Code = "C132923";
+                            site.CodeSystem = "2.16.840.1.113883.3.26.1.1";
+                            site.DisplayName = "Structural Repeat Unit Substitution Site";
+                            g.PolymerSites.Add(site);
+                            connector_ref_id++;
+                        }
+                    }
+                    plmr.Modifications.Add(g);
+                }
+            }
+            /*
+           
+
+            //create mods out of non-sru fragments
+            foreach (SRU non_sru_frag in non_sru_frags)
+            {
+                int sru_connection_position = 0;
+                var g = new PlmrStructuralModificationGroup(plmr.RootObject);
+                g.Modification = new PlmrStructuralModification(plmr.RootObject);
+
+                //need to get fragment ids of fragments it connects to via fragment_connectivity
+                non_sru_frag.parent_chains = get_chains_by_frag_ids(non_sru_frag.connected_fragment_ids, plmr);
+
+                //need to create mod for each chain all referencing same fragment
+                foreach (Chain parent_chain in non_sru_frag.parent_chains)
+                {
+                    g.Modification.Fragment = non_sru_frag;
+                    g.Modification.Amount = new Amount(1);
+                    g.Amount = g.Modification.Amount;
+                    PlmrSite site = new PlmrSite(plmr.RootObject, "Structural Repeat Unit Substitution Site");
+                    SRU.Connector end_group_frag_connector = new SRU.Connector();
+
+                    if (non_sru_frag.Type == "Head end")
+                    {
+                        parent_chain.head_present = true;
+                        //positionNumber1 = 0;
+                        sru_connection_position = 1;
+                        end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+
+                    }
+                    else if (non_sru_frag.Type == "Tail end")
+                    {
+                        parent_chain.tail_present = true;
+                        //positionNumber1 = 0;
+                        sru_connection_position = -1;
+                        //positionNumber2 = -1;
+                        end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+                    }
+                    else if (non_sru_frag.Type == "F")
+                    {
+                        //positionNumber1 = 0;
+                        sru_connection_position = 1;
+                        //positionNumber2 = -1;
+                        end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+                    }
+                    else if (non_sru_frag.Type == "Disconnected")
+                    {
+                        //positionNumber1 = 0;
+                        sru_connection_position = 0;
+                        //positionNumber2 = -1;
+                        end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
+                    }
+                    site.Position = sru_connection_position;
+                    site.ConnectorRef = end_group_frag_connector;
+                    if (non_sru_frag.Type != "Disconnected")
+                    {
+                        site.Chain = parent_chain;
+                    }
+                    site.Code = "C132923";
+                    site.CodeSystem = "2.16.840.1.113883.3.26.1.1";
+                    site.DisplayName = "Structural Repeat Unit Substitution Site";
+                    plmr.Modifications.Add(g);
+                    g.PolymerSites.Add(site);
+                }
+                
+            }
+            */
+
+        }
+
+        public static List<Chain> get_chains_by_frag_ids(int[] fragment_ids, Plmr plmr)
+        {
+            List<Chain> returnvalue = new List<Chain>();
+            foreach (Chain chain in plmr.Subunits)
+            {
+                foreach (int fragment_id in fragment_ids)
+                {
+                    if (chain.sru_fragment_id == fragment_id)
+                    {
+                        returnvalue.Add(chain);
+                    }
+                }
+            }
+            return returnvalue;
+        }
+
+        public static Chain get_chain_by_frag_id(int fragment_id, Plmr plmr)
+        {
+            Chain returnvalue = null;
+            foreach (Chain chain in plmr.Subunits)
+            {
+                
+                if (chain.sru_fragment_id == fragment_id)
+                {
+                    returnvalue = chain;
+                }
+                
+            }
+            return returnvalue;
+        }
+        public static void Moietize_old(this Plmr plmr)
         {
             //plmr.Units = PolymerParser.instance().decompose(plmr.Sdf.Mol);
             //plmr.SRUs = plmr.CreateSRUs();

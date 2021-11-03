@@ -117,8 +117,7 @@ namespace FDA.SRS.Processing
 			TraceUtils.WriteUNIITrace(TraceEventType.Information, null, null, "Processed file {0}", impOpt.InputFile);
 		}
 
-		//YP Issue 5
-        public static void SdfProcessSdf(ImportOptions impOpt, ConvertOptions opt, ExportOptions expOpt)
+		public static void SdfProcessSdf(ImportOptions impOpt, ConvertOptions opt, ExportOptions expOpt)
         {
             OperationalParameters pars = impOpt.PrepareConversion(expOpt);
 

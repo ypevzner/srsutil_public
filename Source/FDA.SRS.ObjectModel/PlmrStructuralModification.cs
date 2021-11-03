@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Xml.Linq;
-
+using System.Linq;
 namespace FDA.SRS.ObjectModel
 {
 	public class PlmrStructuralModificationGroup : PlmrModification
@@ -60,8 +60,11 @@ namespace FDA.SRS.ObjectModel
 		{
 			get
 			{
-				foreach ( var s in PolymerSites ) {
-					var xMoiety = 
+				foreach (int fragment_id in Modification.Fragment.fragment_ids)
+				{
+					//foreach (int connected_fragment_id in Modification.Fragment.plmr_unit.getConnectedFragmentIDs(fragment_id))
+					//{
+					var xMoiety =
 						new XElement(xmlns.spl + "moiety",
 							// new XComment("StructuralModificationGroup"),
 							new XElement(xmlns.spl + "code", new XAttribute("code", Code ?? ""), new XAttribute("codeSystem", CodeSystem ?? ""), new XAttribute("displayName", DisplayName ?? ""))
@@ -69,19 +72,27 @@ namespace FDA.SRS.ObjectModel
 
 					//if ( String.Equals(Modification.Amount.SrsAmountType, "PROBABILITY", StringComparison.InvariantCultureIgnoreCase) )
 					xMoiety.Add(Modification.Amount.SPL);
-                    
+
 					var xPartMoiety = new XElement(xmlns.spl + "partMoiety");
 
-					if ( !SplOptions.ExportOptions.Features.Has("no-id-extension-root") )
+					if (!SplOptions.ExportOptions.Features.Has("no-id-extension-root"))
 						xPartMoiety.Add(new XElement(xmlns.spl + "id", new XAttribute("extension", Id ?? ""), new XAttribute("root", RootObject.DocId)));
 
 					xPartMoiety.Add(
-						new XElement(xmlns.spl + "code", new XAttribute("code", Modification.Fragment.Id ?? ""), new XAttribute("codeSystem", RootObject.DocId == null ? "" : RootObject.DocId.ToString())),
-						s.SPL);
+							new XElement(xmlns.spl + "code", new XAttribute("code", Modification.Fragment.Id ?? ""), new XAttribute("codeSystem", RootObject.DocId == null ? "" : RootObject.DocId.ToString())));
 
+					foreach (var s in PolymerSites)
+					{
+						if (Modification.Fragment.plmr_unit.getConnectedFragmentIDs(fragment_id).Contains(s.Chain.sru_fragment_id))
+						//if (Modification.Fragment.parent_chains.Contains(s.Chain))
+						{ 
+							xPartMoiety.Add(s.SPL);
+						}
+					};
 					xMoiety.Add(xPartMoiety);
 					yield return xMoiety;
-				};
+					//}
+				}
 			}
 		}
 
