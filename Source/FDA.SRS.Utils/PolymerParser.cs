@@ -96,6 +96,17 @@ namespace FDA.SRS.Utils
                             .ToArray();
         }
 
+        public int[] geConnectivityConnectingFragment(int connected_fragment_id)
+        {
+
+            String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
+            if (cat == null) return new int[] { };
+            string matching_connectivity_string = cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
+                            .Filter(s => s.Split(' ')[2] == connected_fragment_id.ToString()).ToArray()[0];
+
+            return matching_connectivity_string.Split(' ').ToArray().Select(int.Parse).ToArray();
+        }
+
         public int[] getAllConnectedFragmentIDs()
         {
 
@@ -207,6 +218,15 @@ namespace FDA.SRS.Utils
             return sdr.GetFieldValue("FRAGMENT_TYPE");
         }
 
+   
+        public SdfRecord getSdfRecord()
+        {
+            return sdr;
+        }
+        public void setSdfRecord(SdfRecord new_sdf_record)
+        {
+            sdr = new_sdf_record;
+        }
         /// <summary>
         /// Returns the polymer label of the PolymerUnit. The is a sequential index starting from 1 that is assigned to disjointed polymer chains
         /// </summary>
@@ -216,6 +236,11 @@ namespace FDA.SRS.Utils
         public String getPolymerLabel()
         {
             return sdr.GetFieldValue("POLYMER_LABEL");
+        }
+
+        public String getConnectivity()
+        {
+            return sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
         }
 
         /// <summary>

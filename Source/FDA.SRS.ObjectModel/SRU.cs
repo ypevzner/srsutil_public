@@ -157,7 +157,14 @@ namespace FDA.SRS.ObjectModel
         {
             this.plmr_unit = punit;
             this.Mol = punit.getMol();
-            this.MolecularWeight = punit.getMolecule().MolecularWeight;
+            try
+            {
+                this.MolecularWeight = punit.getMolecule().MolecularWeight;
+            }
+            catch (Exception e)
+            {
+                this.MolecularWeight = 0;
+            }
             Type = "";
             Subtype = "";
             Fragment_Id = fragment_id;
