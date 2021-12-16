@@ -14,6 +14,8 @@ namespace FDA.SRS.ObjectModel
 
 		public List<SRU> SRUs { get; set; } = new List<SRU>();
 
+		public int connected_frag_id_at_head { get; set; } = 0;
+		public int connected_frag_id_at_tail { get; set; } = 0;
 
 		private string _id;
 		public override string Id

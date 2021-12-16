@@ -60,6 +60,8 @@ namespace FDA.SRS.ObjectModel
 
         public List<Chain> parent_chains{ get; set; } = new List<Chain>();
         public List<Tuple<int, Chain>> connected_chains { get; set; } = new List<Tuple<int, Chain>>();
+
+        public List<Tuple<int, int>> sru_connections = new List<Tuple<int, int>>();
         public int[] connected_fragment_ids { get; set; }
 
         public int[] fragment_ids { get; set; }
@@ -341,6 +343,29 @@ namespace FDA.SRS.ObjectModel
             }
         }
 
+        public void PopulateSRUConnections()
+        {
+            foreach (Tuple<int, Chain> connected_chain in connected_chains.OrderBy(chain => chain.Item1))
+            {
+                List<XElement> XConnectors = new List<XElement>();
+                //if (connected_chain.Item2.head_present)
+                //If something is connected at the parent chain's head and it's not this fragment, then the parent chain has a head 
+                if (connected_chain.Item2.connected_frag_id_at_head != 0 && !fragment_ids.ToList().Contains(connected_chain.Item2.connected_frag_id_at_head))
+                {
+                    sru_connections.Add(new Tuple<int, int>(connected_chain.Item1, 0));
+
+                }
+                //else if (connected_chain.Item2.tail_present)
+                //If something is connected at the parent chain's tail and it's not this fragment, then the parent chain has a tail
+                else if (connected_chain.Item2.connected_frag_id_at_tail != 0 && !fragment_ids.ToList().Contains(connected_chain.Item2.connected_frag_id_at_tail))
+                {
+
+                    sru_connections.Add(new Tuple<int, int>(0, connected_chain.Item1));
+                }
+
+            }
+        }
+
         public override XElement SPL
         {
             get
@@ -434,30 +459,14 @@ namespace FDA.SRS.ObjectModel
                 }
                 else if (Type == "F")
                 {
-                    
-                    foreach (Tuple<int, Chain> connected_chain in connected_chains.OrderBy(chain => chain.Item1))
+                 
+                    foreach (Tuple<int, int> sru_connection in sru_connections.OrderBy(conn => conn.Item1))
                     {
                         List<XElement> XConnectors = new List<XElement>();
-                        if (connected_chain.Item2.head_present)
-                        {
-                                
-                            XConnectors.Add(
-                                new XElement(xmlns.spl + "positionNumber", new XAttribute("value", connected_chain.Item1))
-                                );
-                            XConnectors.Add(
-                            new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
-                            );
-                        }
-                        else if (connected_chain.Item2.tail_present)
-                        {
-                                
-                            XConnectors.Add(
-                            new XElement(xmlns.spl + "positionNumber", new XAttribute("nullFlavor", "NA"))
-                            );
-                            XConnectors.Add(
-                                new XElement(xmlns.spl + "positionNumber", new XAttribute("value", connected_chain.Item1))
-                                );
-                        }
+                               
+                        XConnectors.Add( new XElement(xmlns.spl + "positionNumber", new XAttribute(sru_connection.Item1==0 ? "nullFlavor" : "value", sru_connection.Item1 == 0 ? "N/A" : sru_connection.Item1.ToString())));
+                        XConnectors.Add(new XElement(xmlns.spl + "positionNumber", new XAttribute(sru_connection.Item2 == 0 ? "nullFlavor" : "value", sru_connection.Item2 == 0 ? "N/A" : sru_connection.Item2.ToString())));
+
                         XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
                         // new XComment("SplFragmentSnapIn"),
                         new XElement(xmlns.spl + "code",
@@ -530,13 +539,13 @@ namespace FDA.SRS.ObjectModel
                 {
                     
                     List<XElement> XConnectors = new List<XElement>();
-                    foreach (int i in Connecting_atoms_head)
+                    foreach (int i in Connecting_atoms_head.OrderBy(a => a))
                     {
                         XConnectors.Add(
                             new XElement(xmlns.spl + "positionNumber", new XAttribute("value", i))
                             );
                     }
-                    foreach (int i in Connecting_atoms_tail)
+                    foreach (int i in Connecting_atoms_tail.OrderBy(a => a))
                     {
                         XConnectors.Add(
                             new XElement(xmlns.spl + "positionNumber", new XAttribute("value", i))

@@ -299,14 +299,14 @@ M END
                 string connector_fragment_ids = "";
                 foreach (PolymerUnit plmrUnit in polymer_units)
                 {
-                    if (plmrUnit.getFragmentType() == "linear sru")
+                    if (plmrUnit.getFragmentType() == "linear sru" || plmrUnit.getFragmentType() == "branched sru")
                     {
                         List<string> unit_connectivity = plmrUnit.getConnectivity().Split('\n').ToList();
                         string augmented_fragment_connectivity = "";
                         foreach (string unit_connection in unit_connectivity)
                         {
                             List<string> unit_connection_data = unit_connection.TrimEnd().Split(' ').ToList();
-                            if (get_polymer_unit_by_frag_id(Int32.Parse(unit_connection_data[2]), polymer_units).getFragmentType() == "linear sru")
+                            if (get_polymer_unit_by_frag_id(Int32.Parse(unit_connection_data[2]), polymer_units).getFragmentType() == "linear sru" || get_polymer_unit_by_frag_id(Int32.Parse(unit_connection_data[2]), polymer_units).getFragmentType() == "branched_sru")
                             {
                                 bool connectivity_added = false;
                                 if (!already_connected_frag_ids.Contains(unit_connection_data[0]))
@@ -376,7 +376,7 @@ M END
             polymer_units.AddRange(blank_connectors_units);
 
             //YP Issue 5 fill in the fragment_connectivity for SRUs that connect to newly created blank connections
-            foreach (PolymerUnit sru_unit in polymer_units.Where(x => x.getFragmentType() == "linear sru").ToList())
+            foreach (PolymerUnit sru_unit in polymer_units.Where(x => x.getFragmentType() == "linear sru" || x.getFragmentType() == "branched sru").ToList())
             {
                 string augmented_fragment_connectivity = ""; 
                 foreach (int sru_fragment_id in sru_unit.getFragmentIds())
@@ -480,14 +480,16 @@ M END
                             //YP Issue 5. if this unit connects to the sru at sru's head connecting atom
                             if (get_polymer_unit_by_frag_id(parent_chain_fragment_id,polymer_units).getConnectingAtomsHead().ToList().Contains(plmrUnit.geConnectivityConnectingFragment(parent_chain_fragment_id)[3]))
                             {
-                                parent_chain.head_present = true;
+                                //parent_chain.head_present = true;
+                                parent_chain.connected_frag_id_at_head = fragment_id;
                                 sru_connection_position = 1;
                                 end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
                             }
                             //YP Issue 5. if this unit connects to the sru at sru's tail connecting atom
                             else if (get_polymer_unit_by_frag_id(parent_chain_fragment_id, polymer_units).getConnectingAtomsTail().ToList().Contains(plmrUnit.geConnectivityConnectingFragment(parent_chain_fragment_id)[3]))
                             {
-                                parent_chain.tail_present = true;
+                                //parent_chain.tail_present = true;
+                                parent_chain.connected_frag_id_at_tail = fragment_id;
                                 sru_connection_position = -1;
                                 end_group_frag_connector.Snip = new Tuple<int, int>(1, 0);
                             }
@@ -540,8 +542,14 @@ M END
                             connector_ref_id++;
                         }
                     }
+                    
                     plmr.Modifications.Add(g);
                 }
+            }
+            //need to run this after all is done in order to have all the information about which SRUs have what attached to their head/tail ends
+            foreach (PlmrStructuralModificationGroup mod in plmr.Modifications)
+            {
+                mod.Modification.Fragment.PopulateSRUConnections();
             }
             /*
            
