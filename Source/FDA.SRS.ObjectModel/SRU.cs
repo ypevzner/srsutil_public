@@ -343,7 +343,7 @@ namespace FDA.SRS.ObjectModel
             }
         }
 
-        public void PopulateSRUConnections()
+        public void PopulateSRUConnections(Chain chn = null)
         {
             foreach (Tuple<int, Chain> connected_chain in connected_chains.OrderBy(chain => chain.Item1))
             {

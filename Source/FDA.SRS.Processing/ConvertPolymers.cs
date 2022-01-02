@@ -65,6 +65,7 @@ namespace FDA.SRS.Processing
                         {
                             //Counters.Reset();
                             string unii = sdf.GetFieldValue("UNII");
+                            
                             if (String.IsNullOrEmpty(unii))
                             {
                                 if (opt.GenerateMode == GenerateMode.NewSubstance)

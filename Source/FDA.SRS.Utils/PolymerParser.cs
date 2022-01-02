@@ -64,7 +64,7 @@ namespace FDA.SRS.Utils
             if (fragment_id!=0)
             {
                 String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
-                if (cat == null) return new int[] { };
+                if (cat == null || cat == "") return new int[] { };
                 return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
                                 .Filter(s => s.Split(' ')[0] == fragment_id.ToString())
                                 .Map(s=>s.Split(' ')[1])
@@ -88,7 +88,7 @@ namespace FDA.SRS.Utils
         {
             
             String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
-            if (cat == null) return new int[] { };
+            if (cat == null || cat =="") return new int[] { };
             return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
                             .Filter(s => s.Split(' ')[0] == fragment_id.ToString())
                             .Map(s => s.Split(' ')[2])
@@ -100,7 +100,7 @@ namespace FDA.SRS.Utils
         {
 
             String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
-            if (cat == null) return new int[] { };
+            if (cat == null || cat == "") return new int[] { };
             string matching_connectivity_string = cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
                             .Filter(s => s.Split(' ')[2] == connected_fragment_id.ToString()).ToArray()[0];
 
@@ -111,7 +111,7 @@ namespace FDA.SRS.Utils
         {
 
             String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
-            if (cat == null) return new int[] { };
+            if (cat == null || cat == "") return new int[] { };
             return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
                             .Map(s => s.Split(' ')[2])
                             .Map(s => int.Parse(s))
@@ -122,7 +122,7 @@ namespace FDA.SRS.Utils
         {
 
             String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
-            if (cat == null) return 0;
+            if (cat == null || cat =="") return 0;
             return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
                             .Filter(s => s.Split(' ')[1] == connecting_atom_index.ToString())
                             .Map(s => s.Split(' ')[2])
@@ -134,7 +134,7 @@ namespace FDA.SRS.Utils
         {
 
             String cat = sdr.GetFieldValue("FRAGMENT_CONNECTIVITY");
-            if (cat == null) return new int[] { };
+            if (cat == null || cat =="") return new int[] { };
             return cat.Split('\n').Map(s => s.Replace("\r", "").Trim())
                             .Map(s => s.Split(' ')[1])
                             .Map(s => int.Parse(s))
@@ -300,7 +300,9 @@ namespace FDA.SRS.Utils
         private static PolymerParser _instance = null;
 
         public static PolymerParser instance(String options = "") {
-            if (_instance != null) return _instance;
+            //YP comment this out as this doesn't allow specifying options per substance but rather for the entire run
+            //need to be able to specify options per substance (e.g. --branched)
+            //if (_instance != null) return _instance;
 
             //YP use the relative path from debug folder in debug mode as the appsettings directive doesn't give a findable path
             //YP as of 09/20/2020 use of relative path shouldn't be needed 
