@@ -281,23 +281,7 @@ namespace FDA.SRS.Processing
             List<PolymerUnit> polymer_units = PolymerParser.instance(polymer_tool_options).decompose(plmr.Sdf.Mol).ToList();
             List<PolymerUnit> blank_connectors_units = new List<PolymerUnit>();
             int polymer_index = 0;
-            //YP Issue 5
-            //If two SRUs are connected directly, need to create a blank *-* connector that connects them
-            //if (plmr.plmr_geometry == "BLOCK")
-            //{
-            string blank_connector_mol = @"
-ACCLDraw10012110282D
-
-2  1  0  0  0  0  0  0  0  0999 V2000
-10.9063 - 4.7188    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
-13.0625 - 4.6250    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
-1  2  1  0  0  0  0
-M END
-";
-            string connector_connectivity = "";
-            int next_frag_id = getMaxFragmentId(polymer_units) + 1;
-            List<string> already_connected_frag_ids = new List<string>();
-            string connector_fragment_ids = "";
+            //YP Issue 5. Add new blank chain to the polymer, assuming here that non-block polymers will always have only one chain.
             if (plmr.plmr_geometry != "BLOCK")
             {
 
@@ -309,128 +293,146 @@ M END
                 polymer_index++;
 
             }
-            foreach (PolymerUnit plmrUnit in polymer_units)
+            //YP Issue 5
+            //If two SRUs are connected directly, need to create a blank *-* connector that connects them
+            if (plmr.plmr_geometry == "BLOCK")
             {
-                if (plmrUnit.getFragmentType() == "linear sru" || plmrUnit.getFragmentType() == "branched sru")
+                string blank_connector_mol = @"
+    ACCLDraw10012110282D
+
+    2  1  0  0  0  0  0  0  0  0999 V2000
+    10.9063 - 4.7188    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
+    13.0625 - 4.6250    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
+    1  2  1  0  0  0  0
+    M END
+    ";
+                string connector_connectivity = "";
+                int next_frag_id = getMaxFragmentId(polymer_units) + 1;
+                List<string> already_connected_frag_ids = new List<string>();
+                string connector_fragment_ids = "";
+                
+                foreach (PolymerUnit plmrUnit in polymer_units)
                 {
-                    List<string> unit_connectivity = (plmrUnit.getConnectivity()?.Split('\n').ToList() ?? new List<string>());
-                    //YP Issue 5. If there is no connectivity then these SRUS can't be directly connected, so no need to create fake connector
-                    if (unit_connectivity.Count != 0)
-                    { 
-                        string augmented_fragment_connectivity = "";
-                        foreach (string unit_connection in unit_connectivity)
+                    if (plmrUnit.getFragmentType() == "linear sru" || plmrUnit.getFragmentType() == "branched sru")
+                    {
+                        List<string> unit_connectivity = (plmrUnit.getConnectivity()?.Split('\n').ToList() ?? new List<string>());
+                        //YP Issue 5. If there is no connectivity then these SRUS can't be directly connected, so no need to create fake connector
+                        if (unit_connectivity.Count != 0)
                         {
-                            List<string> unit_connection_data = unit_connection.TrimEnd().Split(' ').ToList();
-                            if (get_polymer_unit_by_frag_id(Int32.Parse(unit_connection_data[2]), polymer_units).getFragmentType() == "linear sru" || get_polymer_unit_by_frag_id(Int32.Parse(unit_connection_data[2]), polymer_units).getFragmentType() == "branched_sru")
+                            string augmented_fragment_connectivity = "";
+                            foreach (string unit_connection in unit_connectivity)
                             {
-                                bool connectivity_added = false;
-                                if (!already_connected_frag_ids.Contains(unit_connection_data[0]))
+                                List<string> unit_connection_data = unit_connection.TrimEnd().Split(' ').ToList();
+                                if (get_polymer_unit_by_frag_id(Int32.Parse(unit_connection_data[2]), polymer_units).getFragmentType() == "linear sru" || get_polymer_unit_by_frag_id(Int32.Parse(unit_connection_data[2]), polymer_units).getFragmentType() == "branched_sru")
                                 {
-                                    connector_connectivity = connector_connectivity + next_frag_id.ToString() + " " + 1 + " " + unit_connection_data[0] + " " + unit_connection_data[1] + "\r\n";
+                                    bool connectivity_added = false;
+                                    if (!already_connected_frag_ids.Contains(unit_connection_data[0]))
+                                    {
+                                        connector_connectivity = connector_connectivity + next_frag_id.ToString() + " " + 1 + " " + unit_connection_data[0] + " " + unit_connection_data[1] + "\r\n";
+                                        //augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection_data[0] + " " + unit_connection_data[1] + " " + next_frag_id.ToString() + " " + 1 + "\r\n";
+                                        already_connected_frag_ids.Add(unit_connection_data[0]);
+                                        connectivity_added = true;
+                                    }
                                     //augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection_data[0] + " " + unit_connection_data[1] + " " + next_frag_id.ToString() + " " + 1 + "\r\n";
-                                    already_connected_frag_ids.Add(unit_connection_data[0]);
-                                    connectivity_added = true;
-                                }
-                                //augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection_data[0] + " " + unit_connection_data[1] + " " + next_frag_id.ToString() + " " + 1 + "\r\n";
-                                if (!already_connected_frag_ids.Contains(unit_connection_data[2]))
-                                {
-                                    connector_connectivity = connector_connectivity + next_frag_id.ToString() + " " + 2 + " " + unit_connection_data[2] + " " + unit_connection_data[3] + "\r\n";
+                                    if (!already_connected_frag_ids.Contains(unit_connection_data[2]))
+                                    {
+                                        connector_connectivity = connector_connectivity + next_frag_id.ToString() + " " + 2 + " " + unit_connection_data[2] + " " + unit_connection_data[3] + "\r\n";
+                                        //augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection_data[0] + " " + unit_connection_data[1] + " " + next_frag_id.ToString() + " " + 1;
+                                        already_connected_frag_ids.Add(unit_connection_data[2]);
+                                        connectivity_added = true;
+                                    }
                                     //augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection_data[0] + " " + unit_connection_data[1] + " " + next_frag_id.ToString() + " " + 1;
-                                    already_connected_frag_ids.Add(unit_connection_data[2]);
-                                    connectivity_added = true;
+                                    if (connectivity_added)
+                                    {
+                                        connector_fragment_ids = connector_fragment_ids + next_frag_id.ToString() + "\r\n";
+                                        next_frag_id++;
+                                    }
+
                                 }
-                                //augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection_data[0] + " " + unit_connection_data[1] + " " + next_frag_id.ToString() + " " + 1;
-                                if (connectivity_added)
+                                else
                                 {
-                                    connector_fragment_ids = connector_fragment_ids + next_frag_id.ToString() + "\r\n";
-                                    next_frag_id++;
+                                    augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection.TrimEnd() + "\r\n";
                                 }
 
                             }
-                            else
+
+                            connector_connectivity = connector_connectivity.TrimEnd();
+                            //YP Issue 5. Reset fragment connectivity for the sru to remove lines directly connecting other srus
+                            augmented_fragment_connectivity = augmented_fragment_connectivity.TrimEnd();
+                            SdfRecord augmented_sdf_record = new SdfRecord();
+                            augmented_sdf_record.Mol = plmrUnit.getSdfRecord().Mol;
+                            foreach (KeyValuePair<string, List<string>> property_value in plmrUnit.getSdfRecord().Properties)
                             {
-                                augmented_fragment_connectivity = augmented_fragment_connectivity + unit_connection.TrimEnd() + "\r\n";
+                                if (property_value.Key == "FRAGMENT_CONNECTIVITY")
+                                {
+                                    augmented_sdf_record.AddField(property_value.Key, augmented_fragment_connectivity);
+                                }
+                                else
+                                {
+                                    augmented_sdf_record.AddField(property_value.Key, property_value.Value[0]);
+                                }
                             }
-
+                            plmrUnit.setSdfRecord(augmented_sdf_record);
                         }
+                    }
 
-                        connector_connectivity = connector_connectivity.TrimEnd();
-                        //YP Issue 5. Reset fragment connectivity for the sru to remove lines directly connecting other srus
-                        augmented_fragment_connectivity = augmented_fragment_connectivity.TrimEnd();
+                }
+                //YP Issue 5 create blank connector molecule
+                connector_fragment_ids = connector_fragment_ids.TrimEnd();
+                SdfRecord blank_connector_sdf_record = new SdfRecord();
+                blank_connector_sdf_record.Mol = blank_connector_mol;
+                blank_connector_sdf_record.AddField("FRAGMENT_CONNECTIVITY", connector_connectivity);
+                blank_connector_sdf_record.AddField("FRAGMENT_IDS", connector_fragment_ids);
+                blank_connector_sdf_record.AddField("FRAGMENT_TYPE", "connection");
+                blank_connector_sdf_record.AddField("Computed_B_InChI", "InChI=1B/Zz2/c1-2");
+                blank_connector_sdf_record.AddField("Computed_B_InChIKey", "HZJIKGMPBQCCIS-UHFFFAOYBA-N");
+
+                PolymerUnit blank_connector_sru_unit = new PolymerUnit(blank_connector_sdf_record);
+                blank_connectors_units.Add(blank_connector_sru_unit);
+                //}
+                //YP Issue 5. The If statement  is a hacky way of fixing a symptom of creation of improper connecting units for cases when therea re no heads/tails and no SRUs connect directly
+                //See example: 51L8Z461QZ
+                if (connector_fragment_ids != "")
+                {
+                    polymer_units.AddRange(blank_connectors_units);
+                }
+                //YP Issue 5 fill in the fragment_connectivity for SRUs that connect to newly created blank connections
+                foreach (PolymerUnit sru_unit in polymer_units.Where(x => x.getFragmentType() == "linear sru" || x.getFragmentType() == "branched sru").ToList())
+                {
+                    string augmented_fragment_connectivity = "";
+                    foreach (int sru_fragment_id in sru_unit.getFragmentIds())
+                    {
+                        foreach (PolymerUnit connection_unit in polymer_units.Where(x => (x.getFragmentType() == "connection")).ToList())
+                        {
+                            if (connection_unit.getAllConnectedFragmentIDs().ToList().Contains(sru_fragment_id) && !sru_unit.getAllConnectedFragmentIDs().ToList().Any(connection_unit.getFragmentIds().ToList().Contains))
+                            {
+                                int[] connection_sru_connectivity = connection_unit.geConnectivityConnectingFragment(sru_fragment_id);
+                                augmented_fragment_connectivity = augmented_fragment_connectivity + sru_fragment_id + " " + connection_sru_connectivity[3] + " " + connection_sru_connectivity[0] + " " + connection_sru_connectivity[1] + "\r\n";
+                            }
+                        }
+                    }
+
+                    augmented_fragment_connectivity = augmented_fragment_connectivity.TrimEnd();
+                    if (augmented_fragment_connectivity != "")
+                    {
+
                         SdfRecord augmented_sdf_record = new SdfRecord();
-                        augmented_sdf_record.Mol = plmrUnit.getSdfRecord().Mol;
-                        foreach (KeyValuePair<string, List<string>> property_value in plmrUnit.getSdfRecord().Properties)
+                        augmented_sdf_record.Mol = sru_unit.getSdfRecord().Mol;
+                        foreach (KeyValuePair<string, List<string>> property_value in sru_unit.getSdfRecord().Properties)
                         {
                             if (property_value.Key == "FRAGMENT_CONNECTIVITY")
                             {
-                                augmented_sdf_record.AddField(property_value.Key, augmented_fragment_connectivity);
+                                augmented_sdf_record.AddField(property_value.Key, property_value.Value[0] + "\r\n" + augmented_fragment_connectivity);
                             }
                             else
                             {
                                 augmented_sdf_record.AddField(property_value.Key, property_value.Value[0]);
                             }
                         }
-                        plmrUnit.setSdfRecord(augmented_sdf_record);
+                        sru_unit.setSdfRecord(augmented_sdf_record);
                     }
                 }
-                  
             }
-            //YP Issue 5 create blank connector molecule
-            connector_fragment_ids = connector_fragment_ids.TrimEnd();
-            SdfRecord blank_connector_sdf_record = new SdfRecord();
-            blank_connector_sdf_record.Mol = blank_connector_mol;
-            blank_connector_sdf_record.AddField("FRAGMENT_CONNECTIVITY", connector_connectivity);
-            blank_connector_sdf_record.AddField("FRAGMENT_IDS", connector_fragment_ids);
-            blank_connector_sdf_record.AddField("FRAGMENT_TYPE", "connection");
-            blank_connector_sdf_record.AddField("Computed_B_InChI", "InChI=1B/Zz2/c1-2");
-            blank_connector_sdf_record.AddField("Computed_B_InChIKey", "HZJIKGMPBQCCIS-UHFFFAOYBA-N");
-
-            PolymerUnit blank_connector_sru_unit = new PolymerUnit(blank_connector_sdf_record);
-            blank_connectors_units.Add(blank_connector_sru_unit);
-            //}
-            //YP Issue 5. The If statement  is a hacky way of fixing a symptom of creation of improper connecting units for cases when therea re no heads/tails and no SRUs connect directly
-            //See example: 51L8Z461QZ
-            if (connector_fragment_ids != "")
-            {
-                polymer_units.AddRange(blank_connectors_units);
-            }
-            //YP Issue 5 fill in the fragment_connectivity for SRUs that connect to newly created blank connections
-            foreach (PolymerUnit sru_unit in polymer_units.Where(x => x.getFragmentType() == "linear sru" || x.getFragmentType() == "branched sru").ToList())
-            {
-                string augmented_fragment_connectivity = ""; 
-                foreach (int sru_fragment_id in sru_unit.getFragmentIds())
-                {
-                    foreach (PolymerUnit connection_unit in polymer_units.Where(x => (x.getFragmentType() == "connection")).ToList())
-                    {
-                        if (connection_unit.getAllConnectedFragmentIDs().ToList().Contains(sru_fragment_id) && !sru_unit.getAllConnectedFragmentIDs().ToList().Any(connection_unit.getFragmentIds().ToList().Contains))
-                        {
-                            int[] connection_sru_connectivity = connection_unit.geConnectivityConnectingFragment(sru_fragment_id);
-                            augmented_fragment_connectivity = augmented_fragment_connectivity + sru_fragment_id + " " + connection_sru_connectivity[3] + " " + connection_sru_connectivity[0] + " " + connection_sru_connectivity[1] + "\r\n";
-                        }
-                    }
-                }
-
-                augmented_fragment_connectivity = augmented_fragment_connectivity.TrimEnd();
-                if (augmented_fragment_connectivity != "")
-                {
-
-                    SdfRecord augmented_sdf_record = new SdfRecord();
-                    augmented_sdf_record.Mol = sru_unit.getSdfRecord().Mol;
-                    foreach (KeyValuePair<string, List<string>> property_value in sru_unit.getSdfRecord().Properties)
-                    {
-                        if (property_value.Key == "FRAGMENT_CONNECTIVITY")
-                        {
-                            augmented_sdf_record.AddField(property_value.Key, property_value.Value[0] + "\r\n" + augmented_fragment_connectivity);
-                        }
-                        else
-                        {
-                            augmented_sdf_record.AddField(property_value.Key, property_value.Value[0]);
-                        }
-                    }
-                    sru_unit.setSdfRecord(augmented_sdf_record);
-                }
-            }
-
 
             //YP Issue 5. Now proceed with regular processing
             foreach (PolymerUnit plmrUnit in polymer_units)
