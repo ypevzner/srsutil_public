@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd" xmlns="urn:hl7-org:v3">
+  <id root="67595055-6b56-47a0-acf7-9ba31052e771" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20211213" />
+  <setId root="f06a8482-ba35-457b-a4d3-dcbd8da84c42" />
+  <versionNumber value="2" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="9efa273c-ac31-428c-a894-e8698ca45516" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20211213" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="51L8Z461QZ" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="51L8Z461QZ" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="ee1f0baa-9e13-ccef-1fbc-323a247052a6" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code code="C48803" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POLYMER" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="P1" root="67595055-6b56-47a0-acf7-9ba31052e771" />
+                    <moiety>
+                      <code code="C164243" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Repeat Unit" />
+                      <quantity>
+                        <numerator value="67" unit="mol" />
+                        <denominator value="1" unit="mol" />
+                      </quantity>
+                      <partMoiety>
+                        <code code="SRU1" codeSystem="67595055-6b56-47a0-acf7-9ba31052e771" displayName="SRU1" />
+                      </partMoiety>
+                    </moiety>
+                    <moiety>
+                      <code code="C164243" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Repeat Unit" />
+                      <quantity>
+                        <numerator value="606" unit="mol" />
+                        <denominator value="1" unit="mol" />
+                      </quantity>
+                      <partMoiety>
+                        <code code="SRU2" codeSystem="67595055-6b56-47a0-acf7-9ba31052e771" displayName="SRU2" />
+                      </partMoiety>
+                    </moiety>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="SRU1" root="67595055-6b56-47a0-acf7-9ba31052e771" />
+              <identifiedSubstance>
+                <code code="SRU1" codeSystem="67595055-6b56-47a0-acf7-9ba31052e771" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="1b84fbf1-7f06-41a8-b10b-1cef0f6171f8" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+  -FDASRS-          2D
+
+ 12 11  0  0  1  0  0  0  0  0999 V2000
+   14.2070   -9.4150    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.2600   -5.5140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.2070   -7.8550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.2600   -7.0750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.8560   -7.0750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9090   -7.8550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.8560   -5.5140    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   16.9090   -9.4150    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.5580   -7.0750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5050   -7.8550    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   22.0870   -8.1020    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9660   -6.9920    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+ 10  5  1  0
+  3  5  1  1
+  3  9  1  0
+  9  6  1  0
+  5  7  2  0
+  3  1  1  0
+  4  6  1  6
+  6  8  2  0
+  4  2  1  0
+ 10 12  1  0
+  4 11  1  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/C6H8O4Zz2/c1-3(5(7)10-12)9-6(8)4(2)11/h3-4H,1-2H3/t3-/m0/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">GAJACNBJNWRMDY-VKHMYHEABA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C132921" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Linear SRU connection points" />
+                  <positionNumber value="12" />
+                  <positionNumber value="11" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="SRU2" root="67595055-6b56-47a0-acf7-9ba31052e771" />
+              <identifiedSubstance>
+                <code code="SRU2" codeSystem="67595055-6b56-47a0-acf7-9ba31052e771" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="a73ba0ed-adc6-c661-9ec6-38e65bc7c76b" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile"><![CDATA[
+  -FDASRS-          2D
+
+ 10  9  0  0  1  0  0  0  0  0999 V2000
+   34.4890   -8.3180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   38.5420   -7.5380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   33.1380   -7.5380    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   37.1910   -8.3180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   33.1380   -5.9780    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   37.1910   -9.8780    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   35.8400   -7.5380    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   31.7870   -8.3180    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   42.3700   -8.5650    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+   28.2490   -7.4550    0.0000 *   0  0  0  0  0  0  0  0  0  0  0  0
+  3  5  2  0
+  4  6  2  0
+  4  2  1  0
+  7  4  1  0
+  1  7  1  0
+  3  1  1  0
+  8  3  1  0
+  8 10  1  0
+  2  9  1  0
+M  END
+]]></value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1B/C4H4O4Zz2/c5-3(8-10)1-7-4(6)2-9/h1-2H2</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">VUXTVOUQWREZSG-UHFFFAOYBA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C132921" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Linear SRU connection points" />
+                  <positionNumber value="10" />
+                  <positionNumber value="9" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>
