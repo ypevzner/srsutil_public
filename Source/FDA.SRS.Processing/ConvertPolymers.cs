@@ -65,6 +65,7 @@ namespace FDA.SRS.Processing
                         {
                             //Counters.Reset();
                             string unii = sdf.GetFieldValue("UNII");
+                            
                             if (String.IsNullOrEmpty(unii))
                             {
                                 if (opt.GenerateMode == GenerateMode.NewSubstance)
@@ -196,7 +197,12 @@ namespace FDA.SRS.Processing
 
                                     if (plmr.plmr_subclass == "BLOCK")
                                     {
-                                        throw new SrsException("invalid_mol", "Currently Block polymers are not handled");
+                                        throw new SrsException("invalid_mol", "Currently Block subclass polymers are not handled");
+                                    }
+
+                                    if (plmr.plmr_geometry== "LIGHTLY CROSS-LINKED")
+                                    {
+                                        throw new SrsException("invalid_mol", "Currently polymers of LIGHTLY CROSS-LINKED geometry are not handled");
                                     }
 
                                     // Additional MOL checks
