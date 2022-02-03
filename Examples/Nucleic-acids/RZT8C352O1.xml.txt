@@ -1,0 +1,2472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://www.accessdata.fda.gov/spl/spl_report_stylesheet/result2html.xsl" type="text/xsl"?>
+<!--?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?-->
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xmlns:p="http://pragmaticdata.com/xml-sig">
+  <id root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+  <code code="64124-1" codeSystem="2.16.840.1.113883.6.1" displayName="Indexing - Substance" />
+  <title />
+  <effectiveTime value="20211005" />
+  <setId root="da8b686e-1397-4278-bd1e-3df8aad7ab50" />
+  <versionNumber value="1" />
+  <author>
+    <assignedEntity>
+      <representedOrganization>
+        <id extension="927645523" root="1.3.6.1.4.1.519.1" />
+        <name>Food and Drug Administration</name>
+      </representedOrganization>
+    </assignedEntity>
+  </author>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <id root="3c21c621-fcbe-4558-89cd-37081b1216d5" />
+          <code code="48779-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL indexing data elements section" />
+          <effectiveTime value="20211005" />
+          <subject>
+            <identifiedSubstance>
+              <id extension="RZT8C352O1" root="2.16.840.1.113883.4.9" />
+              <identifiedSubstance>
+                <code code="RZT8C352O1" codeSystem="2.16.840.1.113883.4.9" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="58f63461-bdb1-72d9-36ec-fc7f4f6394f6" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <code code="C164242" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Polynucleotide" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-na-seq">GACUUUCAUCCUGGAAAUAUAX</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C164242" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Polynucleotide" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-na-seq">UAUAUUUCCAGGAUGAAAGUCCA</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F2" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="23" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F3" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="22" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M3" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F13" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="21" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M4" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="20" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M5" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F8" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="19" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M6" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="18" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M7" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="17" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M8" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F12" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="16" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M9" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F8" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="15" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M10" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F7" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="14" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M11" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="13" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M12" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F8" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="12" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M13" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F8" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="11" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M14" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="10" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M15" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F5" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="9" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M16" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F5" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="8" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M17" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="7" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M18" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F7" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="6" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M19" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="5" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M20" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="4" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M21" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F11" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="3" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M22" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F10" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="2" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M23" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F9" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="1" />
+                      <distalMoiety>
+                        <id extension="SU2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M24" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="21" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M25" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="20" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M26" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="19" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M27" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="18" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M28" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="17" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M29" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="16" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M30" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="15" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M31" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F8" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="14" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M32" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F8" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="13" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M33" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="12" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M34" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F5" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="11" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M35" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F5" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="10" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M36" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F7" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="9" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M37" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="8" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M38" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F5" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="7" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M39" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="6" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M40" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="5" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M41" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="4" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M42" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F3" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="3" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M43" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F2" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <v:ERROR xmlns:pv="http://validator.pragmaticdata.com/validation" xmlns:xs="http://www.w3.org/2001/XMLSchema" type="schematron" rule="14.2.14.34" xmlns:v="http://validator.pragmaticdata.com/result">If the referenced Nucleotide Connection Points moiety of the Substituent (see Section 14.2.12) has no 3' sugar hydroxyl group (i.e., its second position number is N/A), then the second position number of this Nucleotide Substitution Site must be equal to the length of the nucleic acid sequence.<v:DETAIL value="2" /></v:ERROR>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="2" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M44" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="F1" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="1" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+                <moiety>
+                  <code code="C118425" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Structural Modification" />
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <id extension="M45" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <code code="CQQ59545BV" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                    <bond>
+                      <code code="C157224" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide substitution site" />
+                      <positionNumber value="1" />
+                      <positionNumber value="22" />
+                      <distalMoiety>
+                        <id extension="SU1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                      </distalMoiety>
+                    </bond>
+                  </partMoiety>
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="CQQ59545BV" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="CQQ59545BV" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="83acfcc9-e88e-305c-d5e7-86352a6ca113" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <asSpecializedKind>
+                  <generalizedMaterialKind>
+                    <code code="CQQ59545BV" codeSystem="2.16.840.1.113883.4.9" />
+                  </generalizedMaterialKind>
+                </asSpecializedKind>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety>
+                    <code code="CQQ59545BV" codeSystem="2.16.840.1.113883.4.9" />
+                  </partMoiety>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+125128  0  0  1  0  0  0  0  0999 V2000
+    8.5699  -18.3662    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.2280   -5.0598    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9988    4.7339    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7316   -3.9583    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9066   -3.9583    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1442   -4.6728    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4942   -3.2438    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9692   -4.6728    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6692   -3.2438    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3817   -5.3872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.2566   -2.5293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8554  -14.6537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.9799   -3.6526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2843    1.0213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8554  -15.4787    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.7923   -3.5093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2843    1.8463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9988  -11.7662    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.5084   -6.2649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4277   -1.8661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5698  -14.2412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.6977   -4.4278    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9988    0.6089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2066   -5.3872    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4316   -2.5293    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4277   -9.2912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.3191   -8.1018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.8567   -4.3411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2843  -12.1787    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.7906   -5.4896    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7133   -1.4537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9988  -10.9412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.6959   -6.4081    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4277   -2.6911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1409  -15.8912    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.0745   -2.7341    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5698    2.2589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4277   -8.4662    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.5067   -8.2451    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.8567   -5.1661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9246   -2.2274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7092   -1.1474    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2831  -16.7162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   24.5725   -3.5683    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7119    3.0839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3737   -3.2360    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1422   -7.2287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.2692   -7.5306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.5711   -6.4037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8554  -17.9537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.0405   -4.9165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2843    4.3213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7092   -2.4823    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    2.9246   -1.4024    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    4.9975  -17.1287    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   23.7600   -3.7116    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    6.4264    3.4963    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    8.5698  -13.4162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.8852   -4.5711    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9988   -0.2161    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7133   -9.7037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.6013   -7.3266    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1422   -3.9287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.6192   -6.1017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0192   -1.8148    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4265  -17.9537    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   22.1351   -3.9981    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.8553    4.3213    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    4.9975  -17.9537    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   23.4778   -4.4868    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    6.4264    4.3213    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    5.7120  -18.3662    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   22.6654   -4.6300    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.1408    4.7339    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    6.4265  -17.1287    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   22.4173   -3.2228    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    7.8553    3.4963    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   12.8567   -6.8162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2843  -13.0037    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   18.6030   -5.3463    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7133   -0.6287    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7133  -10.5287    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   16.4138   -7.1833    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1422   -3.1037    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1409  -18.3662    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   21.3226   -4.1413    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5698    4.7339    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   12.4442   -6.1017    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1942   -1.8149    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5686  -17.1287    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   25.1028   -4.2003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9974    3.4963    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8554  -17.1287    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   21.5708   -5.5485    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2843    3.4963    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2571   -0.9175    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8554  -13.0037    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   18.3549   -3.9391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2843   -0.6287    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9988   -9.2912    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.0710   -6.6946    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.4277   -4.3411    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2067   -6.8162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.4316   -1.1004    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2831  -18.3662    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   24.0081   -5.1188    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7119    4.7339    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7120  -19.1912    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   22.3832   -5.4053    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1408    5.5589    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0079   -5.3245    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7082   -4.5280    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7528   -4.9528    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   12.1422   -8.0537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   14.0942   -7.5306    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.5711   -5.5787    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1409  -16.7162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   21.8870   -2.5908    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5698    3.0839    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8586   -3.9034    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7120  -16.7162    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   23.2297   -3.0796    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1408    3.0839    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5230   -4.6571    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4237   -2.8948    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+120124  1  0  0  0  0
+124111  2  0  0  0  0
+124112  1  0  0  0  0
+124113  1  0  0  0  0
+ 46120  1  0  0  0  0
+ 53 46  1  0  0  0  0
+ 53125  1  1  0  0  0
+ 53 89  1  0  0  0  0
+ 65 89  1  0  0  0  0
+ 65104  2  0  0  0  0
+ 25 65  1  0  0  0  0
+ 11 25  1  0  0  0  0
+  9 11  1  0  0  0  0
+  7  9  1  0  0  0  0
+  5  7  1  0  0  0  0
+  4  5  1  0  0  0  0
+  6  4  1  0  0  0  0
+  8  6  1  0  0  0  0
+ 10  8  1  0  0  0  0
+ 24 10  1  0  0  0  0
+ 64 24  1  0  0  0  0
+ 64103  2  0  0  0  0
+ 88 64  1  0  0  0  0
+ 78 88  1  0  0  0  0
+ 47 78  1  0  0  0  0
+114 47  1  0  0  0  0
+ 38114  1  0  0  0  0
+ 26 38  1  0  0  0  0
+ 61 26  1  0  0  0  0
+ 61100  2  0  0  0  0
+ 82 61  1  0  0  0  0
+ 32 82  1  0  0  0  0
+ 18 32  1  0  0  0  0
+ 29 18  1  0  0  0  0
+ 79 29  1  0  0  0  0
+ 58 79  1  0  0  0  0
+ 58 97  2  0  0  0  0
+ 21 58  1  0  0  0  0
+ 12 21  1  0  0  0  0
+ 15 12  1  0  0  0  0
+ 35 15  1  0  0  0  0
+117 35  1  0  0  0  0
+ 75117  1  1  0  0  0
+ 75 66  1  0  0  0  0
+ 66 85  1  6  0  0  0
+ 85 50  1  0  0  0  0
+ 50 93  2  0  0  0  0
+ 50  1  1  0  0  0  0
+ 66 72  1  0  0  0  0
+ 72108  1  1  0  0  0
+ 72 69  1  0  0  0  0
+ 69105  1  1  0  0  0
+ 69 55  1  0  0  0  0
+ 55 43  1  1  0  0  0
+ 43 90  1  0  0  0  0
+ 55121  1  0  0  0  0
+ 75121  1  0  0  0  0
+ 48 78  1  0  0  0  0
+115 48  1  0  0  0  0
+ 39115  1  0  0  0  0
+ 27 39  1  0  0  0  0
+ 62 27  1  0  0  0  0
+ 62101  2  0  0  0  0
+ 83 62  1  0  0  0  0
+ 33 83  1  0  0  0  0
+ 19 33  1  0  0  0  0
+ 30 19  1  0  0  0  0
+ 80 30  1  0  0  0  0
+ 59 80  1  0  0  0  0
+ 59 98  2  0  0  0  0
+ 22 59  1  0  0  0  0
+ 13 22  1  0  0  0  0
+ 16 13  1  0  0  0  0
+ 36 16  1  0  0  0  0
+118 36  1  0  0  0  0
+ 76118  1  6  0  0  0
+ 76 67  1  0  0  0  0
+ 67 86  1  1  0  0  0
+ 86 51  1  0  0  0  0
+ 51 94  2  0  0  0  0
+ 51  2  1  0  0  0  0
+ 67 73  1  0  0  0  0
+ 73109  1  6  0  0  0
+ 73 70  1  0  0  0  0
+ 70106  1  6  0  0  0
+ 70 56  1  0  0  0  0
+ 56 44  1  6  0  0  0
+ 44 91  1  0  0  0  0
+ 56122  1  0  0  0  0
+ 76122  1  0  0  0  0
+ 78 49  1  0  0  0  0
+116 49  1  0  0  0  0
+ 40116  1  0  0  0  0
+ 28 40  1  0  0  0  0
+ 63 28  1  0  0  0  0
+ 63102  2  0  0  0  0
+ 84 63  1  0  0  0  0
+ 34 84  1  0  0  0  0
+ 20 34  1  0  0  0  0
+ 31 20  1  0  0  0  0
+ 81 31  1  0  0  0  0
+ 60 81  1  0  0  0  0
+ 60 99  2  0  0  0  0
+ 23 60  1  0  0  0  0
+ 14 23  1  0  0  0  0
+ 17 14  1  0  0  0  0
+ 37 17  1  0  0  0  0
+119 37  1  0  0  0  0
+ 77119  1  6  0  0  0
+ 77 68  1  0  0  0  0
+ 68 87  1  1  0  0  0
+ 87 52  1  0  0  0  0
+ 52 95  2  0  0  0  0
+ 52  3  1  0  0  0  0
+ 68 74  1  0  0  0  0
+ 74110  1  6  0  0  0
+ 74 71  1  0  0  0  0
+ 71107  1  6  0  0  0
+ 71 57  1  0  0  0  0
+ 57 45  1  6  0  0  0
+ 45 92  1  0  0  0  0
+ 57123  1  0  0  0  0
+ 77123  1  0  0  0  0
+ 42 89  1  0  0  0  0
+ 54 42  1  0  0  0  0
+ 54 96  1  1  0  0  0
+ 41 54  1  0  0  0  0
+ 53 41  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C78H140N11O34P/c1-50(93)85-66-72(108)69(105)55(43-90)121-75(66)117-35-15-12-21-58(97)79-29-18-32-82-61(100)26-38-114-47-78(88-64(103)24-10-8-6-4-5-7-9-11-25-65(104)89-42-54(96)41-53(89)46-120-124(111,112)113,48-115-39-27-62(101)83-33-19-30-80-59(98)22-13-16-36-118-76-67(86-51(2)94)73(109)70(106)56(44-91)122-76)49-116-40-28-63(102)84-34-20-31-81-60(99)23-14-17-37-119-77-68(87-52(3)95)74(110)71(107)57(45-92)123-77/h53-57,66-77,90-92,96,105-110H,4-49H2,1-3H3,(H,79,97)(H,80,98)(H,81,99)(H,82,100)(H,83,101)(H,84,102)(H,85,93)(H,86,94)(H,87,95)(H,88,103)(H2,111,112,113)/t53-,54+,55+,56+,57+,66+,67+,68+,69-,70-,71-,72+,73+,74+,75+,76+,77+/m0/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">LQRNAUZEMLGYOX-LZVIIAQDSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="124" />
+                  <positionNumber nullFlavor="NA" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F1" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F1" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="f25c15ea-4692-a9df-df95-c69ec471c772" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 21 23  0  0  1  0  0  0  0  0999 V2000
+    2.3162   -3.6023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3126    2.4835    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2158   -1.7943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2420    1.2944    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -4.1397   -0.0621    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5747   -0.2706    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.1890   -1.0706    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.7541    0.7379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5254    0.7379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -4.1397    3.1379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1397    4.7379    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8071   -1.6271    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7541    2.3379    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.5254    2.3379    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5650   -0.3327    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8182    4.0052    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0363   -0.9214    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.9110   -0.0621    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0218   -2.6618    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6508    1.4617    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+ 12 11  1  0  0  0  0
+ 11 14  2  0  0  0  0
+ 14  8  1  0  0  0  0
+  8 16  1  0  0  0  0
+  1 20  1  0  0  0  0
+ 16  3  1  0  0  0  0
+  3 13  2  0  0  0  0
+ 13  5  1  0  0  0  0
+  5  8  2  0  0  0  0
+  5  9  1  0  0  0  0
+  9 19  2  0  0  0  0
+  9 15  1  0  0  0  0
+ 15 11  1  0  0  0  0
+  7 20  1  1  0  0  0
+  7 10  1  0  0  0  0
+ 10 21  1  0  0  0  0
+ 21  4  1  0  0  0  0
+  4  2  1  6  0  0  0
+  2 17  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6 18  1  1  0  0  0
+ 10 16  1  6  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C11H15N5O5/c1-20-7-6(18)4(2-17)21-10(7)16-3-13-5-8(16)14-11(12)15-9(5)19/h3-4,6-7,10,17-18H,2H2,1H3,(H3,12,14,15,19)/t4-,6-,7-,10-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">OVYNGSFVYRPRCG-KQYNXXCUSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber nullFlavor="NA" />
+                  <positionNumber value="18" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F2" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F2" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="2cd8e0f9-31ff-1b33-7ea1-92496f5ff389" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 24 26  0  0  1  0  0  0  0  0999 V2000
+    4.4899   -0.3571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9906    2.4715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9164   -4.4146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3700   -4.1084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1901    1.0855    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.8730   -5.4034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4004    0.9182    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.7330   -0.6464    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.0621   -6.4741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2054   -3.8382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3483   -1.4470    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.7293   -8.0385    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5835   -5.9785    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7276   -3.3435    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7187   -5.5703    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1804   -3.0374    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4714    2.1068    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9905    3.8572    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1901    5.2425    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1950   -1.2973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5898    2.4709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8410   -0.3768    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3907    3.8565    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5909    5.2424    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  9  1  0  0  0  0
+  9 13  1  0  0  0  0
+ 13  3  2  0  0  0  0
+  3 14  1  0  0  0  0
+ 14 10  2  0  0  0  0
+ 10 16  1  0  0  0  0
+  1 20  1  0  0  0  0
+ 16  4  1  0  0  0  0
+  4 15  2  0  0  0  0
+ 15  6  1  0  0  0  0
+  6  9  2  0  0  0  0
+  6 10  1  0  0  0  0
+  8 20  1  1  0  0  0
+  8 11  1  0  0  0  0
+ 11 22  1  6  0  0  0
+ 22  5  1  0  0  0  0
+  5  2  1  6  0  0  0
+  2 21  1  0  0  0  0
+ 24 23  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 17  1  1  0  0  0
+ 11 16  1  0  0  0  0
+ 23 18  1  0  0  0  0
+ 23 19  2  0  0  0  0
+ 23 21  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C11H16N5O6PS/c1-20-8-7(17)5(2-21-23(18,19)24)22-11(8)16-4-15-6-9(12)13-3-14-10(6)16/h3-5,7-8,11,17H,2H2,1H3,(H2,12,13,14)(H2,18,19,24)/t5-,7-,8-,11-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">OXNLMRLCWQEYRW-IOSLPCCCSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="23" />
+                  <positionNumber nullFlavor="NA" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F3" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F3" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="709f8f34-80c2-11c6-deca-a2128803bbf0" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 22 23  0  0  1  0  0  0  0  0999 V2000
+    3.5525    0.2737    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3847   -4.6484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2180   -3.0574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9288    3.1028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1275    1.7168    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.0913   -5.5897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4638    1.5498    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.7955   -0.0152    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.5895   -0.8155    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.5376   -3.3470    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2577   -7.1802    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3702   -4.9378    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7569   -2.4077    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5349    2.7392    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9999   -2.6963    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9277    4.4882    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1276    5.8735    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2582   -0.6665    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5277    3.1023    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7781    0.2548    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3284    4.4878    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5286    5.8737    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+ 11  6  1  0  0  0  0
+  6  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  3 13  1  0  0  0  0
+  1 18  1  0  0  0  0
+ 13 10  1  0  0  0  0
+ 10 15  2  0  0  0  0
+ 10 12  1  0  0  0  0
+ 12  6  2  0  0  0  0
+  8 18  1  1  0  0  0
+  8  9  1  0  0  0  0
+  9 20  1  6  0  0  0
+ 20  5  1  0  0  0  0
+  5  4  1  6  0  0  0
+  4 19  1  0  0  0  0
+ 22 21  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 14  1  1  0  0  0
+  9 13  1  0  0  0  0
+ 21 16  1  0  0  0  0
+ 21 17  2  0  0  0  0
+ 21 19  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C10H16N3O7PS/c1-18-8-7(14)5(4-19-21(16,17)22)20-9(8)13-3-2-6(11)12-10(13)15/h2-3,5,7-9,14H,4H2,1H3,(H2,11,12,15)(H2,16,17,22)/t5-,7-,8-,9-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">JKIZWHJBBPPNBB-ZOQUXTDFSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="21" />
+                  <positionNumber value="14" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F4" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F4" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="f4bb1f06-18df-fd39-ea3e-6e9038b33b1e" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 22 23  0  0  1  0  0  0  0  0999 V2000
+    3.6500    0.0542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4688   -5.1580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6359   -3.5675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8288    2.8829    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0297    1.4965    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.9933   -5.8084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5612    1.3301    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.8942   -0.2362    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.4912   -1.0355    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.1211   -3.2769    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2875   -4.8692    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6589   -2.6270    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1599   -7.4005    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6321    2.5189    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4147   -2.3367    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4297    5.6532    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8300    4.2683    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0297    5.6537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3559   -0.8866    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4296    2.8823    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6804    0.0350    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2297    4.2683    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+  1 19  1  0  0  0  0
+ 12  3  1  0  0  0  0
+  3  2  2  0  0  0  0
+  2  6  1  0  0  0  0
+  6 13  2  0  0  0  0
+  6 11  1  0  0  0  0
+ 11 10  1  0  0  0  0
+ 10 12  1  0  0  0  0
+ 10 15  2  0  0  0  0
+  8 19  1  1  0  0  0
+  8  9  1  0  0  0  0
+  9 21  1  6  0  0  0
+ 21  5  1  0  0  0  0
+  5  4  1  6  0  0  0
+  4 20  1  0  0  0  0
+ 16 22  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 14  1  1  0  0  0
+  9 12  1  0  0  0  0
+ 22 17  1  0  0  0  0
+ 22 18  2  0  0  0  0
+ 22 20  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C10H15N2O9P/c1-19-8-7(14)5(4-20-22(16,17)18)21-9(8)12-3-2-6(13)11-10(12)15/h2-3,5,7-9,14H,4H2,1H3,(H,11,13,15)(H2,16,17,18)/t5-,7-,8-,9-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">FHMMECZNEPGJSJ-ZOQUXTDFSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="22" />
+                  <positionNumber value="14" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F5" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F5" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="bd70cfd2-4d66-c955-9984-d1f5e6fc6aa1" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 21 22  0  0  1  0  0  0  0  0999 V2000
+   -1.2526   -4.8632    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4199   -3.2718    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.4154    2.8141    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3454    1.6251    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.2086   -5.5142    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8958    0.3299    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.2455    1.7919    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.2926   -0.7409    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.3357   -2.9823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4618   -0.0025    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3758   -7.1050    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5032   -4.5733    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1253   -2.3308    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0457    3.1777    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6308   -2.0425    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5573    5.1920    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.6174    3.3378    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.1225    4.8585    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9813    2.4807    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6783    0.0597    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0515    3.6702    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+ 11  5  1  0  0  0  0
+  5  1  1  0  0  0  0
+  1  2  2  0  0  0  0
+  2 13  1  0  0  0  0
+  6 10  1  1  0  0  0
+ 13  9  1  0  0  0  0
+  9 15  2  0  0  0  0
+  9 12  1  0  0  0  0
+ 12  5  2  0  0  0  0
+  6  8  1  0  0  0  0
+  8 20  1  6  0  0  0
+ 20  4  1  0  0  0  0
+  4  3  1  6  0  0  0
+  3 19  1  0  0  0  0
+ 16 21  1  0  0  0  0
+  4  7  1  0  0  0  0
+  7  6  1  0  0  0  0
+  7 14  1  1  0  0  0
+  8 13  1  0  0  0  0
+ 21 17  1  0  0  0  0
+ 21 18  2  0  0  0  0
+ 21 19  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C9H13FN3O7P/c10-6-7(14)4(3-19-21(16,17)18)20-8(6)13-2-1-5(11)12-9(13)15/h1-2,4,6-8,14H,3H2,(H2,11,12,15)(H2,16,17,18)/t4-,6-,7-,8-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">KTAATIGPZHTGOP-XVFCMESISA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="21" />
+                  <positionNumber value="14" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F6" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F6" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="32eeeefb-bcac-e9ab-d0ee-ccc90aad910e" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 24 26  0  0  1  0  0  0  0  0999 V2000
+    4.4899   -0.3571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9906    2.4715    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9164   -4.4146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3700   -4.1084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1901    1.0855    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.8730   -5.4034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4004    0.9182    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.7330   -0.6464    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.0621   -6.4741    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2054   -3.8382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3483   -1.4470    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.7293   -8.0385    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5835   -5.9785    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7276   -3.3435    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7187   -5.5703    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1804   -3.0374    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4714    2.1068    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5909    5.2424    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9905    3.8572    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.1901    5.2425    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1950   -1.2973    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5898    2.4709    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8410   -0.3768    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.3907    3.8565    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  9  1  0  0  0  0
+  9 13  1  0  0  0  0
+ 13  3  2  0  0  0  0
+  3 14  1  0  0  0  0
+ 14 10  2  0  0  0  0
+ 10 16  1  0  0  0  0
+  1 21  1  0  0  0  0
+ 16  4  1  0  0  0  0
+  4 15  2  0  0  0  0
+ 15  6  1  0  0  0  0
+  6  9  2  0  0  0  0
+  6 10  1  0  0  0  0
+  8 21  1  1  0  0  0
+  8 11  1  0  0  0  0
+ 11 23  1  6  0  0  0
+ 23  5  1  0  0  0  0
+  5  2  1  6  0  0  0
+  2 22  1  0  0  0  0
+ 18 24  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 17  1  1  0  0  0
+ 11 16  1  0  0  0  0
+ 24 19  1  0  0  0  0
+ 24 20  2  0  0  0  0
+ 24 22  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C11H16N5O7P/c1-21-8-7(17)5(2-22-24(18,19)20)23-11(8)16-4-15-6-9(12)13-3-14-10(6)16/h3-5,7-8,11,17H,2H2,1H3,(H2,12,13,14)(H2,18,19,20)/t5-,7-,8-,11-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">TVGFEBXIZUYVFR-IOSLPCCCSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="24" />
+                  <positionNumber value="17" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F7" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F7" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="c5a2ae95-a0e7-5789-3541-adfabfd7b054" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 21 22  0  0  1  0  0  0  0  0999 V2000
+    1.6063   -4.7505    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4389   -3.1608    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3148    2.6361    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2427    1.4469    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.3115   -5.6915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9996    0.1532    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.3479    1.6140    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.1905   -0.9172    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.3172   -3.4498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5642   -0.1794    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1503   -5.0396    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0228   -2.5084    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4787   -7.2831    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1484    2.9998    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7790   -2.7997    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4544    5.0143    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.5153    3.1593    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.0197    4.6816    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8789    2.3036    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5766   -0.1178    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.9490    3.4936    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+  6 10  1  1  0  0  0
+ 12  2  1  0  0  0  0
+  2  1  2  0  0  0  0
+  1  5  1  0  0  0  0
+  5 13  2  0  0  0  0
+  5 11  1  0  0  0  0
+ 11  9  1  0  0  0  0
+  9 12  1  0  0  0  0
+  9 15  2  0  0  0  0
+  6  8  1  0  0  0  0
+  8 20  1  6  0  0  0
+ 20  4  1  0  0  0  0
+  4  3  1  6  0  0  0
+  3 19  1  0  0  0  0
+ 16 21  1  0  0  0  0
+  4  7  1  0  0  0  0
+  7  6  1  0  0  0  0
+  7 14  1  1  0  0  0
+  8 12  1  0  0  0  0
+ 21 17  1  0  0  0  0
+ 21 18  2  0  0  0  0
+ 21 19  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C9H12FN2O8P/c10-6-7(14)4(3-19-21(16,17)18)20-8(6)12-2-1-5(13)11-9(12)15/h1-2,4,6-8,14H,3H2,(H,11,13,15)(H2,16,17,18)/t4-,6-,7-,8-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">RTGGYPQTXNSBPD-XVFCMESISA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="21" />
+                  <positionNumber value="14" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F8" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F8" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="727e76b7-150e-b630-9700-8cc18f43e38c" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 25 27  0  0  1  0  0  0  0  0999 V2000
+    6.0351    1.8349    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5557    4.6632    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9154   -1.9167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3556    3.2779    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.6734   -3.2110    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9467    3.1102    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    3.2791    1.5455    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.3406   -1.6455    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5158   -4.2813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8935    0.7453    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.3697   -2.2222    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8917   -1.7280    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2646   -3.3780    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1810   -1.1513    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0372   -3.7871    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7266   -0.8456    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0170    4.2994    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1829   -5.8466    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0444    7.4347    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4441    6.0487    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.6447    7.4349    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7410    0.8944    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0446    4.6633    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7047    1.8159    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8450    6.0488    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+ 12 11  1  0  0  0  0
+ 11 14  2  0  0  0  0
+ 14  8  1  0  0  0  0
+  8 16  1  0  0  0  0
+  1 22  1  0  0  0  0
+ 16  3  1  0  0  0  0
+  3 13  2  0  0  0  0
+ 13  5  1  0  0  0  0
+  5  8  2  0  0  0  0
+  5  9  1  0  0  0  0
+  9 18  2  0  0  0  0
+  9 15  1  0  0  0  0
+ 15 11  1  0  0  0  0
+  7 22  1  1  0  0  0
+  7 10  1  0  0  0  0
+ 10 24  1  6  0  0  0
+ 24  4  1  0  0  0  0
+  4  2  1  6  0  0  0
+  2 23  1  0  0  0  0
+ 19 25  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6 17  1  1  0  0  0
+ 10 16  1  0  0  0  0
+ 25 20  1  0  0  0  0
+ 25 21  2  0  0  0  0
+ 25 23  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C11H16N5O8P/c1-22-7-6(17)4(2-23-25(19,20)21)24-10(7)16-3-13-5-8(16)14-11(12)15-9(5)18/h3-4,6-7,10,17H,2H2,1H3,(H2,19,20,21)(H3,12,14,15,18)/t4-,6-,7-,10-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">YPMKZCOIEXUDSS-KQYNXXCUSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="25" />
+                  <positionNumber value="17" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F9" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F9" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="75673272-dc34-1565-335d-5456823cf238" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 18 19  0  0  1  0  0  0  0  0999 V2000
+   -1.0897    4.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1229    0.9599    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5317    1.1272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9179   -1.3383    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.5323   -0.5383    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    4.7737   -0.5017    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3650    1.0530    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.8000    1.3856    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    2.2420   -1.6289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8332   -1.7962    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5912   -0.1672    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.9179   -2.9383    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3649   -0.6690    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5541    2.1236    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3016   -2.9233    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1492    2.8473    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0706   -1.1890    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1 17  1  0  0  0  0
+ 12  3  1  0  0  0  0
+  3  2  2  0  0  0  0
+  2  6  1  0  0  0  0
+  6 14  2  0  0  0  0
+  6 11  1  0  0  0  0
+ 11 10  1  0  0  0  0
+ 10 12  1  0  0  0  0
+ 10 16  2  0  0  0  0
+  8 17  1  1  0  0  0
+  8  9  1  0  0  0  0
+  9 18  1  0  0  0  0
+ 18  5  1  0  0  0  0
+  5  4  1  6  0  0  0
+  4 13  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 15  1  1  0  0  0
+  9 12  1  6  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C10H14N2O6/c1-17-8-7(15)5(4-13)18-9(8)12-3-2-6(14)11-10(12)16/h2-3,5,7-9,13,15H,4H2,1H3,(H,11,14,16)/t5-,7-,8-,9-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">SXUXMRMBWZCMEN-ZOQUXTDFSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber nullFlavor="NA" />
+                  <positionNumber value="15" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F10" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F10" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="5650616d-b5a8-9baa-e985-3f3efb1efdcf" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 23 25  0  0  1  0  0  0  0  0999 V2000
+   -3.0356    2.8121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4659   -4.5308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6413   -3.1337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9653    1.6222    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.2766    0.3291    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.2840   -4.8655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3743    1.7901    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.2233   -6.1605    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9347   -3.4040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9118   -0.7423    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.8421   -0.0045    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5731   -7.6223    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8149   -5.9926    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5250   -3.2364    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3077   -4.6992    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7451   -2.3336    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4257    3.1751    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2364    3.3352    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7427    4.8576    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6011    2.4790    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2983    0.0572    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6715    3.6678    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1778    5.1895    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  8  1  0  0  0  0
+  8 13  1  0  0  0  0
+ 13  2  2  0  0  0  0
+  2 14  1  0  0  0  0
+ 14  9  2  0  0  0  0
+  9 16  1  0  0  0  0
+  5 11  1  1  0  0  0
+ 16  3  1  0  0  0  0
+  3 15  2  0  0  0  0
+ 15  6  1  0  0  0  0
+  6  8  2  0  0  0  0
+  6  9  1  0  0  0  0
+  5 10  1  0  0  0  0
+ 10 21  1  6  0  0  0
+ 21  4  1  0  0  0  0
+  4  1  1  6  0  0  0
+  1 20  1  0  0  0  0
+ 23 22  1  0  0  0  0
+  4  7  1  0  0  0  0
+  7  5  1  0  0  0  0
+  7 17  1  1  0  0  0
+ 10 16  1  0  0  0  0
+ 22 18  1  0  0  0  0
+ 22 19  2  0  0  0  0
+ 22 20  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C10H13FN5O5PS/c11-5-7(17)4(1-20-22(18,19)23)21-10(5)16-3-15-6-8(12)13-2-14-9(6)16/h2-5,7,10,17H,1H2,(H2,12,13,14)(H2,18,19,23)/t4-,5-,7-,10-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">DGNMCWIFENLHNP-QYYRPYCUSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="22" />
+                  <positionNumber value="17" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F11" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F11" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="87b428ee-e820-f204-c63a-9e006cd492ad" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 22 23  0  0  1  0  0  0  0  0999 V2000
+    3.6500    0.0542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4688   -5.1580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6359   -3.5675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.8288    2.8829    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0297    1.4965    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.9933   -5.8084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5612    1.3301    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.8942   -0.2362    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.4912   -1.0355    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.1211   -3.2769    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2875   -4.8692    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6589   -2.6270    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1599   -7.4005    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6321    2.5189    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4147   -2.3367    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.8300    4.2683    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0297    5.6537    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3559   -0.8866    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4296    2.8823    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6804    0.0350    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2297    4.2683    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.4297    5.6532    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+  1 18  1  0  0  0  0
+ 12  3  1  0  0  0  0
+  3  2  2  0  0  0  0
+  2  6  1  0  0  0  0
+  6 13  2  0  0  0  0
+  6 11  1  0  0  0  0
+ 11 10  1  0  0  0  0
+ 10 12  1  0  0  0  0
+ 10 15  2  0  0  0  0
+  8 18  1  1  0  0  0
+  8  9  1  0  0  0  0
+  9 20  1  6  0  0  0
+ 20  5  1  0  0  0  0
+  5  4  1  6  0  0  0
+  4 19  1  0  0  0  0
+ 22 21  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 14  1  1  0  0  0
+  9 12  1  0  0  0  0
+ 21 16  1  0  0  0  0
+ 21 17  2  0  0  0  0
+ 21 19  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C10H15N2O8PS/c1-18-8-7(14)5(4-19-21(16,17)22)20-9(8)12-3-2-6(13)11-10(12)15/h2-3,5,7-9,14H,4H2,1H3,(H,11,13,15)(H2,16,17,22)/t5-,7-,8-,9-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">IEWLRLDHDVZUFQ-ZOQUXTDFSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="21" />
+                  <positionNumber value="14" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F12" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F12" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="63297287-7704-0b1e-f463-c39efc6e3960" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 23 25  0  0  1  0  0  0  0  0999 V2000
+   -3.0356    2.8121    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.4659   -4.5308    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6413   -3.1337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9653    1.6222    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.2766    0.3291    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.2840   -4.8655    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3743    1.7901    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -2.2233   -6.1605    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9347   -3.4040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9118   -0.7423    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.8421   -0.0045    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5731   -7.6223    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.8149   -5.9926    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5250   -3.2364    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3077   -4.6992    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7451   -2.3336    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4257    3.1751    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1778    5.1895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -7.2364    3.3352    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -6.7427    4.8576    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.6011    2.4790    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2983    0.0572    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.6715    3.6678    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+ 12  8  1  0  0  0  0
+  8 13  1  0  0  0  0
+ 13  2  2  0  0  0  0
+  2 14  1  0  0  0  0
+ 14  9  2  0  0  0  0
+  9 16  1  0  0  0  0
+  5 11  1  1  0  0  0
+ 16  3  1  0  0  0  0
+  3 15  2  0  0  0  0
+ 15  6  1  0  0  0  0
+  6  8  2  0  0  0  0
+  6  9  1  0  0  0  0
+  5 10  1  0  0  0  0
+ 10 22  1  6  0  0  0
+ 22  4  1  0  0  0  0
+  4  1  1  6  0  0  0
+  1 21  1  0  0  0  0
+ 18 23  1  0  0  0  0
+  4  7  1  0  0  0  0
+  7  5  1  0  0  0  0
+  7 17  1  1  0  0  0
+ 10 16  1  0  0  0  0
+ 23 19  1  0  0  0  0
+ 23 20  2  0  0  0  0
+ 23 21  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C10H13FN5O6P/c11-5-7(17)4(1-21-23(18,19)20)22-10(5)16-3-15-6-8(12)13-2-14-9(6)16/h2-5,7,10,17H,1H2,(H2,12,13,14)(H2,18,19,20)/t4-,5-,7-,10-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">WMEBOUQKZKATDW-QYYRPYCUSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="23" />
+                  <positionNumber value="17" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+          <subject>
+            <identifiedSubstance>
+              <id extension="F13" root="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+              <identifiedSubstance>
+                <code code="F13" codeSystem="4f2ca0d2-58a0-4653-b50a-fa6dc33c2dc4" />
+                <asEquivalentSubstance>
+                  <definingSubstance>
+                    <code code="916cc6ec-76c6-3044-6426-bdb5cc0fb647" codeSystem="2.16.840.1.113883.3.2705" />
+                  </definingSubstance>
+                </asEquivalentSubstance>
+                <moiety>
+                  <quantity>
+                    <numerator value="1" unit="mol" />
+                    <denominator value="1" unit="mol" />
+                  </quantity>
+                  <partMoiety />
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure" />
+                      <value xsi:type="ED" mediaType="application/x-mdl-molfile">
+  -FDASRS-10052118402D
+
+ 22 23  0  0  1  0  0  0  0  0999 V2000
+    3.5525    0.2737    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3847   -4.6484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2180   -3.0574    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9288    3.1028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1275    1.7168    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.0913   -5.5897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4638    1.5498    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.7955   -0.0152    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.5895   -0.8155    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.5376   -3.3470    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2577   -7.1802    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3702   -4.9378    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7569   -2.4077    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5349    2.7392    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9999   -2.6963    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5286    5.8737    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.9277    4.4882    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.1276    5.8735    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2582   -0.6665    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5277    3.1023    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.7781    0.2548    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.3284    4.4878    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+ 11  6  1  0  0  0  0
+  6  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  3 13  1  0  0  0  0
+  1 19  1  0  0  0  0
+ 13 10  1  0  0  0  0
+ 10 15  2  0  0  0  0
+ 10 12  1  0  0  0  0
+ 12  6  2  0  0  0  0
+  8 19  1  1  0  0  0
+  8  9  1  0  0  0  0
+  9 21  1  6  0  0  0
+ 21  5  1  0  0  0  0
+  5  4  1  6  0  0  0
+  4 20  1  0  0  0  0
+ 16 22  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 14  1  1  0  0  0
+  9 13  1  0  0  0  0
+ 22 17  1  0  0  0  0
+ 22 18  2  0  0  0  0
+ 22 20  1  0  0  0  0
+M  END
+</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChI" />
+                      <value xsi:type="ED" mediaType="application/x-inchi">InChI=1S/C10H16N3O8P/c1-19-8-7(14)5(4-20-22(16,17)18)21-9(8)13-3-2-6(11)12-10(13)15/h2-3,5,7-9,14H,4H2,1H3,(H2,11,12,15)(H2,16,17,18)/t5-,7-,8-,9-/m1/s1</value>
+                    </characteristic>
+                  </subjectOf>
+                  <subjectOf>
+                    <characteristic>
+                      <code code="C103240" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Chemical Structure InChIKey" />
+                      <value xsi:type="ED" mediaType="application/x-inchi-key">USRXKJOTSNCJMA-ZOQUXTDFSA-N</value>
+                    </characteristic>
+                  </subjectOf>
+                </moiety>
+                <moiety>
+                  <code code="C157467" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Nucleotide connection points" />
+                  <positionNumber value="22" />
+                  <positionNumber value="14" />
+                  <partMoiety />
+                </moiety>
+              </identifiedSubstance>
+            </identifiedSubstance>
+          </subject>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</document>

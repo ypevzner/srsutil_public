@@ -1,0 +1,354 @@
+
+  Marvin  01132105562D          
+
+ 33 32  0  0  0  0            999 V2000
+   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0
+   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0
+   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0
+    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+  1 13  1  0  0  0  0
+  1 14  1  0  0  0  0
+ 15  1  1  0  0  0  0
+ 16 15  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 16 18  1  0  0  0  0
+ 18 19  1  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  1  0  0  0  0
+ 21 22  1  0  0  0  0
+ 22 23  1  0  0  0  0
+ 23 24  1  0  0  0  0
+ 24 25  1  0  0  0  0
+ 25 26  1  0  0  0  0
+ 26 27  1  0  0  0  0
+ 27 28  1  0  0  0  0
+ 28 29  1  0  0  0  0
+ 27 30  1  0  0  0  0
+ 19 31  1  0  0  0  0
+ 19 32  1  0  0  0  0
+ 16 33  1  0  0  0  0
+M  STY  5   1 SRU   2 SRU   3 SRU   4 SRU   5 SRU
+M  SCN  1   1 HT 
+M  SAL   1  3   5   6   7
+M  SDI   1  4   16.1768  -14.7509   16.1768  -13.4983
+M  SDI   1  4   18.4457  -13.4983   18.4457  -14.7509
+M  SCN  1   2 HT 
+M  SAL   2  4   8   9  10  11
+M  SDI   2  4   19.0624  -14.7945   19.0624  -12.7170
+M  SDI   2  4   21.3313  -12.7170   21.3313  -14.7945
+M  SCN  1   3 HT 
+M  SAL   3  3  23  24  25
+M  SDI   3  4    5.6595  -14.6587    5.6595  -13.3963
+M  SDI   3  4    7.9189  -13.3963    7.9189  -14.6587
+M  SCN  1   4 HT 
+M  SAL   4  4  26  27  28  30
+M  SDI   4  4    2.4593  -14.7514    2.4593  -12.6331
+M  SDI   4  4    4.7842  -12.6331    4.7842  -14.7514
+M  SCN  1   5 HT 
+M  SAL   5  4  16  17  18  33
+M  SDI   5  4   10.8134  -15.5759   10.8134  -13.0859
+M  SDI   5  4   12.4116  -13.0859   12.4116  -15.5759
+M  END
+>  <GSRS_JSON>
+{"uuid":"33245e9c-dbd7-4880-b425-d14edadedd6b","created":1399936468000,"createdBy":"DAMMIKA.AMUGODA-KANK","lastEdited":1508945304130,"lastEditedBy":"SWITZERF","deprecated":false,"definitionType":"PRIMARY","definitionLevel":"COMPLETE","substanceClass":"polymer","status":"approved","version":"2","approvedBy":"SWITZERF","approved":1399991913000,"changeReason":"Added Code","names":[{"uuid":"f9bf2042-8c99-4378-94e4-0039d0f68f1b","created":1399936765001,"createdBy":"DAMMIKA.AMUGODA-KANK","lastEdited":1508945304139,"lastEditedBy":"SWITZERF","deprecated":false,"name":"BIS-PEG/PPG-14/14 DIMETHICONE","type":"of","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[{"uuid":"d51c26a2-0a16-43ab-9f55-a8b888f4f6f1","created":1493468246929,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246929,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"nameOrg":"INCI","references":[],"access":[]}],"preferred":false,"displayName":true,"references":["4155b837-bf58-4ef6-9851-8f67e192f064","d109f072-c174-41ed-a940-49b19c6f9e27","5d2949c7-4bb8-4be1-ad38-b55dfb84417e","26964849-e43a-49ad-86e8-07785c829035"],"access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/names(f9bf2042-8c99-4378-94e4-0039d0f68f1b)?view\u003dfull"},{"uuid":"0545f7b7-3a44-44e1-856a-17ed4e0f60d6","created":1399936812001,"createdBy":"DAMMIKA.AMUGODA-KANK","lastEdited":1508945304141,"lastEditedBy":"SWITZERF","deprecated":false,"name":"BIS-PEG/PPG-14/14 DIMETHICONE [INCI]","type":"cn","domains":[],"languages":["en"],"nameJurisdiction":[],"nameOrgs":[],"preferred":false,"displayName":false,"references":["4155b837-bf58-4ef6-9851-8f67e192f064","d109f072-c174-41ed-a940-49b19c6f9e27","26964849-e43a-49ad-86e8-07785c829035"],"access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/names(0545f7b7-3a44-44e1-856a-17ed4e0f60d6)?view\u003dfull"}],"codes":[{"uuid":"e3cbf542-a67c-4e94-af83-6493fff8b9ff","created":1493468246930,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246930,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"codeSystem":"BDNUM","code":"0988501AA","type":"PRIMARY","references":["26964849-e43a-49ad-86e8-07785c829035"],"access":["protected"],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/codes(e3cbf542-a67c-4e94-af83-6493fff8b9ff)?view\u003dfull"},{"uuid":"b9544b3b-b5b4-4af3-d2c1-0fd4bd9aadce","created":1508945304135,"createdBy":"SWITZERF","lastEdited":1508945304135,"lastEditedBy":"SWITZERF","deprecated":false,"codeSystem":"RXCUI","code":"1609071","type":"PRIMARY","url":"https://rxnav.nlm.nih.gov/REST/rxcui/1609071/allProperties.xml?prop\u003dall","references":[],"access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/codes(b9544b3b-b5b4-4af3-d2c1-0fd4bd9aadce)?view\u003dfull"}],"modifications":{"uuid":"a156f795-aa95-4ae7-aa16-dc99d57ffb20","created":1493468246903,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246903,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"agentModifications":[],"physicalModifications":[],"structuralModifications":[],"references":[],"access":[]},"notes":[{"uuid":"7aec0d6d-6434-4f35-8f10-eafb7ba5e51e","created":1508945304137,"createdBy":"SWITZERF","lastEdited":1508945304137,"lastEditedBy":"SWITZERF","deprecated":false,"note":"[Validation]WARNING:No Display Structure found, default to using Idealized Structure","references":["4d391827-a36c-4c1f-b2ba-34ef9610536a"],"access":["admin"]},{"uuid":"e97725d8-85be-451b-8e84-7d39ce777dd7","created":1493468246934,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246934,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"note":"[Validation]WARNING:Polymer substance has no properties, typically expected at least a molecular weight","references":["e060a74b-ec83-4a2c-9275-d8799e11c2d0"],"access":["admin"]},{"uuid":"4aafbdac-7d80-4599-8a5b-41a80f7e8b36","created":1493468246933,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246933,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"note":"LEGACY XML:\u003cPOLYMER\u003e\n \u003cPOLYMER_CLASS\u003eCOPOLYMER\u003c/POLYMER_CLASS\u003e\n \u003cPOLYMER_GEOMETRY\u003eBLOCK\u003c/POLYMER_GEOMETRY\u003e\n \u003cCOPOLYMER_SEQUENCE_TYPE\u003eLINEAR\u003c/COPOLYMER_SEQUENCE_TYPE\u003e\n\u003cMONOMER_DESCRIPTION\u003e\n \u003cNUMBER_OF_MONOMERS\u003e3\u003c/NUMBER_OF_MONOMERS\u003e\n \u003cMONOMER_AMOUNT_TYPE\u003eMOLE RATIO\u003c/MONOMER_AMOUNT_TYPE\u003e\n\u003cMONOMER_GROUP\u003e\n \u003cMONOMER_ID\u003e8TSJ92JX69\u003c/MONOMER_ID\u003e\n \u003cMONOMER_NAME\u003eDIMETHYLDICHLOROSILANE\u003c/MONOMER_NAME\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/MONOMER_GROUP\u003e\n\u003cMONOMER_GROUP\u003e\n \u003cMONOMER_ID\u003eY4Y7NYD4BK\u003c/MONOMER_ID\u003e\n \u003cMONOMER_NAME\u003ePROPYLENE OXIDE\u003c/MONOMER_NAME\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE\u003e28\u003c/AVERAGE\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/MONOMER_GROUP\u003e\n\u003cMONOMER_GROUP\u003e\n \u003cMONOMER_ID\u003eJJH7GNN18P\u003c/MONOMER_ID\u003e\n \u003cMONOMER_NAME\u003eETHYLENE OXIDE\u003c/MONOMER_NAME\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE\u003e28\u003c/AVERAGE\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/MONOMER_GROUP\u003e\n \u003c/MONOMER_DESCRIPTION\u003e\n\u003cSTRUCTURAL_REPEAT_UNIT\u003e\n \u003cNUMBER_OF_STRUCTURAL_REPEAT_UNITS\u003e5\u003c/NUMBER_OF_STRUCTURAL_REPEAT_UNITS\u003e\n \u003cSTRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE\u003eMOLE PERCENT\u003c/STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE\u003e\n\u003cSTRUCTURAL_REPEAT_UNIT_GROUP\u003e\n \u003cORIENTATION_OF_POLYMERIZATION\u003eHEAD-TAIL\u003c/ORIENTATION_OF_POLYMERIZATION\u003e\n \u003cSTRUCTURAL_REPEAT_UNIT\u003eA\u003c/STRUCTURAL_REPEAT_UNIT\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n\u003cDEGREE_POLYMERIZATION\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/DEGREE_POLYMERIZATION\u003e\n \u003c/STRUCTURAL_REPEAT_UNIT_GROUP\u003e\n\u003cSTRUCTURAL_REPEAT_UNIT_GROUP\u003e\n \u003cORIENTATION_OF_POLYMERIZATION\u003eHEAD-TAIL\u003c/ORIENTATION_OF_POLYMERIZATION\u003e\n \u003cSTRUCTURAL_REPEAT_UNIT\u003eB\u003c/STRUCTURAL_REPEAT_UNIT\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n\u003cDEGREE_POLYMERIZATION\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE\u003e14\u003c/AVERAGE\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/DEGREE_POLYMERIZATION\u003e\n \u003c/STRUCTURAL_REPEAT_UNIT_GROUP\u003e\n\u003cSTRUCTURAL_REPEAT_UNIT_GROUP\u003e\n \u003cORIENTATION_OF_POLYMERIZATION\u003eHEAD-TAIL\u003c/ORIENTATION_OF_POLYMERIZATION\u003e\n \u003cSTRUCTURAL_REPEAT_UNIT\u003eC\u003c/STRUCTURAL_REPEAT_UNIT\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n\u003cDEGREE_POLYMERIZATION\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE\u003e14\u003c/AVERAGE\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/DEGREE_POLYMERIZATION\u003e\n \u003c/STRUCTURAL_REPEAT_UNIT_GROUP\u003e\n\u003cSTRUCTURAL_REPEAT_UNIT_GROUP\u003e\n \u003cORIENTATION_OF_POLYMERIZATION\u003eHEAD-TAIL\u003c/ORIENTATION_OF_POLYMERIZATION\u003e\n \u003cSTRUCTURAL_REPEAT_UNIT\u003eD\u003c/STRUCTURAL_REPEAT_UNIT\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n\u003cDEGREE_POLYMERIZATION\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE\u003e14\u003c/AVERAGE\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/DEGREE_POLYMERIZATION\u003e\n \u003c/STRUCTURAL_REPEAT_UNIT_GROUP\u003e\n\u003cSTRUCTURAL_REPEAT_UNIT_GROUP\u003e\n \u003cORIENTATION_OF_POLYMERIZATION\u003eHEAD-TAIL\u003c/ORIENTATION_OF_POLYMERIZATION\u003e\n \u003cSTRUCTURAL_REPEAT_UNIT\u003eE\u003c/STRUCTURAL_REPEAT_UNIT\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n\u003cDEGREE_POLYMERIZATION\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE\u003e14\u003c/AVERAGE\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/DEGREE_POLYMERIZATION\u003e\n \u003c/STRUCTURAL_REPEAT_UNIT_GROUP\u003e\n \u003c/STRUCTURAL_REPEAT_UNIT\u003e\n\u003cMOLECULAR_WEIGHT\u003e\n \u003cMOLECULAR_WEIGHT_TYPE/\u003e\n \u003cMOLECULAR_WEIGHT_METHOD/\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/MOLECULAR_WEIGHT\u003e\n\u003cPROPERTY_GROUP\u003e\n \u003cPROPERTY_TYPE/\u003e\n \u003cPROPERTY/\u003e\n \u003cPROPERTY_MEASUREMENT_PARAMETERS/\u003e\n \u003cSUBSTANCE_NAME/\u003e\n \u003cSUBSTANCE_ID/\u003e\n \u003cAMOUNT_TYPE/\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/PROPERTY_GROUP\u003e\n\u003cMODIFICATION_GROUP\u003e\n \u003cMODIFICATION_TYPE/\u003e\n\u003cPHYSICAL_MODIFICATION\u003e\n \u003cROLE/\u003e\n \u003cNUMBER_OF_PARAMETERS/\u003e\n\u003cPARAMETER_GROUP\u003e\n \u003cPARAMETER/\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/PARAMETER_GROUP\u003e\n \u003c/PHYSICAL_MODIFICATION\u003e\n\u003cSTRUCTURAL_MODIFICATION\u003e\n \u003cREPEATING_UNIT_MODIFIED/\u003e\n \u003cNUMBER_OF_FRAGMENTS_MOIETIES/\u003e\n \u003cAMOUNT_TYPE/\u003e\n\u003cMOLECULAR_FRAGMENT_MOIETY\u003e\n \u003cSTRUCTURAL_MODIFICATION_TYPE/\u003e\n \u003cROLE/\u003e\n \u003cFRAGMENT_NUMBER/\u003e\n \u003cFRAGMENT_CONNECTIVTY/\u003e\n \u003cMOLECULAR_FRAGMENT_NAME/\u003e\n \u003cMOLECULAR_FRAGMENT_ID/\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/MOLECULAR_FRAGMENT_MOIETY\u003e\n \u003c/STRUCTURAL_MODIFICATION\u003e\n\u003cAGENT_MODIFICATION\u003e\n \u003cAGENT_MODIFICATION_TYPE/\u003e\n \u003cROLE/\u003e\n \u003cMODIFICATION_AGENT/\u003e\n \u003cMODIFICATION_AGENT_ID/\u003e\n \u003cMODIFICATION_PROCESS/\u003e\n \u003cAMOUNT_TYPE/\u003e\n\u003cAMOUNT\u003e\n \u003cAVERAGE/\u003e\n \u003cLOW_LIMIT/\u003e\n \u003cHIGH_LIMIT/\u003e\n \u003cUNIT/\u003e\n \u003cNON_NUMERIC_VALUE/\u003e\n \u003c/AMOUNT\u003e\n \u003c/AGENT_MODIFICATION\u003e\n \u003c/MODIFICATION_GROUP\u003e\n\u003cSOURCE_MATERIAL\u003e\n \u003cSOURCE_MATERIAL_CLASS/\u003e\n \u003cSOURCE_MATERIAL_TYPE/\u003e\n \u003cSOURCE_MATERIAL_STATE/\u003e\n \u003cPARENT_SUBSTANCE_ID/\u003e\n \u003cPARENT_SUBSTANCE_NAME/\u003e\n \u003cDEVELOPMENTAL_STAGE/\u003e\n\u003cPART_GROUP\u003e\n \u003cPART/\u003e\n \u003cPART_LOCATION/\u003e\n \u003c/PART_GROUP\u003e\n\u003cFRACTION\u003e\n \u003cMATERIAL_TYPE/\u003e\n \u003cFRACTION/\u003e\n \u003c/FRACTION\u003e\n \u003c/SOURCE_MATERIAL\u003e\n \u003cPUBLIC_DOMAIN/\u003e\n \u003cCOMMENTS/\u003e\n \u003c/POLYMER\u003e","references":["6ad7ba95-7563-4d75-9f77-511321e14226"],"access":["protected"]},{"uuid":"566fea3c-ba6a-46cb-a93f-4e1cd1b3c36f","created":1493468246932,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246932,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"note":"Legacy Info:\u003cSRS_LEGACY_DATA\u003e\u003cCREATED_BY\u003eDAMMIKA.AMUGODA-KANK\u003c/CREATED_BY\u003e\u003cCREATED_DATE\u003e2014-05-12 19:14:28.0\u003c/CREATED_DATE\u003e\u003cMODIFIED_BY\u003eDAMMIKA.AMUGODA-KANK\u003c/MODIFIED_BY\u003e\u003cMODIFIED_DATE\u003e2014-09-12 10:02:54.0\u003c/MODIFIED_DATE\u003e\u003cAPPROVED_BY\u003eSWITZERF\u003c/APPROVED_BY\u003e\u003cAPPROVED_DATE\u003e2014-05-13 10:38:33.0\u003c/APPROVED_DATE\u003e\u003c/SRS_LEGACY_DATA\u003e","references":["6ad7ba95-7563-4d75-9f77-511321e14226"],"access":["protected"]}],"properties":[],"relationships":[],"references":[{"uuid":"4155b837-bf58-4ef6-9851-8f67e192f064","created":1493468246935,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246935,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"PCPC-DB","docType":"SRS","publicDomain":true,"tags":["NOMEN","PUBLIC_DOMAIN_RELEASE","AUTO_SELECTED"],"access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(4155b837-bf58-4ef6-9851-8f67e192f064)?view\u003dfull"},{"uuid":"26964849-e43a-49ad-86e8-07785c829035","created":1493468246935,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246935,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"0988501AA","docType":"BDNUM","publicDomain":false,"tags":["NOMEN"],"access":["protected"],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(26964849-e43a-49ad-86e8-07785c829035)?view\u003dfull"},{"uuid":"d109f072-c174-41ed-a940-49b19c6f9e27","created":1493468246936,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246936,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"PERSONAL CARE PRODUCTS COUNCIL","docType":"PERSONAL CARE PRODUCTS COUNCIL","publicDomain":true,"tags":["NOMEN"],"access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(d109f072-c174-41ed-a940-49b19c6f9e27)?view\u003dfull"},{"uuid":"6ad7ba95-7563-4d75-9f77-511321e14226","created":1493468246936,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246936,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"SRS import [X2I70H0QJE]","docType":"SRS","documentDate":1493392593000,"publicDomain":true,"tags":["NOMEN"],"url":"http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno\u003dX2I70H0QJE","access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(6ad7ba95-7563-4d75-9f77-511321e14226)?view\u003dfull"},{"uuid":"5d2949c7-4bb8-4be1-ad38-b55dfb84417e","created":1493468246937,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246937,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"BIS-PEG/PPG-14/14 DIMETHICONE [INCI]","docType":"SRS_LOCATOR","publicDomain":true,"tags":[],"access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(5d2949c7-4bb8-4be1-ad38-b55dfb84417e)?view\u003dfull"},{"uuid":"18b44c0a-bc26-4ed9-89c8-07273c843371","created":1493468246938,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246938,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"jsonDump-2017-04-28--all-but-first-500-records.txt.zip","docType":"BATCH_IMPORT","documentDate":1493468246818,"publicDomain":false,"tags":[],"id":"773bab31c7fb3258757b","access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(18b44c0a-bc26-4ed9-89c8-07273c843371)?view\u003dfull"},{"uuid":"e060a74b-ec83-4a2c-9275-d8799e11c2d0","created":1493468246938,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246938,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"citation":"GSRS System-generated Validation messages","docType":"VALIDATION_MESSAGE","documentDate":1493468246833,"publicDomain":false,"tags":[],"access":["admin"],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(e060a74b-ec83-4a2c-9275-d8799e11c2d0)?view\u003dfull"},{"uuid":"4d391827-a36c-4c1f-b2ba-34ef9610536a","created":1508945304138,"createdBy":"SWITZERF","lastEdited":1508945304138,"lastEditedBy":"SWITZERF","deprecated":false,"citation":"GSRS System-generated Validation messages","docType":"VALIDATION_MESSAGE","documentDate":1508945304088,"publicDomain":false,"tags":[],"access":["admin"],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/references(4d391827-a36c-4c1f-b2ba-34ef9610536a)?view\u003dfull"}],"approvalID":"X2I70H0QJE","tags":["INCI"],"polymer":{"uuid":"74025c47-8714-4b6e-ba51-8c5549bdd707","created":1493468246909,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1508945304128,"lastEditedBy":"SWITZERF","deprecated":false,"classification":{"uuid":"9f586f7d-d36c-4793-8233-01d4e2d414ac","created":1493468246904,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246904,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"polymerClass":"COPOLYMER","polymerGeometry":"BLOCK","polymerSubclass":["LINEAR"],"references":[],"access":[]},"displayStructure":{"id":"404c3d6f-9841-4f07-976a-fcbe426760c5","created":1493468246907,"lastEdited":1610526270662,"deprecated":false,"digest":"e3ba8fdcbc255f53cf97dce4be10554483422378","molfile":"\n  Marvin  01132103242D          \n\n 33 32  0  0  0  0            999 V2000\n   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n  9 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n  1 13  1  0  0  0  0\n  1 14  1  0  0  0  0\n 15  1  1  0  0  0  0\n 16 15  1  0  0  0  0\n 16 17  1  0  0  0  0\n 16 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 27 30  1  0  0  0  0\n 19 31  1  0  0  0  0\n 19 32  1  0  0  0  0\n 16 33  1  0  0  0  0\nM  STY  5   1 SRU   2 SRU   3 SRU   4 SRU   5 SRU\nM  SCN  1   1 HT \nM  SAL   1  3   5   6   7\nM  SDI   1  4   16.1768  -14.7509   16.1768  -13.4983\nM  SDI   1  4   18.4457  -13.4983   18.4457  -14.7509\nM  SCN  1   2 HT \nM  SAL   2  4   8   9  10  11\nM  SDI   2  4   19.0624  -14.7945   19.0624  -12.7170\nM  SDI   2  4   21.3313  -12.7170   21.3313  -14.7945\nM  SCN  1   3 HT \nM  SAL   3  3  23  24  25\nM  SDI   3  4    5.6595  -14.6587    5.6595  -13.3963\nM  SDI   3  4    7.9189  -13.3963    7.9189  -14.6587\nM  SCN  1   4 HT \nM  SAL   4  4  26  27  28  30\nM  SDI   4  4    2.4593  -14.7514    2.4593  -12.6331\nM  SDI   4  4    4.7842  -12.6331    4.7842  -14.7514\nM  SCN  1   5 HT \nM  SAL   5  4  16  17  18  33\nM  SDI   5  4   10.8134  -15.5759   10.8134  -13.0859\nM  SDI   5  4   12.4116  -13.0859   12.4116  -15.5759\nM  END","smiles":"CC(CO)OCCOCCC[Si](C)(C)O[Si](C)(C)O[Si](C)(C)CCCOCCOC(C)CO","formula":"C22H52O8Si3","opticalActivity":"UNSPECIFIED","atropisomerism":"No","stereoCenters":2.0,"definedStereo":0.0,"ezCenters":0.0,"charge":0.0,"mwt":528.9,"count":1.0,"createdBy":"RAMEZ.GHAZZAOUI","lastEditedBy":"GUEST","self":"https://gsrs.fda.gov/ginas/app/api/v1/structures(404c3d6f-9841-4f07-976a-fcbe426760c5)?view\u003dfull","access":[],"references":[],"hash":"QAHKXQUKJLKC"},"idealizedStructure":{"id":"728928e7-df57-42d3-b3b5-71880ddd2455","created":1493468246907,"lastEdited":1610535401384,"deprecated":false,"digest":"e3ba8fdcbc255f53cf97dce4be10554483422378","molfile":"\n  Marvin  01132105562D          \n\n 33 32  0  0  0  0            999 V2000\n   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n  9 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n  1 13  1  0  0  0  0\n  1 14  1  0  0  0  0\n 15  1  1  0  0  0  0\n 16 15  1  0  0  0  0\n 16 17  1  0  0  0  0\n 16 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 27 30  1  0  0  0  0\n 19 31  1  0  0  0  0\n 19 32  1  0  0  0  0\n 16 33  1  0  0  0  0\nM  STY  5   1 SRU   2 SRU   3 SRU   4 SRU   5 SRU\nM  SCN  1   1 HT \nM  SAL   1  3   5   6   7\nM  SDI   1  4   16.1768  -14.7509   16.1768  -13.4983\nM  SDI   1  4   18.4457  -13.4983   18.4457  -14.7509\nM  SCN  1   2 HT \nM  SAL   2  4   8   9  10  11\nM  SDI   2  4   19.0624  -14.7945   19.0624  -12.7170\nM  SDI   2  4   21.3313  -12.7170   21.3313  -14.7945\nM  SCN  1   3 HT \nM  SAL   3  3  23  24  25\nM  SDI   3  4    5.6595  -14.6587    5.6595  -13.3963\nM  SDI   3  4    7.9189  -13.3963    7.9189  -14.6587\nM  SCN  1   4 HT \nM  SAL   4  4  26  27  28  30\nM  SDI   4  4    2.4593  -14.7514    2.4593  -12.6331\nM  SDI   4  4    4.7842  -12.6331    4.7842  -14.7514\nM  SCN  1   5 HT \nM  SAL   5  4  16  17  18  33\nM  SDI   5  4   10.8134  -15.5759   10.8134  -13.0859\nM  SDI   5  4   12.4116  -13.0859   12.4116  -15.5759\nM  END","smiles":"CC(CO)OCCOCCC[Si](C)(C)O[Si](C)(C)O[Si](C)(C)CCCOCCOC(C)CO","formula":"C22H52O8Si3","opticalActivity":"UNSPECIFIED","atropisomerism":"No","stereoCenters":2.0,"definedStereo":0.0,"ezCenters":0.0,"charge":0.0,"mwt":528.9,"count":1.0,"createdBy":"RAMEZ.GHAZZAOUI","lastEditedBy":"GUEST","self":"https://gsrs.fda.gov/ginas/app/api/v1/structures(728928e7-df57-42d3-b3b5-71880ddd2455)?view\u003dfull","access":[],"references":[],"hash":"QAHKXQUKJLKC"},"monomers":[{"uuid":"d530df8f-fe17-4252-a65d-d6d27ca9965e","created":1493468246911,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246911,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"39a59f96-a74a-4c6d-9df3-6c0256eb85f4","created":1493468246910,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246910,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"MOLE RATIO","references":[],"access":[]},"monomerSubstance":{"uuid":"0a72c108-9555-41bc-847c-15eb9b7f86dc","created":1.493468246911E12,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1.493468246911E12,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"refPname":"DIMETHYLDICHLOROSILANE","refuuid":"71221a05-a8ae-4f53-bf2f-a2a669d0ba61","substanceClass":"reference","approvalID":"8TSJ92JX69","name":"DIMETHYLDICHLOROSILANE","linkingID":"8TSJ92JX69","references":[],"access":[]},"type":"MONOMER","defining":false,"references":[],"access":[]},{"uuid":"7363f5de-b61f-4317-bf3a-72083718ce4a","created":1493468246913,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246913,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"a7b4c5ee-e2ab-41b7-9157-7eb0c0e10f39","created":1493468246912,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246912,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"MOLE RATIO","average":28.0,"references":[],"access":[]},"monomerSubstance":{"uuid":"9e03f82d-8c99-4110-b98e-18d3b13b6cff","created":1.493468246913E12,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1.493468246913E12,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"refPname":"PROPYLENE OXIDE","refuuid":"fa076cc4-0e8d-4b65-aef5-cf1e95e2659e","substanceClass":"reference","approvalID":"Y4Y7NYD4BK","name":"PROPYLENE OXIDE","linkingID":"Y4Y7NYD4BK","references":[],"access":[]},"type":"MONOMER","defining":false,"references":[],"access":[]},{"uuid":"6014e87b-3f08-4984-bdfe-08ec89e2a3ca","created":1493468246916,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246916,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"de737f5a-1bdf-40d3-ad30-8da54bdd5e4a","created":1493468246914,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246914,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"MOLE RATIO","average":28.0,"references":[],"access":[]},"monomerSubstance":{"uuid":"fb1de851-75be-4b34-9b50-004ae619d776","created":1.493468246915E12,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1.493468246915E12,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"refPname":"ETHYLENE OXIDE","refuuid":"5753e233-3266-499e-9c8f-1024eb5452dd","substanceClass":"reference","approvalID":"JJH7GNN18P","name":"ETHYLENE OXIDE","linkingID":"JJH7GNN18P","references":[],"access":[]},"type":"MONOMER","defining":false,"references":[],"access":[]}],"structuralUnits":[{"uuid":"477c3e8e-95da-42e4-bb23-3527bb08a63e","created":1493468246922,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246922,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"3f4621e7-1060-4159-baa2-34b14097323c","created":1493468246921,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246921,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"DEGREE OF POLYMERIZATION","average":14.0,"references":[],"access":[]},"attachmentCount":0,"label":"D","structure":"X2I70H0QJE\n  Marvin  04281711162D          \n\n 33 32  0  0  0  0            999 V2000\n   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n  9 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n  1 13  1  0  0  0  0\n  1 14  1  0  0  0  0\n 15  1  1  0  0  0  0\n 16 15  1  0  0  0  0\n 16 17  1  0  0  0  0\n 16 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 27 30  1  0  0  0  0\n 19 31  1  0  0  0  0\n 19 32  1  0  0  0  0\n 16 33  1  0  0  0  0\nM  END\n","type":"HEAD-TAIL","attachmentMap":{},"references":[],"access":[]},{"uuid":"46f03909-d6d1-43d1-8ede-e9152374619c","created":1493468246924,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246924,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"747125d3-c6cb-483b-a9d2-bd8b99b6fbc6","created":1493468246924,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246924,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"DEGREE OF POLYMERIZATION","average":14.0,"references":[],"access":[]},"attachmentCount":0,"label":"E","structure":"X2I70H0QJE\n  Marvin  04281711162D          \n\n 33 32  0  0  0  0            999 V2000\n   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n  9 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n  1 13  1  0  0  0  0\n  1 14  1  0  0  0  0\n 15  1  1  0  0  0  0\n 16 15  1  0  0  0  0\n 16 17  1  0  0  0  0\n 16 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 27 30  1  0  0  0  0\n 19 31  1  0  0  0  0\n 19 32  1  0  0  0  0\n 16 33  1  0  0  0  0\nM  END\n","type":"HEAD-TAIL","attachmentMap":{},"references":[],"access":[]},{"uuid":"0ab04fb0-a103-48c6-86eb-106ba3e3f9f2","created":1493468246917,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246917,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"fbc7dbb0-0967-497e-86f0-75a31fcf4707","created":1493468246917,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246917,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"ASSUMED MOL RATIO","references":[],"access":[]},"attachmentCount":0,"label":"A","structure":"X2I70H0QJE\n  Marvin  04281711162D          \n\n 33 32  0  0  0  0            999 V2000\n   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n  9 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n  1 13  1  0  0  0  0\n  1 14  1  0  0  0  0\n 15  1  1  0  0  0  0\n 16 15  1  0  0  0  0\n 16 17  1  0  0  0  0\n 16 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 27 30  1  0  0  0  0\n 19 31  1  0  0  0  0\n 19 32  1  0  0  0  0\n 16 33  1  0  0  0  0\nM  END\n","type":"HEAD-TAIL","attachmentMap":{},"references":[],"access":[]},{"uuid":"34b7da82-9da2-4506-aa26-44dd37fe4fc0","created":1493468246919,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246919,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"6dbf9d5f-c197-4d5a-bed7-a269c500c032","created":1493468246918,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246918,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"DEGREE OF POLYMERIZATION","average":14.0,"references":[],"access":[]},"attachmentCount":0,"label":"B","structure":"X2I70H0QJE\n  Marvin  04281711162D          \n\n 33 32  0  0  0  0            999 V2000\n   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n  9 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n  1 13  1  0  0  0  0\n  1 14  1  0  0  0  0\n 15  1  1  0  0  0  0\n 16 15  1  0  0  0  0\n 16 17  1  0  0  0  0\n 16 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 27 30  1  0  0  0  0\n 19 31  1  0  0  0  0\n 19 32  1  0  0  0  0\n 16 33  1  0  0  0  0\nM  END\n","type":"HEAD-TAIL","attachmentMap":{},"references":[],"access":[]},{"uuid":"215ceaf4-17fc-4ce1-b91a-9a08c26e1cbf","created":1493468246921,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246921,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"amount":{"uuid":"52542e4b-1c53-49c7-a7ea-54baa4745a21","created":1493468246920,"createdBy":"RAMEZ.GHAZZAOUI","lastEdited":1493468246920,"lastEditedBy":"RAMEZ.GHAZZAOUI","deprecated":false,"type":"DEGREE OF POLYMERIZATION","average":14.0,"references":[],"access":[]},"attachmentCount":0,"label":"C","structure":"X2I70H0QJE\n  Marvin  04281711162D          \n\n 33 32  0  0  0  0            999 V2000\n   13.8906  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   14.7156  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.2990  -13.7475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   15.8823  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   16.5968  -13.9183    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   17.3113  -14.3309    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   18.0257  -13.9183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   19.4824  -14.3745    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.9620    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.1969  -13.1370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   20.9113  -14.3745    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   21.6258  -13.9620    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   13.8906  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   12.7715  -14.3549    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -14.3309    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -15.1559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.2334  -14.2895    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -14.2895    0.0000 Si  0  0  0  0  0  0  0  0  0  0  0  0\n    9.5834  -14.2895    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.9183  -13.8108    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.1852  -14.2551    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4989  -13.8163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6349  -14.2387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.0795  -13.8217    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3642  -14.3314    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6560  -13.8488    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8793  -14.2495    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2366  -13.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6810  -13.0531    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -15.1145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.4084  -13.4645    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   11.9916  -13.5059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0  0  0  0\n  2  3  1  0  0  0  0\n  3  4  1  0  0  0  0\n  4  5  1  0  0  0  0\n  5  6  1  0  0  0  0\n  6  7  1  0  0  0  0\n  7  8  1  0  0  0  0\n  8  9  1  0  0  0  0\n  9 10  1  0  0  0  0\n  9 11  1  0  0  0  0\n 11 12  1  0  0  0  0\n  1 13  1  0  0  0  0\n  1 14  1  0  0  0  0\n 15  1  1  0  0  0  0\n 16 15  1  0  0  0  0\n 16 17  1  0  0  0  0\n 16 18  1  0  0  0  0\n 18 19  1  0  0  0  0\n 19 20  1  0  0  0  0\n 20 21  1  0  0  0  0\n 21 22  1  0  0  0  0\n 22 23  1  0  0  0  0\n 23 24  1  0  0  0  0\n 24 25  1  0  0  0  0\n 25 26  1  0  0  0  0\n 26 27  1  0  0  0  0\n 27 28  1  0  0  0  0\n 28 29  1  0  0  0  0\n 27 30  1  0  0  0  0\n 19 31  1  0  0  0  0\n 19 32  1  0  0  0  0\n 16 33  1  0  0  0  0\nM  END\n","type":"HEAD-TAIL","attachmentMap":{},"references":[],"access":[]}],"references":["4155b837-bf58-4ef6-9851-8f67e192f064","6ad7ba95-7563-4d75-9f77-511321e14226"],"access":[]},"_name":"BIS-PEG/PPG-14/14 DIMETHICONE","_approvalIDDisplay":"X2I70H0QJE","access":[],"_self":"https://gsrs.fda.gov/ginas/app/api/v1/substances(33245e9c-dbd7-4880-b425-d14edadedd6b)?view\u003dfull"}
+
+>  <DESC_PART1>
+<POLYMER>
+ <POLYMER_CLASS>COPOLYMER</POLYMER_CLASS>
+ <POLYMER_GEOMETRY>BLOCK</POLYMER_GEOMETRY>
+ <COPOLYMER_SEQUENCE_TYPE>LINEAR</COPOLYMER_SEQUENCE_TYPE>
+<MONOMER_DESCRIPTION>
+ <NUMBER_OF_MONOMERS>3</NUMBER_OF_MONOMERS>
+ <MONOMER_AMOUNT_TYPE>MOLE RATIO</MONOMER_AMOUNT_TYPE>
+<MONOMER_GROUP>
+ <MONOMER_ID>8TSJ92JX69</MONOMER_ID>
+ <MONOMER_NAME>DIMETHYLDICHLOROSILANE</MONOMER_NAME>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MONOMER_GROUP>
+<MONOMER_GROUP>
+ <MONOMER_ID>Y4Y7NYD4BK</MONOMER_ID>
+ <MONOMER_NAME>PROPYLENE OXIDE</MONOMER_NAME>
+<AMOUNT>
+ <AVERAGE>28</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MONOMER_GROUP>
+<MONOMER_GROUP>
+ <MONOMER_ID>JJH7GNN18P</MONOMER_ID>
+ <MONOMER_NAME>ETHYLENE OXIDE</MONOMER_NAME>
+<AMOUNT>
+ <AVERAGE>28</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MONOMER_GROUP>
+ </MONOMER_DESCRIPTION>
+<STRUCTURAL_REPEAT_UNIT>
+ <NUMBER_OF_STRUCTURAL_REPEAT_UNITS>5</NUMBER_OF_STRUCTURAL_REPEAT_UNITS>
+ <STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>MOLE PERCENT</STRUCTURAL_REPEAT_UNIT_AMOUNT_TYPE>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>A</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>B</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>14</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>C</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>14</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>D</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>14</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+<STRUCTURAL_REPEAT_UNIT_GROUP>
+ <ORIENTATION_OF_POLYMERIZATION>HEAD-TAIL</ORIENTATION_OF_POLYMERIZATION>
+ <STRUCTURAL_REPEAT_UNIT>E</STRUCTURAL_REPEAT_UNIT>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+<DEGREE_POLYMERIZATION>
+<AMOUNT>
+ <AVERAGE>14</AVERAGE>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </DEGREE_POLYMERIZATION>
+ </STRUCTURAL_REPEAT_UNIT_GROUP>
+ </STRUCTURAL_REPEAT_UNIT>
+<MOLECULAR_WEIGHT>
+ <MOLECULAR_WEIGHT_TYPE/>
+ <MOLECULAR_WEIGHT_METHOD/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_WEIGHT>
+<PROPERTY_GROUP>
+ <PROPERTY_TYPE/>
+ <PROPERTY/>
+ <PROPERTY_MEASUREMENT_PARAMETERS/>
+ <SUBSTANCE_NAME/>
+ <SUBSTANCE_ID/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PROPERTY_GROUP>
+<MODIFICATION_GROUP>
+ <MODIFICATION_TYPE/>
+<PHYSICAL_MODIFICATION>
+ <ROLE/>
+ <NUMBER_OF_PARAMETERS/>
+<PARAMETER_GROUP>
+ <PARAMETER/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </PARAMETER_GROUP>
+ </PHYSICAL_MODIFICATION>
+<STRUCTURAL_MODIFICATION>
+ <REPEATING_UNIT_MODIFIED/>
+ <NUMBER_OF_FRAGMENTS_MOIETIES/>
+ <AMOUNT_TYPE/>
+<MOLECULAR_FRAGMENT_MOIETY>
+ <STRUCTURAL_MODIFICATION_TYPE/>
+ <ROLE/>
+ <FRAGMENT_NUMBER/>
+ <FRAGMENT_CONNECTIVTY/>
+ <MOLECULAR_FRAGMENT_NAME/>
+ <MOLECULAR_FRAGMENT_ID/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </MOLECULAR_FRAGMENT_MOIETY>
+ </STRUCTURAL_MODIFICATION>
+<AGENT_MODIFICATION>
+ <AGENT_MODIFICATION_TYPE/>
+ <ROLE/>
+ <MODIFICATION_AGENT/>
+ <MODIFICATION_AGENT_ID/>
+ <MODIFICATION_PROCESS/>
+ <AMOUNT_TYPE/>
+<AMOUNT>
+ <AVERAGE/>
+ <LOW_LIMIT/>
+ <HIGH_LIMIT/>
+ <UNIT/>
+ <NON_NUMERIC_VALUE/>
+ </AMOUNT>
+ </AGENT_MODIFICATION>
+ </MODIFICATION_GROUP>
+<SOURCE_MATERIAL>
+ <SOURCE_MATERIAL_CLASS/>
+ <SOURCE_MATERIAL_TYPE/>
+ <SOURCE_MATERIAL_STATE/>
+ <PARENT_SUBSTANCE_ID/>
+ <PARENT_SUBSTANCE_NAME/>
+ <DEVELOPMENTAL_STAGE/>
+<PART_GROUP>
+ <PART/>
+ <PART_LOCATION/>
+ </PART_GROUP>
+<FRACTION>
+ <MATERIAL_TYPE/>
+ <FRACTION/>
+ </FRACTION>
+ </SOURCE_MATERIAL>
+ <PUBLIC_DOMAIN/>
+ <COMMENTS/>
+ </POLYMER>
+
+>  <STRUCTURE_ID>
+
+
+>  <UNII>
+X2I70H0QJE
+
+>  <SUBSTANCE_ID>
+33245e9c-dbd7-4880-b425-d14edadedd6b
+
+>  <COMMENTS>
+
+
+>  <REF_INFO_PART1>
+
+
+$$$$
