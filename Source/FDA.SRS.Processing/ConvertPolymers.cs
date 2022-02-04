@@ -195,14 +195,19 @@ namespace FDA.SRS.Processing
                                     //splDoc.SetId = info.SetId;
                                     //splDoc.Version = info.VersionNumber;
 
-                                    if (plmr.plmr_subclass == "BLOCK")
+                                    if (plmr.plmr_subclass.ToUpper() == "BLOCK")
                                     {
                                         throw new SrsException("invalid_mol", "Currently Block subclass polymers are not handled");
                                     }
 
-                                    if (plmr.plmr_geometry== "LIGHTLY CROSS-LINKED")
+                                    if (plmr.plmr_geometry.ToUpper() == "LIGHTLY CROSS-LINKED")
                                     {
                                         throw new SrsException("invalid_mol", "Currently polymers of LIGHTLY CROSS-LINKED geometry are not handled");
+                                    }
+
+                                    if (plmr.plmr_geometry.ToUpper() == "GRAFT")
+                                    {
+                                        throw new SrsException("invalid_mol", "Currently polymers of GRAFT geometry are not handled");
                                     }
 
                                     // Additional MOL checks

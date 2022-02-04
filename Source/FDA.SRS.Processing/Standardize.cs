@@ -269,6 +269,7 @@ namespace FDA.SRS.Processing
             return max_id;
         }
 
+        
 
         public static void Moietize(this Plmr plmr)
         {
@@ -280,9 +281,11 @@ namespace FDA.SRS.Processing
             if (plmr.plmr_geometry == "BRANCHED") { polymer_tool_options = "--branched"; }
             List<PolymerUnit> polymer_units = PolymerParser.instance(polymer_tool_options).decompose(plmr.Sdf.Mol).ToList();
             List<PolymerUnit> blank_connectors_units = new List<PolymerUnit>();
+            bool treat_as_block = treatAsBlock(plmr, polymer_units);
             int polymer_index = 0;
             //YP Issue 5. Add new blank chain to the polymer, assuming here that non-block polymers will always have only one chain.
-            if (plmr.plmr_geometry != "BLOCK")
+            //if (plmr.plmr_geometry != "BLOCK")
+            if (!treat_as_block)
             {
 
                 chain_ordinal++;
@@ -295,14 +298,15 @@ namespace FDA.SRS.Processing
             }
             //YP Issue 5
             //If two SRUs are connected directly, need to create a blank *-* connector that connects them
-            if (plmr.plmr_geometry == "BLOCK")
+            //if (plmr.plmr_geometry != "BLOCK")
+            if (!treat_as_block)
             {
                 string blank_connector_mol = @"
     ACCLDraw10012110282D
 
     2  1  0  0  0  0  0  0  0  0999 V2000
-    10.9063 - 4.7188    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
-    13.0625 - 4.6250    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
+    10.9063 -4.7188    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
+    13.0625 -4.6250    0.0000 * 0  0  0  0  0  0  0  0  0  0  0  0
     1  2  1  0  0  0  0
     M END
     ";
@@ -456,7 +460,8 @@ namespace FDA.SRS.Processing
 
                     SRU new_sru = new SRU(plmrUnit, plmr.RootObject) { SRULabels = (plmrUnit.getLabels().Count() > 0 ? plmrUnit.getLabels() : null), UndefinedAmount = true, Mol = plmrUnit.getMol() };
                     plmr.SRUs.Add(new_sru);
-                    if (plmr.plmr_geometry == "BLOCK")
+                    //if (plmr.plmr_geometry == "BLOCK")
+                    if (treat_as_block)
                     {
                         foreach (int fragment_id in plmrUnit.getFragmentIds())
                         {
@@ -486,7 +491,8 @@ namespace FDA.SRS.Processing
 
                     foreach (int connecting_atom_index in plmrUnit.getConnectingAtomIDs().Distinct())
                     {
-                        if(plmr.plmr_geometry != "BLOCK")
+                        //if (plmr.plmr_geometry != "BLOCK")
+                        if (!treat_as_block)
                         {
                             //YP Issue 5. Assuming non-block polymers will only have one chain (subunit)
                             g.Modification.Fragment.connected_chains.Add(new Tuple<int, Chain>(connecting_atom_index, plmr.Subunits[0]));
@@ -551,7 +557,8 @@ namespace FDA.SRS.Processing
                 }
             }
 
-            if (plmr.plmr_geometry != "BLOCK")
+            //if (plmr.plmr_geometry != "BLOCK")
+            if (!treat_as_block)
             {
                 
                  plmr.Subunits[0].SRUs.AddRange(plmr.SRUs);
@@ -632,6 +639,44 @@ namespace FDA.SRS.Processing
 
         }
 
+        public static bool treatAsBlock( Plmr plmr, List<PolymerUnit> plmrunits)
+        {
+            bool returnvalue = false;
+            if (plmr.plmr_geometry.ToUpper() == "BLOCK" || plmr.plmr_subclass.ToUpper() == "BLOCK")
+            { 
+                return true; 
+            }
+
+            foreach (PolymerUnit plmr_unit in plmrunits)
+            {
+                if (plmr_unit.getFragmentType() == "linear sru" || plmr_unit.getFragmentType() =="branched sru")
+                {
+                    if (plmr_unit.getFragmentIds().Count() > 1)
+                    {
+                        return true;
+                    }
+                }
+            }
+            /* YP Issue 5
+             * something like this would only be needed if identical SRUs actually show up in the polymer tool output
+             * as far as it's known however, in cases where polymer has identical SRUs, the polymer tool output contains the structure only ones with multiple fragment ids
+             * 
+            List<string> duplicate_inchikeys = plmrunits.Select(x => x.getFragmentType())
+                .Where(x=>x=="linear sru" || x=="branched sru")
+                .
+                .ToList();
+            IEnumerable<string> duplicate_srus = plmrunits.Where(x => x.getFragmentType() == "linear sru" || x.getFragmentType() == "branched sru")
+                                        .GroupBy(x => x.getUnitInChIKey())
+                                        .Where(g => g.Count() > 1)
+                                        .Select(x => x.Key);
+            if (duplicate_srus.Any())
+            {
+                return true;
+            }
+            */
+
+            return returnvalue;
+        }
         public static List<Chain> get_chains_by_frag_ids(int[] fragment_ids, Plmr plmr)
         {
             List<Chain> returnvalue = new List<Chain>();
