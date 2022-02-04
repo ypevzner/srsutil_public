@@ -1,0 +1,105 @@
+POLYMER_CLASS	POLYMER_GEOMETRY	POLYMER_SUBCLASS
+HOMOPOLYMER	"NETWORK, 2D"	[]
+"HOMOPOLYMER, SUBSTITUED"	LINEAR	[]
+HOMOPOLYMER	LINEAR	[]
+"HOMOPOLYMER, SUBSTITUTED"	LINEAR	[]
+"COPOLYMER, CROSSLINKED"	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+HOMOPOLYMER MODIFIED	CROSSLINKED	[]
+HOMOPOLYMER CROSSLINKED	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""HEAD-TAIL""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""ALTERNATING""}]"
+COPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+"COPOLYMER, SUBSTITUED"	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""ALTERNATING""}]"
+"HOMOPOLYMER, CROSSLINKED"	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+HOMOPOLYMER	BRANCHED	[]
+HOMOPOLYMER	GRAFT	[]
+COPOLYMER	LINEAR BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+"COPOLYMER, MIXED"	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+COPOLYMER	LIGHTLY CROSS-LINKED	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	CROSSLINKED	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+"HOMOPOLYMER, SUBSTITUTED"	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""HEAD-TAIL""}]"
+POLYMER	LINEAR	[]
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""HEAD-TAIL""}]"
+COPOLYMER	NETWORK	[]
+HOMOPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+HOMOPOLYMER	SUBSTITUED	[]
+HOMOPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""HEAD-TAIL""}]"
+HOMOPOLYMER	CROSSLINKED	"[{""label"":""GInAS Subclass"",""term"":""NETWORK""}]"
+HOMOPOLYMER	CROSSLINKED	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+HOMOPOLYMER		[]
+HOMOPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+HOMOPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+HOMOPOLYMER	CROSSLINKED	[]
+HOMOPOLYMER	NETWORK	[]
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""BRANCHED""}]"
+COPOLYMER	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""HEAD-TAIL""}]"
+COPOLYMER	Graft	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+"POLYMER, SUBSTITUTED"	LINEAR	[]
+HOMOPOLYMER CROSSLINKED	NETWORK	[]
+COPOLYMER	ALTERNATING	"[{""label"":""GInAS Subclass"",""term"":""LINEAR""}]"
+CONDENSATION	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""ALTERNATING""}]"
+HOMOPOLYMER MODIFIED	LINEAR	[]
+COPOLYMER	LINEAR	[]
+		[]
+HOMOPOLYMER	STAR	[]
+COPOLYMER	CROSS LINKED	[]
+HOMOPOLYMER	"LINEAR, BRANCHED"	[]
+CROSSPOLYMER	NETWORK	[]
+CROSSPOLYMER	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	CROSSLINKED	[]
+HOMOPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""SUBSTITUED""}]"
+COPOLYMER		"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+COPOLYMER	CROSSLINKED	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+COPOLYMER	BLOCK	"[{""label"":""GInAS Subclass"",""term"":""BRANCHED""}]"
+"HOMOPOLYMER, SUBSTITUTED"	"LINEAR,CROSSLINKED"	[]
+COPOLYMER	BLOCK	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+COPOLYMER	BLOCK	"[{""label"":""GInAS Subclass"",""term"":""LINEAR""}]"
+"HOMOPOLYMER, SUBSTITUED"	BRANCHED	[]
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""MIXED""}]"
+"HOMOPOLYMER, CROSSLINKED"	NETWORK	[]
+COPOLYMER	GRAFT	"[{""label"":""GInAS Subclass"",""term"":""HEAD-TAIL""}]"
+"HOMOPOLYMER, SUBSTITUTED"	"LINEAR, CROSSLINKED"	[]
+"HOMOPOLYMER, SUBSTITUTED"	CROSSLINKED	[]
+"HOMOPOLYMER, SUBSTITUTED"	BRANCHED	[]
+COPOLYMER		"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	RANDOM	"[{""label"":""GInAS Subclass"",""term"":""LINEAR""}]"
+"HOMOPOLYMER, SUBSTITUTED"	GRAFT	[]
+COPOLYMER	GRAFT	[]
+HOMOPOLYMER SUBSTITUTED	LINEAR	[]
+"COPOLYMER, CROSSLINKED"		[]
+COPOLYMER ALTERNATING	LINEAR	[]
+HOMOPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""SUBSTITUTED""}]"
+HOMOPOLYMER	NETWOTK	[]
+COPOLYMER	BRANCHED	[]
+HOMOPOLYMER	NANOPARTICLE	[]
+HOMOPOLYMER		"[{""label"":""GInAS Subclass"",""term"":""LINEAR""}]"
+"COPOLYMER, SUBSTITUED"	CROSSLINKED	"[{""label"":""GInAS Subclass"",""term"":""ALTERNATING""}]"
+COPOLYMER	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""}]"
+COPOLYMER	BRANCHED/NETWORK	[]
+COPOLYMER	CROSS-LINKED	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""DOUBLE STRANDED""}]"
+COPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""HEAD-TAIL""}]"
+COPOLYMER	RANDOM	[]
+COPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""},{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+HOMOPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""}]"
+COPOLYMER		[]
+COPOLYMER	NET WORK	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	CROSS LINKED	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+"HOMOPOLYMER, SUBSTITUTED"	"BRANCHED, CROSSLINKED"	[]
+HOMOPOLYMER	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""}]"
+COPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""Other""},{""label"":""GInAS Subclass"",""term"":""dendrimer""}]"
+COPOLYMER	CYCLIC	"[{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""DOUBLE-STRANDED""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""}]"
+COPOLYMER	NETWORK	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""},{""label"":""GInAS Subclass"",""term"":""RANDOM""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""Other""},{""label"":""GInAS Subclass"",""term"":""ALTERNATING""}]"
+COPOLYMER	LINEAR	"[{""label"":""GInAS Subclass"",""term"":""Alternating-copolymer""}]"
+COPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""}]"
+	BRANCHED	[]
+HOMOPOLYMER		"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""}]"
+HOMOPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""CROSSLINKED""}]"
+HOMOPOLYMER	BRANCHED	"[{""label"":""GInAS Subclass"",""term"":""BLOCK""}]"
+COPOLYMER	Cross linked 	[]

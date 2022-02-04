@@ -230,6 +230,7 @@ namespace FDA.SRS.ObjectModel
                 case "SQUARE PLANAR 2":
                 case "SP-4-2":
                 case "SQUARE PLANAR 4-2 (SP4-2) (not in CV)":
+                case "SQUARE PLANAR 4-2 (SP4-2)":
                     return "C103212";
                 case "SQUARE PLANAR 3":
                 case "SP-4-3":
