@@ -464,8 +464,8 @@ namespace FDA.SRS.ObjectModel
                     {
                         List<XElement> XConnectors = new List<XElement>();
                                
-                        XConnectors.Add( new XElement(xmlns.spl + "positionNumber", new XAttribute(sru_connection.Item1==0 ? "nullFlavor" : "value", sru_connection.Item1 == 0 ? "N/A" : sru_connection.Item1.ToString())));
-                        XConnectors.Add(new XElement(xmlns.spl + "positionNumber", new XAttribute(sru_connection.Item2 == 0 ? "nullFlavor" : "value", sru_connection.Item2 == 0 ? "N/A" : sru_connection.Item2.ToString())));
+                        XConnectors.Add( new XElement(xmlns.spl + "positionNumber", new XAttribute(sru_connection.Item1==0 ? "nullFlavor" : "value", sru_connection.Item1 == 0 ? "NA" : sru_connection.Item1.ToString())));
+                        XConnectors.Add(new XElement(xmlns.spl + "positionNumber", new XAttribute(sru_connection.Item2 == 0 ? "nullFlavor" : "value", sru_connection.Item2 == 0 ? "NA" : sru_connection.Item2.ToString())));
 
                         XElement XConnectorsMoiety = new XElement(xmlns.spl + "moiety",
                         // new XComment("SplFragmentSnapIn"),
@@ -508,7 +508,7 @@ namespace FDA.SRS.ObjectModel
                         }
                     }
 
-                    //YP to ensure there's always two positionNumbers, if only one connection point, add second positionNumber="N/A"
+                    //YP to ensure there's always two positionNumbers, if only one connection point, add second positionNumber="NA"
                     if ((Type == "Tail end") || (Type == "F" && prnt_chain.head_present))
                     {
                         foreach (int i in Connecting_atoms)
